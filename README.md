@@ -1,10 +1,9 @@
 # My Furry Protogen text assets
 
-English source extraction for Steam app 2009010, Windows build 11915262, installed
-depot 2009011, and Ren’Py 8.0.3.22090809. The VN Revival project selected Standard
-localization. This checkout contains the extraction recipe and its receipt. The
-generated game text and original scripts live in the ignored local `text-assets/`
-directory.
+English source extraction and language picker for Steam app 2009010, Windows
+build 11915262, installed depot 2009011, and Ren’Py 8.0.3.22090809. The VN Revival
+project selected Standard localization. The generated game text and original
+scripts live in the ignored local `text-assets/` directory.
 
 ## Outputs
 
@@ -47,9 +46,34 @@ the special-scene bindings. Ren’Py collapses repeated whitespace in six
 dialogue literals. The inventory preserves both the original literal and the
 engine text.
 
-The `protogen_source` template folder is an extraction label. A future release
-will need an actual target locale, and unmarked interface strings will need a
-display mapping or source patch. The project contains no compiled mod.
+The `protogen_source` template folder is an extraction label. Unmarked
+interface strings will need a display mapping or source patch for translation.
+
+## Language picker
+
+Close the game and install the add-on into the verified Steam build using
+the installation path from the previous section.
+
+```zsh
+python3 -B tools/install_language_picker.py "$protogen_game"
+```
+
+The installer generates `game/vnrevival_protogen_preferences.rpy` from the
+installed Preferences screen and adds `game/tl/russian/vnrevival_protogen_sample.rpy`.
+The original game scripts stay intact. Ren’Py compiles the two add-on scripts
+on launch. To remove the add-on, select English in Preferences, close the game,
+and remove those two files and their matching `.rpyc` files.
+
+In CrossOver, open **Preferences → Language** and select **Русский**.
+The menu and Preferences sample strings change immediately. Select **Начать**
+and submit the name prompt to see the translated opening narration. Return
+to **Настройки → Язык → English** to restore the original language.
+The sample covers 21 interface strings and the first three story entries.
+
+Verified on the Windows Steam executable in CrossOver with a separate save
+directory. The rendered Preferences controls switched English → Russian →
+English → Russian. A fresh process retained Russian and displayed the opening
+narration from the Russian translation script.
 
 ## Scope and evidence
 
@@ -65,7 +89,7 @@ display mapping or source patch. The project contains no compiled mod.
   The rest of the artwork, the two WebM cutscenes, fonts, and audio were
   excluded from text conversion. The source registry records the linked video
   assets and visual review gap.
-- Runtime reachability, reinsertion, renderer feasibility, and full literary
-  review are pending. The next planning stage is a localization estimate
-  against the verified text inventory. The built-in export is documented by
+- Runtime reachability and rendering were verified for the picker and opening
+  sample. Full-game reinsertion, rendering coverage, and literary review are
+  pending. The built-in export is documented by
   [Ren’Py](https://www.renpy.org/doc/html/cli.html).
