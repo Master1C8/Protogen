@@ -29,7 +29,7 @@ the feasibility baseline receipt.
 
 ## Locale queue and feasibility matrix
 
-Polish is at `translate-edit` with **709/1,785 story entries** and **394/394 string
+Polish is at `translate-edit` with **797/1,785 story entries** and **394/394 string
 keys** in the authored draft. The other 28 locales are at `probe` with zero
 authored entries. The exact 77-ID glossary layers and their two coverage receipts
 verified for all 29 locales. Editorial, final resources, build, runtime, visual
@@ -38,13 +38,13 @@ and release acceptance remain pending. The production Polish runtime ID is
 
 | Locales | Rendering requirements and evidence | Status and next action |
 | --- | --- | --- |
-| `pl` | Shipped Nunito passed representative accents in dialogue, nameplate, settings and input. A long sample wrapped to three lines. `Łucja` survived input and interpolation, and the wait advanced to the next story ID. | Probe passed. Continue the [Polish draft](pl/STATUS.md) from story row 626. |
+| `pl` | Shipped Nunito passed representative accents in dialogue, nameplate, settings and input. A long sample wrapped to three lines. `Łucja` survived input and interpolation, and the wait advanced to the next story ID. | Probe passed. Continue the [Polish draft](pl/STATUS.md) from story row 718. |
 | `cs`, `de`, `es`, `es-419`, `fil`, `fr`, `hu`, `id`, `it`, `nl`, `pt-BR`, `ro`, `sw`, `tr`, `vi` | Shipped Nunito covers the synthetic characters in both faces. Vietnamese exercises stacked diacritics. | Unverified in the game. Exercise accents and marks across actual text roles and line breaks. |
 | `bg`, `sr`, `uk` | Shipped Nunito covers the synthetic Cyrillic characters, including Љ, ђ, Ґ and ї. | Unverified in the game. Probe Cyrillic and dynamic mixed-script values. |
 | `el` | Shipped Nunito lacks Greek. Engine-shipped DejaVu Sans covers the synthetic Greek sample in both faces. | Baseline blocked. Test locale styles with DejaVu Sans in the game. |
 | `ar` | Nunito rendered missing-glyph boxes. The first DejaVu Sans style overrides rendered the heading and dialogue, but the navigation button still had missing glyphs. A second muted run applied a locale-scoped font replacement map and verified that switching to Polish restored the prior fonts and bidi flag. | Baseline blocked; visual review of the second repair is pending. Inspect settings, name input, and the Arabic-first mixed multiline sample. |
 | `fa`, `he` | Nunito lacks the target characters. DejaVu Sans covers the samples in both faces. | Baseline blocked. Test Persian joining and zero-width non-joiner, Hebrew marks and mixed direction separately. |
-| `hi` | Noto Sans Devanagari 2.007 covers the sample. A muted run loaded it, accepted a Devanagari player name and advanced through the inline wait. | Blocked on the shipped renderer. The dialogue and input frames show unshaped conjuncts, and the tested face lacks the Latin letters in `NV-0903`. A Latin fallback addresses those missing letters. A supported shaping path still needs an owner decision and runtime proof. Settings-frame review remains pending. |
+| `hi` | Noto Sans Devanagari 2.007 covers the sample. A muted run loaded it, accepted a Devanagari player name and advanced through the inline wait. | Blocked on the shipped renderer. The dialogue and input show a visible virama in `क्ष` and incorrect vowel placement in `क्षितिज`. The font also lacks the Latin letters in `NV-0903`. A Latin fallback addresses those letters. The shaping path needs an owner decision and runtime proof. Settings-frame review remains pending. |
 | `th` | Noto Sans Thai 2.002 covers the sample. | Static coverage only. Verify marks, word breaks and multiline behavior in-game. |
 | `ja`, `ko`, `zh`, `zh-TW` | The four regional Noto Sans CJK 2.004 faces cover their respective samples. | Static coverage only. Verify regional glyph forms, wrapping and punctuation with the applicable Ren’Py line-breaking options. |
 
