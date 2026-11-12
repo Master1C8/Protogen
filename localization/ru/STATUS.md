@@ -28,12 +28,12 @@ Canonical checkout `/Users/antonkrutov/Desktop/Protogen`, branch `main`.
 | source | `python3 -B tools/extract_text.py verify "$protogen_game" text-assets` verifies 1,785 story IDs, 747 protected literal occurrences and all source hashes. Both WebM assets are clock animations with no captions in the inspected frames. Main-menu logo remains original title art. |
 | glossary | Verified 77 IDs against both canonical layers and the Russian review receipt. |
 | translate-edit | 1,785/1,785 story entries and 394/394 string keys authored. The strict validator checks every ID and protected marker. Editable sources are `dialogue.tsv` and `strings.json`. |
-| editorial | Targeted review covered player-name insertion, timing, glossary naming and related references. Complete separate semantic audit and independent diff audit pending. |
+| editorial | Complete source and glossary comparison covered all 1,785 story rows and 394 string keys. Applied 76 story and 3 UI corrections and reread a closure of 449 story rows and 81 UI keys. Independent diff audit remains pending. |
 | resources | Shipped Nunito SemiBold and Bold cover Russian letters, including Ё/ё, plus Russian punctuation. The final desktop text fits an estimated maximum of four wrapped lines at the original dialogue width. |
 | package | Strict build passed and two independent build directories were byte-identical. Rebuild with `python3 -B tools/build_localization.py "$protogen_game" ru --output <fresh-directory>`. |
 | runtime | Windows executable in the CrossOver Steam bottle verified all 1,785 story rows and 394 string keys from the installed scripts. The walkthrough reached the credits and returned to the main menu after 20 movie entries. The language buttons switched English → Russian → English → Russian. Ordinary, automatic and quick load pages responded, and the Russian player name survived dialogue interpolation. |
 | screenshot-upload | Outside requested scope. |
-| screenshot-review | Native visual review passed for the title menu, settings, load page, Juno nameplate and closing line. Gallery upload review is outside scope. |
+| screenshot-review | Six native frames verified, including the revised line in the family scene. Four reproduced prior reviewed PNGs byte-for-byte. |
 | delivery | Russian text installed locally in the verified Steam build. Complete independent editorial acceptance remains pending. |
 
 The player name keeps the original 12-character limit, trimming, storage and
@@ -46,7 +46,22 @@ explanation and the narrator’s callback. «Генная инженерия» r
 narrator’s interrupted repetition. The save format retains the weekday,
 day, month, year, hour and minute directives.
 
-## CrossOver evidence
+## Editorial revision CrossOver evidence
+
+The updated installed script SHA-256 is
+`63866540a4fed4bc3d0b5da4b03edf8689ee1a54d3264034bf33124e177712ef`.
+Two strict builds produced identical files. CrossOver switched English → Russian
+→ English → Russian, traversed every story row and 20 movie entries, then reached
+the main menu after the credits. The engine's string table and story translations
+matched the authored data. Both player save stores matched their pre-run hashes.
+The test used isolated saves and its two temporary QA scripts were removed.
+
+Audit closure and exact before/after rows are in `text-assets/ru-editorial.CecJsh/cycle-01/`.
+The native screenshots, installed file hashes and runtime log are indexed by
+`text-assets/ru-editorial.CecJsh/acceptance.json`
+(SHA-256 `69a9925ca8bdd56de6d675ab4deb910f4fb0e796688a646fec8e42f7c1bc1f5e`).
+
+## Initial translation CrossOver evidence
 
 The final localization script SHA-256 is
 `bb47bf0bc0c45fe71e048182f599cb23070f0eb7d0cc338b04bd6bc3f87a3f23`.
