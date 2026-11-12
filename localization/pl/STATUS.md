@@ -69,9 +69,12 @@ The stable IDs remain in [dialogue.tsv](dialogue.tsv) and exact UI keys in
 ## Editorial checkpoint
 
 The semantic pass started on the authored hashes above after strict preflight.
-Story rows 1–40 (`start_6f3a1b7b` through `start_eaa930f8`) were read
-against English and the Polish glossary. No corrections were recorded in that
-range. Continue with story row 41. The 394 UI keys and image-text plan still
-need their semantic review. There is no accepted Polish corpus or independent
-diff review yet. Final CrossOver verification remains pending. The existing
-game session was running when the draft installer was checked in isolation.
+Story rows 1–560 (`start_6f3a1b7b` through `start_82af50fc`) were read
+against English and the approved Polish glossary. There are 23 proposed
+corrections in [semantic-findings.tsv](semantic-findings.tsv), SHA-256
+`c1f021d72b9a5e35d69c13be6388a7b59fe45fc50b33c5f549982af65f96aa83`.
+Continue with story row 561 (`start_46d92844`). The 394 UI keys and image-text
+plan still need their semantic review. Apply accepted corrections together
+after the full pass and generate the dependency closure for independent review.
+Final CrossOver verification remains pending. The existing game session was
+running when the draft installer was checked in isolation.
