@@ -33,19 +33,20 @@ All listed locales are at `probe` with **0/1,785 story entries** and **0/394 str
 in the authored corpus. The exact 77-ID glossary layers and their two coverage
 receipts verified for all 29 locales. Editorial, final resources, build, runtime,
 visual and release acceptance are pending for every locale. The probe identifiers
-`vnprobe_pl` and `vnprobe_ar` are disposable. Production runtime IDs for these
+`vnprobe_pl`, `vnprobe_ar` and `vnprobe_hi` are disposable. Production runtime IDs for these
 29 languages have yet to be bound.
 
 | Locales | Rendering requirements and evidence | Status and next action |
 | --- | --- | --- |
-| `pl` | Shipped Nunito passed representative accents in the dialogue and nameplate. In-game preferences opened, player name interpolated, wait advanced to the next ID. | Partial. Check localized preferences and input rendering, plus multiline layout. |
+| `pl` | Shipped Nunito passed representative accents in the dialogue and nameplate. In-game preferences opened, player name interpolated, wait advanced to the next ID. | Partial. The new settings and input captures are ready for visual review. Check multiline layout separately. |
 | `cs`, `de`, `es`, `es-419`, `fil`, `fr`, `hu`, `id`, `it`, `nl`, `pt-BR`, `ro`, `sw`, `tr`, `vi` | Shipped Nunito covers the synthetic characters in both faces. Vietnamese exercises stacked diacritics. | Unverified in the game. Exercise accents and marks across actual text roles and line breaks. |
 | `bg`, `sr`, `uk` | Shipped Nunito covers the synthetic Cyrillic characters, including Љ, ђ, Ґ and ї. | Unverified in the game. Probe Cyrillic and dynamic mixed-script values. |
 | `el` | Shipped Nunito lacks Greek. Engine-shipped DejaVu Sans covers the synthetic Greek sample in both faces. | Baseline blocked. Test locale styles with DejaVu Sans in the game. |
-| `ar` | Nunito rendered missing-glyph boxes. A muted rerun with the engine's DejaVu Sans loaded the intended style fonts and advanced to the fourth story ID. | Baseline blocked; repair visual review pending. Inspect joining, marks, mixed direction, line wrap and settings. |
+| `ar` | Nunito rendered missing-glyph boxes. The first DejaVu Sans style overrides rendered the heading and dialogue, but the navigation button still had missing glyphs. A second muted run applied a locale-scoped font replacement map and verified that switching to Polish restored the prior fonts and bidi flag. | Baseline blocked; visual review of the second repair is pending. Inspect settings, name input, and the Arabic-first mixed multiline sample. |
 | `fa`, `he` | Nunito lacks the target characters. DejaVu Sans covers the samples in both faces. | Baseline blocked. Test Persian joining and zero-width non-joiner, Hebrew marks and mixed direction separately. |
-| `hi`, `th` | Both tested font families lack the required samples. | Baseline blocked. Verify suitable fonts, conjuncts and mark positioning in the game. |
-| `ja`, `ko`, `zh`, `zh-TW` | Both tested font families lack the required samples. | Baseline blocked. Verify regional glyph forms and the applicable Ren’Py line-breaking options. |
+| `hi` | Noto Sans Devanagari 2.007 covers the sample. A muted run loaded it, accepted a Devanagari player name and advanced through the inline wait. | Visual review pending for conjuncts, mark positioning, mixed Latin and line wrap. |
+| `th` | Noto Sans Thai 2.002 covers the sample. | Static coverage only. Verify marks, word breaks and multiline behavior in-game. |
+| `ja`, `ko`, `zh`, `zh-TW` | The four regional Noto Sans CJK 2.004 faces cover their respective samples. | Static coverage only. Verify regional glyph forms, wrapping and punctuation with the applicable Ren’Py line-breaking options. |
 
 ## Evidence
 
@@ -58,7 +59,19 @@ visual and release acceptance are pending for every locale. The probe identifier
   (`5935841fb335bb53db74afe2134e70c45068ee8dbea7cf6a87f287aef794cddd`).
 - `text-assets/multilingual-font-probe.FSkUIw/runtime-evidence.json`
   (`03a71260cd521a171fa1d6a72ef832b586754a83d7cda602ff2df0f09026afa5`).
-  Contains the muted DejaVu Sans probe and two prepared previews for pending
-  visual review. The audio backend reported PCM disabled before the opening.
+  Contains the first muted DejaVu Sans probe. Its
+  `visual-review.json` records the navigation button failure. The audio backend reported PCM disabled before the opening.
   The temporary add-ons were removed and both player save stores matched after
   each run.
+
+- `text-assets/multilingual-map-probe.HopRBo/runtime-evidence.json`
+  (`a61d0b25753c62034712cd795e64921d599d042f8f93c1bc7ea7fb3014838c52`).
+  Locale-scoped font replacement probe and its untouched Arabic and Polish
+  captures of settings, name input and opening dialogue. Both used isolated saves.
+- `text-assets/font-candidates.vUrRKa/provenance.json`
+  (`c89a1ffd96b67fd91314d85072ec1b4d4ec178454f69cc3831418d7597b72db4`).
+  Versioned upstream font sources, OFL license hashes and cmap sample coverage.
+- `text-assets/multilingual-devanagari-probe.Z7siFr/runtime-evidence.json`
+  (`0e14903aa5c7d36401c78f9a589b666176b8f8addbf92db830a57980cf06d830`).
+  Muted Hindi runtime probe, exact font file and prepared previews. Both player
+  save stores matched and the temporary scripts and font were removed.
