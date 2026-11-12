@@ -90,8 +90,8 @@ def native_export(root, stage, bottle):
         )
 
 
-def pin_install(root):
-    manifest = read(root.parent.parent / f"appmanifest_{APP}.acf")
+def pin_install(root, steam_manifest=None):
+    manifest = read(steam_manifest or root.parent.parent / f"appmanifest_{APP}.acf")
     require(re.search(rf'"buildid"\s+"{BUILD}"', manifest), f"Expected Steam build {BUILD}")
     require(read(root / "game/script_version.txt").strip() == "(8, 0, 3)", "Unexpected script engine")
     receipt = {}
@@ -366,8 +366,8 @@ def snapshot(root, stage, output):
         bundle.rename(output)
 
 
-def validate(root, bundle):
-    source_files = pin_install(root)
+def validate(root, bundle, steam_manifest=None):
+    source_files = pin_install(root, steam_manifest)
     manifest = json.loads(read(bundle / "manifest.json"))
     require(manifest["sources"] == source_files, "Installed source identity changed")
     for name in SOURCE_FILES:

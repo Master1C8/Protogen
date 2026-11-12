@@ -1,0 +1,53 @@
+{
+  "steamBuild": 11915262,
+  "baseDepotManifest": "867163245136460120",
+  "dlcDepotManifest": "664886504286217287",
+  "evidenceDirectory": "text-assets/edition-qa.0bfO9x",
+  "bothLiveSaveLocationsUnchanged": true,
+  "sfw": {
+    "storyMappings": 1785,
+    "uiMappings": 394,
+    "passed": [
+      "English → Russian → English → Polish",
+      "blank name becomes Ty",
+      "four original opening rows",
+      "audio backend PCM and mixing disabled"
+    ],
+    "audioEnv": "RENPY_DISABLE_SOUND=1",
+    "runtimeLogSha256": "99a0bd3d7813ffc71c862452068dc8b6d11c393a12ec34b1549cc1a8bbee23be",
+    "screenshots": {
+      "settings": "84cc6aafcbe053ba4b62578ba955d43b8c203c4c34baeb5997e70e8850147af2",
+      "dialogue": "4cfef2cb77ffaca792c1845f6e386aa50e7aa542b06a3f6037944eeae94c2ed8"
+    }
+  },
+  "nsfw": {
+    "storyMappings": 1775,
+    "uiMappings": 395,
+    "passed": [
+      "English → Russian → English → Polish",
+      "audio backend PCM and mixing disabled",
+      "gallery opens",
+      "DLC notice and four original opening rows",
+      "blank name becomes Ty"
+    ],
+    "audioEnv": "RENPY_DISABLE_SOUND=1",
+    "runtimeLogSha256": "b323351a857b10e729a2d9ec06e6096a4246854070bc09187a818d0070d30125",
+    "screenshots": {
+      "settings": "8c69296154920bed9a216ea755a4722e97545f81b76bbe713c43ab4207d6cb9b",
+      "dialogue": "4cfef2cb77ffaca792c1845f6e386aa50e7aa542b06a3f6037944eeae94c2ed8"
+    }
+  },
+  "nsfwPendingStoryMappingsPerLocale": 232,
+  "strictNsfwBuildRejectedPartial": true,
+  "installerTests": [
+    "fresh SFW installs",
+    "exact old shared add-on upgrade",
+    "conflict rollback",
+    "idempotence"
+  ],
+  "visualReview": {
+    "sharedOpeningDialogue": "Passed. SFW and NSFW original frames are byte-identical. Polish nameplate, accents and dialogue are legible.",
+    "nsfwSettings": "Passed. Language options, Galeria and Polish controls legible and fit.",
+    "sfwSettings": "Captured, visual review pending."
+  }
+}

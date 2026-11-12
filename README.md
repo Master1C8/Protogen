@@ -46,8 +46,26 @@ the special-scene bindings. Ren’Py collapses repeated whitespace in six
 dialogue literals. The inventory preserves both the original literal and the
 engine text.
 
-The `protogen_source` template folder is an extraction label. Unmarked
-interface strings will need a display mapping or source patch for translation.
+The `protogen_source` template folder is an extraction label.
+
+## Steam editions
+
+The build identifies the original Steam depot and the official 18+ DLC by their
+exact source and bytecode hashes. The two English inventories have 1,785 and
+2,007 story statements respectively. The 1,752 statements with shared IDs use
+one translation. The DLC has 255 additional or replacement IDs and one extra
+UI key, `Gallery`. The [DLC receipt](text-asset-nsfw-receipt.json) pins its export.
+The builder uses the matching Ren’Py templates and retains the original
+speaker and image attributes for each edition.
+
+Export the DLC from the installed Steam game to a fresh directory with
+`python3 -B tools/extract_text.py extract "$protogen_game" <dlc-export>`.
+For that installation, pass `--nsfw-bundle <dlc-export>` to the build command.
+The strict build requires every DLC translation before emitting an installer
+payload. Use `--draft` to check partial source files. The detached original
+Steam depot accepts `--steam-manifest <appmanifest_2009010.acf>`.
+See the [edition test receipt](localization/edition-qa.json) for the current
+coverage and CrossOver results.
 
 ## Language picker
 
@@ -79,7 +97,7 @@ system strings. See [the checkpoint](localization/ru/STATUS.md) for the pinned
 glossary, validation and CrossOver evidence.
 
 For CrossOver automation, place `tools/qa_isolate_saves.rpy` in `game/` only
-for the duration of QA. Launch with an absolute scratch `--savedir` containing
+for the duration of QA. Set `RENPY_DISABLE_SOUND=1`. Launch with an absolute scratch `--savedir` containing
 a `.vnrevival-qa` marker. Ren’Py 8.0.3 normally writes to both `--savedir` and
 `game/saves`. The QA script redirects the second location into the scratch
 directory before the engine scans any saves. When testing the first name prompt,
@@ -94,8 +112,9 @@ and after the run, then remove the temporary script and its matching `.rpyc`.
   [Steam store page](https://store.steampowered.com/app/2009010/My_Furry_Protogen/).
   A [community Russian patch](https://github.com/e24x5-Fox/claude-rus-hub) is
   available as a separate reference. This export uses the installed source.
-- The separately listed [adult DLC](https://store.steampowered.com/app/2022550/)
-  is outside the installed depot used here. No external patch was installed.
+- The original inventory covers depot 2009011. The official
+  [adult DLC](https://store.steampowered.com/app/2022550/) uses depot 2022550
+  and has its own pinned export.
 - The main-menu background contains the brand logo. The reviewed in-game menu
   and gallery backgrounds showed no visible wording in the prepared preview.
   The rest of the artwork, the two WebM cutscenes, fonts, and audio were

@@ -75,13 +75,12 @@ the approved Polish glossary. Applied 83 story and 12 UI corrections. The
 IDs and keys, and the reproducible export builds. The source registry still
 records broader artwork and media coverage exclusions.
 
-The installed Steam build now contains the separate 18+ patch. Its
-`game/screens.rpy` and `game/script.rpy` and corresponding bytecode differ
-from the pinned base depot. The strict installed-source gate correctly stops.
-The corrected corpus validates and builds reproducibly from the verified
-English export. Final strict build and muted CrossOver testing require access
-to a pristine build 11915262. Preserve the patched installation and both save
-stores. The [first review cycle](review-cycle-01/manifest.json) binds 83 story and 12
+The exact original depot is available as a detached Steam download. Its strict
+build and muted CrossOver opening test passed. The official DLC is identified
+separately. Its partial Polish package passed the muted language selection,
+gallery and opening tests. The DLC still needs 232 authored story rows and a
+full editorial and runtime pass. See the [edition receipt](../edition-qa.json).
+The [first review cycle](review-cycle-01/manifest.json) binds 83 story and 12
 UI corrections to 1,017 story IDs and 233 UI keys. The tracked dependency
 specification records exchanges, callbacks, glossary forms, UI bindings and
 regressions. Reproduce the exact before/after rows and the protected scene

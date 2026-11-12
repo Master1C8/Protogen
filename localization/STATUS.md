@@ -37,6 +37,13 @@ Independent review, final resources, strict installed validation, runtime, visua
 The production Polish runtime ID is
 `polish`. Identifiers prefixed with `vnprobe_` are disposable.
 
+The original Steam depot and the official 18+ DLC are both in scope. Use the
+base inventory for the 1,785 SFW statements and the DLC inventory for its
+2,007 statements. Reuse the 1,752 shared IDs, then author and review the DLC
+delta against its English script. The [edition receipt](edition-qa.json)
+records the muted CrossOver tests of the Polish SFW build and partial DLC
+build. Strict DLC packaging is pending for Polish and Russian.
+
 | Locales | Rendering requirements and evidence | Status and next action |
 | --- | --- | --- |
 | `pl` | Shipped Nunito passed representative accents in dialogue, nameplate, settings and input. A long sample wrapped to three lines. `Łucja` survived input and interpolation, and the wait advanced to the next story ID. | Probe passed. The [Polish review closure](pl/STATUS.md) is ready for an independent reviewer. The installed 18+ patch differs from the pinned base depot. |
