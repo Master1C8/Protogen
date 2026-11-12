@@ -5,8 +5,10 @@ import argparse
 from collections import Counter
 from hashlib import md5
 import json
+import os
 from pathlib import Path
 import re
+from tempfile import NamedTemporaryFile
 
 from extract_text import TEXT_TAG, digest, literals, read, read_templates, require, validate
 from install_language_picker import (
@@ -18,6 +20,9 @@ LOCALES = {"ru": "russian", "pl": "polish"}
 STORY_ROLES = {"dialogue", "narration"}
 STRING_ROLES = {"engine-string", "input-prompt", "interface", "speaker-label"}
 EXTRA_KEYS = {"Language", "Juno", "Damien", "Pixie"}
+DISPLAY_PATH = Path("game/vnrevival_protogen_display.rpy")
+GALLERY_RETURN = 'textbutton ("Back" if _preferences.language is None else _("Return"))'
+PREVIOUS_GALLERY_RETURN = 'textbutton _("Back") text_color "#aaaaaa"'
 
 
 def story_rows(source):
@@ -77,23 +82,22 @@ def authored_text(source, path, draft):
 
 def screen_overrides(source):
     names = {
-        "gallery": ('textbutton "Back"',),
-        "about": tuple(f'text "{label}"' for label in ("Made by", "Art", "Music", "Additional help")),
-        "input": ("text prompt style",),
+        # The other Back buttons roll the story back. The gallery returns to its caller.
+        "gallery": {'textbutton "Back"': GALLERY_RETURN},
+        "about": {
+            f'text "{label}"': f'text _("{label}")'
+            for label in ("Made by", "Art", "Music", "Additional help")
+        },
+        "input": {"text prompt style": "text renpy.translate_string(prompt) style"},
     }
     screens = []
-    for name, literals_to_mark in names.items():
+    for name, replacements in names.items():
         pattern = rf"^screen {name}\([^\n]*\):\n(?:^[ \t]+[^\n]*\n|^\n)*"
         match = re.search(pattern, source, re.M)
         require(match is not None, f"Missing screen {name}")
         original = match[0]
         updated = original
-        for literal in literals_to_mark:
-            if literal == "text prompt style":
-                replacement = "text renpy.translate_string(prompt) style"
-            else:
-                kind, _, value = literal.partition(" ")
-                replacement = f"{kind} _({value})"
+        for literal, replacement in replacements.items():
             require(updated.count(literal) == 1, f"Unexpected binding {name}: {literal}")
             updated = updated.replace(literal, replacement)
         screens.append(updated.rstrip())
@@ -119,9 +123,22 @@ def build(bundle, output, locale, dialogue, strings):
     screens = read(bundle / "original/game/screens.rpy")
     (output / PREFERENCES_PATH).write_text(picker_override(screens), encoding="utf-8")
     adapter = read(PROJECT / "localization/display_adapter.rpy")
-    (output / "game/vnrevival_protogen_display.rpy").write_text(
+    (output / DISPLAY_PATH).write_text(
         adapter.rstrip() + "\n\n" + screen_overrides(screens) + "\n", encoding="utf-8"
     )
+
+
+def replace_display(path, expected, content):
+    with NamedTemporaryFile(dir=path.parent, delete=False) as candidate:
+        pending = Path(candidate.name)
+        try:
+            candidate.write(content)
+            candidate.close()
+            os.chmod(pending, path.stat().st_mode & 0o777)
+            require(path.read_bytes() == expected, f"Display changed during installation: {path}")
+            os.replace(pending, path)
+        finally:
+            pending.unlink(missing_ok=True)
 
 
 def install(root, output):
@@ -139,17 +156,39 @@ def install(root, output):
         retired[compiled_sample] = binary
 
     files = {root / p.relative_to(output): p.read_bytes() for p in sorted(output.rglob("*.rpy"))}
+    display = root / DISPLAY_PATH
+    pending_display = None
+    if display.is_file() and display in files:
+        old_display = display.read_bytes()
+        new_display = files[display]
+        new_gallery_return = (GALLERY_RETURN + ' text_color "#aaaaaa"').encode()
+        if new_display.count(new_gallery_return) == 1 and old_display == new_display.replace(
+                new_gallery_return, PREVIOUS_GALLERY_RETURN.encode(), 1):
+            compiled_display = display.with_suffix(".rpyc")
+            if compiled_display.exists():
+                binary = compiled_display.read_bytes()
+                require(binary.startswith(b"RENPY RPC2") and binary.endswith(md5(old_display).digest()),
+                        f"Refusing to overwrite a display with mismatched bytecode: {display}")
+            pending_display = files.pop(display)
     removed = {}
+    updated_display = False
     try:
+        if pending_display is not None:
+            replace_display(display, old_display, pending_display)
+            updated_display = True
         for path, data in retired.items():
             path.unlink()
             removed[path] = data
         install_files(files)
     except (OSError, ValueError):
+        if updated_display:
+            replace_display(display, pending_display, old_display)
         for path, data in removed.items():
             with path.open("xb") as restored:
                 restored.write(data)
         raise
+    if updated_display:
+        print(display)
 
 
 def main():

@@ -29,7 +29,7 @@ the feasibility baseline receipt.
 
 ## Locale queue and feasibility matrix
 
-Polish is at `translate-edit` with **222/1,785 story entries** and **109/394 string
+Polish is at `translate-edit` with **432/1,785 story entries** and **239/394 string
 keys** in the authored draft. The other 28 locales are at `probe` with zero
 authored entries. The exact 77-ID glossary layers and their two coverage receipts
 verified for all 29 locales. Editorial, final resources, build, runtime, visual
@@ -38,7 +38,7 @@ and release acceptance remain pending. The production Polish runtime ID is
 
 | Locales | Rendering requirements and evidence | Status and next action |
 | --- | --- | --- |
-| `pl` | Shipped Nunito passed representative accents in dialogue, nameplate, settings and input. A long sample wrapped to three lines. `Łucja` survived input and interpolation, and the wait advanced to the next story ID. | Probe passed. Continue the [Polish draft](pl/STATUS.md) from story row 108. |
+| `pl` | Shipped Nunito passed representative accents in dialogue, nameplate, settings and input. A long sample wrapped to three lines. `Łucja` survived input and interpolation, and the wait advanced to the next story ID. | Probe passed. Continue the [Polish draft](pl/STATUS.md) from story row 338. |
 | `cs`, `de`, `es`, `es-419`, `fil`, `fr`, `hu`, `id`, `it`, `nl`, `pt-BR`, `ro`, `sw`, `tr`, `vi` | Shipped Nunito covers the synthetic characters in both faces. Vietnamese exercises stacked diacritics. | Unverified in the game. Exercise accents and marks across actual text roles and line breaks. |
 | `bg`, `sr`, `uk` | Shipped Nunito covers the synthetic Cyrillic characters, including Љ, ђ, Ґ and ї. | Unverified in the game. Probe Cyrillic and dynamic mixed-script values. |
 | `el` | Shipped Nunito lacks Greek. Engine-shipped DejaVu Sans covers the synthetic Greek sample in both faces. | Baseline blocked. Test locale styles with DejaVu Sans in the game. |

@@ -43,14 +43,23 @@ pending.
 
 ## Current corpus
 
-- 222/1,785 story entries, including all 107 consecutive opening rows and the
+- 432/1,785 story entries, including all 337 consecutive opening rows and the
   registered special-scene lines in later scenes.
-- 109/394 string keys, including the menu, settings, save dates and keyboard
-  help through “Hides the user interface.”
-- The quick-menu rollback is `Cofnij`. The gallery exit uses the glossary's
-  `Wróć`, the same wording as `Return`. The base file currently routes both
-  uses through the same `Back` key. The package needs an explicit gallery
-  context binding and a regression for both actions.
-- Draft validator passed on the pinned source and all 747 protected occurrences.
-  Next story batch begins at row 108. Picker exposure, final layout, complete
-  semantic audit and independent review are pending.
+- 239/394 string keys. The latest batch covers confirmation prompts,
+  accessibility, control hints, save commands and preferences.
+- The generated gallery uses the existing `Return` key in translated locales,
+  while the quick menu uses `Back`. The native CrossOver probe inspected the
+  captions and action classes in English → Polish → Russian → English.
+  Polish resolved `Wróć` with Return and `Cofnij` with Rollback. The probe
+  composed the original quick menu in its test screen and used placeholders
+  for the unavailable gallery thumbnails. The gallery entry in the base
+  menu is commented out. This was a binding check, not a gallery playthrough.
+- Binding evidence is `text-assets/gallery-binding-verified.79Onas/acceptance.json`
+  (`2b678bbd4b45b492be300ae3a7b598be000ac7ed16337c40185e5564610eabef`).
+  The muted test restored the previous installed display source and compiled
+  file. Both player save stores matched. An isolated installer regression
+  verified exact upgrade, idempotence, conflicting-file rollback and rejection
+  of unknown display source or bytecode.
+- The draft validator passed on the pinned source and all 747 protected
+  occurrences. Next story batch begins at row 338. Picker exposure, final
+  layout, complete semantic audit and independent review are pending.
