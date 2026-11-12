@@ -81,5 +81,11 @@ from the pinned base depot. The strict installed-source gate correctly stops.
 The corrected corpus validates and builds reproducibly from the verified
 English export. Final strict build and muted CrossOver testing require access
 to a pristine build 11915262. Preserve the patched installation and both save
-stores. The next editorial step is to build the dependency closure and obtain
-an independent review of the exact changes.
+stores. The [first review cycle](review-cycle-01/manifest.json) binds 83 story and 12
+UI corrections to 1,017 story IDs and 233 UI keys. The tracked dependency
+specification records exchanges, callbacks, glossary forms, UI bindings and
+regressions. Reproduce the exact before/after rows and the protected scene
+context with `python3 -B tools/prepare_polish_review.py <fresh-directory>`
+from this checkout with the pinned English export. Two generations matched
+byte-for-byte. An independent reviewer still needs to read the closure.
+Current scope does not authorize an additional reviewer.

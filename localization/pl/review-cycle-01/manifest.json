@@ -1,0 +1,25 @@
+{
+  "locale": "pl",
+  "steamBuild": 11915262,
+  "newline": "LF",
+  "encoding": "UTF-8",
+  "reviewReceiptSha256": "f2c692d7620bdd00b40ef5fdeffdc9efaac2f9a4026d1271f6f8cf203ff28360",
+  "dependencySpecSha256": "20b96ed34886327a38e02efb3d195bedff055c6cec0938a62a395770b88c0ac0",
+  "generatorSha256": "6fe3b93b6ff489b9d62c3dccf9eba4f852fd0f3b1cb55d630482c812e8632cef",
+  "counts": {
+    "changed-story.json": 83,
+    "changed-ui.json": 12,
+    "closure-story.json": 1017,
+    "closure-ui.json": 233
+  },
+  "sha256": {
+    "changed-story.json": "8549ac536b56725054c496fa98ba4521631921de009d5af635639acf2066f519",
+    "changed-ui.json": "a88a6a4e76cdb08dbebde42af4d70908c1bfd7ad5303f292b4b093735f091486",
+    "closure-story.json": "60d13d7bbcc061933d6acc09c98f670b72e8855c511d046ba8d3e467b62dc65d",
+    "closure-ui.json": "ed64bbafd8913935282a2203609b0bbc602bd77232679e99c6608d51a604cfae",
+    "components.json": "605286affc3c8fa1f33992d66751b529741911457e30119705704607188eef6f",
+    "runtime-context.json": "8d439c0fddcd8e72300805b99fe7e5f67a16aaa83e3be11c98aa2f956c14d528",
+    "story-review.json": "fb861919302e3b139bc12f9b415b1c79c946366d83bb5f552bd3817fd71e195c",
+    "ui-review.json": "e4dfdae129913deb64c67e0e91d590db95235d6cb4fb7306b51f20d2c02ffce4"
+  }
+}

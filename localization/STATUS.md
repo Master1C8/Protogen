@@ -39,7 +39,7 @@ The production Polish runtime ID is
 
 | Locales | Rendering requirements and evidence | Status and next action |
 | --- | --- | --- |
-| `pl` | Shipped Nunito passed representative accents in dialogue, nameplate, settings and input. A long sample wrapped to three lines. `Łucja` survived input and interpolation, and the wait advanced to the next story ID. | Probe passed. Prepare the [Polish review closure](pl/STATUS.md). The installed 18+ patch differs from the pinned base depot. |
+| `pl` | Shipped Nunito passed representative accents in dialogue, nameplate, settings and input. A long sample wrapped to three lines. `Łucja` survived input and interpolation, and the wait advanced to the next story ID. | Probe passed. The [Polish review closure](pl/STATUS.md) is ready for an independent reviewer. The installed 18+ patch differs from the pinned base depot. |
 | `cs`, `de`, `es`, `es-419`, `fil`, `fr`, `hu`, `id`, `it`, `nl`, `pt-BR`, `ro`, `sw`, `tr`, `vi` | Shipped Nunito covers the synthetic characters in both faces. Vietnamese exercises stacked diacritics. | Unverified in the game. Exercise accents and marks across actual text roles and line breaks. |
 | `bg`, `sr`, `uk` | Shipped Nunito covers the synthetic Cyrillic characters, including Љ, ђ, Ґ and ї. | Unverified in the game. Probe Cyrillic and dynamic mixed-script values. |
 | `el` | Shipped Nunito lacks Greek. Engine-shipped DejaVu Sans covers the synthetic Greek sample in both faces. | Baseline blocked. Test locale styles with DejaVu Sans in the game. |
