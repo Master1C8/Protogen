@@ -43,10 +43,10 @@ pending.
 
 ## Current corpus
 
-- 432/1,785 story entries, including all 337 consecutive opening rows and the
+- 709/1,785 story entries, including all 625 consecutive opening rows and the
   registered special-scene lines in later scenes.
-- 239/394 string keys. The latest batch covers confirmation prompts,
-  accessibility, control hints, save commands and preferences.
+- 394/394 string keys authored, including the engine accessibility,
+  developer, updater and renderer strings. Full editorial review remains pending.
 - The generated gallery uses the existing `Return` key in translated locales,
   while the quick menu uses `Back`. The native CrossOver probe inspected the
   captions and action classes in English → Polish → Russian → English.
@@ -61,5 +61,5 @@ pending.
   verified exact upgrade, idempotence, conflicting-file rollback and rejection
   of unknown display source or bytecode.
 - The draft validator passed on the pinned source and all 747 protected
-  occurrences. Next story batch begins at row 338. Picker exposure, final
+  occurrences. Next story batch begins at row 626. Picker exposure, final
   layout, complete semantic audit and independent review are pending.
