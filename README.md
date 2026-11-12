@@ -1,4 +1,4 @@
-# My Furry Protogen text assets
+# My Furry Protogen localization
 
 English source extraction and language picker for Steam app 2009010, Windows
 build 11915262, installed depot 2009011, and Ren’Py 8.0.3.22090809. The VN Revival
@@ -51,29 +51,41 @@ interface strings will need a display mapping or source patch for translation.
 
 ## Language picker
 
-Close the game and install the add-on into the verified Steam build using
-the installation path from the previous section.
+The Russian localization uses Ren’Py's built-in language selector and translation
+table. Close the game before installing. Use the installation path from the
+previous section and a fresh output directory.
 
 ```zsh
-python3 -B tools/install_language_picker.py "$protogen_game"
+python3 -B tools/build_localization.py "$protogen_game" ru --output text-assets/ru-build --install
 ```
 
-The installer generates `game/vnrevival_protogen_preferences.rpy` from the
-installed Preferences screen and adds `game/tl/russian/vnrevival_protogen_sample.rpy`.
-The original game scripts stay intact. Ren’Py compiles the two add-on scripts
-on launch. To remove the add-on, select English in Preferences, close the game,
-and remove those two files and their matching `.rpyc` files.
+The build validates the Steam scripts, extracted inventory, complete stable-ID
+coverage and placeholders. It produces three additive scripts. The installer
+retires the earlier Russian sample if its contents match the checked-in version.
+The original game scripts stay intact. Ren’Py compiles the add-on on launch.
 
-In CrossOver, open **Preferences → Language** and select **Русский**.
-The menu and Preferences sample strings change immediately. Select **Начать**
-and submit the name prompt to see the translated opening narration. Return
-to **Настройки → Язык → English** to restore the original language.
-The sample covers 21 interface strings and the first three story entries.
+- `game/vnrevival_protogen_preferences.rpy`
+- `game/vnrevival_protogen_display.rpy`
+- `game/tl/russian/vnrevival_protogen_text.rpy`
 
-Verified on the Windows Steam executable in CrossOver with a separate save
-directory. The rendered Preferences controls switched English → Russian →
-English → Russian. A fresh process retained Russian and displayed the opening
-narration from the Russian translation script.
+Open **Preferences → Language → Русский** to activate Russian. To return
+to English, open **Настройки → Язык → English**. To remove the add-on, select
+English, close the game and remove the three generated files and their matching
+`.rpyc` files.
+
+The editable Russian sources contain 1,785 story entries and 394 distinct
+string keys, including interface, character labels, credits and Ren’Py
+system strings. See [the checkpoint](localization/ru/STATUS.md) for the pinned
+glossary, validation and CrossOver evidence.
+
+For CrossOver automation, place `tools/qa_isolate_saves.rpy` in `game/` only
+for the duration of QA. Launch with an absolute scratch `--savedir` containing
+a `.vnrevival-qa` marker. Ren’Py 8.0.3 normally writes to both `--savedir` and
+`game/saves`. The QA script redirects the second location into the scratch
+directory before the engine scans any saves. When testing the first name prompt,
+verify that the autosave and persistent data appear only in those scratch
+locations. Compare the checksums and slot names of both player locations before
+and after the run, then remove the temporary script and its matching `.rpyc`.
 
 ## Scope and evidence
 
@@ -89,7 +101,5 @@ narration from the Russian translation script.
   The rest of the artwork, the two WebM cutscenes, fonts, and audio were
   excluded from text conversion. The source registry records the linked video
   assets and visual review gap.
-- Runtime reachability and rendering were verified for the picker and opening
-  sample. Full-game reinsertion, rendering coverage, and literary review are
-  pending. The built-in export is documented by
+- The built-in export is documented by
   [Ren’Py](https://www.renpy.org/doc/html/cli.html).
