@@ -715,23 +715,250 @@ start_4d72ed6c	Z trudem przełknąłem kolejny kęs.
 start_afb55634	Tak, jest bardzo zdrowe. W tej roślinie jest mnóstwo różnych… no… witamin i innych pożytecznych substancji. I smakuje dużo lepiej, niż wygląda.
 start_8ec2ef45	To świetne, że każda planeta ma własne ciekawe tradycje!
 start_19cc128d	Przykleiłem sobie do twarzy uśmiech, co wcale nie było łatwe.
+start_d88e05c8	Bagna rozświetlała jasna fioletowa poświata unosząca się na niebie. Jak zauważyła Juno, pochodziła od jednego z satelitów naszej planety.
+start_72ec211e	Nazywaliśmy go po prostu Tilią. Pojawiała się nocą i zajmowała miejsce Irii, naszego słońca.
+start_5ac5748e	Przez pół nocy chodziliśmy po bagnach. Juno z zaciekawieniem przyglądała się wszystkim robakom, owadom i pająkom, które napotkaliśmy po drodze.
+start_c0524654	Na bagnach te paskudy dorastały do wielkości dłoni, więc znowu starałem się żadnej nie nadepnąć.
+start_e2e41331	Juno wcale się nimi nie brzydziła. Brała je gołymi rękami, oglądała i dotykała każdego paskudztwa, jakie żyło na bagnach.
+start_48242b4e	Fuj, lepiej go odłóż…
+start_98e1d815	Juno głaskała włochate ciało wypasionego, jaskrawoczerwonego pająka o puszystych łapkach.
+start_a50c17dc	Na sam jego widok dostałem gęsiej skórki. Miałem ochotę uciec albo jednym kopniakiem rozsmarować potwora po ziemi.
+start_659f8df2	Ale Juno miała o tych stworzeniach zupełnie inne zdanie. Wszystkie wydawały jej się ciekawe i urocze.
+start_17d5cc8b	Czemu tak przesadzasz? Patrz, jaki śliczny! Jakie ma urocze, puszyste łapki!
+start_e8e5d380	Urocze? Te paskudy wyglądają jak potwory.
+start_00396c10	Juno uśmiechnęła się do mnie łagodnie.
+start_c08e63ef	Wiesz, wielu mieszkańców wszechświata wygląda jak potwory, a tak naprawdę to bardzo miłe i życzliwe istoty.
+start_8dc622c7	Na przykład mieszkańcy planety OU871098-E wyglądają jak ogromne zmutowane robaki i cuchną własnym śluzem.
+start_9b3c8072	Ale to naprawdę sympatyczni goście!
+start_3535b07d	Byli tacy gościnni! Od razu zaprosili mnie do siebie, wszystko mi pokazali i wyznaczyli całą delegację, żeby mnie oprowadziła po planecie…
+start_d26d0b73	Zaprosili mnie ponownie, ale jak dotąd nie miałam czasu ich odwiedzić.
+start_e9520b3a	Mogę cię o coś zapytać?
+start_c96c1af0_2	Juno wzruszyła ramionami.
 start_89775211	Pewnie, [pname], pytaj! Po co ci pozwolenie?
+start_0e9e2db7	No, to trochę osobiste pytanie…
+start_699a74db	Juno machnęła ręką.
+start_93d1e072	Pewnie, pytaj. Słucham.
 start_4a9ef248	Dlaczego postanowiłaś, no wiesz… {w}Podróżować po wszechświecie? Zawsze tego chciałaś? A może po prostu nie miałaś wyboru?
+start_bc7b45c8	Zapadła cisza. Juno chyba zastanawiała się nad moim pytaniem. Opuściła rękę i pozwoliła odpełznąć paskudnemu czerwonobrzuchowi, temu czemuś, co ledwie zasługiwało na miano stworzenia.
+start_90ba76a8	Jeśli to dla ciebie bolesny temat, to…
+start_5d5239d4	Nie, nie, tylko się zastanawiałam, jak opowiedzieć to w skrócie!
+start_6d8008a0	Wiesz… Mój gatunek ma długą historię. Kiedyś byliśmy zwykłymi niewolnikami, których stworzono, żeby zastąpili na wojnie „prawdziwych” żołnierzy.
+start_c2dbb6b9	Sztuczny gatunek stworzony w laboratoriach dzięki nauce.
+start_bc3a7bb1	Ale po wielu staraniach odzyskaliśmy wolność i staliśmy się takim samym gatunkiem jak inne, obdarzonym wolną wolą.
+start_112eb171	Od tamtej pory większość z nas albo dąży do różnych wspólnych celów, albo spełnia własne marzenia.
+start_710e4ac4	Niektóre protogeny pracują dla naszego rządu i wykonują specjalne misje. Inne wiodą zwyczajne życie na rodzinnej planecie. Są też takie jak ja, które żyją na własną rękę i podróżują po wszechświecie.
+start_d766772e	Od urodzenia chciałam zajmować się biologią. Może po prostu zapisano mi to w genach, kiedy mnie stworzono.
+start_2c30b803	Odkąd jestem wolna, nie myślałam o niczym innym.
+start_e0adbde7	Nie rozumiałem wielu słów, których użyła, więc spróbowałem podsumować to wszystko bez zadawania zbędnych pytań:
 start_71e2159a	Czyli… To coś w rodzaju… {w}Eee, twojego przeznaczenia? {w}Coś w tym stylu?
+start_b28b24c0	Juno odwróciła się do mnie. Na jej hełmie pojawiła się zamyślona mina.
+start_5381d51f	Przeznaczenia?
+start_8a6630e5	Chodzi o takie religijne przekonanie, że przyszłość jest z góry ustalona?
+start_8083cbe0	Tak, mniej więcej…
+start_5d70cae5	U nas jest na przykład Matka Niebios. To ona tworzy los. Mieszka na obłoku i tka przeznaczenie każdego z niebiańskich nici.
+start_478147f2	I nie można się sprzeciwić temu przeznaczeniu. To ona decyduje, kim zostaniesz i co będziesz robić. Właściwie ustala całe twoje życie.
+start_79e4dcc7	A skąd wiesz, co postanowiła?
+start_3a471aef	No… Zwykle człowiek po prostu przeżywa całe życie, niczego nie zmieniając, i wierzy, że tylko tak miało być.
+start_283478b6	Zawalił ci się dach? Taki twój los. Powódź zabiła całe bydło? Twój los. Nieurodzaj? To proste. Taki twój los.
+start_7f8449cf	Tak żyjemy. Wierzymy tylko w los.
+start_f9510de0	A co, kiedy jest inaczej niż „zwykle”?
+start_7abc680b	Zmarszczyłem brwi. Nie rozumiałem, o co chodzi Juno.
+start_5f815775	Co masz na myśli?
+start_7ba9b52a	Powiedziałeś, że zwykle tak jest. A co z wyjątkami?
+start_5fc1d03e	Przygryzłem wargę, rozważając jej słowa. Spojrzałem na Tilię, która zastygła na niebie otoczona różowofioletową poświatą.
+start_d37e617d	No… Kiedyś nasz starszy powiedział, że ukazał mu się Lit, młodszy brat Matki Niebios. Lit powiedział mu, że jeden z…
+start_10240298	Eee, że pewien chłopiec z naszej wioski jest Wybrańcem.
+start_4716a333	I Lit opowiedział o jego losie. Miał przez całe życie mieszkać w wiosce, a gdy skończy dwadzieścia jeden lat, stanąć na czele osady.
+start_0c299fec	I że ten chłopiec ma kiedyś ocalić naszą wioskę i jej mieszkańców od jakiegoś strasznego nieszczęścia.
+start_0614fa4e	A jeśli odejdzie, niczego nie da się ocalić i nasza wioska zostanie zniszczona.
+start_0d440816	To straszne! Jak można powiedzieć coś takiego dziecku? Nie do pomyślenia.
+start_efbe4cd2	Czy u was to normalne?
+start_23fdb746_1	Wzruszyłem ramionami.
+start_1d820ac4	Nie wiem, ale mi… To znaczy temu chłopcu wcale się nie spodobało to, co usłyszał. I tak żył przez całe życie, nie śmiejąc nic zrobić z własnej woli.
 start_f610eb62	Mieszkańcy wioski decydowali za niego o wszystkim. Uważali, że skoro jest ich Wybawicielem, to należy do nich. {w}Mniej więcej tak.
+start_672b0c73	Smutna historia… Kiedy to się stało? Chłopiec ocalił swoją wioskę?
+start_f58911d7	Uśmiechnąłem się bez cienia wesołości.
+start_f4ab5e1a	No nie, właściwie jeszcze nie wiadomo, jak to się skończy. Chłopiec jest teraz… eee, no, jest w wiosce. I szykuje się, żeby ocalić ją przed nie wiadomo czym.
+start_d7168e13	Wierzysz w to? W jego przeznaczenie?
+start_df49c90c	Juno patrzyła na mnie z nieukrywanym zaciekawieniem. Dla niej to pewnie brzmiało jak bajka. Dla mnie zresztą też. Nie wiedziałem, co powiedzieć.
+start_8ae0cde2	Nie wierzyłem w los, ale jednocześnie rozumiałem, że gdyby mój los był z góry ustalony, i tak bym o tym nie wiedział.
+start_4dd62252	A jeśli naprawdę tak jest? Jeśli wiosce coś się stało, kiedy odszedłem?
+start_7d6f34e2	Szczerze mówiąc, nie, nie wierzę. A przynajmniej dotąd myślałem, że nie ma przeznaczenia, że nie ma też ani Matki Niebios, ani Lita.
+start_8c110942	To wszystko wymyślono, żeby ludziom łatwiej się żyło.
+start_1c9b83a1	Co masz na myśli? Pod jakim względem łatwiej?
+start_9619f9d9	No… Ludzie od zawsze bali się wielu rzeczy. Na przykład śmierci. Albo nieurodzaju.
+start_9b951950	Nie wiedzieli, jak sobie z tym radzić. Więc wymyślili bajkę, że jakaś kobieta w niebie o wszystkim decyduje i wszystkim kieruje.
+start_72076486	A po śmierci zabierze nas do nieba i pozwoli nam pomagać w tworzeniu wszechświata… Jakoś ułatwiało to życie. Ludzie już tak nie bali się umierać.
+start_6d767069	No, na tym właśnie polega religia. Na większości planet zamieszkanych przez rozumne gatunki wygląda podobnie.
+start_2c3d9ae7	Tylko dziwię się, że to rozumiesz, skoro tak mało wiesz o naszym wszechświecie.
+start_c2e37ea3	Juno uśmiechnęła się do mnie łagodnie.
+start_a26d7602	Naprawdę jesteś czarną owcą.
+start_541db34a	Uniósłem brew, nie rozumiejąc, o czym mówi Juno.
+start_e6ed6a57	Kim jestem?
+start_c0fe318b	Usłyszałam takie powiedzenie na jednej planecie.
+start_dacdc7fc	Czarna owca to ktoś, kto różni się od reszty. Ktoś, kto do nich nie pasuje.
+start_a29244df	Hm…
+start_c8d384ea	Uśmiechnąłem się i skinąłem głową. Tak, chyba rzeczywiście byłem czarną owcą.
+start_48b233e4	A co z tobą? Mówiłaś, że niektórzy z was mieszkają daleko od swoich planet. Często się to zdarza?
+start_dad68ac7	Niezbyt często, ale też nie jest to wielka rzadkość. Zwłaszcza wśród protogenów typu badawczego.
+start_3c9221c3	Niektórym z nas bardziej zależało na wolności niż innym. To nic dziwnego, że protogen żyje samotnie i nie utrzymuje kontaktu z innymi protogenami.
+start_24bb0a0b	Dla mnie wszechświat i jego przyroda są o wiele ciekawsze niż cokolwiek innego!
+start_2fabacb4	W kosmosie jest tyle nowych, niezbadanych rzeczy!
+start_94629998	I nigdy nie chciałaś wrócić do domu?
+start_8dcb8756	Juno wzruszyła ramionami i włożyła kolejną próbkę do torebki.
+start_3779f2ad	Może czasami, ale jakoś niezbyt mocno.
+start_0e001e54	Zanim zyskałam wolną wolę, codziennie pracowałam w laboratorium.
+start_75aac808	Zwykle pracowałam z innymi protogenami-badaczami, ale odkąd odzyskaliśmy wolność, nikt nie chciał już pracować z resztą. Każdy ruszył w swoją stronę, by prowadzić badania na własną rękę.
+start_35ced377	Poza tym pierwsze pokolenie protogenów nigdy nie miało rodzin ani bliskich przyjaciół. Nie tego mieliśmy się nauczyć w naszym tak zwanym „dzieciństwie”.
 start_bbdaf32b	Jak to możliwe? Nie urodziły was matki… {w}Albo nie wykluliście się z jaj czy coś takiego?
+start_d36c4bc5	Jak już mówiłam, stworzono nas sztucznie w laboratoriach.
+start_d6585017	Stworzono nas dzięki inżynierii genetycznej i szkoleniu w wirtualnej rzeczywistości.
 start_34ffd95c	Inży… {w}Co?
+start_33462eb9	No, to coś w rodzaju wybierania cech istoty, zanim jeszcze przyjdzie na świat.
+start_562f77a9	Możesz sprawić, żeby była silna, szybka, wysoka, niska i tak dalej.
+start_78b5e31c	Od „losu” różni się to tylko tym, że decyduje o tym inna istota, a nie bóg.
 start_57bbc435	Nasi twórcy sprawili, że byliśmy silni i zdrowi, ale posłuszni. {w}Na szczęście zerwaliśmy kajdany i zaczęliśmy nowe życie.
+start_6ea2cfd1	Ale całej historii teraz ci nie opowiem. Jest naprawdę za długa i za dużo rzeczy musiałabym ci wyjaśnić.
+start_4b49d2af	Poza tym i tak już powiedziałam ci sporo rzeczy, których nie powinnam…
+start_cecf3752	Poza tym niewolnictwem brzmi świetnie! Chciałbym mieć możliwość podróżowania do odległych miejsc.
+start_d8a0b473	Całe życie marzyłem o podróżach, żeby zobaczyć choćby naszą planetę, ale… No, nie mogłem.
+start_53a05dda	Czemu?
+start_679a328a	Nie mam wahadłowca, którym mógłbym wszędzie dolecieć. A dla tak słabej istoty jak ja samotna wędrówka jest niebezpieczna.
+start_823747ee	Z kimś byłoby mniej strasznie, ale nie mam tu przyjaciół.
 start_8244e6ed	Przykro mi to słyszeć, [pname]… Chociaż nie wiem, czy u was brak przyjaciół to coś normalnego.
+start_ffb8e16b	Nie, właściwie nie. Moi rówieśnicy mają mnóstwo przyjaciół, a ja… Krótko mówiąc, nie mam nikogo.
+start_aac21853	Tylko rodziców, ale to nie są przyjaciele. To co innego.
+start_3862dc6e	Juno zapytała przenikliwie:
+start_d6fa675a	Nie masz przyjaciół, bo nie wierzysz w Matkę Niebios i Lita?
+start_23f97757	Uśmiechnąłem się, gdy to od niej usłyszałem. Brzmiało naprawdę niedorzecznie. Nie mogłem jednak powiedzieć, dlaczego tak naprawdę nie miałem przyjaciół.
+start_55f807c3	Nie chciałem przyznać, że okłamałem Juno i nie nadawałem się do pomocy przy jej badaniach.
+start_162de15e	Że chwyciłem pierwszą okazję, żeby uciec z więzienia, w którym spędziłem całe życie. Co bym zrobił, gdyby Juno nie stanęła na mojej drodze?
+start_358e9080	Pewnie wróciłbym do wioski.
+start_6ea00739	Wymyśliłbym jakąś historyjkę, błagał mieszkańców, żeby przyjęli mnie z powrotem, i zapewniał, że zrozumiałem wszystkie swoje błędy i nigdy więcej czegoś takiego nie zrobię.
+start_658e04b2	A może po prostu przepadłbym w lesie. Nawet to byłoby lepsze niż powrót do domu.
+start_2e39bcd0	Myślę, że w pewnym stopniu tak.
+start_bbc001df	Powiedziałem kiedyś przyjacielowi, Damienowi, że w to wszystko nie wierzę. Zareagował bardzo… agresywnie.
+start_71533347	Nazwał mnie zdrajcą. Od tamtej pory nikomu nie mówiłem, że uważam to wszystko za bzdurę.
+start_c2e37ea3_1	Juno uśmiechnęła się do mnie łagodnie.
 start_aa7aed51	Teraz to nieważne. Spójrz, [pname], przecież właśnie podróżujesz!
+start_9128553a	Może to trochę inna podróż, niż sobie wymarzyłeś, ale…
+start_04111b8a	Pokręciłem głową i przerwałem Juno:
+start_83690d06	Nie, nie, jest świetnie. Naprawdę, to… Już teraz to najlepsza przygoda w moim życiu.
+start_83e9fc37	Poza tym miałem wielkie szczęście, że cię spotkałem! Nigdy nie sądziłem, że zobaczę mieszkańców innych planet! To świetne, kiedy twoja przyjaciółka jest z kosmosu.
+start_e867f87a	Roześmiałem się szczerze, z radości, ale Juno z jakiegoś powodu jej nie podzielała. Jakbym powiedział coś nie tak, tylko nie wiedziałem co.
+start_e918184f	Obraz na jej hełmie się zmienił. Uśmiech ustąpił miejsca smutnej minie.
+start_444aeae6	Wszystko w porządku? Powiedziałem coś nie tak?
+start_a65ee12a	Zbierajmy się. Skończyłam tutaj, resztę zeskanowałam hełmem. Możemy opuścić tę okolicę i jutro rano ruszyć w następną.
+start_aed78e51	Masz, weź próbki i włóż je do plecaka.
+start_01aaae31	Posłusznie zebrałem próbki w torebkach i upchnąłem je w dużym plecaku.
+start_2cd3ff90	Juno, na pewno wszystko w porządku? Przepraszam, jeśli coś palnąłem… Może dla ciebie to znaczy coś innego… Nawet nie wiedziałem…
 start_6f27ab9f	W porządku, [pname]. Zapomnij o tym.
+start_268b4d7d	Juno się uśmiechnęła, ale nawet na hełmie ten uśmiech wydał mi się zbyt sztuczny i wymuszony.
+start_bef4b90c	Nie, naprawdę, jeśli powiedziałem coś nie tak…
+start_7c05b1e4	Mówiłam, że wszystko w porządku. Chodź, Pixie na nas czeka.
+start_8b6a2f3d	Zostały te twoje korzenie, które wczoraj ugotowałeś. Nadadzą się na kolację?
+start_68b5dfe2	Z trudem powstrzymałem jęk i ruszyłem za Juno, z plecakiem w pogotowiu, gdyby w ostatniej chwili znalazła jeszcze jakąś próbkę.
+start_968c4f2b	Wiesz, chyba się zepsuły. Zwykle tak długo się ich nie przechowuje.
+start_1f701b16	Dziwne, zeskanowałam je przed wyjściem. Były świeże! Poza tym je zamroziłam i…
+start_c6c97047	A my ich nigdy nie mrozimy. Więc pewnie już się zepsuły. Mówię ci, lepiej ich nie jeść.
+start_c8670494	A, no dobrze… To co zjesz?
+start_d558013c	Masz jeszcze trochę tych owoców, które mi dałaś?
 start_14550ddd	Sprawdzę, jak dotrzemy na miejsce. Nie martw się, [pname], nie zostawię cię głodnego.
+start_ebb22cfe	Juno odwróciła się i uśmiechnęła do mnie przez ramię, ale w tym uśmiechu nadal było coś nieszczerego. Nie rozumiałem, czym zawiniłem.
+start_062b579d	Skończyliśmy badania w lasach wokół Północnej Doliny i ruszyliśmy na południe. Czekała nas tam gorąca pustynia i bezlitośnie palące słońce.
+start_618deca0	Jak się okazało, Juno nie znosiła wysokich temperatur. A ja… Cóż, co tu kryć.
+start_6bdddf51	Tak naprawdę nigdy tam nie byłem. Wiedziałem tylko, że takie miejsce istnieje, bo czytałem o nim w książkach.
+start_f1c35339	Juno nie była zachwycona. Jej układy chłodzenia, jak je nazywała, ledwo radziły sobie z takim upałem.
+start_d76fdfef	Ale tu skwar, nie do zniesienia. Zeskanujmy szybko, co trzeba, i miejmy to za sobą.
+start_84d33293	Masz rację. Też nie chcę tu długo zostawać.
+start_ad8e0194	Juno zaczęła oświetlać wszystko żółtawym światłem z hełmu.
+start_b23c96f9	Przykucnęła, żeby zbadać piasek i kamienie, a ja kręciłem się obok i mrużyłem oczy od oślepiających promieni.
+start_de9e7c2f	Słuchaj… Na pewno nikt tu nie mieszka?
+start_ff761ce7	Juno wstała i spojrzała na mnie. Wzruszyłem ramionami.
+start_e028d214	Tak, nikt.
+start_85281ba1	Hm, dziwne.
+start_2aafa9bd	Co jest dziwne? Coś znalazłaś?
+start_eedbadb2	Sama nie wiem. Jeszcze nie rozgryzłam, co to takiego.
+start_b43dc5b1	Juno dalej skanowała okolicę.
+start_bad91272	Nagle przypomniałem sobie, że mam grać wszechwiedzącego przewodnika, który zna całą planetę na wylot. Z możliwie obojętną miną powiedziałem:
+start_936aac97	Zapewniam cię, że jest tu zupełnie bezpiecznie i nikt tu nie mieszka. Zresztą kto by przeżył w takim upale?
+start_4618455b	Moje słowa zabrzmiały zaskakująco naturalnie i spokojnie. Najwyraźniej podniosły Juno na duchu.
+start_60ea290d	Dalej grzebała w piasku, badając kamyki i drobiny różnych substancji, na które natrafiała.
+start_1e2df7ae	W tym czasie ledwo trzymałem się na nogach. Pot ściekający po skroniach był jasnym sygnałem, że pora szybko kończyć badania.
+start_5dd8a746	Nagle poczułem wstrząs. Zdawał się dochodzić ze wszystkich stron, jakby zadrżała sama planeta.
+start_b06c3580	Poczułaś to?
+start_fd502d1e	Juno odwróciła się do mnie. Wzruszyłem ramionami i spróbowałem zachować spokój.
+start_fa303823	Nie wiem, może to tylko spadający kamień?
+start_a7cbfd66	Mało prawdopodobne. Moje czujniki wykryły…
+start_f4e38a3c	W tej chwili wrzasnąłem i podskoczyłem. Sucha ziemia pod nogami jakby się poruszyła. Juno spojrzała na mnie, a ja wytrzeszczyłem na nią oczy.
+start_71206505	Co do…
+start_dcc77451	Nie zdążyła dokończyć. Z ziemi wystrzeliło jakieś ogromne coś.
+start_8b91b951	Piasek prysnął na wszystkie strony, ziemia pod nogami się trzęsła, a ja nie zdołałem powstrzymać głośnego krzyku.
+start_eba73bd8	Prosto między nami wyrósł olbrzymi, tłusty robak, odcinając nam drogę do siebie.
+start_46d1cbb2	Juno! Uciekaj!
 start_ab9682c5	[pname], tutaj!
+start_6afca021	Juno uskoczyła przed wielką, okrągłą paszczą robaka, obiegła jego wielkie cielsko i złapała mnie za rękę.
+start_de603576	Tak byłem pewien, że jest tu bezpiecznie, że odeszliśmy dość daleko od wahadłowca. Teraz bez trudu mogliśmy zostać obiadem podziemnego robaka.
+start_b299c7b5	Juno rzuciła się do ucieczki, wciąż trzymając mnie za rękę, ale nie potrafiłem biec tak szybko jak ona. Robak znów zanurkował pod ziemię i ruszył za nami, licząc, że dopadnie zdobycz.
+start_b11bf260	Mówiłeś, że nikogo tu nie ma!
+start_065086cb	Myślałem, że nikogo tu nie ma!
+start_3320ec1e	Ale mówiłeś, że wiesz!
+start_300701d2	Ja…
+start_6969d8ea	Piasek wpadł mi do ust. Zakrztusiłem się, a kiedy ziemia usunęła mi się spod nóg, upadłem. W tej samej chwili wielki robak znów wyskoczył spod ziemi.
+start_bc153e3f	Juno! Juno, pomocy!
+start_77efc5dd	Juno znieruchomiała. Po ekranie hełmu przebiegły zakłócenia. Nie mogłem odczytać jej miny.
+start_b0bfa435	Piasek wpadł mi do oczu. Czułem, że robak się zbliża, a z jego paszczy ciągnęło potwornym smrodem…
+start_2dc51781	Już żegnałem się z życiem, kiedy rozległ się huk. Otworzyłem oczy. Juno trzymała w dłoni to, co nazywała pistoletem.
+start_8a1929f2	Wycelowała w robaka i pociągnęła za spust.
+start_17f2eae3	Wstawaj! Szybko!
+start_e5aec2f3	Robak dał się rozproszyć i głośno zapiszczał. Juno złapała mnie i niemal zaciągnęła do wahadłowca. Ledwo zdążyliśmy wejść. Rzuciła mnie na fotel i krzyknęła:
+start_832646fb	Pixie, zabierz nas stąd!
+start_c0e2c4ba	Pixie posłuchał. Wahadłowiec zawarczał i wznieśliśmy się w powietrze. Siedziałem w fotelu, ciężko dysząc i próbując uspokoić serce, które waliło jak oszalałe.
+start_c97a4819	Juno siedziała obok, z łokciami opartymi na kolanach i głową w dłoniach. Wpatrywała się w podłogę. Jej hełm niczego nie wyrażał.
+start_55b82cbc	Przez kilka minut milczeliśmy, próbując tylko złapać oddech. Nogi wciąż mi drżały po tym biegu, a biodro bolało od upadku. Wkrótce wyjdzie siniak.
+start_073a6376	Uff, udało się!
+start_76d3952d	Na ustach pojawił mi się uśmiech.
+start_a816a10e	Widziałaś tego wielkiego skurczybyka? Prawie mnie zeżarł! Dzięki za…
+start_7e6952ee	Juno nie dała mi dokończyć. Wstała i bez słowa wyszła, zostawiając mnie samego. Drzwi przedziału zamknęły się za nią z cichym kliknięciem.
+start_271f61ec	Nie miałem pojęcia, co się stało ani dlaczego Juno tak zareagowała. Nadal siedziałem w fotelu, sam i w ciszy.
+start_e6043bfa	Pixie?
 start_5a5ed74d	Tak, [pname]?
+start_71e15efb	Powiedziałem coś nie tak?
 start_b808c3d7	Przepraszam, [pname], nie mogę o tym rozmawiać. To sprawa osobista. {w}Chcesz napić się wody i przebrać?
+start_aa18e11b	Zmarszczyłem brwi jeszcze bardziej. O czym Pixie nie mógł rozmawiać?
+start_0ab7fc17	O czym nie możesz rozmawiać?
 start_f1463985	Przepraszam, [pname], nie mogę ci powiedzieć. Chcesz napić się wody i przebrać?
+start_80f8ed21	Ta rozmowa do niczego nie prowadziła. Oparłem się wygodniej i przetarłem twarz dłonią. Do skóry przylgnęły ziarenka piasku, a całego mnie pokrywała warstwa kurzu albo ziarnistego brudu.
+start_8b295b37	Tak, chętnie. Dzięki, Pixie.
+start_c34831d4	Następnego dnia Juno się do mnie nie odzywała.
+start_5e6ee17d	Kiedy poszliśmy do lasu na zachodzie, pracowała bez słowa. W milczeniu skanowała teren i wciskała mi próbki do rąk, ale nie odpowiadała na żadne pytania.
+start_f0759b75	Wiedziałem, że zrobiłem coś nie tak, tylko nie wiedziałem co.
+start_870e6b3a	Kilka razy próbowałem zagadać albo o coś zapytać, ale Juno odpowiadała krótko „tak” lub „nie”, albo w ogóle mnie ignorowała.
+start_6d651f0f	Czułem się podle. Przez te kilka dni wspólnej podróży przywykłem do naszych rozmów i do brzmienia jej głosu.
+start_7e466ff0	Nigdy nikt nie ciekawił mnie tak jak ona.
+start_0ba07b51	Może dlatego, że nigdy z nikim tyle nie rozmawiałem. O wszystkim pod słońcem: o życiu, o losie, o przyrodzie i o czym tylko się dało.
+start_fe898e73	Wydawało mi się, że znaleźliśmy z Juno wspólny język. Byłem pewien, że ona czuje to samo.
+start_58152189	A teraz nie rozumiałem, co się stało ani jak to naprawić. Nie chciałem stracić kontaktu z Juno.
+start_21f1ca7e	Nigdy przy nikim nie czułem takiej bliskości jak przy niej.
+start_f67fe4a0	Szliśmy przez las, tym razem dość rzadki, po wygodnej, wydeptanej ścieżce. Wtedy Juno powiedziała:
+start_003cb0f4	Okłamałeś mnie, prawda? Nic nie wiesz o swojej planecie.
+start_32f3480d	Zatrzymałem się jak wryty. Serce podeszło mi do gardła, twarz zrobiła się czerwona i nie wiedziałem, co odpowiedzieć.
+start_8457620c	Ja… no… Skąd ci to przyszło do głowy?
+start_a06801b5	Bo nie da się nie wiedzieć o tych cholernych olbrzymich robakach, jeśli zna się całą planetę jak własną kieszeń!
+start_5c1c701b	Juno odwróciła się do mnie. Na jej hełmie malowała się złość. Zawahałem się. Co mogłem powiedzieć? Przecież miała rację. Nie miałem pojęcia, że narażam nas oboje.
+start_12bb3ad3	Może kiedyś czytałem o czymś takim w książkach, ale nie wiedziałem, że na południowej pustyni żyją olbrzymie robaki.
 start_ab39df60	[pname], powiedz mi prawdę.
+start_6997d17f	Tak, masz rację. Masz stuprocentową rację. Niewiele wiem o przyrodzie.
+start_2d9f9777	A o całej planecie też niewiele. Nigdy nie opuszczałem wioski.
+start_0fed1a85	Juno spojrzała na mnie zaskoczona, a potem wściekle warknęła. Kopnęła duży kamień, aż poleciał w drugą stronę.
+start_966900e9	Dlaczego mnie okłamałeś?! Trzeba było od razu powiedzieć! Jestem twoją niańką? Potrzebowałam przewodnika, nie kuli u nogi! A ty nic nie wiesz!
+start_47e5df6c	Nie mogłem ci powiedzieć, bo nie zabrałabyś mnie ze sobą!
+start_738243d4	Zgadza się. Nie zabrałabym cię i nie odpowiadałabym za twoje życie!
+start_a4f5da68	Ale musiałem odejść! Co innego miałem zrobić? Pojawiłaś się znikąd, powiedziałaś, że jesteś z innej planety, a ja po prostu… Pogubiłem się!
 start_c05ca554	Nie okłamuj mnie, [pname]. Wcale się nie pogubiłeś. Postanowiłeś pobawić się w podróżnika i mnie wykorzystałeś. Nie jestem twoją niańką!
+start_44c1a699	Myślałam, że masz doświadczenie i wiesz wszystko o swojej planecie. A kim się okazałeś?
+start_ed7778b0	Uwiązałam sobie kamień u szyi! A gdybyś wczoraj zginął? Co bym zrobiła? Co powiedziałabym w twojej wiosce?
+start_769a3ff8	Co za różnica? Przecież żyję!
 start_bf2c662f	Po co się ze mną zabrałeś? Czego chcesz, [pname]?
 start_b31daf7e	Nie potrzebuję przyjaciół, [pname]. Właśnie dlatego podróżuję sama. Żeby ich nie zdobywać.
 start_a07490fb	Przepraszam, [pname], ja też cię okłamałam…
