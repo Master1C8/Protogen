@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "game": "My Furry Protogen",
+  "steamAppId": "2009010",
+  "steamBuildId": "11915262",
+  "sourceLanguage": "en",
+  "renpy": "8.0.3.22090809",
+  "sources": {
+    "game/script.rpy": {
+      "sha256": "b16fbbef9217fb875b4da3f6955f3d5267f7e280595ad59fe98dd032deb37c40",
+      "compiledSha256": "6324955251941cdcf60e8ab0fa4cd2858220908eddf7695d7b69b98d395e39a3"
+    },
+    "game/screens.rpy": {
+      "sha256": "43a13a7b0e9bdfb2e70b982876a272eefffebbb336711e461e342b5ab95eb170",
+      "compiledSha256": "66e9c5ea586412b828f280ab01848e8f8fe903020466ea1ea8c322f3a2cd83fb"
+    },
+    "game/gui.rpy": {
+      "sha256": "4a06ab2ddfe6600de456410d299225adee0bfbac9df8d8ca046f5956913a9d05",
+      "compiledSha256": "e63b96243b986138e8909c90ee6aef6ee9b325fb2eb1219362fa235208979e78"
+    },
+    "game/options.rpy": {
+      "sha256": "2a7cbddc122cfd768d2fedf0595804a6ac2139519b1bfec4d2ce3568c996c717",
+      "compiledSha256": "50817117915cb78292a720581d4db0cffceef605359233bc3ff2d64fafd0dc1c"
+    },
+    "game/tl/None/common.rpym": {
+      "sha256": "026bdddbf3795df3def7eeceba20ceafe3eed85f6f668484d510e004328f9b11",
+      "compiledSha256": "55eb064f4929260234c45e348fe263f013882ee20f6e433c97c8c309cda64e87"
+    }
+  },
+  "counts": {
+    "preserve-exactly": 747,
+    "speaker-label": 4,
+    "input-prompt": 1,
+    "narration": 940,
+    "dialogue": 845,
+    "interface": 102,
+    "engine-string": 313
+  },
+  "native": {
+    "nativeDialogue": 1785,
+    "nativeTsvStrings": 68,
+    "nativeTemplateGameStrings": 76,
+    "nativeTemplateCommonStrings": 286,
+    "nativeCommonOnly": 8
+  },
+  "outputSha256": {
+    "inventory.json": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+    "original/game/gui.rpy": "4a06ab2ddfe6600de456410d299225adee0bfbac9df8d8ca046f5956913a9d05",
+    "original/game/options.rpy": "2a7cbddc122cfd768d2fedf0595804a6ac2139519b1bfec4d2ce3568c996c717",
+    "original/game/screens.rpy": "43a13a7b0e9bdfb2e70b982876a272eefffebbb336711e461e342b5ab95eb170",
+    "original/game/script.rpy": "b16fbbef9217fb875b4da3f6955f3d5267f7e280595ad59fe98dd032deb37c40",
+    "original/game/tl/None/common.rpym": "026bdddbf3795df3def7eeceba20ceafe3eed85f6f668484d510e004328f9b11",
+    "preserve-exactly.json": "f50583a62ea41e826c4668f8595592c60605ca0a3f48e2415a1f695846cd2afd",
+    "renpy-dialogue.tab": "4ba57708ea623be3177c60680b318461469741b1109e7874d8e4c3131e007ad5",
+    "renpy-templates/common.rpy": "6d56908e077726c1e7b84352c56823c7e50fea7a8b4aacb7a1637e8a2b9033bb",
+    "renpy-templates/options.rpy": "271c98629eafb58ea6873375551dd21a9a8615a73a0659b52f8ebd4c64d75550",
+    "renpy-templates/screens.rpy": "015a9c4f21c4b9066a96921da20b1e23d928734eae0b55f8ffe18e84a2655385",
+    "renpy-templates/script.rpy": "dbc6e63f4768c60c477a04b368ad16d1ff79cf9db4b412e43ebbe861c938a070",
+    "special-scenes.json": "5d3950c98e01d34a49bca5ef8862c5ab5dcec2558c42f709748c68e5134af923"
+  }
+}

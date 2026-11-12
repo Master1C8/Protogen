@@ -1,0 +1,4 @@
+/text-assets/
+/.text-assets-*/
+/.protogen-export-*/
+__pycache__/
