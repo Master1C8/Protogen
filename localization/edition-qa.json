@@ -2,42 +2,8 @@
   "steamBuild": 11915262,
   "baseDepotManifest": "867163245136460120",
   "dlcDepotManifest": "664886504286217287",
-  "evidenceDirectory": "text-assets/edition-qa.0bfO9x",
   "bothLiveSaveLocationsUnchanged": true,
-  "sfw": {
-    "storyMappings": 1785,
-    "uiMappings": 394,
-    "passed": [
-      "English → Russian → English → Polish",
-      "blank name becomes Ty",
-      "four original opening rows",
-      "audio backend PCM and mixing disabled"
-    ],
-    "audioEnv": "RENPY_DISABLE_SOUND=1",
-    "runtimeLogSha256": "99a0bd3d7813ffc71c862452068dc8b6d11c393a12ec34b1549cc1a8bbee23be",
-    "screenshots": {
-      "settings": "84cc6aafcbe053ba4b62578ba955d43b8c203c4c34baeb5997e70e8850147af2",
-      "dialogue": "4cfef2cb77ffaca792c1845f6e386aa50e7aa542b06a3f6037944eeae94c2ed8"
-    }
-  },
-  "nsfw": {
-    "storyMappings": 1775,
-    "uiMappings": 395,
-    "passed": [
-      "English → Russian → English → Polish",
-      "audio backend PCM and mixing disabled",
-      "gallery opens",
-      "DLC notice and four original opening rows",
-      "blank name becomes Ty"
-    ],
-    "audioEnv": "RENPY_DISABLE_SOUND=1",
-    "runtimeLogSha256": "b323351a857b10e729a2d9ec06e6096a4246854070bc09187a818d0070d30125",
-    "screenshots": {
-      "settings": "8c69296154920bed9a216ea755a4722e97545f81b76bbe713c43ab4207d6cb9b",
-      "dialogue": "4cfef2cb77ffaca792c1845f6e386aa50e7aa542b06a3f6037944eeae94c2ed8"
-    }
-  },
-  "nsfwPendingStoryMappingsPerLocale": 232,
+  "nsfwPendingStoryMappingsPerLocale": 0,
   "strictNsfwBuildRejectedPartial": true,
   "installerTests": [
     "fresh SFW installs",
@@ -45,9 +11,107 @@
     "conflict rollback",
     "idempotence"
   ],
-  "visualReview": {
-    "sharedOpeningDialogue": "Passed. SFW and NSFW original frames are byte-identical. Polish nameplate, accents and dialogue are legible.",
-    "nsfwSettings": "Passed. Language options, Galeria and Polish controls legible and fit.",
-    "sfwSettings": "Captured, visual review pending."
+  "fullEditionChecks": {
+    "evidenceDirectory": "text-assets/edition-full.7hJ91W",
+    "strictBuildsReproducedByteForByte": true,
+    "authoredDlcDialogueSha256": {
+      "ru": "20c49ea4819a6b43d6845c149b054f3f6cb9be6445de5a8f20ed16056df91ee9",
+      "pl": "f8a8b22305b32604719c68cb680833f7a0c3c62889535f3ac7cfd3f62c00356a"
+    },
+    "staticDesktopWrapEstimate": {
+      "font": "Nunito-SemiBold.ttf",
+      "fontSize": 33,
+      "dialogueWidth": 1116,
+      "longPlayerNameCharacters": 12,
+      "ruMaximumLines": 4,
+      "plMaximumLines": 3
+    },
+    "sourceFindings": {
+      "start_5c6117e8": "Player speaker and self-address placeholder preserved as shipped.",
+      "start_75bdc594": "DLC-only name Katie, rendered Кэти in Russian and Katie in Polish."
+    },
+    "review": "Translations authored directly from English. Independent editorial review remains pending.",
+    "runs": {
+      "sfw-ru": {
+        "story": 1785,
+        "ui": 394,
+        "movies": 20,
+        "runtimeLog": "sfw-ru-full.txt",
+        "logSha256": "f2a98634f25099f8ece0ecfe3b6dc5f5df8c92cede9347cc05388d34a9ed34bc",
+        "packageSha256": "63866540a4fed4bc3d0b5da4b03edf8689ee1a54d3264034bf33124e177712ef",
+        "muted": true
+      },
+      "nsfw-ru": {
+        "story": 2007,
+        "ui": 395,
+        "movies": 16,
+        "runtimeLog": "nsfw-ru-full.txt",
+        "logSha256": "96a660da5db7d772e91e192ea22eff46f40e0f9135660e20b529252fb9446e81",
+        "packageSha256": "fdf5e3c4d8848cb94a0e4354c077b2bd00a701bfabffa87153779ee72d889e30",
+        "muted": true
+      },
+      "sfw-pl": {
+        "story": 1785,
+        "ui": 394,
+        "movies": 20,
+        "runtimeLog": "sfw-pl-full.txt",
+        "logSha256": "ededd4baecb315e6ba8aa230fe63299a0c74e54934f2fa0a7caa4c2101a89dda",
+        "packageSha256": "678485bc11a01839a078a73dcb386252dda771d6437fe56b6753c5afa4d682a1",
+        "muted": true
+      },
+      "nsfw-pl": {
+        "story": 2007,
+        "ui": 395,
+        "movies": 16,
+        "runtimeLog": "nsfw-pl-retry.txt",
+        "logSha256": "3828e945fbf05ab78c2c39859177348f989d83a72a0581d6de5c31b2fb48e011",
+        "packageSha256": "026c85dd913ddda722abfcef71db21565284d360d44cb40a12ca61d909400713",
+        "muted": true
+      }
+    },
+    "bothLiveSaveLocationsUnchanged": true,
+    "runtimeScope": "CrossOver Windows executable, exact translated table and speaker/image attributes, actual settings actions, player-name input, ordered dialogue through credits and return to menu. Movie entries counted, movies not visually reviewed. Steam API unavailable in detached test copies.",
+    "testHarnessNotes": "Russian DLC process finished after the original watcher timed out. Polish DLC retry ignores duplicate begin events for the same current ID and still requires all distinct expected IDs in sequence."
+  },
+  "openingProbe": {
+    "evidenceDirectory": "text-assets/edition-qa.0bfO9x",
+    "sfw": {
+      "storyMappings": 1785,
+      "uiMappings": 394,
+      "passed": [
+        "English → Russian → English → Polish",
+        "blank name becomes Ty",
+        "four original opening rows",
+        "audio backend PCM and mixing disabled"
+      ],
+      "audioEnv": "RENPY_DISABLE_SOUND=1",
+      "runtimeLogSha256": "99a0bd3d7813ffc71c862452068dc8b6d11c393a12ec34b1549cc1a8bbee23be",
+      "screenshots": {
+        "settings": "84cc6aafcbe053ba4b62578ba955d43b8c203c4c34baeb5997e70e8850147af2",
+        "dialogue": "4cfef2cb77ffaca792c1845f6e386aa50e7aa542b06a3f6037944eeae94c2ed8"
+      }
+    },
+    "nsfw": {
+      "storyMappings": 1775,
+      "uiMappings": 395,
+      "passed": [
+        "English → Russian → English → Polish",
+        "audio backend PCM and mixing disabled",
+        "gallery opens",
+        "DLC notice and four original opening rows",
+        "blank name becomes Ty"
+      ],
+      "audioEnv": "RENPY_DISABLE_SOUND=1",
+      "runtimeLogSha256": "b323351a857b10e729a2d9ec06e6096a4246854070bc09187a818d0070d30125",
+      "screenshots": {
+        "settings": "8c69296154920bed9a216ea755a4722e97545f81b76bbe713c43ab4207d6cb9b",
+        "dialogue": "4cfef2cb77ffaca792c1845f6e386aa50e7aa542b06a3f6037944eeae94c2ed8"
+      }
+    },
+    "visualReview": {
+      "sharedOpeningDialogue": "Passed. SFW and NSFW original frames are byte-identical. Polish nameplate, accents and dialogue are legible.",
+      "nsfwSettings": "Passed. Language options, Galeria and Polish controls legible and fit.",
+      "sfwSettings": "Captured, visual review pending."
+    }
   }
 }

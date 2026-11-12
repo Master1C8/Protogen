@@ -77,9 +77,10 @@ records broader artwork and media coverage exclusions.
 
 The exact original depot is available as a detached Steam download. Its strict
 build and muted CrossOver opening test passed. The official DLC is identified
-separately. Its partial Polish package passed the muted language selection,
-gallery and opening tests. The DLC still needs 232 authored story rows and a
-full editorial and runtime pass. See the [edition receipt](../edition-qa.json).
+separately. All 2,007 DLC story IDs and 395 UI keys pass strict packaging.
+Both editions reached the credits and returned to the main menu in muted
+CrossOver tests. See the [edition receipt](../edition-qa.json). Independent
+editorial acceptance of the DLC text remains pending.
 The [first review cycle](review-cycle-01/manifest.json) binds 83 story and 12
 UI corrections to 1,017 story IDs and 233 UI keys. The tracked dependency
 specification records exchanges, callbacks, glossary forms, UI bindings and

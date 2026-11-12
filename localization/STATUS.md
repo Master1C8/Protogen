@@ -41,12 +41,13 @@ The original Steam depot and the official 18+ DLC are both in scope. Use the
 base inventory for the 1,785 SFW statements and the DLC inventory for its
 2,007 statements. Reuse the 1,752 shared IDs, then author and review the DLC
 delta against its English script. The [edition receipt](edition-qa.json)
-records the muted CrossOver tests of the Polish SFW build and partial DLC
-build. Strict DLC packaging is pending for Polish and Russian.
+records edition tests. Russian and Polish now cover the complete DLC inventory.
+Strict builds passed for both languages and editions. Four muted CrossOver
+playthroughs reached the credits and returned to the main menu.
 
 | Locales | Rendering requirements and evidence | Status and next action |
 | --- | --- | --- |
-| `pl` | Shipped Nunito passed representative accents in dialogue, nameplate, settings and input. A long sample wrapped to three lines. `Łucja` survived input and interpolation, and the wait advanced to the next story ID. | Probe passed. The [Polish review closure](pl/STATUS.md) is ready for an independent reviewer. The installed 18+ patch differs from the pinned base depot. |
+| `pl` | Shipped Nunito passed representative accents in dialogue, nameplate, settings and input. A long sample wrapped to three lines. `Łucja` survived input and interpolation, and the wait advanced to the next story ID. | Probe passed. The [Polish review closure](pl/STATUS.md) is ready for an independent reviewer. The official DLC has its own pinned English export. |
 | `cs`, `de`, `es`, `es-419`, `fil`, `fr`, `hu`, `id`, `it`, `nl`, `pt-BR`, `ro`, `sw`, `tr`, `vi` | Shipped Nunito covers the synthetic characters in both faces. Vietnamese exercises stacked diacritics. | Unverified in the game. Exercise accents and marks across actual text roles and line breaks. |
 | `bg`, `sr`, `uk` | Shipped Nunito covers the synthetic Cyrillic characters, including Љ, ђ, Ґ and ї. | Unverified in the game. Probe Cyrillic and dynamic mixed-script values. |
 | `el` | Shipped Nunito lacks Greek. Engine-shipped DejaVu Sans covers the synthetic Greek sample in both faces. | Baseline blocked. Test locale styles with DejaVu Sans in the game. |

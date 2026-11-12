@@ -82,3 +82,14 @@ manifest byte-for-byte afterward. All temporary QA scripts were removed.
 
 Measured task-level model usage and its cutoff are in
 `text-assets/ru-crossover-final.Zq92Jf/usage.json`.
+
+## Official 18+ DLC
+
+The complete Russian DLC package covers 2,007 story IDs and 395 UI keys.
+Strict packaging passed with the pinned official DLC export. Both editions
+reached the credits and returned to the main menu in muted CrossOver tests.
+See the [edition receipt](../edition-qa.json). The source uses
+the player speaker for `start_5c6117e8` despite its direct address to
+`[pname]`. The translation preserves both. The DLC introduces the name Katie
+once at `start_75bdc594`. The Russian rendering is «Кэти». The Polish text
+retains `Katie`. Independent editorial acceptance of the DLC remains pending.
