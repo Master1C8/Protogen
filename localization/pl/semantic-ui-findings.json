@@ -1,0 +1,14 @@
+[
+  {"ordinal":91,"key":"Clipboard voicing enabled. ","reason":"The mode copies text to the clipboard instead of speaking it.","proposed":"Kopiowanie tekstu do schowka włączone. "},
+  {"ordinal":155,"key":"Save slot %s: [text]","reason":"Use the slot name for the accessibility label and avoid the ambiguous location phrase.","proposed":"Zapisz w slocie %s: [text]"},
+  {"ordinal":156,"key":"Load slot %s: [text]","reason":"Use the same slot name in the matching accessibility label.","proposed":"Wczytaj ze slotu %s: [text]"},
+  {"ordinal":203,"key":"This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}.","reason":"Preserve the link's promise of the full source code.","proposed":"Ten program zawiera wolne oprogramowanie na różnych licencjach, w tym MIT i GNU LGPL. Pełną listę składników i odnośniki do ich pełnego kodu źródłowego znajdziesz {a=https://www.renpy.org/l/license}tutaj{/a}."},
+  {"ordinal":227,"key":"clipboard voicing","reason":"Keep the mode name consistent and avoid implying speech output.","proposed":"kopiowanie tekstu do schowka"},
+  {"ordinal":245,"key":"Clipboard voicing enabled. Press 'shift+C' to disable.","reason":"Match the clipboard mode announcement while retaining its shortcut.","proposed":"Kopiowanie tekstu do schowka włączone. Naciśnij Shift+C, aby wyłączyć."},
+  {"ordinal":258,"key":"Filename List","reason":"This developer tool lists filenames; preserve the specificity of the label.","proposed":"Lista nazw plików"},
+  {"ordinal":272,"key":"Position copied to clipboard.","reason":"Replace redundant wording with the actual coordinate output.","proposed":"Współrzędne skopiowano do schowka."},
+  {"ordinal":295,"key":"This account does not have permission to write the update log.","reason":"Polish idiom uses zapisywać w or zapis do for the log destination.","proposed":"To konto nie ma uprawnień do zapisywania w dzienniku aktualizacji."},
+  {"ordinal":331,"key":"Screen","reason":"The frame-rate option follows the screen refresh rate.","proposed":"Częstotliwość odświeżania ekranu"},
+  {"ordinal":382,"key":"load <slot>: loads the game from slot","reason":"Keep the slot term consistent with the save and load labels and retain the command operand.","proposed":"load <slot>: wczytaj grę ze slotu"},
+  {"ordinal":383,"key":"save <slot>: saves the game in slot","reason":"Keep the slot term consistent with the save and load labels and retain the command operand.","proposed":"save <slot>: zapisz grę w slocie"}
+]

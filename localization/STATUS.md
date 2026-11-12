@@ -32,14 +32,14 @@ the feasibility baseline receipt.
 Polish is at `editorial` with **1,785/1,785 story entries** and **394/394 string
 keys** in the authored draft. The other 28 locales are at `probe` with zero
 authored entries. The exact 77-ID glossary layers and their two coverage receipts
-verified for all 29 locales. The strict Polish draft build is reproducible.
-Editorial, final resources, runtime, visual and release acceptance remain pending.
+verified for all 29 locales. The Polish semantic pass is complete and its corrected export build is reproducible.
+Independent review, final resources, strict installed validation, runtime, visual and release acceptance remain pending.
 The production Polish runtime ID is
 `polish`. Identifiers prefixed with `vnprobe_` are disposable.
 
 | Locales | Rendering requirements and evidence | Status and next action |
 | --- | --- | --- |
-| `pl` | Shipped Nunito passed representative accents in dialogue, nameplate, settings and input. A long sample wrapped to three lines. `Łucja` survived input and interpolation, and the wait advanced to the next story ID. | Probe passed. Continue the [Polish semantic audit](pl/STATUS.md) from story row 1461. |
+| `pl` | Shipped Nunito passed representative accents in dialogue, nameplate, settings and input. A long sample wrapped to three lines. `Łucja` survived input and interpolation, and the wait advanced to the next story ID. | Probe passed. Prepare the [Polish review closure](pl/STATUS.md). The installed 18+ patch differs from the pinned base depot. |
 | `cs`, `de`, `es`, `es-419`, `fil`, `fr`, `hu`, `id`, `it`, `nl`, `pt-BR`, `ro`, `sw`, `tr`, `vi` | Shipped Nunito covers the synthetic characters in both faces. Vietnamese exercises stacked diacritics. | Unverified in the game. Exercise accents and marks across actual text roles and line breaks. |
 | `bg`, `sr`, `uk` | Shipped Nunito covers the synthetic Cyrillic characters, including Љ, ђ, Ґ and ї. | Unverified in the game. Probe Cyrillic and dynamic mixed-script values. |
 | `el` | Shipped Nunito lacks Greek. Engine-shipped DejaVu Sans covers the synthetic Greek sample in both faces. | Baseline blocked. Test locale styles with DejaVu Sans in the game. |

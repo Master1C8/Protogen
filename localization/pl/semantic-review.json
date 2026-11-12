@@ -1,0 +1,161 @@
+{
+  "steamBuild": 11915262,
+  "locale": "pl",
+  "reviewedStoryRows": [
+    1,
+    1785
+  ],
+  "reviewedStringKeys": [
+    1,
+    394
+  ],
+  "reviewedImagePlanCases": [
+    "main-menu-logo",
+    "watch-cutscenes"
+  ],
+  "imagePlanScope": "Registered logo and both watch videos. Uses existing asset evidence. Registry coverage exclusions remain.",
+  "changedStoryIds": [
+    "start_3df23885",
+    "start_5588e9a5",
+    "start_f4c35bbe",
+    "start_574afc36",
+    "start_4467b5d2",
+    "start_8d2002d0",
+    "start_6818c4a5",
+    "start_c949d040",
+    "start_0e4b5334",
+    "start_c3e50d9c",
+    "start_1ba0c5ce",
+    "start_8ecd4d85",
+    "start_b88144a8",
+    "start_d7de4cde",
+    "start_3f083d6d",
+    "start_80bfdcf4",
+    "start_7b0ad6e0",
+    "start_5ca5e5a5",
+    "start_2f678da3",
+    "start_b55390fc",
+    "start_8012a83b",
+    "start_0d5d5c0b",
+    "start_82af50fc",
+    "start_674f057f",
+    "start_14a0d744",
+    "start_cf15cf90",
+    "start_b556caa4",
+    "start_f2cbb71b",
+    "start_83a57c9b",
+    "start_19cc128d",
+    "start_bc3a7bb1",
+    "start_112eb171",
+    "start_dacdc7fc",
+    "start_75aac808",
+    "start_9128553a",
+    "start_a65ee12a",
+    "start_eba73bd8",
+    "start_e5aec2f3",
+    "start_561280fc",
+    "start_bf2c662f",
+    "start_65446899",
+    "start_ae852c15",
+    "start_b31daf7e",
+    "start_68ed83cb",
+    "start_d7a32f99",
+    "start_32af1b39",
+    "start_66560e7e",
+    "start_015c5edc",
+    "start_d0b360a7",
+    "start_532c0456",
+    "start_9c767946",
+    "start_a4b7b5ee",
+    "start_14798a55",
+    "start_82fce081",
+    "start_5a6a21f3",
+    "start_85e38cf3",
+    "start_57e1a7da",
+    "start_5cf6a3ae",
+    "start_6651f069",
+    "start_d1d6ff34",
+    "start_b9849399",
+    "start_e5a5c236",
+    "start_afa2e8a5",
+    "start_b16a544e",
+    "start_552f0361",
+    "start_c9e3ae5b",
+    "start_364819a2",
+    "start_a49e0c16",
+    "start_a77cb623",
+    "start_905dfcc3",
+    "start_d1fc5d10",
+    "start_4c4bef61",
+    "start_d84fb59a",
+    "start_f1b3b5b5",
+    "start_33aaae8c",
+    "start_e7efbc88",
+    "start_74cc284b",
+    "start_5e8921dc",
+    "start_9f581ec8",
+    "start_493b277c",
+    "start_9451eb50",
+    "start_9bc2ab42",
+    "start_bf8935a8"
+  ],
+  "changedUiKeys": [
+    "Clipboard voicing enabled. ",
+    "Save slot %s: [text]",
+    "Load slot %s: [text]",
+    "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}.",
+    "clipboard voicing",
+    "Clipboard voicing enabled. Press 'shift+C' to disable.",
+    "Filename List",
+    "Position copied to clipboard.",
+    "This account does not have permission to write the update log.",
+    "Screen",
+    "load <slot>: loads the game from slot",
+    "save <slot>: saves the game in slot"
+  ],
+  "baselineCommit": "10c02b15235f8abe9280dcaa514640ec837a23af",
+  "reviewedSha256": {
+    "dialogue.tsv": "dc7eebc670c7faa3e5495803a3a154832ba439b31257163f23eaa0275fd409f4",
+    "strings.json": "fa7107a42da1982e415fb2be4ab6cc8958003d534b2b89aa70f65d44b2cb3c1a"
+  },
+  "currentSha256": {
+    "dialogue.tsv": "bf1755f461695b07ccee90342196be439612e7963504918c9184ac91ba7e6912",
+    "strings.json": "071cc66f96343b7ce8c4853751ccfb1cca3733fdeca35da26b414a70cd32fa85",
+    "semantic-findings.tsv": "9297e5ff413199383ec001eddb61a220704126d52855146e034f509f643722d7",
+    "semantic-ui-findings.json": "7ef9aa6326fe414b57efe22cad051d39d082b8228e4650ff853c6bff57241947"
+  },
+  "inventorySha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+  "specialScenesSha256": "5d3950c98e01d34a49bca5ef8862c5ab5dcec2558c42f709748c68e5134af923",
+  "glossarySha256": "9c711f181bed107fa66075abcd522cf11903844b69f89a62d8496ecdae5549ad",
+  "workflowSha256": "37ff4269163b17cab4030c2d1c78651f7a79b9c8be3d569a2b9ea7f17748a5dc",
+  "exportBuildSha256": {
+    "game/vnrevival_protogen_preferences.rpy": "a27d1ad9f843ee589dd96376fd511704695d187f7f289d86d05daa7e8bb39f63",
+    "game/vnrevival_protogen_display.rpy": "dea998be402613b5c22320b3bd121101c05957f3aeb40ad22561c5d546d56c35",
+    "game/tl/polish/vnrevival_protogen_text.rpy": "678485bc11a01839a078a73dcb386252dda771d6437fe56b6753c5afa4d682a1"
+  },
+  "installedValidation": "Failed at exact source identity. Installed sources contain the separately applied 18+ patch.",
+  "installedMismatches": {
+    "game/script.rpy": {
+      "pinned": {
+        "sha256": "b16fbbef9217fb875b4da3f6955f3d5267f7e280595ad59fe98dd032deb37c40",
+        "compiledSha256": "6324955251941cdcf60e8ab0fa4cd2858220908eddf7695d7b69b98d395e39a3"
+      },
+      "observed": {
+        "sha256": "6f40e42570872e2e803e6522687e6f1f4eec89abb211d4dff3ecb0b29df72616",
+        "compiledSha256": "27849be1f808c74f0c9d3d4df70ec6c568cce9d0e83d6f76eac208367e418ec1"
+      }
+    },
+    "game/screens.rpy": {
+      "pinned": {
+        "sha256": "43a13a7b0e9bdfb2e70b982876a272eefffebbb336711e461e342b5ab95eb170",
+        "compiledSha256": "66e9c5ea586412b828f280ab01848e8f8fe903020466ea1ea8c322f3a2cd83fb"
+      },
+      "observed": {
+        "sha256": "33e830cc2b578c418c389e50c33602d9101993387e2881f26ed1bbf23ce63bdf",
+        "compiledSha256": "795b4e9e2a300cafae717ffecba709692adc9c32a8d94618cf0e71a58ad2f396"
+      }
+    }
+  },
+  "independentReview": "pending",
+  "dependencyClosure": "pending"
+}

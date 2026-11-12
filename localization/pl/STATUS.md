@@ -42,9 +42,9 @@ The stable IDs remain in [dialogue.tsv](dialogue.tsv) and exact UI keys in
 - 394/394 string keys authored, including the engine accessibility,
   developer, updater and renderer strings.
 - Authored dialogue SHA-256
-  `dc7eebc670c7faa3e5495803a3a154832ba439b31257163f23eaa0275fd409f4`.
+  `bf1755f461695b07ccee90342196be439612e7963504918c9184ac91ba7e6912`.
   Authored strings SHA-256
-  `fa7107a42da1982e415fb2be4ab6cc8958003d534b2b89aa70f65d44b2cb3c1a`.
+  `071cc66f96343b7ce8c4853751ccfb1cca3733fdeca35da26b414a70cd32fa85`.
 - The generated gallery uses the existing `Return` key in translated locales,
   while the quick menu uses `Back`. The native CrossOver probe inspected the
   captions and action classes in English → Polish → Russian → English.
@@ -68,13 +68,18 @@ The stable IDs remain in [dialogue.tsv](dialogue.tsv) and exact UI keys in
 
 ## Editorial checkpoint
 
-The semantic pass started on the authored hashes above after strict preflight.
-Story rows 1–1460 (`start_6f3a1b7b` through `start_08413401`) were read
-against English and the approved Polish glossary. There are 60 proposed
-corrections in [semantic-findings.tsv](semantic-findings.tsv), SHA-256
-`0a4484d73c31cad5b253cea9e51392b90a536609b78b05b4034a43982d3c63ec`.
-Continue with story row 1461 (`start_984bbb30`). The 394 UI keys and image-text
-plan still need their semantic review. Apply accepted corrections together
-after the full pass and generate the dependency closure for independent review.
-Final CrossOver verification remains pending. The existing game session was
-running when the draft installer was checked in isolation.
+The semantic pass covered all 1,785 story rows, 394 UI keys and both
+registered image/video plans. It compared the complete draft with English and
+the approved Polish glossary. Applied 83 story and 12 UI corrections. The
+[review receipt](semantic-review.json) pins both corpus versions, exact changed
+IDs and keys, and the reproducible export builds. The source registry still
+records broader artwork and media coverage exclusions.
+
+The installed Steam build now contains the separate 18+ patch. Its
+`game/screens.rpy` and `game/script.rpy` and corresponding bytecode differ
+from the pinned base depot. The strict installed-source gate correctly stops.
+The corrected corpus validates and builds reproducibly from the verified
+English export. Final strict build and muted CrossOver testing require access
+to a pristine build 11915262. Preserve the patched installation and both save
+stores. The next editorial step is to build the dependency closure and obtain
+an independent review of the exact changes.
