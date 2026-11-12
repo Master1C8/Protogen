@@ -1,0 +1,56 @@
+# Polish localization checkpoint
+
+Steam build 11915262, source `en`, site locale `pl`, Ren’Py locale `polish`.
+Standard localization. The approved target glossary digest is
+`9c711f181bed107fa66075abcd522cf11903844b69f89a62d8496ecdae5549ad`.
+The shared [process and source binding](../STATUS.md) applies.
+
+## Probe and special scenes
+
+The muted CrossOver probe reached the fourth original story ID with the submitted
+name `Łucja`. The opening sample occupied three wrapped lines and 94 of the
+210 virtual pixels available under the dialogue baseline. The settings heading,
+navigation button and input prompt showed the Polish accents without clipping.
+Both player save stores matched before and after. See
+`text-assets/polish-wrap-retry.G6Y0wS/acceptance.json`
+(`9a6e8a67b701d01eb0913bd506aad42f7f4a96db2d0e70f28555bef27215d76d`).
+
+The special-scene wording is pinned to registry SHA-256
+`5d3950c98e01d34a49bca5ef8862c5ab5dcec2558c42f709748c68e5134af923`
+and English inventory SHA-256
+`8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff`.
+The 123 story IDs in the registry were authored first. Their decision snapshot
+has dialogue SHA-256
+`211547d2eccefcb11e8a48107ffb20f991aeb6c41faca661fc558fb304ce3ac4`
+and string SHA-256
+`145cf51ae8c3f67378cd4a0741f61037748a42c87d7a936991f357a595d2ab6f`.
+The stable IDs remain in [dialogue.tsv](dialogue.tsv) and exact UI keys in
+[strings.json](strings.json).
+
+| Case | Wording and preserved behavior | Final runtime check |
+| --- | --- | --- |
+| player-name | `Nazywam się…`, fallback `Ty`. Keep the original 12-character limit, trim, and comparison to the source empty value. Use the exact entered name in the nameplate and keep `[pname]` uninflected. Where an object case is required, use a pronoun and keep the name in a separate nominative or vocative construction. | Custom and empty/whitespace input, limit, nameplate and later name references. |
+| juno-nameplate | `Juno` and `NV-0903`. Juno uses feminine agreement. The display mapping preserves the `j` speaker and its original binding to `gname`. | First introduction and later nameplates, including English after switching back. |
+| save-formats | `Strona {}`, `Zapisy automatyczne`, `Szybkie zapisy`, `Puste miejsce`. Format full dates as weekday, day, genitive month, year and time. Leave navigation arrows and actions intact. | Compare empty and occupied slots and numbered, auto and quick pages. Check that the engine uses the authored month forms without changing the saved timestamp. |
+| dialogue-timing | Keep every `{w}` in its intended beat and the final `{cps=5}...{/cps}` unchanged. The interrupted `Inży… {w}Co?` repeats the beginning of `inżynieria genetyczna`. | Wait and advance normally through a double wait and the scoped closing ellipsis. |
+| main-menu-logo | Keep the branded title artwork. Its text remains `My Furry Protogen`. | Inspect the logo and surrounding Polish navigation at the original size. |
+| watch-cutscenes | The reviewed watch assets contain no caption. Preserve both video files and all 20 original call sites. | Verify that a movie advances to its original next story ID. |
+
+The draft validator checks exact IDs, markup and preservation. Full semantic
+audit, independent diff review, strict package and final in-game validation are
+pending.
+
+
+## Current corpus
+
+- 222/1,785 story entries, including all 107 consecutive opening rows and the
+  registered special-scene lines in later scenes.
+- 109/394 string keys, including the menu, settings, save dates and keyboard
+  help through “Hides the user interface.”
+- The quick-menu rollback is `Cofnij`. The gallery exit uses the glossary's
+  `Wróć`, the same wording as `Return`. The base file currently routes both
+  uses through the same `Back` key. The package needs an explicit gallery
+  context binding and a regression for both actions.
+- Draft validator passed on the pinned source and all 747 protected occurrences.
+  Next story batch begins at row 108. Picker exposure, final layout, complete
+  semantic audit and independent review are pending.

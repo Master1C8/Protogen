@@ -14,7 +14,7 @@ from install_language_picker import (
 )
 
 
-LOCALES = {"ru": "russian"}
+LOCALES = {"ru": "russian", "pl": "polish"}
 STORY_ROLES = {"dialogue", "narration"}
 STRING_ROLES = {"engine-string", "input-prompt", "interface", "speaker-label"}
 EXTRA_KEYS = {"Language", "Juno", "Damien", "Pixie"}
