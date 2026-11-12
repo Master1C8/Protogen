@@ -43,7 +43,7 @@ pending.
 
 ## Current corpus
 
-- 1,024/1,785 story entries, including all 961 consecutive opening rows and the
+- 1,349/1,785 story entries, including all 1,304 consecutive story rows and the
   registered special-scene lines in later scenes.
 - 394/394 string keys authored, including the engine accessibility,
   developer, updater and renderer strings. Full editorial review remains pending.
@@ -61,5 +61,5 @@ pending.
   verified exact upgrade, idempotence, conflicting-file rollback and rejection
   of unknown display source or bytecode.
 - The draft validator passed on the pinned source and all 747 protected
-  occurrences. Next story batch begins at row 962. Picker exposure, final
+  occurrences. Next story batch begins at row 1305. Picker exposure, final
   layout, complete semantic audit and independent review are pending.

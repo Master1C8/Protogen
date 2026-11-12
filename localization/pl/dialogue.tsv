@@ -959,24 +959,349 @@ start_c05ca554	Nie okłamuj mnie, [pname]. Wcale się nie pogubiłeś. Postanowi
 start_44c1a699	Myślałam, że masz doświadczenie i wiesz wszystko o swojej planecie. A kim się okazałeś?
 start_ed7778b0	Uwiązałam sobie kamień u szyi! A gdybyś wczoraj zginął? Co bym zrobiła? Co powiedziałabym w twojej wiosce?
 start_769a3ff8	Co za różnica? Przecież żyję!
+start_f157e4b8	Żyjesz dzięki mnie!
+start_914a88ee	Juno tupnęła ze złości. Oddychała ciężko, a twarz na jej hełmie zrobiła się jaskrawoczerwona od nieukrywanej wściekłości.
+start_996c7338	Nie wiedziałem, jak się wytłumaczyć. Przecież Juno miała rację.
+start_561280fc	Dogadałem się z nią, choć we wszystkim ją okłamałem. Prawdziwe było tylko moje imię. A ona miała ważną misję. Miała badać planetę, a nie rozwiązywać za mnie moje problemy.
+start_355731cf	Zrobiło mi się potwornie wstyd. Od razu pożałowałem, że od początku nie powiedziałem prawdy. Twarz mi zapłonęła.
+start_5a93d257	Przepraszam… Juno, naprawdę cię przepraszam. Nie chciałem kłamać, tylko…
+start_c8be3c6f	Tylko co? Skąd się wziąłeś nad rzeką, skoro nigdy nie opuszczałeś wioski?
 start_bf2c662f	Po co się ze mną zabrałeś? Czego chcesz, [pname]?
+start_1bcd75a3	Przygryzłem wargę. Ciężko westchnąłem, usiadłem na zwalonym pniu i ukryłem twarz w dłoniach.
+start_2112df11	Pamiętasz, jak opowiadałem ci o chłopcu, który został Wybrańcem? Podobno wybrała go Matka Niebios i…
+start_7e6f0945	Pamiętam. I co z tego? Co to ma do rzeczy?
+start_d4d0819a	To ja jestem tym chłopcem. Miałem trzy lata, kiedy starsi powiedzieli mi, że czeka mnie wielkie przeznaczenie i że Matka Niebios z góry ustaliła całe moje życie.
+start_d0887a2c	Że ma dla mnie zadanie i dlatego mnie tu posłano.
+start_fa78d33d	Według proroctwa miałem kiedyś zostać władcą Północnej Doliny i jej Wybawicielem. Miałem stawić czoła jakiemuś straszliwemu zagrożeniu.
+start_60dc36ed	Nigdy nie miałem wyboru, rozumiesz?
+start_f8c95559	Wychowali mnie na Wybrańca. Traktowali mnie jak Wybrańca, a nie jak zwykłego człowieka. Nawet rodzice dzień w dzień mówili do mnie „Wybrańcze” albo „Wybawicielu”, zamiast wołać mnie po imieniu.
+start_0abd2ded	Wszystkiego mi zabraniano. Jadłem według rozkładu, dzień miałem zaplanowany co do minuty. Nie wolno mi było czytać tego, co chciałem, robić tego, co chciałem, ani chodzić tam, gdzie chciałem.
+start_e00544de	Żyłem tam jak domowe zwierzątko! I w dwudzieste urodziny już tego nie wytrzymałem.
+start_bfdffee3	Przemawiałem przed całą wioską. Na każde urodziny musiałem przygotować mowę, a tym razem po prostu… Wyrzuciłem z siebie wszystko, co się we mnie nazbierało.
+start_14a7fb29	Że nie ma żadnej Matki Niebios ani przeznaczenia i że w ogóle w to wszystko nie wierzę. Powiedziałem to przy wszystkich, przy starszych, przy rodzicach…
+start_d301c514	Prawie zaciągnęli mnie do uzdrowicieli. Na pewno zamknęliby mnie w domu i po prostu czekali na to zagrożenie, a ono mogło wcale nie nadejść!
+start_db348ad0	I całe życie spędziłbym w czterech ścianach! Jak jakaś ozdoba, a nie człowiek…
+start_fdde5be4	Więc uciekłem. Po prostu biegłem przez las, aż zabrakło mi sił.
+start_e832be29	Nie wiedziałem, co robić. Dokąd miałem teraz pójść? W lesie sam bym zginął. A wrócić do wioski…
+start_36fd3ba6	To by znaczyło, że sam się poddaję. Na resztę życia.
+start_cc117364	A ja nie chcę tak żyć, Juno! Chcę żyć jak zwykły człowiek. Podróżować, zobaczyć świat…
+start_d25aed34	Wtedy pojawiłaś się ty i powiedziałaś, że potrzebujesz przewodnika. Uznałem, że to moja szansa. Że teraz mogę uciec i nikt mnie nie znajdzie…
+start_cc95620f	Że zobaczę świat, a ty mi w tym pomożesz. No, ja pomogę tobie, a ty mnie… Nie chciałem nikomu zaszkodzić, Juno. Naprawdę.
+start_e0d7aa98	Po prostu… chciałem zostać twoim przyjacielem.
+start_65446899	Westchnąłem i przetarłem twarz dłońmi. Juno wysłuchała mojego wyznania i nadal stała w tym samym miejscu, nie wiedząc, co odpowiedzieć.
+start_551a75b2	Przepraszam, że cię okłamałem. Ale naprawdę lubię z tobą podróżować. Nigdy się z nikim nie przyjaźniłem. Nigdy nie miałem nikogo!
+start_5295a02b	Tylko tego Damiena, o którym ci mówiłem. Ale on… jemu na mnie nie zależy, rozumiesz?
+start_ae852c15	Tylko nazywa się moim przyjacielem, ale tak naprawdę… Wcale nim nie jest.
+start_06b72c98	Zrozumiem, jeśli zechcesz, żebym odszedł, ale chciałbym zostać z tobą. Z nikim nigdy nie było mi tak dobrze. I… dziękuję, że wczoraj mnie uratowałaś.
+start_46b4773c	Gdyby nie ty, naprawdę by mnie już nie było.
+start_e8927096	Kiedy skończyłem mówić, odwróciłem wzrok i wbiłem go w ziemię. Bałem się, że Juno mnie odprawi i każe mi wrócić do wioski.
+start_825df00f	Albo, co gorsza, po prostu mnie tutaj zostawi.
+start_842e82aa	A stąd nigdy nie dotarłbym do Północnej Doliny. Byliśmy prawie po drugiej stronie planety, choć zdaniem Juno ta planeta była maleńka.
+start_37a057bc	Nie chciałem, żeby wszystko skończyło się tak nagle. Przecież dobrze się razem bawiliśmy…
+start_cf4a4025	Juno westchnęła, podeszła do mnie i usiadła obok na pniu.
 start_b31daf7e	Nie potrzebuję przyjaciół, [pname]. Właśnie dlatego podróżuję sama. Żeby ich nie zdobywać.
+start_03ec0bbe	Dlaczego? Myślałem, że jesteśmy… No wiesz, myślałem, że lubisz spędzać ze mną czas.
+start_3063f98d	Lubiłam i nadal lubię. Świetnie mi się z tobą spędza czas, jest wesoło i ciekawie, ale nie potrzebuję tego.
+start_02d419c7	To znaczy… No… Nie mogę. Nie powinnam się do nikogo przywiązywać, bo to się źle kończy.
+start_e75221b2	Jak się kończy?
+start_5aafb831	Juno przez chwilę milczała, aż w końcu ustąpiła.
 start_a07490fb	Przepraszam, [pname], ja też cię okłamałam…
 start_5837447e	Tak naprawdę miałam przyjaciela. {w}Najbliższego, jakiego kiedykolwiek miałam.
+start_3267bf95	Poznaliśmy się na jednej z planet, które badałam. Miał na imię Toshi.
+start_443c05bf	Był moim przewodnikiem na tej planecie, ale tak dobrze się dogadywaliśmy, że został też moim przyjacielem.
+start_7254dd08	Nic go tam nie trzymało. Nie miał ani rodziny, ani przyjaciół, więc postanowił polecieć ze mną.
+start_f59c8031	Długo razem podróżowaliśmy, żyliśmy obok siebie i pomagaliśmy sobie nawzajem. A potem…
+start_c262c576	No cóż, na jednej z planet wpadliśmy w pułapkę. I Toshi…
+start_2e831ce6	Juno urwała. Głos jej drżał. Zacisnąłem usta, już rozumiejąc, co spotkało Toshiego.
+start_d1f9662b	Juno wyglądała na zupełnie załamaną.
+start_16e55931	Kiedy Toshi zginął, nic nie mogłam zrobić. A nawet jeśli mogłam, to nic nie zrobiłam. Po prostu nie zdążyłam. Zdołałam tylko sama się wydostać.
+start_5ad4e67c	Namawiał mnie, żebym uciekała. Mówił, żebym nawet nie myślała o zostaniu z nim. Musiałam uciekać, inaczej zginęlibyśmy razem.
+start_68ed83cb	Przez pewien czas myślałam, że lepiej byłoby zginąć razem z nim. Nie czułabym wtedy tej ciągłej winy. Cokolwiek robię, ona zawsze mi towarzyszy.
+start_da63ea5f	I nic tego nie naprawi. Toshiego nie da się przywrócić do życia. Kiedy doszłam do siebie, przysięgłam, że już nigdy się z nikim nie zaprzyjaźnię.
+start_2894a433	I że nawet nie przywiążę się do tych, z którymi przemierzam planety. Przewodnicy byli dla mnie odtąd tylko pomocnikami. Starałam się trzymać ich na dystans.
+start_c05b96aa	Ale z tobą… Z tobą naprawdę jest mi dobrze. Tak jak z Toshim, choć oczywiście w inny sposób.
+start_b6293314	A kiedy się pojawiłeś, zrozumiałam, jak samotna byłam przez cały ten czas. Tylko że nie mogę się przywiązać, rozumiesz?
+start_90c1f162	Nie mogę do tego dopuścić, bo mogę znów kogoś stracić. Nie zniosę tego drugi raz. Co by się stało, gdybym wczoraj cię nie uratowała?
+start_50c9d85c	Przyznałem z westchnieniem:
+start_9e335c0b	Zginąłbym.
+start_e9d2396a	Właśnie! Na moich oczach. A kiedy zobaczyłam, jak leżysz, a ten robak zaraz cię pożre…
 start_78736a15	Zamarłam. {w}Jakbym znów zobaczyła Toshiego i cała historia miała się powtórzyć.
+start_29e1a51d	Nie wiem, jakim cudem zdołałam się pozbierać i ci pomóc.
+start_d89af29b	Nie chcę znowu stracić przyjaciela, rozumiesz? To za trudne…
+start_e941c797	Ale nie możesz być sama przez całe życie.
+start_0d23955f	Juno spojrzała na mnie ze smutkiem. Nie wiedziałem, co czuje. Nigdy nie straciłem przyjaciela. Przecież nigdy żadnego nie miałem.
+start_57869881	Mogłem sobie tylko wyobrazić, jak strasznie jest dźwigać taki ciężar i co dzień się obwiniać.
+start_d7a32f99	Wiedziałem jednak, że nikt nie powinien dzień w dzień się obwiniać. Z takim ciężarem żyło się zbyt trudno.
+start_af952740	Nie masz wpływu na to, do kogo się przywiążesz. A jeśli już do tego doszło… Może tak miało być?
+start_58a8927a	Juno uśmiechnęła się smutno.
+start_5381d51f_1	Przeznaczenie?
+start_1c212b0e	Zaśmiałem się cicho, rozumiejąc, do czego nawiązuje.
+start_c617ee4c	Coś w tym rodzaju. Wiesz, jestem pewien, że Toshi nie chciałby, żebyś do końca życia była sama i nikogo do siebie nie dopuszczała. Co by ci teraz powiedział, gdyby to wszystko usłyszał?
+start_712e11d0	…
+start_542127fb	Juno zastanowiła się, potem cicho się roześmiała i powiedziała coś surowym tonem w języku, którego nie znałem.
+start_22363890	Cokolwiek to znaczy.
+start_32af1b39	W przekładzie to znaczy… Hm, powiedzmy: „No już, otrzyj nos i przestań się zachowywać jak dziecko!”. Toshi był surowy, kiedy ktoś się nad sobą pastwił.
+start_01819494	Myślał trochę podobnie jak ty. Uważał, że nie unikniesz tego, co ma się wydarzyć, i nie zmienisz tego, co już się stało.
+start_1c86037d	Tylko by się rozzłościł, gdyby wiedział, że przez tyle lat bałam się odezwać do swoich pomocników choćby słowem więcej, a co dopiero zacząć rozmowę.
+start_557ae46f	Bo im więcej rozmawiasz z nimi o sprawach niezwiązanych z pracą, tym bardziej się przywiązujesz.
+start_df743053	Chyba właśnie na siebie trafiliśmy. Ja nie miałem przyjaciół, bo nikt nie chciał się ze mną przyjaźnić.
+start_fcaa2d9e	To znaczy wszyscy chcieli się przyjaźnić z Wybrańcem, a nie ze mną.
+start_1836454b	A ty nie masz przyjaciół, bo boisz się z kimś zaprzyjaźnić. Chyba jesteśmy z tej samej gliny.
+start_2457d562	Juno tylko się uśmiechnęła.
+start_1c086c9c	Może masz rację.
+start_8fa495bc	Spróbuję ci pomóc, Juno, obiecuję. Nie musimy od razu, no wiesz, być sobie bardzo bliscy.
+start_aa88487a	Na razie możemy się po prostu przyjaźnić i przywyknąć do siebie, a jeśli zostaniemy najlepszymi przyjaciółmi, to niech tak będzie.
+start_0167f1df	I postaram się nie być dla ciebie ciężarem. Dobrze?
+start_a5349097	Wyciągnąłem rękę do Juno. Spojrzała na nią z niezrozumieniem, ale chyba szybko sobie przypomniała, co to znaczy.
+start_eeefa321	Uśmiechnęła się, pociągnęła nosem, jakby płakała, i uścisnęła mi dłoń.
+start_9d7884bb	Dobrze. Niech wszystko toczy się swoim torem, a potem zobaczymy. Prawda?
+start_112ba7dd	Tak! No to idziemy szukać czegoś do twoich badań?
+start_be1da942	Tak, niedługo się ściemni. Załatwmy to jak najszybciej. A potem poszukamy jeszcze tych twoich korzeni.
+start_e42f01a8	O mało się nie wzdrygnąłem.
+start_0a4e0551	Eee… tak przy okazji chciałem ci powiedzieć… Szczerze mówiąc, nie wiem, co to za korzenie. Są obrzydliwe. Nigdy więcej nie chcę ich jeść.
+start_d2209f69	Juno wykrzyknęła:
+start_c2e287ea	To po co je jadłeś?!
+start_5d8dfecf	Po prostu nie odróżniam jadalnych grzybów od niejadalnych, a korzenie są bezpieczniejsze niż grzyby… Krótko mówiąc, okłamałem cię.
+start_66560e7e	Przepraszam. Ale to ostatnia rzecz, w której cię okłamałem! Naprawdę!
+start_9f128e4b	Muszę przyznać, że coś takiego podejrzewałam. Te korzenie strasznie śmierdziały. Nie wiem, jak zdołałeś je zjeść. Co to właściwie było?
+start_20de8aad	Szczerze? Nie mam pojęcia.
+start_ebd2fbd1	Juno popatrzyła na mnie, a potem roześmiała się na głos.
 start_59d66fc8	Co z tobą, [pname]! Zjadłeś takie świństwo, byle nie powiedzieć prawdy. Wiesz, można ci pozazdrościć wytrzymałości. Ja chyba nie dałabym rady.
+start_1da27163	Po prostu o tym zapomnijmy… I znajdźmy coś lepszego.
+start_761e051a	Zapomnieć? O nie, będę ci o tym przypominać codziennie!
+start_9d635d9d	Im dalej wędrowaliśmy po planecie, tym bliżsi stawaliśmy się sobie z Juno. Było mi z nią swobodnie i dobrze. Wszystko wydawało się na swoim miejscu, jakbyśmy mieli się spotkać.
+start_1731074c	Czułem się tak, jakbyśmy znali się od dawna, tylko nie widzieli się przez wiele lat, a teraz wreszcie znowu się odnaleźli.
+start_6fa5c614	Zgodnie z obietnicą pomagałem Juno, jak mogłem. Uczyłem się zbierać próbki, rzecz jasna wyłącznie pod jej ścisłym nadzorem, i przypominałem sobie wszystko, czego nauczyłem się w szkole o przyrodzie.
+start_ed0d6d5a	Robiłem, co mogłem, żeby być dla Juno pomocnikiem, a nie ciężarem.
+start_6951128a	Pomagałem jej przy różnych rzeczach na wahadłowcu. Wpuściła mnie nawet do laboratorium i wszystko mi pokazała, choć nadal nie rozumiałem większości tego, co mówiła.
+start_e0c1405c	Juno śmiała się życzliwie i zapewniała, że z czasem na pewno się w tym połapię.
+start_9325a3a7	Przemierzyliśmy cały świat, a ja wcześniej nie miałem pojęcia, jaki jest wielki. Dla Juno nasza planeta była oczywiście maleńka, ale dla mnie była bezkresna.
+start_f367c0c9	Dla chłopaka, który całe życie spędził w jednym miejscu, w jednym domu,
+start_1983bfb9	budzić się co rano w innym miejscu było prawdziwym cudem.
+start_6d18add5	Coraz częściej myślałem, żeby poprosić Juno, by zabrała mnie w kosmos, kiedy skończy badania na naszej planecie.
+start_ecd01517	Brakowało mi wyobraźni, żeby przewidzieć, co tam zobaczę. Nie mogłem się doczekać lotu, choć wiedziałem, że będzie strasznie trudno przekonać Juno, by mnie zabrała.
+start_caecec88	Może nigdy by się na to nie zgodziła.
+start_2fd33b55	Nie chciałem myśleć, co by było, gdyby pewnego ranka Juno po prostu odleciała. Równie nagle, jak się pojawiła, niczym huk pośrodku cichego lasu.
+start_232a5d21	Zapomniałaby o mnie? Zostawiłaby to wszystko za sobą?
+start_b86baf43	Nie potrafiłem sobie wyobrazić, żebym sam mógł zapomnieć i zostawić za sobą naszą przyjaźń, nasz kontakt i wszystkie rozmowy od serca.
+start_e7324cb4	Było to dla mnie coś nowego i tak wspaniałego, że nie chciałem nawet sobie wyobrażać, jak by to było wszystko stracić.
+start_ed63ce1e	Czasami myślałem o rodzicach. Czy o mnie myślą? Czy mnie wspominają? Co się z nimi stało, co się stało z wioską?
+start_804283ad	Czasem śniło mi się, że wioska została doszczętnie zniszczona. Że strawił ją pożar, gdy tylko odszedłem. Proroctwo się spełniło i to była moja wina.
+start_015c5edc	W tych snach byłem bezradny i czułem się niewyobrażalnie winny. Rano budziłem się tak przybity, że nawet Juno to zauważała i pytała, czy wszystko w porządku.
+start_3ff24c3a	Ale nie mogłem jej powiedzieć, o czym naprawdę myślę. Nie chciałem ubierać tych myśli i obaw w słowa.
+start_83165cb1	Wtedy stałyby się rzeczywistością.
+start_ec3f54cb	A tego nie chciałem. Nie chciałem przyznać, że naprawdę jestem czemuś winien. Że rzeczywiście zostawiłem wioskę i rodzinę w niebezpieczeństwie.
+start_b14fe657	Ruszyliśmy z Juno dalej na północ i wkrótce znaleźliśmy się wśród rozległych wzgórz i rzadkich lasów.
+start_eb012378	Gdy tylko wyszliśmy z wahadłowca, uderzył nas dziwny zapach. Śmierdziało zgnilizną, jakby od dawna rozkładało się tu mięso.
+start_327dbe54	Spojrzeliśmy na siebie i zrozumiałem, że Juno też to czuje.
+start_69e731d2	Co tak śmierdzi?
+start_458f2ced	Nie wiem… Może coś zdechło w pobliżu?
+start_e5f35f4c	Hm…
+start_cdcb3c15	Poszliśmy ścieżką dalej w las. Zacząłem uważnie przyglądać się okolicznym drzewom i krzewom.
+start_d843c7ee	Wyglądały zupełnie inaczej, niż pamiętałem. Na ilustracjach w książkach te okolice wyglądały całkiem inaczej.
+start_fe9e6702	Liście drzew i krzewów pokrywały teraz dziwne czerwone kropki i smugi. Cała zieleń jakby zwiędła. Tylko dlaczego?
+start_5ef9fa07	Na zimę było jeszcze za wcześnie, a powietrze było całkiem ciepłe…
+start_96acf6b0	Tak ma być?
+start_cf9cbb07	Podszedłem do Juno, która trzymała w dłoniach kilka pomarszczonych, poczerniałych liści.
+start_48f873a8	Nie. Zdecydowanie nie powinno tak być.
 start_df9b08f4	Wyglądają, jakby… {w}Zwiędły?
+start_55c2c595	Ale na to jeszcze za wcześnie. Pogoda jest ładna, do zimy daleko… Dlaczego tak się stało?
+start_302fb376	Juno zmarszczyła brwi. Po minie na hełmie było widać, że intensywnie nad czymś myśli.
+start_071fb6a2	Pobiorę próbki. Chyba trzeba ustalić, co to za choroba.
+start_f1b69ec8	Myślisz, że to jakaś infekcja?
+start_203fdd02	Juno skinęła głową, wyraźnie spięta.
+start_2da4cddc	To nie może być przypadek. Spójrz na las. Wszędzie tak jest, nawet z trawą.
+start_909ec803	Co masz na myśli? Widziałaś już kiedyś coś takiego?
+start_33356d0a	W moim głosie brzmiała panika. Nie wiedziałem, jakie nieszczęście spotkało ten las, ale czarne plamy na roślinach nie wróżyły nic dobrego.
+start_dc7b8f5a	Juno wzruszyła ramionami i nie odpowiedziała nic konkretnego.
+start_6c9c6194	Nie jestem pewna. Może nie.
+start_70279a69	Ale możesz ustalić, co to jest, prawda?
 start_acd522c1	Spróbuję, [pname], obiecuję.
+start_d0b360a7	Przyjąłem jej odpowiedź. I tak nie miałem lepszej. Tylko w piersi zaczął mi narastać niepokój. Nigdy wcześniej czegoś takiego nie widziałem.
+start_d30504b4	Kiedy zmieniała się pora roku i liście opadały, wyglądało to zupełnie inaczej.
+start_d85f9e1c	Liście nigdy nie czerniały. Najwyżej żółkły, a kiedy wracało ciepło, znów się zieleniły. Te rośliny wyglądały jednak na ciężko chore.
+start_5cab6b83	Cały las cuchnął zgnilizną, czymś ciężkim i martwym. Na hełmie Juno malowało się takie samo zmartwienie jak na mojej twarzy.
+start_c7b3c67e	Musimy się stąd zabierać. Nie podoba mi się to.
+start_c4e3de73	Co? Myślisz, że to niebezpieczne?
+start_63fd69d1	Możliwe. Wydaje mi się, że…
+start_7bf36f3b	W tej chwili z głębi lasu dobiegł krzyk zwierzęcia. Przeraźliwy, rozpaczliwy. Zwierzę wiło się z bólu.
+start_91266188	Wymieniliśmy z Juno spojrzenia. Bez słowa pobiegliśmy w stronę, z której dobiegał krzyk.
+start_e23b1a69	Pośrodku polany, na którą wybiegliśmy, leżał trójróg. Duże, niegdyś piękne zwierzę o pięciu kopytach i trzech rogach na głowie.
+start_fb154735	Jego oczy, zwykle żółte, zrobiły się białe, a z pyska płynęła czarna krew.
+start_97a57769	Cuchnął padliną, zgniłym mięsem, jakby nie żył od dawna, choć na naszych oczach wciąż miotał się w drgawkach.
+start_074afa89	Co mu się stało?! Co mu jest?
+start_b38b38a5	Nie wiem. Trzeba zrobić badania i się dowiedzieć…
+start_dd8da741	Chyba nie zabierzemy go do Pixie, prawda?
+start_66fb357e	Juno stanowczo pokręciła głową.
+start_6fc944c7	Oczywiście, że nie. Jeśli to jest to, co podejrzewam…
+start_6f639747	A co podejrzewasz? Naprawdę chciałbym wiedzieć. To przecież moja planeta!
+start_d41e4085	Juno podeszła do trójroga i z żalem spojrzała na umierające zwierzę.
+start_efdffd5d	Jak je nazywacie?
+start_532c0456	Trójrogi. To roślinożercy, przeważnie niegroźni, jeśli się ich nie płoszy. Bardzo sympatyczne stworzenia…
+start_25a80ca9	Pobiorę próbki.
+start_fe63399a	Juno przykucnęła przed trójrogiem. Sięgnęła do kałuży czarnej, lepkiej krwi i pobrała próbkę specjalnym patyczkiem.
+start_b5319b1b	Zabierajmy się stąd. Opowiem ci wszystko, jak tylko wrócimy na wahadłowiec. Tutaj nie jest bezpiecznie.
+start_1bc36927	Ruszyliśmy żwawym krokiem z powrotem. Juno na wszelki wypadek wyjęła broń, a ja pośpieszyłem za nią.
+start_335827d2	Serce ściskało mi się ze strachu. Co się stało z tym lasem? Co się stało z tym zwierzęciem? Dlaczego Juno tak zareagowała?
+start_096a4d30	Na pokładzie Pixie przywitał nas jak zwykle, ale zaraz dodał:
+start_fe91027e	Juno, muszę cię ostrzec. Na pokładzie jest nieznany wirus.
+start_997413a0	Wiem, Pixie. Przynieśliśmy go. Musimy ustalić, co to jest.
+start_e30f8db5	Uważaj. Może być niebezpieczny.
+start_83b62548	Wirus? Jak grypa?
+start_de721b37	Raczej nie jest taki niegroźny. Widziałeś, co się stało z tym trójrogiem.
+start_85ee6443	Juno zabrała mój plecak z próbkami i poleciła Pixie wystartować. Postanowiła wrócić tam, gdzie byliśmy wczoraj, i zatrzymać się w bezpiecznym miejscu.
+start_33ddf0a0	Poszedłem za Juno do laboratorium.
+start_d2e018dd	Obiecałaś, że powiesz mi, co to jest.
 start_6c5ae4fb	[pname], ja…
+start_b4d64a8f	Obiecałaś! Jeśli to jakaś choroba, chcę wiedzieć, jak bardzo zagraża planecie i jak ją powstrzymać.
+start_f070af65	Juno westchnęła. Wyłożyła na stół wszystkie zebrane próbki i od razu założyła rękawiczki oraz specjalny kombinezon ochronny.
+start_f4bc7588	Słuchaj, sama jeszcze nie do końca rozumiem. Podejrzewam, że to jakiś wirus. Jeśli mam rację, trzeba pilnie ostrzec twoją wioskę.
+start_0737f824	Jeśli jest tak groźny, jak mi się wydaje, rozprzestrzeni się po całej planecie.
+start_c3cad8a8	Musimy ustalić, czy da się go powstrzymać, skąd się wziął i…
+start_b9b73c4b	Czy się da? Czyli może się nie dać?
 start_6ec36fb4	[pname], nie jestem czarodziejką. Tak, jestem badaczką, ale to nie znaczy, że wszystko potrafię. Może się nie udać. Wtedy będziemy musieli wymyślić, co dalej.
+start_f9a11790	A najważniejsze to dowiedzieć się, czy ten wirus jest niebezpieczny dla ludzi.
+start_f9440176	Czułem, jak serce wali mi jak oszalałe. Juno wzięła się do pracy przy swoich przyrządach.
+start_b88a0ce8	Obiecaj, że powiesz mi wszystko, kiedy czegoś się dowiesz.
 start_6163eefc	Oczywiście, [pname]. Idź odpocząć. Pogadaj z Pixie.
+start_47477f25	Postanowiłem nie przeszkadzać Juno i posłuchałem jej rady.
+start_973b0587	Po wyjściu z laboratorium nie wiedziałem, co robić. Po prostu opadłem na fotel i próbowałem wziąć się w garść.
+start_20403c7d	Co więc wiedzieliśmy? Jakiś nieznany wirus zabijał rośliny i zwierzęta. Nigdy wcześniej czegoś takiego nie widziałem i naprawdę się bałem.
+start_68f55183	Od razu pomyślałem o rodzicach i wiosce.
+start_dcf4db69	A jeśli wirus dotarł i tam? Co wtedy zrobimy?
+start_ed7bbb3f	Najgorsze było to, że w żaden sposób nie mogłem pomóc. Próbowałem się uspokoić, bo nie miałem innego sposobu, żeby poradzić sobie z paniką.
+start_2fd609cc	Może ten wirus wcale nie był taki groźny, jak mi się wydawało?
+start_05e85242	O ile nie szkodził ludziom. Owszem, bydło mogło paść, a plony przepaść, ale z tym dalibyśmy sobie radę. Bywały już złe lata i razem je przetrwaliśmy.
+start_15648cf8	Powiedziałem sobie, że teraz nie wolno mi stracić głowy ani się poddać.
+start_22d81f56	Przecież miałem po swojej stronie Juno, badaczkę z innej planety. Na pewno wiedziała, co z tym wszystkim zrobić.
+start_d5de93a8	Przez kilka godzin krążyłem niespokojnie po wahadłowcu i próbowałem się czymś zająć. Bez skutku.
+start_8d28aed7	W pewnej chwili opadłem na fotel i udało mi się nawet zdrzemnąć. Ten płytki, niespokojny sen nie trwał jednak długo.
+start_340ac615	Juno wyszła z laboratorium. Po jej minie poznałem, że nie ma dobrych wiadomości.
+start_1f666952	I co? Udało ci się czegoś dowiedzieć?
+start_2217ec9b	Czegoś tak. Pixie, miej oko na laboratorium.
+start_d8b9471e	Tak, Juno.
+start_75d4ab79	Powiesz mi?
+start_57663d9e	Juno ciężko westchnęła i usiadła naprzeciwko mnie.
+start_149937ce	Myślę, że to wirus. Bardzo niebezpieczny.
+start_df115c8a	Z tego, co udało mi się do tej pory ustalić, rozprzestrzenia się bardzo szybko, drogą powietrzną i przez dotyk.
+start_0acdc139	Zabija nosicieli i jeszcze przez jakiś czas pozostaje w martwych organizmach. Próbowałam go zniszczyć zimnem i gorącem, ale żadna z tych metod mu nie szkodzi.
 start_d71ef47a	Posłuchaj, [pname]. Nie chcę cię straszyć, ale chyba sprawa jest bardzo poważna.
+start_66455651	Musisz natychmiast wrócić do domu. Nasza podróż dobiegła końca.
+start_a5d7d304	Zakładam, że jakoś można go powstrzymać. Zrobię wszystko, co w mojej mocy, żeby pomóc twojej planecie.
+start_ce545e40	Zacisnąłem dłonie na podłokietnikach. Czułem, jak serce wali mi w piersi. Z każdym słowem Juno biło szybciej.
+start_2c495dc9	Nie, zaczekaj. O czym ty mówisz? Jak to mam wrócić? A ty?
+start_4b02969f	Wracam na swój statek.
+start_7bd6720b	Ten wahadłowiec to tylko część statku. Sam statek czeka na mnie na orbicie. Mam tam więcej sprzętu i narzędzi. Mogę spróbować opracować lekarstwo.
+start_a09184b5	A ty powinieneś być z bliskimi i…
+start_0569c3b2	Nie! Nie, nie ma mowy! O czym ty mówisz? Juno, to moja planeta! Mój dom! Jeśli grozi mu niebezpieczeństwo, nie będę siedział z założonymi rękami.
+start_a0c11f38	Pomogę ci, jak tylko mogę. We dwoje poradzimy sobie znacznie lepiej.
 start_a8d08602	[pname], to może być bardzo niebezpieczne. A jeśli się zarazisz? Albo…
+start_fb0c4e0d	A jeśli ty się zarazisz?
+start_7d0edd15	Juno przez chwilę milczała, a potem pokręciła głową.
+start_dd8b6249	Mimo wszystko lepiej, żebyś wrócił.
+start_9db3f57d	Nie chcę ciągle odrywać się od pracy przez to, że się o ciebie martwię. Nie chcę… dopuścić, żeby to się powtórzyło.
+start_999d800f	Westchnąłem. Od razu zrozumiałem, skąd ten niepokój. Juno zmarszczyła brwi i znów się ode mnie odwróciła.
+start_9c767946	Juno, nic mi się nie stanie. A jeśli coś się stanie… To znaczy, że i tak nie mogłaś temu zapobiec. W domu wcale nie będzie mi dużo lepiej niż z tobą.
+start_89e46f8c	Jeśli wirus rozprzestrzenia się tak szybko, moja wioska może być zagrożona. Na twój statek się nie dostanie.
+start_39a58b13	Juno milczała, chyba próbowała zdecydować, co dalej. Wyciągnąłem rękę i ścisnąłem jej dłoń. W tej chwili poczułem, jak fala ciepła rozchodzi się po całym ciele.
+start_560cce9f	Nigdy wcześniej nie dotykałem Juno w ten sposób. Delikatnie ściskałem jej dłoń, jakbym chciał powiedzieć, że jestem tu, obok, i nic mi się nie stanie.
+start_b7fa0859	Tak naprawdę nigdy nikogo tak nie dotykałem. Nawet rodziców. Nie potrzebowali mojego wsparcia. To oni próbowali wspierać mnie, ale nigdy im to nie wychodziło.
+start_a17559ce	Teraz czułem się gotów do walki jak nigdy dotąd. Byłem bardziej zdeterminowany niż kiedykolwiek. Może takie było moje przeznaczenie, kto wie? Pomóc Juno opracować lekarstwo. Jeśli miałem zginąć, trudno.
+start_bf6e289b	Juno, nigdzie nie idę. Zostanę z tobą i razem przez to przejdziemy.
+start_28247023	A jeśli nam się nie uda? Co wtedy?
+start_eeaf6125	Juno spuściła głowę jeszcze niżej, ale odwzajemniła uścisk. Jej ciepłe, smukłe palce delikatnie zacisnęły się na moich. Przez chwilę serce zabiło mi nierówno.
+start_7c2a410d	Wtedy pomyślimy, co dalej. Dobrze? Będziemy rozwiązywać problemy po kolei, kiedy się pojawią.
+start_c541f670	Uśmiechnąłem się do niej pokrzepiająco. Juno przez chwilę milczała, ściskając moją dłoń, aż w końcu ustąpiła.
+start_cf46f26d	Dobrze. Pewnie masz rację. Pixie, lecimy na statek. Trzeba zdecydować, co z tym wszystkim zrobić.
+start_d8eabe6c	Tak, Juno!
+start_836dfa2b	Wahadłowiec zadrżał i wkrótce wznieśliśmy się w niebo.
+start_0b753fcf	Statek Juno, zawieszony na niebie niczym Tilia, był znacznie większy, niż myślałem. Był ogromny. Nigdy wcześniej czegoś takiego nie widziałem.
+start_c5d3a68a	Przez ogromne okna widać było naszą planetę. Wyglądała na tak małą i bezbronną.
+start_5c5767a9	Serce mi się ścisnęło na samą myśl o jej rychłej zagładzie. Nie. Nie mogłem na to pozwolić. Nie mogłem.
+start_a13f4062	Muszę ci się do czegoś przyznać.
+start_7595a813	Odwróciłem się do Juno, która siedziała w wielkim fotelu kapitańskim.
+start_1b640dae	Do czego?
+start_29a44b3e	Widzisz, nie bez powodu przyleciałam na twoją planetę. Od kilku lat tropię… pewną anomalię.
+start_247d8f9b	Jakby przemieszczała się w kosmosie. Nie wiem jak, ale przeskakiwała z planety na planetę.
+start_113abe72	Za każdym razem, kiedy docierałam na te planety, nie było już nikogo ani niczego, co dałoby się uratować. Nawet wirus już obumarł.
+start_a9b030dd	Moje czujniki wykryły, że anomalia zbliża się do waszej planety, ale miałam nadzieję, że was ominie.
+start_f7e09575	Jednak… Jak widzisz, nie ominęła.
+start_240b9ba1	Nie mówiłaś, że ta choroba może nie być groźna dla ludzi?
+start_40aca482	Miałam taką nadzieję. Wirus nie może zagrażać wszystkim istotom naraz, tylko niewielkiej liczbie gatunków.
+start_e094efb9	Na poprzednich planetach nie było ludzi ani dużych zwierząt. Miałam nadzieję, że wirus zabija tylko rośliny i małe zwierzęta. Ale wygląda na to, że jest inaczej.
+start_e665ad9c	Czekaj, jeśli wirus nie może zagrażać każdemu gatunkowi, to dlaczego…
+start_98993a3c	Nie może zabić wszystkiego, chyba że stworzono go sztucznie.
+start_27df0756	Znieruchomiałem. Zmarszczyłem brwi i z trudem przyswajałem sobie słowa Juno.
+start_5f815775_1	Co masz na myśli?
+start_2fd99df1	Że ktoś stworzył tego wirusa. Być może specjalnie dla waszej galaktyki. Tylko nie wiem, kto i po co.
+start_362a82f0	Nie wiem nawet, czy mam rację. Potrzebujemy więcej próbek, więcej materiału…
+start_be82e452	Czyli ta anomalia jest teraz na mojej planecie?
+start_333b24ba	Tak, ale nie wiem, czy to żywe stworzenie, które zakaża wszystko wokół, czy skupisko energii. Może to jakiś przedmiot, odłamek kamienia…
+start_e7297207	Wiesz, gdzie jest?
+start_1623cada	Tak, ale nie możesz tak po prostu tam pójść. Najpierw trzeba opracować jakąś ochronę, może wykształcić odporność… A do tego potrzebujemy więcej próbek.
+start_cb95c3d1	Zacisnąłem usta. Czułem, jak na barki spada mi niewyobrażalny ciężar. Wszystko nagle stało się tak skomplikowane, poważne i niebezpieczne, że nie wiedziałem, jak zareagować.
+start_77e752be	Jakby w środku jasnego dnia nagle zapadła czarna, ponura noc. Nie wiedziałem, co z tym zrobić, a zagubienie Juno przerażało mnie jeszcze bardziej.
+start_1c5ad493	W takim razie trzeba zebrać próbki. Tym się zajmiemy, dobrze?
+start_a55ec2b9	Trzeba było zachować zimną krew i nie dać się ponieść panice.
+start_a4b7b5ee	Tego uczyli mnie rodzice i nauczyciele. Zawsze panować nad sobą i nie poddawać się lękowi, choćby nie wiem jak kusiło.
+start_00f23f4e	Juno uśmiechnęła się na siłę i skinęła głową. Wstała, podeszła do mnie i stanęliśmy przed ogromnym oknem.
 start_2da8ae4c	Masz rację, [pname]. Będziemy działać razem. Ja… obiecuję, że zrobię wszystko, co w mojej mocy, żeby pomóc tobie i twojej planecie.
 start_36058c0a	Nie poddam się. Zrobię wszystko, co mogę. {w}Daję ci słowo.
+start_14798a55	Staliśmy naprzeciwko siebie. Serce wypełniało mi się ciepłem od samego patrzenia na Juno, od jej głosu i od nikłego uśmiechu na hełmie.
+start_be16e65b	Nigdy wcześniej nie doświadczyłem czegoś takiego. Tyle zaangażowania, tyle wsparcia.
+start_2f6cf8ac	W pewnej chwili poczułem, że po prostu muszę ją przytulić. Pochyliłem się więc i mocno przycisnąłem Juno do siebie.
+start_7f82a60f	Znieruchomiała, nie od razu pojmując, co się dzieje. Potem też mnie objęła, zarzucając mi ręce na szyję. Staliśmy tak przez kilka długich minut.
+start_4b598a75	Nie wiedziałem, ile czasu minęło. W jej ramionach było mi ciepło i dobrze. Zastanawiałem się, jak by to było zostać z nią na zawsze.
+start_a6ca0beb	Chciałem być z Juno tak, jak moi rodzice byli ze sobą, odkąd pamiętam.
+start_4ea2ff68	Ta myśl pojawiła się nagle, jasna jak spadająca gwiazda. Nigdy niczego tak bardzo nie pragnąłem.
+start_0c7f4bee	Serce zaczęło mi bić szybciej i przytuliłem Juno jeszcze mocniej.
+start_f93454a3	Chciałbym stać tu z nią bez końca, wtulony w nią, o niczym nie myśleć i zostawić wszystkie kłopoty za sobą.
+start_becec016	Dziękuję, Juno.
+start_31ab804a	Wyszeptałem jej te słowa do ucha. Przyciągnęła mnie bliżej i wtuliła twarz w moje ramię. W tej chwili zrozumiałem, że jestem w niej beznadziejnie zakochany.
+start_49aca91e	Zaczęliśmy pracować nad lekarstwem. Właściwie to Juno zaczęła, a ja starałem się pomagać, jak mogłem.
+start_a62d2e2b	Zbieraliśmy próbki. Juno dała mi ogromny, dziwny kombinezon, trochę na mnie za duży, i bez niego nie wypuszczała mnie z wahadłowca.
+start_a9365517	Zbieranie próbek nie było łatwe. Większość zwierząt zakażonych wirusem tuż przed śmiercią stawała się bardzo agresywna.
+start_19e87026	Parę razy ledwo uciekliśmy rozwścieczonym kłowcom. Goniły nas aż pod wahadłowiec, póki Juno nie wyciągnęła karabinu i ich nie zastrzeliła.
+start_38bc1abc	Wyglądało na to, że wirus po prostu doprowadzał nosicieli do obłędu. Stojąc nad ciałami zwierząt, myślałem tylko o tym, jak to wszystko powstrzymać.
+start_1abfab80	Na statku coraz więcej czasu kręciłem się przy Juno w laboratorium, próbując się czegokolwiek nauczyć.
+start_aeea8256	Choć była zmęczona, na bieżąco tłumaczyła mi prawie wszystko, co robiła.
+start_868346aa	Nawet jeśli nie wszystko rozumiałem i szło mi to równie łatwo jak mówienie od tyłu w nieznanym języku kosmitów, nadal wytężałem umysł, aż mi w głowie trzeszczało, byle tylko nadążyć.
+start_9c00f1b9	Więź między mną a Juno z każdym dniem stawała się mocniejsza.
+start_ad0c412e	Nie wyobrażałem sobie bez niej nawet godziny. Spędzaliśmy razem każdą wolną chwilę i gadaliśmy o wszystkim, żeby oderwać się od ciężkich myśli.
+start_9031aac8	Opowiadałem Juno o życiu w wiosce i o tym, jak przygotowywano mnie do roli Wybrańca. W zamian opowiadała mi o swoich przygodach z Toshim.
+start_65a8dcd0	Mówiła o odległych planetach, o różnych światach. Pięknych i brzydkich, gościnnych i wrogich.
+start_f1e6087c	A im dłużej to trwało, tym bardziej zakochiwałem się w Juno. Czasami czułem, że to uczucie jest tak silne, tak ogromne, że wkrótce zabraknie mu miejsca w mojej piersi.
+start_04624b8e	Tylko nie wiedziałem, jak jej o tym powiedzieć, jak znaleźć właściwe słowa.
+start_766dcbc2	Pewnego wieczoru, po długim i ciężkim dniu, siedzieliśmy naprzeciwko siebie.
+start_4ba66905	Dlaczego tak bardzo chcesz pomóc naszej planecie?
+start_ece33745	Juno wyrwała się z zamyślenia.
+start_61bb6c3f	Co masz na myśli?
+start_2fcbea78	No… Po prostu mnie to ciekawi. Nasza planeta to dla ciebie pewnie jedna z wielu. Dlaczego tak bardzo chcesz nam pomóc?
+start_c3dda3b1	Juno przez chwilę milczała. Patrzyła przez jedno z ogromnych okien w bezkresną czerń kosmosu.
+start_66a70a45	Nie wiem. Po prostu chcę pomóc.
 start_82fce081	I chcę pomóc tobie. Jesteś wspaniałym człowiekiem, [pname], i bardzo się cieszę, że się zaprzyjaźniliśmy.
+start_f9dce1aa	Uśmiechnąłem się łagodnie i skinąłem głową.
+start_241277d3	Dziękuję. A ja… ja też bardzo się cieszę, że cię znalazłem. Że się spotkaliśmy.
+start_a5dae00f	Serce biło mi bardzo szybko. Nagle pomyślałem, że teraz jest pora, żeby jej powiedzieć. Najwyższa pora, bo lepsza chwila może się nie trafić.
+start_689a8658	Kto wiedział, co nas czeka? Czy nasze plany się powiodą? A jeśli się zarażę i umrę razem z innymi?
+start_75d2460a	Po raz pierwszy w życiu byłem zakochany i chciałem, żeby Juno o tym wiedziała.
+start_b66a3644	Nigdy nie sądziłem, że spotkam kogoś takiego jak ty. To znaczy… Szczerze mówiąc, nawet na to nie liczyłem.
+start_9651031b	Juno spojrzała na mnie ze zdziwieniem.
+start_1620deac	O czym ty mówisz?
+start_23c5a412	No… Chodzi mi o to, że… Cholera, jednak nie tak łatwo to powiedzieć.
+start_dcc2070c	Uśmiechnąłem się nieśmiało. Juno przechyliła głowę jak ptak.
 start_4b50c481	Co powiedzieć? O co ci chodzi, [pname]?
+start_832119e3	Poruszyłem się w fotelu, próbując zebrać myśli. Nie mogłem się wycofać! Przecież już zacząłem!
+start_80fda6fd	Po prostu… No… Nigdy się tak nie czułem, ale chyba… to znaczy jestem prawie pewien, że…
+start_0b94a181	Wiesz, jestem prawie pewien, że się w tobie zakochałem. Jeśli… no, jeśli rozumiesz, o co mi chodzi, jeśli u was w ogóle jest coś takiego…
+start_f372f6b9	Zamilkłem niepewnie, bo nie wiedziałem, co jeszcze powiedzieć. Myśli mi się plątały, jedna głupsza od drugiej.
+start_df6266f8	Musiałem wyglądać strasznie niezręcznie. Czerwony ze wstydu, nerwowo wodziłem wzrokiem po pokoju.
+start_14dbb8b4	Nie wiedziałem nawet, czy Juno mnie zrozumiała! Może na jej planecie nie było czegoś takiego.
+start_04e424dd	Na hełmie Juno pojawił się czerwonawy rumieniec.
 start_3a2e7bab	[pname]… Jesteś… jesteś pewien?
+start_8156a1d8	Serce mi zadrżało. Skinąłem głową.
+start_5a6a21f3	Tak. Zupełnie. Chyba zakochałem się w tobie prawie od razu, tylko zrozumiałem to później. Nigdy wcześniej się w nikim nie zakochałem… Cholera, ale to trudne.
+start_e63ba241	Nigdy wcześniej się w nikim nie zakochałem, ale jestem pewien, że jestem zakochany w tobie. To wszystko.
 start_c05e8ac2	Zawsze tak bardzo bałam się przywiązać… Zwłaszcza po tym, co spotkało Toshiego. Ale teraz… Nie wiem dlaczego, ale ja… Ja czuję do ciebie to samo, [pname].
 start_1cb74488	To było po prostu… {w}Cudowne…
 start_19945a20	Nie, [pname]. Byliśmy z Toshim najlepszymi przyjaciółmi.
