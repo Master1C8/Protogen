@@ -113,5 +113,31 @@
       "nsfwSettings": "Passed. Language options, Galeria and Polish controls legible and fit.",
       "sfwSettings": "Captured, visual review pending."
     }
+  },
+  "liveSteamInstall": {
+    "edition": "nsfw",
+    "steamBuild": 11915262,
+    "originalScriptsMatch": true,
+    "bothLiveSaveLocationsMatch": true,
+    "installedSha256": {
+      "game/tl/polish/vnrevival_protogen_text.rpy": "026c85dd913ddda722abfcef71db21565284d360d44cb40a12ca61d909400713",
+      "game/tl/russian/vnrevival_protogen_text.rpy": "fdf5e3c4d8848cb94a0e4354c077b2bd00a701bfabffa87153779ee72d889e30",
+      "game/vnrevival_protogen_display.rpy": "e5c548b2545e1364820573756abaef4e42722c62e0709ce50e5fc15e681445ea",
+      "game/vnrevival_protogen_preferences.rpy": "a27d1ad9f843ee589dd96376fd511704695d187f7f289d86d05daa7e8bb39f63"
+    },
+    "recoveryFilesSha256": {
+      "game/tl/russian/vnrevival_protogen_text.rpy": "63866540a4fed4bc3d0b5da4b03edf8689ee1a54d3264034bf33124e177712ef",
+      "game/tl/russian/vnrevival_protogen_text.rpyc": "651f494516bce0de6bdebff159c663f7898d30e0ccc7ef52bf4d6280a0bdc3e4",
+      "game/vnrevival_protogen_display.rpy": "615eac7dcce5d81cfa9430f2425623cc7f380546bcb1db92d40bba07d64735c8",
+      "game/vnrevival_protogen_display.rpyc": "0c3b747bcc6a1dfb92b5dbb6d07c302deb9ddafbfd4b723bf39edcbc97573e4a",
+      "game/vnrevival_protogen_preferences.rpy": "b44b3f3869a21f2409c58b03636dc43687dff10b02b9845013af6d4ab2109d93",
+      "game/vnrevival_protogen_preferences.rpyc": "bebec00eeb73b06a698efc1a4ba0f10f9f467db7e82bc5af718d4ba4452ed3bd"
+    },
+    "audioDisabled": true,
+    "actualPickerAndGalleryPassed": true,
+    "openingProgressionPassed": true,
+    "temporaryQaScriptsRemoved": true,
+    "runtimeLogSha256": "5c76f6c24b5bf51862f211a585766f3b6ce959a00b5b1fa807900eb9cf59cd64",
+    "evidenceDirectory": "text-assets/edition-install.tL1tsB"
   }
 }

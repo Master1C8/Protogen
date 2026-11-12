@@ -3,7 +3,7 @@
 
 import argparse
 from collections import Counter
-from hashlib import md5
+from hashlib import md5, sha256
 import json
 import os
 from pathlib import Path
@@ -17,6 +17,16 @@ from install_language_picker import (
 
 
 LOCALES = {"ru": "russian", "pl": "polish"}
+VERIFIED_TEXT_HASHES = {
+    "russian": {
+        "63866540a4fed4bc3d0b5da4b03edf8689ee1a54d3264034bf33124e177712ef",
+        "fdf5e3c4d8848cb94a0e4354c077b2bd00a701bfabffa87153779ee72d889e30",
+    },
+    "polish": {
+        "678485bc11a01839a078a73dcb386252dda771d6437fe56b6753c5afa4d682a1",
+        "026c85dd913ddda722abfcef71db21565284d360d44cb40a12ca61d909400713",
+    },
+}
 STORY_ROLES = {"dialogue", "narration"}
 STRING_ROLES = {"engine-string", "input-prompt", "interface", "speaker-label"}
 EXTRA_KEYS = {"Language", "Juno", "Damien", "Pixie"}
@@ -232,6 +242,22 @@ def install(root, output):
             binary = compiled.read_bytes()
             require(binary.startswith(b"RENPY RPC2") and binary.endswith(md5(previous).digest()),
                     f"Refusing to overwrite an add-on with mismatched bytecode: {path}")
+            retired[compiled] = binary
+        upgrades[path] = (previous, files.pop(path))
+
+    for locale, hashes in VERIFIED_TEXT_HASHES.items():
+        path = root / "game/tl" / locale / "vnrevival_protogen_text.rpy"
+        if path not in files or not path.is_file():
+            continue
+        previous = path.read_bytes()
+        if previous == files[path] or sha256(previous).hexdigest() not in hashes:
+            continue
+        compiled = path.with_suffix(".rpyc")
+        if compiled.exists():
+            binary = compiled.read_bytes()
+            require(binary.startswith(b"RENPY RPC2") and binary.endswith(md5(previous).digest()),
+                    f"Refusing to replace translated text with mismatched bytecode: {path}")
+            retired[compiled] = binary
         upgrades[path] = (previous, files.pop(path))
 
     removed = {}

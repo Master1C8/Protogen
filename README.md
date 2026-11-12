@@ -69,27 +69,30 @@ coverage and CrossOver results.
 
 ## Language picker
 
-The Russian localization uses Ren’Py's built-in language selector and translation
-table. Close the game before installing. Use the installation path from the
-previous section and a fresh output directory.
+The Russian and Polish localizations use Ren’Py’s built-in language selector.
+Close the game before installing. Use a fresh output directory for each locale
+and append `--nsfw-bundle <dlc-export>` when the DLC is installed.
 
 ```zsh
 python3 -B tools/build_localization.py "$protogen_game" ru --output text-assets/ru-build --install
+python3 -B tools/build_localization.py "$protogen_game" pl --output text-assets/pl-build --install
 ```
 
 The build validates the Steam scripts, extracted inventory, complete stable-ID
 coverage and placeholders. It produces three additive scripts. The installer
 retires the earlier Russian sample if its contents match the checked-in version.
-The original game scripts stay intact. Ren’Py compiles the add-on on launch.
+Rebuild and reinstall each locale when switching editions. The installer can
+replace the verified Russian and Polish packages from either edition and
+retires their matching bytecode so Ren’Py recompiles them on launch.
 
 - `game/vnrevival_protogen_preferences.rpy`
 - `game/vnrevival_protogen_display.rpy`
 - `game/tl/russian/vnrevival_protogen_text.rpy`
+- `game/tl/polish/vnrevival_protogen_text.rpy`
 
-Open **Preferences → Language → Русский** to activate Russian. To return
-to English, open **Настройки → Язык → English**. To remove the add-on, select
-English, close the game and remove the three generated files and their matching
-`.rpyc` files.
+Open **Preferences → Language** and choose **Русский**, **Polski** or
+**English**. To remove both localizations, select English, close the game and
+remove the generated files listed above and their matching `.rpyc` files.
 
 The editable Russian sources contain 1,785 story entries and 394 distinct
 string keys, including interface, character labels, credits and Ren’Py
