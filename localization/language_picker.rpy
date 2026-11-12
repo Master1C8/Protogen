@@ -5,3 +5,5 @@ screen vnrevival_language_picker():
         textbutton "English" id "vnrevival_language_english" action Language(None)
         if "russian" in renpy.known_languages():
             textbutton "Русский" id "vnrevival_language_russian" action Language("russian")
+        if "polish" in renpy.known_languages():
+            textbutton "Polski" id "vnrevival_language_polish" action Language("polish")

@@ -1,0 +1,21 @@
+{
+  "steamBuild": 11915262,
+  "locale": "pl",
+  "story": 1785,
+  "strings": 394,
+  "protectedOccurrences": 747,
+  "reproducibleByteForByte": true,
+  "isolatedInstallerChecks": [
+    "fresh install and idempotence",
+    "conflicting Polish add-on rolls back both shared upgrades and leaves Russian intact",
+    "exact previous installed picker and display upgrade",
+    "foreign source rejected without mutation",
+    "foreign bytecode rejected without mutation"
+  ],
+  "realGameLaunched": false,
+  "sha256": {
+    "game/vnrevival_protogen_preferences.rpy": "a27d1ad9f843ee589dd96376fd511704695d187f7f289d86d05daa7e8bb39f63",
+    "game/vnrevival_protogen_display.rpy": "dea998be402613b5c22320b3bd121101c05957f3aeb40ad22561c5d546d56c35",
+    "game/tl/polish/vnrevival_protogen_text.rpy": "318fe760b6048eb5cb1edf7e8cec239126c24ffd2c41e463e5db25c6db296ca8"
+  }
+}

@@ -23,6 +23,10 @@ EXTRA_KEYS = {"Language", "Juno", "Damien", "Pixie"}
 DISPLAY_PATH = Path("game/vnrevival_protogen_display.rpy")
 GALLERY_RETURN = 'textbutton ("Back" if _preferences.language is None else _("Return"))'
 PREVIOUS_GALLERY_RETURN = 'textbutton _("Back") text_color "#aaaaaa"'
+POLISH_PICKER_OPTION = (
+    '        if "polish" in renpy.known_languages():\n'
+    '            textbutton "Polski" id "vnrevival_language_polish" action Language("polish")\n'
+)
 
 
 def story_rows(source):
@@ -128,14 +132,14 @@ def build(bundle, output, locale, dialogue, strings):
     )
 
 
-def replace_display(path, expected, content):
+def replace_addon(path, expected, content):
     with NamedTemporaryFile(dir=path.parent, delete=False) as candidate:
         pending = Path(candidate.name)
         try:
             candidate.write(content)
             candidate.close()
             os.chmod(pending, path.stat().st_mode & 0o777)
-            require(path.read_bytes() == expected, f"Display changed during installation: {path}")
+            require(path.read_bytes() == expected, f"Add-on changed during installation: {path}")
             os.replace(pending, path)
         finally:
             pending.unlink(missing_ok=True)
@@ -156,39 +160,47 @@ def install(root, output):
         retired[compiled_sample] = binary
 
     files = {root / p.relative_to(output): p.read_bytes() for p in sorted(output.rglob("*.rpy"))}
-    display = root / DISPLAY_PATH
-    pending_display = None
-    if display.is_file() and display in files:
-        old_display = display.read_bytes()
-        new_display = files[display]
-        new_gallery_return = (GALLERY_RETURN + ' text_color "#aaaaaa"').encode()
-        if new_display.count(new_gallery_return) == 1 and old_display == new_display.replace(
-                new_gallery_return, PREVIOUS_GALLERY_RETURN.encode(), 1):
-            compiled_display = display.with_suffix(".rpyc")
-            if compiled_display.exists():
-                binary = compiled_display.read_bytes()
-                require(binary.startswith(b"RENPY RPC2") and binary.endswith(md5(old_display).digest()),
-                        f"Refusing to overwrite a display with mismatched bytecode: {display}")
-            pending_display = files.pop(display)
+    upgrades = {}
+    for relative_path, current_fragment, previous_fragment in (
+        (DISPLAY_PATH, GALLERY_RETURN + ' text_color "#aaaaaa"', PREVIOUS_GALLERY_RETURN),
+        (PREFERENCES_PATH, POLISH_PICKER_OPTION, ""),
+    ):
+        path = root / relative_path
+        if path not in files or not path.is_file():
+            continue
+        current = files[path]
+        fragment = current_fragment.encode()
+        if current.count(fragment) != 1:
+            continue
+        previous = current.replace(fragment, previous_fragment.encode(), 1)
+        if path.read_bytes() != previous:
+            continue
+        compiled = path.with_suffix(".rpyc")
+        if compiled.exists():
+            binary = compiled.read_bytes()
+            require(binary.startswith(b"RENPY RPC2") and binary.endswith(md5(previous).digest()),
+                    f"Refusing to overwrite an add-on with mismatched bytecode: {path}")
+        upgrades[path] = (previous, files.pop(path))
+
     removed = {}
-    updated_display = False
+    updated = {}
     try:
-        if pending_display is not None:
-            replace_display(display, old_display, pending_display)
-            updated_display = True
+        for path, (previous, current) in upgrades.items():
+            replace_addon(path, previous, current)
+            updated[path] = (previous, current)
         for path, data in retired.items():
             path.unlink()
             removed[path] = data
         install_files(files)
     except (OSError, ValueError):
-        if updated_display:
-            replace_display(display, pending_display, old_display)
+        for path, (previous, current) in reversed(updated.items()):
+            replace_addon(path, current, previous)
         for path, data in removed.items():
             with path.open("xb") as restored:
                 restored.write(data)
         raise
-    if updated_display:
-        print(display)
+    for path in updated:
+        print(path)
 
 
 def main():

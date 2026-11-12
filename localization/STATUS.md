@@ -21,7 +21,7 @@ the feasibility baseline receipt.
 | translate-edit | Settle special-scene wording and bindings, then edit the locale's 1,785 story entries and 394 string keys directly from English. |
 | editorial | Apply the full semantic audit and independent dependency-aware review under the shared workflow. |
 | resources | Verify full font coverage, shaping, wrapping and game text assets. Current logo is original title art and the two reviewed watch videos contain no captions. |
-| package | `tools/build_localization.py` is the strict build baseline. It validates `ru` and the Polish draft. Add and validate explicit mappings before packaging further locales. |
+| package | `tools/build_localization.py` is the strict build baseline. It builds complete `ru` and `pl` corpora. Add and validate explicit mappings before packaging further locales. |
 | runtime | Test each final build's in-game picker, real renderer and progression in CrossOver. Use `tools/qa_isolate_saves.rpy` for both save locations, and launch with `RENPY_DISABLE_SOUND=1`. |
 | screenshot-upload | Not run. Local delivery scope. |
 | screenshot-review | Native visual checks are part of the probe and runtime evidence. Post-upload review is not applicable to this local delivery. |
@@ -29,16 +29,17 @@ the feasibility baseline receipt.
 
 ## Locale queue and feasibility matrix
 
-Polish is at `translate-edit` with **1,584/1,785 story entries** and **394/394 string
+Polish is at `editorial` with **1,785/1,785 story entries** and **394/394 string
 keys** in the authored draft. The other 28 locales are at `probe` with zero
 authored entries. The exact 77-ID glossary layers and their two coverage receipts
-verified for all 29 locales. Editorial, final resources, build, runtime, visual
-and release acceptance remain pending. The production Polish runtime ID is
+verified for all 29 locales. The strict Polish draft build is reproducible.
+Editorial, final resources, runtime, visual and release acceptance remain pending.
+The production Polish runtime ID is
 `polish`. Identifiers prefixed with `vnprobe_` are disposable.
 
 | Locales | Rendering requirements and evidence | Status and next action |
 | --- | --- | --- |
-| `pl` | Shipped Nunito passed representative accents in dialogue, nameplate, settings and input. A long sample wrapped to three lines. `Łucja` survived input and interpolation, and the wait advanced to the next story ID. | Probe passed. Continue the [Polish draft](pl/STATUS.md) from story row 1561. |
+| `pl` | Shipped Nunito passed representative accents in dialogue, nameplate, settings and input. A long sample wrapped to three lines. `Łucja` survived input and interpolation, and the wait advanced to the next story ID. | Probe passed. Continue the [Polish semantic audit](pl/STATUS.md) from story row 41. |
 | `cs`, `de`, `es`, `es-419`, `fil`, `fr`, `hu`, `id`, `it`, `nl`, `pt-BR`, `ro`, `sw`, `tr`, `vi` | Shipped Nunito covers the synthetic characters in both faces. Vietnamese exercises stacked diacritics. | Unverified in the game. Exercise accents and marks across actual text roles and line breaks. |
 | `bg`, `sr`, `uk` | Shipped Nunito covers the synthetic Cyrillic characters, including Љ, ђ, Ґ and ї. | Unverified in the game. Probe Cyrillic and dynamic mixed-script values. |
 | `el` | Shipped Nunito lacks Greek. Engine-shipped DejaVu Sans covers the synthetic Greek sample in both faces. | Baseline blocked. Test locale styles with DejaVu Sans in the game. |

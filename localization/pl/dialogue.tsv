@@ -1515,8 +1515,8 @@ start_dfc37bc0	Juno miała rację, choć trudno mi było to przyznać. Nie mogł
 start_83ba1284	Wciąż nie wiedzieliśmy, co nas czeka. Czy analiza coś wykaże? Czy zdołamy cokolwiek zrobić?
 start_35028b77	Dobrze, rozumiem. Niedługo wrócę.
 start_913bb94d	Nadal nie umiałem pilotować wahadłowca. Dla mnie to była czysta magia. Łatwiej byłoby nauczyć się poruszać przedmiotami siłą woli.
-start_5186d4f8	Na szczęście Pixie świetnie sobie z tym radziła. Przez te kilka tygodni zdążyłem się już do niej przyzwyczaić, a nawet przywiązać.
-start_c7a402b8	Gdy tylko dolecieliśmy do rzeki, nad którą poznałem Juno, Pixie ostrzegła mnie, że na zewnątrz jest niebezpiecznie.
+start_5186d4f8	Na szczęście Pixie świetnie sobie z tym radził. Przez te kilka tygodni zdążyłem się już do niego przyzwyczaić, a nawet przywiązać.
+start_c7a402b8	Gdy tylko dolecieliśmy do rzeki, nad którą poznałem Juno, Pixie ostrzegł mnie, że na zewnątrz jest niebezpiecznie.
 start_639e151c	Proszę, [pname], włóż kombinezon ochronny, który dała ci Juno. Obawiam się, że poziom zakażenia wirusem na tym obszarze jest bardzo wysoki.
 start_eaf91284	Poczułem, jak serce mi staje. Ścisnęło się na chwilę z przerażenia. Czy naprawdę było już za późno? Czy się spóźniłem?
 start_3d91a830	Posłusznie włożyłem kombinezon ochronny i z zapartym tchem czekałem na lądowanie. Ku mojemu zdziwieniu wahadłowiec doleciał niemal pod samą wioskę, zamiast wysadzić mnie nad rzeką.
@@ -1558,27 +1558,228 @@ start_cdc360a1	Nas... Napadły na nas dzikie zwierzęta...
 start_5d6bd0bd	Wybiegły z lasu jak oszalałe. Zaczęły wszystko niszczyć i rzuciły się na nas...
 start_6d106e90	Próbowaliśmy się bronić, ale nie wyszło... nie udało się, kochanie...
 start_55989752	A tata? Gdzie jest?
+start_cf37ba48	Mama spojrzała na mnie białymi oczami. Kiedyś miały zupełnie inny kolor. Zadrżały jej wargi.
+start_68d55a0c	Tata... nie żyje...
+start_b2ca7447	Kiedy te zwierzęta nagle się pojawiły, prawie wszyscy we wsi zarazili się tą dziwną chorobą.
 start_a49e0c16	Tata pomagał ocalałym i od razu się rozchorował… Nic nie mogłam zrobić, [pname]. Zupełnie nic…
+start_b6d65f3b	Łza spłynęła jej po skroni. Nagle zdałem sobie sprawę, że ja też szlocham. Łzy płynęły mi po twarzy, w kombinezonie coraz trudniej było oddychać, a szybka hełmu zaparowała.
+start_2317c10c	Mama jednak zdawała się tego w ogóle nie dostrzegać. Ani dziwnego stroju, ani migających świateł. Patrzyła mi prosto w oczy, a mnie od tego jeszcze bardziej bolało serce.
+start_6f2108ee	Przepraszam, mamo, przepraszam! Nie powinienem był odchodzić. Tego nie da się wybaczyć... Wszyscy mieliście rację. Nie powinienem był odchodzić. Przepowiednia się spełniła, a potem...
+start_c6fdeb42	Cholera, to wszystko moja wina! Wszyscy przeze mnie zginęliście!
+start_12c49f45	Ledwie się powstrzymałem, żeby nie uderzyć pięścią w podłogę. Gotowało się we mnie od wściekłości i poczucia winy.
+start_f6c38c97	Tak ściskały mi serce, że nie potrafiłem nic na to poradzić ani się uspokoić. Przez całe życie mówiono mi, że mam zostać tam, gdzie się urodziłem.
+start_96cf33f5	Mówiono mi, że spoczywa na mnie ogromna odpowiedzialność. Byłem zbyt samolubny, żeby ją przyjąć.
+start_3f03c0d0	A teraz moi rodzice, najbliżsi mi ludzie, nie żyli, a rodzinna wioska, w której dorastałem i spędziłem całe życie, leżała w gruzach.
+start_0be87ac3	To wszystko moja wina. Ta świadomość mnie dusiła, raniła jak nóż. Bałem się, a jednocześnie wiedziałem, że niczego już nie naprawię. Jak miałem żyć z takim poczuciem winy?
 start_397545eb	Co ty mówisz, [pname]?…
+start_76e8d395	Odszedłem, a przepowiednia mówiła, że jeśli odejdę, nasza wioska zostanie zniszczona! I stało się. Wszystko dlatego, że uciekłem jak tchórz. Wszystko przeze mnie!
+start_a3bcd834	Dalej się dławiłem szlochem. Bałem się unieść wzrok i zobaczyć w oczach mamy pogardę, wyrzut, gniew. Ale nie było w nich niczego takiego.
+start_5cc5e260	Mama patrzyła na mnie zamglonym wzrokiem. Na jej sinych wargach pojawił się słaby uśmiech.
 start_b57bc156	Wiesz, kiedy to się zaczęło, [pname]…
+start_86f58aae	Kiedy przyszły te zwierzęta, a potem ludzie zaczęli się zarażać i umierać, z tatą myśleliśmy tylko o tym, że cię tu nie ma, i za to dziękowaliśmy Matce Niebios...
+start_f505e422	Że pewnie udało ci się uciec i że jesteś gdzieś daleko, bezpieczny.
+start_d22e5c96	Mamo...
+start_e85130c6	Wybacz nam, kochanie. Przepraszam, że zmuszaliśmy cię do życia, którego nie chciałeś. Z tatą bardzo...
+start_0d0f472b	Bardzo cię kochamy. Obiecaj, że będziesz o tym zawsze pamiętać.
+start_a77cb623	Cokolwiek się stanie, obiecaj, że przestaniesz się na nas gniewać. Zrozumieliśmy, że się myliliśmy, kochanie. Naprawdę tego żałowaliśmy...
+start_f10874c7	Mamo, co ty mówisz? Oczywiście, że ci wybaczam. Nie gniewam się na ciebie, mamo!
+start_52b2e7ea	Mama się uśmiechnęła i ostatkiem sił ścisnęła moją dłoń. Palce trzęsły mi się gwałtownie.
+start_f5f51c33	Dobrze...
+start_3e7f824e	Wyszeptała to ledwie słyszalnym, ochrypłym głosem. W tej samej chwili jej pierś, dotąd unosząca się w ciężkim, powolnym oddechu, znieruchomiała.
+start_eed8225a	Nie mogłem uwierzyć własnym oczom. Uśmiech zastygł na jej ustach. Przestała oddychać. Zerwałem się i chwyciłem ją za ramiona.
+start_905dfcc3	Mamo, nie... Mamo! Mamo, obudź się! Znajdziemy lekarstwo, obudź się! Proszę!
+start_cb8cc847	Ale było już za późno. Nie było kogo ratować. Szloch znów ścisnął mi gardło.
+start_49157337	Nie mogłem nawet dotknąć mamy ani pocałować jej na pożegnanie w czoło...
+start_f501141b	Jakoś wziąłem się w garść. Sięgnąłem po koc i okryłem jej ciało.
+start_836c694c	Przepraszam, mamo. Tak mi przykro, że do tego doszło.
+start_d1fc5d10	Po tych słowach wybiegłem z domu. Ledwie znalazłem się na dworze, padłem na kolana w ziemię rozmokłą od deszczu i krzyknąłem z całych sił.
+start_fd0041c7	Krzyczałem, aż zdarłem sobie gardło. Biłem pięściami w ziemię. Świat wokół mnie rozpadał się na kawałki. Na drobne kawałki.
+start_53d69d90	Dopiero gdy zabrakło mi sił, osunąłem się bezwładnie na ziemię. Chciałem po raz ostatni odwiedzić to miejsce.
+start_ee0874b9	Po raz ostatni przypomniałem sobie spacery tymi ulicami, treningi z Damienem i to, jak pomagałem ojcu w ogrodzie.
+start_9302b414	Wszystko przepadło. Nie zostało mi nic. Tylko Juno. Gdy tylko jej imię przemknęło mi przez głowę, zerwałem się z ziemi i pobiegłem do wahadłowca.
+start_9ff40607	Pixie przywitał mnie i spytał, czy wszystko w porządku.
 start_49a21696	Twój stan jest niestabilny, [pname].
+start_516665ae	To bez znaczenia. Zabierz mnie do Juno.
 start_0295634b	Tak, [pname].
+start_a98e6308	Cały lot minął mi jak w transie. Widziałem tylko twarz mamy, która umarła w moich ramionach.
+start_2dd50d3a	Obwiniałem się o jej śmierć. Powinienem był być przy niej, powinienem był wrócić wcześniej.
+start_f8fc4a74	A co zrobiłem? Uciekłem jak tchórz w pogoni za marzeniem. A przecież ciążyła na mnie taka odpowiedzialność...
+start_d99074dc	Ale na żale było już za późno. Ogarnęła mnie wściekłość, jakiej jeszcze nigdy nie czułem. Cała skupiła się na jednym stworzeniu, tej przeklętej anomalii.
+start_4c4bef61	Byłem gotów oddać życie za zemstę. Zniszczyć to coś, kimkolwiek lub czymkolwiek było i kto albo co je stworzyło.
+start_66978299	Kiedy wreszcie dotarłem na statek, wpadłem do laboratorium Juno.
+start_3b4551d9	Musimy zabić tę cholerną anomalię! Natychmiast!
+start_b1a7d7bf	Juno siedziała na krześle. Wyglądała na zupełnie przybitą. Ramiona jej opadły, wzrok utkwiła gdzieś w podłodze.
+start_d84fb59a	Doskoczyłem do niej i potrząsnąłem nią za ramiona.
+start_81f71f59	Juno! Musimy natychmiast zniszczyć to świństwo!
+start_c86947c2	Cały się trząsłem. Juno odpowiedziała bezbarwnym głosem:
+start_4e917a8e	To niemożliwe.
+start_90dfa245	Co? Jak to niemożliwe? O czym ty w ogóle mówisz?
+start_0a473556	Juno nadal patrzyła w dół, z rękami na biodrach. Wyglądała na zmęczoną i zupełnie załamaną.
+start_7ce09e84	O czym ty mówisz, Juno?!
+start_6a0ae346	Nie udało mi się opracować lekarstwa.
+start_115c9595	Juno podniosła na mnie wzrok.
+start_37930671	Te próbki... Nie udało się. To, co mamy, nie wystarczy. Potrzebuję więcej czasu. Miesiąca, pół roku, roku, sama nie wiem. W tej chwili nic z tego nie będzie.
 start_ba9a009d	Wybacz, [pname]. Przykro mi z powodu tego, co się stało.
+start_66ee4eaf	Chodziłem nerwowo po laboratorium.
+start_76985651	Jak to niemożliwe?! Mówiłaś, że damy radę! Że jesteśmy w połowie drogi! A teraz co ty mówisz?!
+start_dd37dae9	Przykro mi, ale nie mogłam tego wiedzieć. Próba się nie powiodła. Nie wiem, co jeszcze zrobić. Potrzebuję więcej czasu...
+start_697bc16a	Ile jeszcze?! Moi rodzice nie żyją! Wszyscy nie żyją! Ile jeszcze czasu potrzebujesz?!
+start_79588555	Juno spojrzała na mnie z przestrachem.
 start_8c97cc53	[pname]… Och, tak mi przykro. Tak bardzo mi przykro…
+start_c9d429c1	Zakryłem twarz dłońmi. Próbowałem złapać oddech i powstrzymać łzy.
+start_bd9c9e5d	Powiedz mi, gdzie jest anomalia. Mówiłaś, że wiesz. Pójdę i zniszczę to gówno, cokolwiek to jest.
+start_66fb357e_1	Juno stanowczo pokręciła głową.
 start_72d231a7	Oszalałeś? [pname], rozumiem, jak cię to boli. Uwierz mi, wiem, co to znaczy stracić bliskich…
+start_e7b5eac4	Ale nie możesz tak rzucać się na głęboką wodę. Nie wiemy, co to za anomalia. Zginiesz, przecież nie masz nawet odporności...
+start_e9450063	Mam gdzieś tę odporność! Idę zniszczyć to coś! Powiedz tylko, gdzie to jest!
+start_14e1d112	Nie mogę...
+start_7854ba43	Juno, nie słyszałaś? Moi rodzice nie żyją! Cała moja wioska jest zniszczona! Jednych rozszarpały dzikie zwierzęta, inni się zarazili i umarli!
+start_d859a240	Nie ma już nikogo, niczego. Tylko pustka! Nie obchodzi mnie, jakie to niebezpieczne. Chcę ich pomścić. Jestem gotów na wszystko, słyszysz? Powiedz tylko, dokąd mam iść!
+start_50c8765d	Juno milczała przez kilka minut. Patrzyła na mnie bez słowa, a na jej hełmie nie malowało się nic. Jakby na chwilę straciła przytomność.
+start_8a5df997	Ale wiedziałem, że jest przytomna. Czekałem na odpowiedź.
+start_13e22293	Gdzieś głęboko, pod całą tą wściekłością i rozpaczą, rozumiałem, że proszę Juno o coś niesłychanie trudnego, prawie niemożliwego.
+start_1fc1186b	Naciskałem, żeby wysłała mnie, ostatniego ocalałego, na pewną śmierć.
+start_df56dcb1	Mnie, do którego się przywiązała. Sam ją do tego niemal zmusiłem. Prosiłem ją, trwałem przy niej. A teraz prosiłem, żeby pozwoliła mi odejść.
+start_a62fbe5e	Wiedziałem, o czym myśli. Czuła się za mnie odpowiedzialna, a ja skazywałem ją na straszny los. Znowu miała zostać jedyną ocalałą.
+start_fc15869c	Ale rozpacz w moich oczach była aż nazbyt wyraźna. Byłem jak konające zwierzę. Nie mogłem zostać.
+start_97d9e45f	Juno bez słowa skinęła głową. Jakby wyczytała z mojego spojrzenia, że nie odwiedzie mnie od tego, że to dla mnie jedyna szansa, żeby jakoś pomścić rodziców.
+start_1a1dec62	Przez kilka chwil siedziała bez ruchu, ściskając podłokietniki. Potem odezwała się bezbarwnym głosem:
 start_f1b3b5b5	Pixie, zabierz go tam, dokąd poprosi [pname]. Do anomalii.
 start_fc9414c3	Tak, Juno. [pname], udaj się do wahadłowca.
+start_298cb907	Stałem przed nią i nie miałem odwagi zrobić choćby kroku. Wściekłość powoli ustępowała.
+start_016d04d6	Zacisnąłem dłonie w pięści. Chciałem ją przytulić, obiecać, że wrócę. Ale po co składać obietnice, których nie mogę dotrzymać?
+start_43636e98	Przecież wiedziałem, że szanse na powrót są znikome.
+start_33aaae8c	Mimo to chciałem zaryzykować, choć sam już nie wiedziałem po co. Wszyscy, na których mi zależało, nie żyli. Poza Juno.
+start_139c050c	Tylko ona przy mnie została, tylko ona była ze mną, a ja zamierzałem ją zostawić. Zamierzałem odejść. Czy tak postępują przyjaciele? Czy tak postępują zakochani?
+start_f3620373	A jednak nie zostałem.
+start_df0198e0	Dziękuję, Juno. Dziękuję za wszystko.
+start_cced870b	Juno nic nie powiedziała, tylko się odwróciła. Nie chciała patrzeć, jak idę do wahadłowca i jak drzwi zamykają się za mną.
+start_e7efbc88	Czułem, że zdradzam ją po raz drugi. Przeze mnie znów miała przejść przez to samo, co po śmierci Toshiego.
+start_44123e8d	Ale nie miałem wyboru. Skoro nie mogłem uratować rodziny ani odwrócić biegu wydarzeń, chciałem ją przynajmniej pomścić.
+start_9b53ac87	Nawet gdybym miał zginąć, nawet gdyby to była ostatnia rzecz, jaką zrobię w życiu. Kiedy Pixie dowiózł mnie na miejsce, przed wyjściem spytałem:
+start_19a19b9c	Pixie, przekażesz coś Juno? Na wypadek, gdybym nie wrócił.
+start_010b5c97	Wiedziałem, że nie mam wielkich szans. Miałem do dyspozycji tylko własną wściekłość. Nie wiedziałem nawet, z czym przyjdzie mi walczyć.
 start_6326678b	Oczywiście, [pname]. Co mam jej przekazać?
+start_791edd70	Zastanawiałem się przez chwilę. Chciałem powiedzieć wiele rzeczy, ale nie miałem na to czasu. Nie chciałem też, żeby moje słowa sprawiły Juno zbyt wiele bólu.
+start_34b1c190	Powiedz jej, że ją kocham. I że to nie jej wina.
 start_31612253	Tak zrobię, [pname].
+start_74cc284b	Uśmiechnąłem się do Pixie, choć ten uśmiech nie mógł do niego dotrzeć.
+start_5e8921dc	Dziękuję, Pixie. Można na ciebie liczyć. Miej oko na Juno.
 start_21b41cb8	Oczywiście, [pname], ale nadal mam nadzieję, że wrócisz.
+start_e41154fe	Nie odpowiedziałem. Zszedłem na czarną ziemię, która obumierała od choroby.
+start_ea742216	Juno miała rację. Nie powinienem był tego zaczynać.
+start_346451fe	Może lepiej byłoby zostać z nią na statku, poszukać lekarstwa, ułożyć plan i dopiero wtedy ruszyć po zemstę, ale... teraz nie miało to znaczenia.
+start_05713692	Było już za późno, żeby cokolwiek zmienić. Choćbym nie wiem jak chciał, nie mogłem cofnąć czasu.
+start_0f4ee969	Leżałem na ciemnej, uschniętej trawie i patrzyłem w niebo. Było niezwykle piękne. Tylko ono zdawało się nietknięte chorobą.
+start_e8ed360a	Nad moją głową powoli płynęły chmury, a Tilia patrzyła na moją śmierć z wyrzutem i smutkiem.
+start_fb804d67	Oczywiście, mogłem się tego spodziewać. Co ja sobie myślałem?
+start_3f3b511f	Jaskinia, w której kryła się anomalia, jarzyła się jaskrawą czerwienią i aż roiło się w niej od zwierząt.
+start_fb4086cd	Były już ciężko chore i zupełnie oszalałe. Nie miałem szans się przebić. Po prostu mnie stratowały.
+start_5b98c499	Czułem, jak całe ciało pulsuje mi z bólu. Chyba połowę kości miałem połamaną. W ustach czułem smak krwi, a złamany nos utrudniał mi oddychanie.
+start_ab7330cb	Mimo to wciąż patrzyłem w niebo i po raz ostatni podziwiałem piękno tego świata.
+start_d745480e	Może czekało mnie następne życie?
+start_6f9d2f5d	Może Matka Niebios jednak istniała i tam, w jej wiosce, rodzice już na mnie czekali, tak jak czekali na wszystkich, którzy przeze mnie zginęli.
+start_c0def7a3	Matka Niebios pewnie byłaby ze mnie strasznie niezadowolona. W końcu powierzyła mi zadanie, a ja tak haniebnie zawiodłem.
+start_e10aa95a	A co powiedzieliby mieszkańcy? O, byliby wściekli. Tyle lat mi powtarzali, że ich uratuję, i gdzie teraz byłem?
+start_d380668b	Nikogo nie uratowałem. Nie zdołałem ich nawet pomścić. Chyba jednak Wybrańcem powinien być Damien, nie ja.
+start_a48bcd5d	On na pewno nie opuściłby swoich ludzi. Nie tak jak ja.
+start_f7517830	Jeśli los naprawdę istniał, jeśli istnieli Matka Niebios i Lit, to uznali, że nadaję się tylko na straty.
+start_9f581ec8	A moim przeznaczeniem było umrzeć właśnie tak, tu, w samotności, pod ciężarem niewypowiedzianej winy.
+start_fb18f66d	Dziwna rzecz z tym losem. Nawet kiedy wszystko było z góry ustalone, potrafił zaskoczyć. Ale to wszystko była moja wina.
+start_3e9a09c5	I byłem gotów przyjąć karę z godnością.
+start_4155cdcb	Dotarło do mnie miarowe pikanie, jakby spod wody. Z trudem oddychałem, całe ciało mnie mrowiło, palce nie chciały mnie słuchać.
+start_57cd459e	Z trudem otworzyłem oczy i spojrzałem w górę. Nie było już nade mną nieba, tylko ciemny metal.
+start_947c859b	Rozchyliłem suche wargi, próbując wezwać pomoc, ale z ust wyrwało mi się tylko charczenie. Łzy spływały mi po skroniach. Chwilę zajęło mi zrozumienie, co się dzieje.
+start_493b277c	Gdzie jestem? Czy umarłem? Gdy powoli odzyskałem władzę nad ciałem, podniosłem się z miejsca, w którym leżałem.
+start_8a9c3a55	Okazało się, że to łóżko, całkiem miękkie i wygodne. Do ręki miałem przyczepione jakieś przewody, które biegły do dziwnego urządzenia przypominającego pudełko.
+start_91c3ad14	Co jest...
+start_61091d5e	Jakoś opuściłem nogi na podłogę. Uniosłem ręce i kilka razy przetarłem oczy. Gdzie ja byłem? Czy to wszystko działo się naprawdę?
+start_72fa605c_1	Juno?
+start_06176eb1	Głos miałem zbyt ochrypły, żeby krzyknąć. Kaszlałem i łapczywie łapałem powietrze, a do oczu znów napłynęły mi łzy.
+start_0b130e0a	Jakoś się podniosłem i ruszyłem szukać Juno. Byłem na jej statku. Nie pomyliłbym go z żadnym innym.
+start_b78a5fba	Znalazłem Juno przy pulpicie sterowania. Siedziała w fotelu kapitańskim i przez ogromne okno patrzyła na małą planetę, która teraz wydawała się jeszcze mniejsza.
+start_ff8b00bf	A może po prostu się od niej oddalaliśmy?
+start_72fa605c_2	Juno?
+start_e90b6dc2	Juno się odwróciła. Na mój widok zerwała się z miejsca i znieruchomiała. Chyba nie wiedziała, co zrobić, jak zareagować, co powiedzieć.
+start_29cb9195	Gardło ścisnął mi skurcz. Znów sucho zakaszlałem.
 start_a0f80c42	[pname]…
+start_64737eeb	W końcu Juno podbiegła do mnie. Kiedy dzielił nas już tylko metr, rzuciła mi się w ramiona, mocno mnie objęła i przycisnęła się do mnie całym ciałem.
 start_ff5d3f09	Tak się cieszę… [pname]…
+start_0a34b8d9	Co się stało? Jak długo spałem?
+start_c381902f	Juno odsunęła się ode mnie. Patrzyła smutno i ponuro.
+start_26c50133	Długo...
+start_615cb0c3	Przełknąłem ślinę.
+start_8e0cc5ed	Jak długo?
+start_cda1eb95	Juno z jakiegoś powodu miała minę, jakby czuła się winna.
 start_507c274f	Miesiąc. {w}Przepraszam, [pname].
+start_a58a3315	Co?...
+start_1d584564	Rozejrzałem się, jakbym mógł znaleźć jakąś wskazówkę. Ostatnie chwile pamiętałem tylko we fragmentach.
+start_65e2ab83	Oblizałem spierzchnięte wargi. Zauważyłem butelkę wody, od razu po nią sięgnąłem i wypiłem łapczywy łyk. Palce zadrżały mi jeszcze mocniej.
+start_164d162e	Co się stało? Pamiętam... Chyba pamiętam, że umierałem. Nie wiem, czy to się naprawdę stało, czy mi się śniło.
+start_9451eb50	Znalazłam cię przy jaskini z anomalią. Byłeś ciężko ranny. Zabrałam cię stamtąd, bo jeszcze oddychałeś. Potem się okazało, że się zaraziłeś.
 start_89cefc9d	Tak mi przykro, [pname]. Ja… Pracowałam przez cały miesiąc, robiłam, co mogłam, nie odstępowałam cię na krok…
+start_6f05e539	Ale udało mi się. Mamy lekarstwo. Tylko tobie pomogło. Wybacz mi.
+start_4e1dd646	Wybaczyć? Żartujesz, Juno? Uratowałaś mi życie. Dziękuję! Na zawsze będę twoim dłużnikiem.
+start_cbc67ea4	Juno uśmiechnęła się krzywo, ale w całej jej postawie wciąż było widać ogromny smutek i poczucie winy. Podszedłem więc i ująłem ją za rękę.
+start_c705db30	Naprawdę, Juno, to nie twoja wina. Uratowałaś mnie.
+start_7ff6d5e0	Juno zaszlochała.
+start_1cf586fd	Nie powinnam była cię puścić! Co za idiotka ze mnie. Po co ci mówiłam o tej cholernej anomalii?
+start_298d76d2	Trzeba było milczeć. Trzeba było po prostu skłamać... Przeze mnie o mało nie umarłeś. To wszystko moja wina...
+start_bce8fb93	Chwyciłem ją za ramiona i przyciągnąłem do siebie.
+start_012b9b24	To nieprawda, Juno. Uwierz mi. I tak bym tam poszedł.
+start_5cc76d99	Nie wiem jak, ale... Czułem wtedy taką wściekłość, takie poczucie krzywdy, że o niczym innym nie myślałem. Po prostu mi pomogłaś. Nie obwiniaj się. To wszystko moja wina.
+start_e6796d2c	Juno odsunęła się ode mnie. Na jej hełmie malował się tylko smutek.
 start_5ef98200	W czym zawiniłeś, [pname]?
+start_9ee69d31	Parsknąłem cicho i wzruszyłem ramionami.
+start_b59e835c	Nie wypełniłem swojego przeznaczenia. Nie posłuchałem starszych ani rodziców. Chciałem żyć dla siebie, ale czy tak się da?
+start_7ee5b398	Czy to w porządku żyć dla siebie, kiedy jest się odpowiedzialnym za tylu ludzi?
+start_3bc2cd00	Powinienem był wcześniej to zrozumieć, ale byłem zbyt głupi. Zbyt samolubny. Chciałem, żeby wszystko kręciło się wokół mnie. Chciałem stawiać własne sprawy ponad cudzymi.
+start_2b84c72a	I co z tego wyszło?
+start_6f9859d6	Juno patrzyła na mnie bez wyrazu.
+start_f23bf854	Naprawdę myślisz, że to ty odpowiadasz za wszystko, co się stało?
+start_5604a37d	Oczywiście. A kto inny? Ledwie odszedłem...
+start_7f3a3d47	Ale wirus nie pojawił się od razu po twoim odejściu. A nawet gdyby tak było, jak miałbyś powstrzymać anomalię?
+start_54b30cf2	Juno patrzyła na mnie z głową przechyloną na bok, jakby naprawdę nie rozumiała, o czym mówię.
+start_ddf1a212	Nie wiem, ja... Może by do nas nie dotarła, gdybym został...
 start_a0e2c5c6	I tak by was dosięgła, [pname]. W trakcie opracowywania lekarstwa dowiedziałam się czegoś o anomalii.
+start_613454bd	Tak jak podejrzewałam, została stworzona sztucznie. Zaprogramowano ją specjalnie dla twojej planety. Podejrzewam, że każda planeta miała własną anomalię.
+start_73358167	Ale wtedy myślałam, że to wciąż ta sama.
+start_48160e63	Czekaj, co?
+start_58a8927a_1	Juno uśmiechnęła się smutno.
 start_c77b41ff	Nie mogłeś jej powstrzymać, [pname]. Uwierz mi, to było niemożliwe. I tak by do tego doszło, a gdybyś został w wiosce, też byś zginął.
+start_360e45c6	Więc w pewnym sensie uratował cię ten twój egoizm, czy jak to tam nazywasz.
+start_e1a10e43	Przygryzłem wargę od środka. Serce waliło mi szybko. W piersi wszystko się we mnie gotowało z niedowierzania i poczucia krzywdy.
+start_7779f6f6	Ale dlaczego? Dlaczego udało mi się uciec? Po co ktoś miałby wysyłać anomalię na naszą planetę? Co to wszystko znaczy?
+start_c96c1af0_3	Juno wzruszyła ramionami.
+start_973dbe7c	Nie wiem. Może ocalałeś w jakimś ważniejszym celu?
+start_2fbcac2a	Spojrzałem na Juno. Serce waliło mi w piersi i boleśnie się ściskało.
+start_f2811705	Co teraz zrobimy?
+start_600b0e06	Juno odwróciła wzrok.
 start_9a63ffa5	Nie wiem. Wybacz, ale na twojej planecie… nikt nie przeżył. Ostatnim razem, kiedy tam byłam, cała okolica była skażona. Przykro mi, [pname]. Przeżyłeś tylko ty.
+start_82604c0f	Ogarnęły mnie strach i dezorientacja. Nie mogłem uwierzyć w to wszystko, co mi się przydarzyło.
+start_e9dbbe4c	Ale może Juno miała rację? Może naprawdę ocalałem w jakimś wyższym, znacznie ważniejszym celu?
+start_3c735896	Może mój los jeszcze się nie dopełnił. Może moje przeznaczenie było dopiero przede mną.
+start_18f03ec3	A może to wszystko było tylko bajką. Nie było żadnego przeznaczenia ani żadnej misji. Zwykły zbieg okoliczności, w który tak łatwo było uwierzyć.
+start_9bc2ab42	Teraz nie mogłem już tego wiedzieć. Nie zostało nikogo, kto by się ze mną nie zgodził, kto by mi powiedział, jak należy postąpić.
+start_71739db2	Tok moich myśli przerwała jasna, wielobarwna eksplozja.
+start_bf8935a8	Razem z Juno odwróciliśmy się do okna. Planeta, która była moim domem i na której zostały ciała moich rodziców, rozpadła się na drobne kawałki w czerwonym świetle anomalii.
+start_a9602c9b	Nie mogłem wydobyć z siebie głosu. Wszystkie słowa jakby uwięzły mi w gardle.
+start_9147947f	Patrzyliśmy z Juno, jak cały ten niewielki świat rozpada się na kawałki. Jak umiera, choć tak dzielnie walczył. Serce na chwilę mi stanęło.
+start_793ca0c5	Całe życie przemknęło mi przed oczami. Dzieciństwo, młodość, twarze rodziców, uśmiechy mieszkańców wioski, piękno przyrody, jej różnorodność i niepowtarzalność. Nic z tego już nie istniało.
+start_c2fef137	Sięgnąłem po dłoń Juno i ścisnąłem ją w swojej. Jedna słona łza spłynęła mi po policzku. Żegnałem się z domem, z rodziną, z dawnym życiem.
+start_e20d7f08	Ze starszymi, z sąsiadami, nawet z Damienem, który nigdy nie był moim przyjacielem, ale przecież nie zasłużył na taki los.
 start_27e385ac	Obiecuję, że pomszczę twoją planetę, [pname]. Bez względu na cenę… Zrobię wszystko, żeby zemścić się na tych, którzy zniszczyli twój dom.
+start_3a3ddbdd	Juno mocno uścisnęła mi dłoń. Poczułem ciepło jej ręki. Tylko ona mi została. Cieszyłem się, że jest przy mnie, że jest po mojej stronie.
+start_84852b92	Uratowała mnie i byłem jej za to na zawsze wdzięczny. Na zawsze będę jej dłużnikiem. Gotów byłem oddać wszystko, byle nigdy nie żałowała swojej decyzji.
+start_932f4e4c	Dziękuję, Juno. Zabierzesz mnie ze sobą?..
+start_b16daaf9	Bałem się usłyszeć jej odpowiedź. Z jednej strony nie miałem dokąd pójść, ale z drugiej...
+start_3751abb7	Chciałem z nią zostać nie dlatego, że nie miałem dokąd pójść, bo mój dom już nie istniał. Chciałem zostać, bo takie było moje przeznaczenie. Sam je sobie wybrałem.
+start_6b45b2a2	Być z Juno, spędzić z nią tyle czasu, ile będzie mi dane, i pomścić swój dom. Dla rodziny, dla mamy i taty, dla sąsiadów, dla każdej rośliny i każdego zwierzęcia.
 start_796bf47b	Oczywiście, [pname].
+start_e49c6ded	Patrzyliśmy, jak odłamki planety lecą przez kosmos, a statek płynie coraz dalej w ciemność.
 start_f822e506	{cps=5}...{/cps}
+start_5b5b59d6	Gra studia Dirty Fox Games.
+start_bbdf9162	Ilustracje: Zhad.
+start_ec5dc530	Muzyka: Antti Luode.
+start_160aca93	Specjalne podziękowania dla Ann Bear!
+start_af456bab	Dziękujemy za grę!

@@ -36,17 +36,15 @@ The stable IDs remain in [dialogue.tsv](dialogue.tsv) and exact UI keys in
 | main-menu-logo | Keep the branded title artwork. Its text remains `My Furry Protogen`. | Inspect the logo and surrounding Polish navigation at the original size. |
 | watch-cutscenes | The reviewed watch assets contain no caption. Preserve both video files and all 20 original call sites. | Verify that a movie advances to its original next story ID. |
 
-The draft validator checks exact IDs, markup and preservation. Full semantic
-audit, independent diff review, strict package and final in-game validation are
-pending.
-
-
 ## Current corpus
 
-- 1,584/1,785 story entries, including all 1,560 consecutive story rows and the
-  registered special-scene lines in later scenes.
+- 1,785/1,785 story entries.
 - 394/394 string keys authored, including the engine accessibility,
-  developer, updater and renderer strings. Full editorial review remains pending.
+  developer, updater and renderer strings.
+- Authored dialogue SHA-256
+  `dc7eebc670c7faa3e5495803a3a154832ba439b31257163f23eaa0275fd409f4`.
+  Authored strings SHA-256
+  `fa7107a42da1982e415fb2be4ab6cc8958003d534b2b89aa70f65d44b2cb3c1a`.
 - The generated gallery uses the existing `Return` key in translated locales,
   while the quick menu uses `Back`. The native CrossOver probe inspected the
   captions and action classes in English → Polish → Russian → English.
@@ -60,6 +58,20 @@ pending.
   file. Both player save stores matched. An isolated installer regression
   verified exact upgrade, idempotence, conflicting-file rollback and rejection
   of unknown display source or bytecode.
-- The draft validator passed on the pinned source and all 747 protected
-  occurrences. Next story batch begins at row 1561 (`start_cf37ba48`). Picker exposure, final
-  layout, complete semantic audit and independent review are pending.
+- Two strict builds of the complete draft produced identical bytes and verified
+  all 747 protected occurrences. The new `Polski` option uses the native
+  Ren’Py language action and is conditional on the installed Polish pack.
+  [Build and installer evidence](draft-build.json) covers fresh installation,
+  exact upgrades, idempotence, rollback and foreign-file rejection in an
+  isolated directory. The Russian rebuild also matched the installed Russian
+  locale script byte-for-byte.
+
+## Editorial checkpoint
+
+The semantic pass started on the authored hashes above after strict preflight.
+Story rows 1–40 (`start_6f3a1b7b` through `start_eaa930f8`) were read
+against English and the Polish glossary. No corrections were recorded in that
+range. Continue with story row 41. The 394 UI keys and image-text plan still
+need their semantic review. There is no accepted Polish corpus or independent
+diff review yet. Final CrossOver verification remains pending. The existing
+game session was running when the draft installer was checked in isolation.
