@@ -1,0 +1,5289 @@
+[
+  {
+    "key": "My name is...",
+    "target": "Ich heiße ...",
+    "source_occurrences": [
+      {
+        "id": "game/script.rpy:78:27",
+        "path": "game/script.rpy",
+        "line": 78,
+        "role": "input-prompt"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "You",
+    "target": "Du",
+    "source_occurrences": [
+      {
+        "id": "game/script.rpy:81:19",
+        "path": "game/script.rpy",
+        "line": 81,
+        "role": "speaker-label"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Juno",
+    "target": "Juno",
+    "source_occurrences": [],
+    "binding_note": "Project-added key; coordinator must verify runtime binding."
+  },
+  {
+    "key": "Page {}",
+    "target": "Seite {}",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:721:64",
+        "path": "game/screens.rpy",
+        "line": 721,
+        "role": "interface"
+      },
+      {
+        "id": "game/tl/None/common.rpym:294:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 294,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Automatic saves",
+    "target": "Automatische Speicherstände",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:721:83",
+        "path": "game/screens.rpy",
+        "line": 721,
+        "role": "interface"
+      },
+      {
+        "id": "game/tl/None/common.rpym:298:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 298,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Quick saves",
+    "target": "Schnellspeicherstände",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:721:111",
+        "path": "game/screens.rpy",
+        "line": 721,
+        "role": "interface"
+      },
+      {
+        "id": "game/tl/None/common.rpym:302:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 302,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#file_time}%A, %B %d %Y, %H:%M",
+    "target": "{#file_time}%A, %d. %B %Y, %H:%M",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:763:54",
+        "path": "game/screens.rpy",
+        "line": 763,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "empty slot",
+    "target": "Leerer Speicherplatz",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:763:98",
+        "path": "game/screens.rpy",
+        "line": 763,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}",
+    "target": "\n{color=#cfc}✔ vorhergesagtes Bild (gut){/color}\n{color=#fcc}✘ nicht vorhergesagtes Bild (schlecht){/color}\n{color=#fff}Zum Verschieben ziehen.{/color}",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:774:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 774,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "        (default properties omitted)",
+    "target": "        (Standardeigenschaften ausgelassen)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:806:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 806,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "        (no properties affect the displayable)",
+    "target": "        (keine Eigenschaften beeinflussen das Anzeigeelement)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:802:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 802,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": " <python expression or statement>: run the expression or statement",
+    "target": " <python expression or statement>: Ausdruck oder Anweisung ausführen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1194:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1194,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": " <renpy script statement>: run the statement\n",
+    "target": " <renpy script statement>: Anweisung ausführen\n",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1190:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1190,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "%b %d, %H:%M",
+    "target": "%d. %b, %H:%M",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:266:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 266,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "(attributes)",
+    "target": "(Attribute)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:354:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 354,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "(channel)",
+    "target": "(Kanal)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:366:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 366,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "(filename)",
+    "target": "(Dateiname)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:370:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 370,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "(statement)",
+    "target": "(Anweisung)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:346:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 346,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "(tag)",
+    "target": "(Tag)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:350:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 350,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "(transform)",
+    "target": "(Transformation)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:358:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 358,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "(transition)",
+    "target": "(Übergang)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:362:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 362,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "30",
+    "target": "30",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1006:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1006,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "60",
+    "target": "60",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1002:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1002,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "<",
+    "target": "<",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:780:30",
+        "path": "game/screens.rpy",
+        "line": 780,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "<repr() failed>",
+    "target": "<repr() fehlgeschlagen>",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:810:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 810,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": ">",
+    "target": ">",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:792:30",
+        "path": "game/screens.rpy",
+        "line": 792,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Accesses the game menu.",
+    "target": "Öffnet das Spielmenü.",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1136:16",
+        "path": "game/screens.rpy",
+        "line": 1136,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1179:16",
+        "path": "game/screens.rpy",
+        "line": 1179,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1211:16",
+        "path": "game/screens.rpy",
+        "line": 1211,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Add",
+    "target": "Hinzufügen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:378:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 378,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Additional help",
+    "target": "Weitere Hilfe",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:681:18",
+        "path": "game/screens.rpy",
+        "line": 681,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Advances dialogue and activates the interface.",
+    "target": "Setzt den Dialog fort und aktiviert die Oberfläche.",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1124:16",
+        "path": "game/screens.rpy",
+        "line": 1124,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1171:16",
+        "path": "game/screens.rpy",
+        "line": 1171,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1194:16",
+        "path": "game/screens.rpy",
+        "line": 1194,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Advances dialogue without selecting choices.",
+    "target": "Setzt den Dialog fort, ohne Antworten auszuwählen.",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1128:16",
+        "path": "game/screens.rpy",
+        "line": 1128,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "After Choices",
+    "target": "Nach Entscheidungen",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:864:34",
+        "path": "game/screens.rpy",
+        "line": 864,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "An error has occured:",
+    "target": "Ein Fehler ist aufgetreten:",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:866:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 866,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "An error is being simulated.",
+    "target": "Ein Fehler wird simuliert.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:830:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 830,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "An exception has occurred.",
+    "target": "Eine Ausnahme ist aufgetreten.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1110:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1110,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Are you sure you want to begin skipping?",
+    "target": "Möchtest du das Überspringen wirklich beginnen?",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:450:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 450,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Are you sure you want to delete this save?",
+    "target": "Möchtest du diesen Spielstand wirklich löschen?",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:426:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 426,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Are you sure you want to end the replay?",
+    "target": "Möchtest du die Wiederholung wirklich beenden?",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:446:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 446,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Are you sure you want to overwrite your save?",
+    "target": "Möchtest du deinen Spielstand wirklich überschreiben?",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:430:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 430,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Are you sure you want to quit?",
+    "target": "Möchtest du wirklich beenden?",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:438:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 438,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Are you sure you want to return to the main menu?\nThis will lose unsaved progress.",
+    "target": "Möchtest du wirklich zum Hauptmenü zurückkehren?\nNicht gespeicherter Fortschritt geht verloren.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:442:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 442,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Are you sure you want to skip to the next choice?",
+    "target": "Möchtest du wirklich bis zur nächsten Entscheidung überspringen?",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:454:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 454,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Are you sure you want to skip unseen dialogue to the next choice?",
+    "target": "Möchtest du ungelesene Dialoge wirklich bis zur nächsten Entscheidung überspringen?",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:458:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 458,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Are you sure?",
+    "target": "Bist du sicher?",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:422:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 422,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Arrow Keys",
+    "target": "Pfeiltasten",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1131:17",
+        "path": "game/screens.rpy",
+        "line": 1131,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Art",
+    "target": "Grafik",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:675:18",
+        "path": "game/screens.rpy",
+        "line": 675,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Attempts a roll back to a prior time, allowing you to save or choose a different choice.",
+    "target": "Versucht, zu einem früheren Zeitpunkt zurückzukehren, damit du speichern oder anders entscheiden kannst.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1118:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1118,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Attributes:",
+    "target": "Attribute:",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:398:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 398,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Audio Filename:",
+    "target": "Audiodateiname:",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:418:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 418,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Auto",
+    "target": "Auto",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:360:26",
+        "path": "game/screens.rpy",
+        "line": 360,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1551:26",
+        "path": "game/screens.rpy",
+        "line": 1551,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Auto forward",
+    "target": "Automatischer Vorlauf",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:542:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 542,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Auto-Forward Time",
+    "target": "Zeit für automatischen Vorlauf",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:882:29",
+        "path": "game/screens.rpy",
+        "line": 882,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Automatically Choose",
+    "target": "Automatisch auswählen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:942:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 942,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Back",
+    "target": "Zurück",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:107:16",
+        "path": "game/screens.rpy",
+        "line": 107,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:357:26",
+        "path": "game/screens.rpy",
+        "line": 357,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1549:26",
+        "path": "game/screens.rpy",
+        "line": 1549,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Back (B)",
+    "target": "Zurück (B)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1082:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1082,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Behind:",
+    "target": "Dahinter:",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:406:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 406,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Calibrate",
+    "target": "Kalibrieren",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1217:18",
+        "path": "game/screens.rpy",
+        "line": 1217,
+        "role": "interface"
+      },
+      {
+        "id": "game/tl/None/common.rpym:986:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 986,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Calibrating [name] ([i]/[total])",
+    "target": "[name] wird kalibriert ([i]/[total])",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1070:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1070,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Cancel",
+    "target": "Abbrechen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:382:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 382,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Change",
+    "target": "Ändern",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:374:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 374,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Change render options",
+    "target": "Darstellungsoptionen ändern",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1058:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1058,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Changes will take effect the next time this program is run.",
+    "target": "Änderungen werden beim nächsten Programmstart wirksam.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1014:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1014,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Channel:",
+    "target": "Kanal:",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:414:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 414,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Checking for updates.",
+    "target": "Suche nach Updates.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:870:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 870,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Clipboard",
+    "target": "Zwischenablage",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:94:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 94,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Clipboard voicing enabled. ",
+    "target": "Sprachausgabe in die Zwischenablage aktiviert. ",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:10:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 10,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Clipboard voicing enabled. Press 'shift+C' to disable.",
+    "target": "Sprachausgabe in die Zwischenablage aktiviert. Zum Deaktivieren Umschalt+C drücken.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:642:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 642,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Console",
+    "target": "Konsole",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1142:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1142,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Console (Shift+O)",
+    "target": "Konsole (Umschalt+O)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:682:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 682,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Contacting App Store\nPlease Wait...",
+    "target": "App Store wird kontaktiert\nBitte warten ...",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:822:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 822,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Continue, Don't show warning again",
+    "target": "Fortfahren, Warnung nicht erneut anzeigen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1054:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1054,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Continue, Show this warning again",
+    "target": "Fortfahren, Warnung erneut anzeigen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1050:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1050,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Copies the errors.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/.",
+    "target": "Kopiert errors.txt als BBCode für Foren wie https://lemmasoft.renai.us/ in die Zwischenablage.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1162:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1162,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Copies the errors.txt file to the clipboard as Markdown for Discord.",
+    "target": "Kopiert errors.txt als Markdown für Discord in die Zwischenablage.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1166:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1166,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Copies the traceback.txt file to the clipboard as BBcode for forums like https://lemmasoft.renai.us/.",
+    "target": "Kopiert traceback.txt als BBCode für Foren wie https://lemmasoft.renai.us/ in die Zwischenablage.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1098:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1098,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Copies the traceback.txt file to the clipboard as Markdown for Discord.",
+    "target": "Kopiert traceback.txt als Markdown für Discord in die Zwischenablage.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1106:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1106,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Copy BBCode",
+    "target": "BBCode kopieren",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1094:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1094,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Copy Markdown",
+    "target": "Markdown kopieren",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1102:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1102,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Could not verify update signature.",
+    "target": "Die Signatur des Updates konnte nicht überprüft werden.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:846:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 846,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Credits",
+    "target": "Mitwirkende",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:427:22",
+        "path": "game/screens.rpy",
+        "line": 427,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:656:21",
+        "path": "game/screens.rpy",
+        "line": 656,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Ctrl",
+    "target": "Strg",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1139:17",
+        "path": "game/screens.rpy",
+        "line": 1139,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "D-Pad, Sticks",
+    "target": "Steuerkreuz, Sticks",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1206:17",
+        "path": "game/screens.rpy",
+        "line": 1206,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Dad",
+    "target": "Papa",
+    "source_occurrences": [
+      {
+        "id": "game/script.rpy:16:22",
+        "path": "game/script.rpy",
+        "line": 16,
+        "role": "speaker-label"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Damien",
+    "target": "Damien",
+    "source_occurrences": [],
+    "binding_note": "Project-added key; coordinator must verify runtime binding."
+  },
+  {
+    "key": "Debug",
+    "target": "Debug",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:98:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 98,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Default",
+    "target": "Standard",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:58:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 58,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "DejaVu Sans",
+    "target": "DejaVu Sans",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:62:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 62,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Delete slot [text]",
+    "target": "Speicherplatz [text] löschen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:278:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 278,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Developer Menu",
+    "target": "Entwicklermenü",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:670:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 670,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Disable",
+    "target": "Deaktivieren",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:982:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 982,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Display",
+    "target": "Anzeige",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:849:33",
+        "path": "game/screens.rpy",
+        "line": 849,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Displayable Inspector",
+    "target": "Anzeigeelement-Inspektor",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:778:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 778,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Done",
+    "target": "Fertig",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:342:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 342,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Downloading the updates.",
+    "target": "Updates werden heruntergeladen.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:886:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 886,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Either this project does not support updating, or the update status file was deleted.",
+    "target": "Entweder unterstützt dieses Projekt keine Updates, oder die Update-Statusdatei wurde gelöscht.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:834:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 834,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Elder",
+    "target": "Ältester",
+    "source_occurrences": [
+      {
+        "id": "game/script.rpy:22:22",
+        "path": "game/script.rpy",
+        "line": 22,
+        "role": "speaker-label"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Empty Slot.",
+    "target": "Leerer Speicherplatz.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:654:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 654,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Enable",
+    "target": "Aktivieren",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:978:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 978,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Enable (No Blocklist)",
+    "target": "Aktivieren (ohne Sperrliste)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:974:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 974,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "End Replay",
+    "target": "Wiederholung beenden",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:421:26",
+        "path": "game/screens.rpy",
+        "line": 421,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Enter",
+    "target": "Eingabe",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1123:17",
+        "path": "game/screens.rpy",
+        "line": 1123,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Escape",
+    "target": "Escape",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1135:17",
+        "path": "game/screens.rpy",
+        "line": 1135,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Failed to save screenshot as %s.",
+    "target": "Screenshot konnte nicht als %s gespeichert werden.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:462:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 462,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "File page [text]",
+    "target": "Dateiseite [text]",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:290:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 290,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "File page auto",
+    "target": "Automatische Dateiseite",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:282:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 282,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "File page quick",
+    "target": "Schnelle Dateiseite",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:286:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 286,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Filename List",
+    "target": "Dateinamenliste",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:694:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 694,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Finishing up.",
+    "target": "Abschluss läuft.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:894:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 894,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Font Override",
+    "target": "Schriftart überschreiben",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:54:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 54,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Force ANGLE Renderer",
+    "target": "ANGLE-Renderer erzwingen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:950:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 950,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Force ANGLE2 Renderer",
+    "target": "ANGLE2-Renderer erzwingen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:962:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 962,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Force GL Renderer",
+    "target": "GL-Renderer erzwingen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:946:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 946,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Force GL2 Renderer",
+    "target": "GL2-Renderer erzwingen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:958:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 958,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Force GLES Renderer",
+    "target": "GLES-Renderer erzwingen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:954:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 954,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Force GLES2 Renderer",
+    "target": "GLES2-Renderer erzwingen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:966:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 966,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Framerate",
+    "target": "Bildrate",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:994:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 994,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Fullscreen",
+    "target": "Vollbild",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:851:38",
+        "path": "game/screens.rpy",
+        "line": 851,
+        "role": "interface"
+      },
+      {
+        "id": "game/tl/None/common.rpym:914:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 914,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Gamepad",
+    "target": "Gamepad",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1110:34",
+        "path": "game/screens.rpy",
+        "line": 1110,
+        "role": "interface"
+      },
+      {
+        "id": "game/tl/None/common.rpym:970:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 970,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Help",
+    "target": "Hilfe",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1097:21",
+        "path": "game/screens.rpy",
+        "line": 1097,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Hide Image Load Log (F4)",
+    "target": "Bildladeprotokoll ausblenden (F4)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:702:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 702,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Hide deleted",
+    "target": "Gelöschte ausblenden",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:722:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 722,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Hides the user interface.",
+    "target": "Blendet die Benutzeroberfläche aus.",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1156:16",
+        "path": "game/screens.rpy",
+        "line": 1156,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1175:16",
+        "path": "game/screens.rpy",
+        "line": 1175,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1215:16",
+        "path": "game/screens.rpy",
+        "line": 1215,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "High Contrast Text",
+    "target": "Text mit hohem Kontrast",
+    "source_occurrences": [
+      {
+        "id": "renpy/common/00accessibility.rpy:180:29",
+        "path": "renpy/common/00accessibility.rpy",
+        "line": 180,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "History",
+    "target": "Verlauf",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:358:26",
+        "path": "game/screens.rpy",
+        "line": 358,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1008:21",
+        "path": "game/screens.rpy",
+        "line": 1008,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Ignore",
+    "target": "Ignorieren",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1122:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1122,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Ignores the exception, allowing you to continue.",
+    "target": "Ignoriert die Ausnahme und ermöglicht das Fortfahren.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1126:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1126,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Ignores the exception, allowing you to continue. This often leads to additional errors.",
+    "target": "Ignoriert die Ausnahme und ermöglicht das Fortfahren. Dies führt oft zu weiteren Fehlern.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1130:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1130,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Image Attributes",
+    "target": "Bildattribute",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:706:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 706,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Image Location Picker",
+    "target": "Bildpositionsauswahl",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:690:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 690,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Image [index] of [count] locked.",
+    "target": "Bild [index] von [count] gesperrt.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:918:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 918,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)",
+    "target": "Bildcache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:762:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 762,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Inspecting Styles of [displayable_name!q]",
+    "target": "Stile von [displayable_name!q] werden untersucht",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:794:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 794,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Interactive Director (D)",
+    "target": "Interaktiver Regisseur (D)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:674:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 674,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Its graphics drivers may be out of date or not operating correctly. This can lead to slow or incorrect graphics display.",
+    "target": "Die Grafiktreiber sind möglicherweise veraltet oder funktionieren nicht richtig. Dies kann zu langsamer oder fehlerhafter Darstellung führen.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1038:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1038,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Joystick Mapping",
+    "target": "Joystick-Belegung",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:666:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 666,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Keyboard",
+    "target": "Tastatur",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1106:30",
+        "path": "game/screens.rpy",
+        "line": 1106,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Language",
+    "target": "Sprache",
+    "source_occurrences": [],
+    "binding_note": "Project-added key; coordinator must verify runtime binding."
+  },
+  {
+    "key": "Language [text]",
+    "target": "Sprache [text]",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:326:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 326,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Left Click",
+    "target": "Linksklick",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1170:17",
+        "path": "game/screens.rpy",
+        "line": 1170,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Left Trigger\nLeft Shoulder",
+    "target": "Linker Trigger\nLinke Schultertaste",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1197:17",
+        "path": "game/screens.rpy",
+        "line": 1197,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Line Spacing Scaling",
+    "target": "Zeilenabstand skalieren",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:78:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 78,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Load",
+    "target": "Laden",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:413:22",
+        "path": "game/screens.rpy",
+        "line": 413,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:716:22",
+        "path": "game/screens.rpy",
+        "line": 716,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Load slot %s: [text]",
+    "target": "Speicherplatz %s laden: [text]",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:274:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 274,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Loading will lose unsaved progress.\nAre you sure you want to do this?",
+    "target": "Beim Laden geht nicht gespeicherter Fortschritt verloren.\nMöchtest du wirklich fortfahren?",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:434:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 434,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Location",
+    "target": "Position",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:790:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 790,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Made by",
+    "target": "Erstellt von",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:662:18",
+        "path": "game/screens.rpy",
+        "line": 662,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Main Menu",
+    "target": "Hauptmenü",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:425:26",
+        "path": "game/screens.rpy",
+        "line": 425,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Menu",
+    "target": "Menü",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1552:26",
+        "path": "game/screens.rpy",
+        "line": 1552,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Middle Click",
+    "target": "Mittelklick",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1174:17",
+        "path": "game/screens.rpy",
+        "line": 1174,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Mom",
+    "target": "Mama",
+    "source_occurrences": [
+      {
+        "id": "game/script.rpy:19:22",
+        "path": "game/script.rpy",
+        "line": 19,
+        "role": "speaker-label"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "More details on how to fix this can be found in the {a=[url]}documentation{/a}.",
+    "target": "Weitere Hinweise zur Behebung findest du in der {a=[url]}Dokumentation{/a}.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1046:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1046,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Mouse",
+    "target": "Maus",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1107:30",
+        "path": "game/screens.rpy",
+        "line": 1107,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Mouse Wheel Down",
+    "target": "Mausrad nach unten",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1186:17",
+        "path": "game/screens.rpy",
+        "line": 1186,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Mouse Wheel Up\nClick Rollback Side",
+    "target": "Mausrad nach oben\nRücklaufseite anklicken",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1182:17",
+        "path": "game/screens.rpy",
+        "line": 1182,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Mouse position: %r",
+    "target": "Mausposition: %r",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:738:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 738,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Music",
+    "target": "Musik",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:678:18",
+        "path": "game/screens.rpy",
+        "line": 678,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Music Volume",
+    "target": "Musiklautstärke",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:889:33",
+        "path": "game/screens.rpy",
+        "line": 889,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Mute All",
+    "target": "Alles stummschalten",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:917:38",
+        "path": "game/screens.rpy",
+        "line": 917,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "MyFurryProtogen",
+    "target": "MyFurryProtogen",
+    "source_occurrences": [
+      {
+        "id": "game/options.rpy:15:24",
+        "path": "game/options.rpy",
+        "line": 15,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Navigate the interface.",
+    "target": "Navigiert durch die Oberfläche.",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1132:16",
+        "path": "game/screens.rpy",
+        "line": 1132,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1207:16",
+        "path": "game/screens.rpy",
+        "line": 1207,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Next",
+    "target": "Weiter",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:662:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 662,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Next file page.",
+    "target": "Nächste Dateiseite.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:306:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 306,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "No",
+    "target": "Nein",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1283:30",
+        "path": "game/screens.rpy",
+        "line": 1283,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "No Gamepads Available",
+    "target": "Keine Gamepads verfügbar",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1066:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1066,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Nothing to inspect.",
+    "target": "Nichts zu untersuchen.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:718:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 718,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Off",
+    "target": "Aus",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:86:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 86,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Open",
+    "target": "Öffnen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1086:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1086,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Open [text] directory.",
+    "target": "Verzeichnis [text] öffnen.",
+    "source_occurrences": [
+      {
+        "id": "renpy/common/00action_other.rpy:703:17",
+        "path": "renpy/common/00action_other.rpy",
+        "line": 703,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Opendyslexic",
+    "target": "Opendyslexic",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:66:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 66,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Opens a console to allow debugging the problem.",
+    "target": "Öffnet eine Konsole zur Fehlersuche.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1146:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1146,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Opens the errors.txt file in a text editor.",
+    "target": "Öffnet errors.txt in einem Texteditor.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1158:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1158,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Opens the traceback.txt file in a text editor.",
+    "target": "Öffnet traceback.txt in einem Texteditor.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1090:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1090,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Page Down",
+    "target": "Bild ab",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1151:17",
+        "path": "game/screens.rpy",
+        "line": 1151,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Page Up",
+    "target": "Bild auf",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1147:17",
+        "path": "game/screens.rpy",
+        "line": 1147,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Parsing the script failed.",
+    "target": "Das Skript konnte nicht eingelesen werden.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1154:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1154,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Performance Warning",
+    "target": "Leistungswarnung",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1022:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1022,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Pixie",
+    "target": "Pixie",
+    "source_occurrences": [],
+    "binding_note": "Project-added key; coordinator must verify runtime binding."
+  },
+  {
+    "key": "Position copied to clipboard.",
+    "target": "Position in die Zwischenablage kopiert.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:750:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 750,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Powersave",
+    "target": "Energiesparen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:990:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 990,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Preferences",
+    "target": "Einstellungen",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:415:22",
+        "path": "game/screens.rpy",
+        "line": 415,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:838:21",
+        "path": "game/screens.rpy",
+        "line": 838,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Prefs",
+    "target": "Einst.",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:364:26",
+        "path": "game/screens.rpy",
+        "line": 364,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Preparing to download the updates.",
+    "target": "Download der Updates wird vorbereitet.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:882:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 882,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Press <esc> to exit console. Type help for help.\n",
+    "target": "Mit <esc> die Konsole verlassen. Für Hilfe help eingeben.\n",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1170:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1170,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Press or move the '[control!s]' [kind].",
+    "target": "'[control!s]' [kind] drücken oder bewegen.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1074:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1074,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Previous",
+    "target": "Zurück",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:658:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 658,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Previous file page.",
+    "target": "Vorherige Dateiseite.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:310:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 310,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Proceed",
+    "target": "Fortfahren",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:910:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 910,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Q.Load",
+    "target": "Schnell laden",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:363:26",
+        "path": "game/screens.rpy",
+        "line": 363,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Q.Save",
+    "target": "Schnell speichern",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:362:26",
+        "path": "game/screens.rpy",
+        "line": 362,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Quick load.",
+    "target": "Schnell laden.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:322:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 322,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Quick save complete.",
+    "target": "Schnellspeicherung abgeschlossen.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:314:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 314,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Quick save.",
+    "target": "Schnell speichern.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:318:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 318,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Quit",
+    "target": "Beenden",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:438:26",
+        "path": "game/screens.rpy",
+        "line": 438,
+        "role": "interface"
+      },
+      {
+        "id": "game/tl/None/common.rpym:1018:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1018,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Quits the game.",
+    "target": "Beendet das Spiel.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1150:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1150,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Rectangle copied to clipboard.",
+    "target": "Rechteck in die Zwischenablage kopiert.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:746:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 746,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Rectangle: %r",
+    "target": "Rechteck: %r",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:734:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 734,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Reload",
+    "target": "Neu laden",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1134:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1134,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Reload Game (Shift+R)",
+    "target": "Spiel neu laden (Umschalt+R)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:678:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 678,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Reloads the game from disk, saving and restoring game state if possible.",
+    "target": "Lädt das Spiel vom Datenträger neu und speichert und stellt den Spielzustand wenn möglich wieder her.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1138:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1138,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Remove",
+    "target": "Entfernen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:386:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 386,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Ren'Py script disabled.",
+    "target": "Ren'Py-Skript deaktiviert.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1178:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1178,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Ren'Py script enabled.",
+    "target": "Ren'Py-Skript aktiviert.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1174:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1174,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Renderer",
+    "target": "Renderer",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:938:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 938,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Reset",
+    "target": "Zurücksetzen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:74:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 74,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Return",
+    "target": "Zurück",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:579:18",
+        "path": "game/screens.rpy",
+        "line": 579,
+        "role": "interface"
+      },
+      {
+        "id": "game/tl/None/common.rpym:110:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 110,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Return to the developer menu",
+    "target": "Zum Entwicklermenü zurückkehren",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:730:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 730,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Right Click",
+    "target": "Rechtsklick",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1178:17",
+        "path": "game/screens.rpy",
+        "line": 1178,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Right Shoulder",
+    "target": "Rechte Schultertaste",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1201:17",
+        "path": "game/screens.rpy",
+        "line": 1201,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Right Trigger\nA/Bottom Button",
+    "target": "Rechter Trigger\nA/untere Taste",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1193:17",
+        "path": "game/screens.rpy",
+        "line": 1193,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Right-click or escape to quit.",
+    "target": "Zum Beenden rechtsklicken oder Escape drücken.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:742:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 742,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Rollback",
+    "target": "Zurückrollen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1114:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1114,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Rolls back to earlier dialogue.",
+    "target": "Kehrt zu früherem Dialog zurück.",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1148:16",
+        "path": "game/screens.rpy",
+        "line": 1148,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1183:16",
+        "path": "game/screens.rpy",
+        "line": 1183,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1198:16",
+        "path": "game/screens.rpy",
+        "line": 1198,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Rolls forward to later dialogue.",
+    "target": "Springt zu späterem Dialog vor.",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1152:16",
+        "path": "game/screens.rpy",
+        "line": 1152,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1187:16",
+        "path": "game/screens.rpy",
+        "line": 1187,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1202:16",
+        "path": "game/screens.rpy",
+        "line": 1202,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Save",
+    "target": "Speichern",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:361:26",
+        "path": "game/screens.rpy",
+        "line": 361,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:411:26",
+        "path": "game/screens.rpy",
+        "line": 411,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:709:22",
+        "path": "game/screens.rpy",
+        "line": 709,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Save slot %s: [text]",
+    "target": "Speicherplatz %s speichern: [text]",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:270:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 270,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Saved screenshot as %s.",
+    "target": "Screenshot als %s gespeichert.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:466:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 466,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Screen",
+    "target": "Bildschirm",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:998:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 998,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Select Gamepad to Calibrate",
+    "target": "Gamepad zum Kalibrieren auswählen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1062:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1062,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Self-Voicing",
+    "target": "Sprachausgabe",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:82:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 82,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Self-Voicing Volume Drop",
+    "target": "Lautstärkeabsenkung bei Sprachausgabe",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:102:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 102,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Self-voicing disabled.",
+    "target": "Sprachausgabe deaktiviert.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:6:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 6,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Self-voicing enabled. ",
+    "target": "Sprachausgabe aktiviert. ",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:14:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 14,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Self-voicing enabled. Press 'v' to disable.",
+    "target": "Sprachausgabe aktiviert. Zum Deaktivieren V drücken.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:650:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 650,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Self-voicing would say \"[renpy.display.tts.last]\". Press 'alt+shift+V' to disable.",
+    "target": "Die Sprachausgabe würde \"[renpy.display.tts.last]\" sagen. Zum Deaktivieren Alt+Umschalt+V drücken.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:646:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 646,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Show Image Load Log (F4)",
+    "target": "Bildladeprotokoll anzeigen (F4)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:698:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 698,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Show deleted",
+    "target": "Gelöschte anzeigen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:726:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 726,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Size",
+    "target": "Größe",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:782:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 782,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Skip",
+    "target": "Überspringen",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:359:26",
+        "path": "game/screens.rpy",
+        "line": 359,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:862:29",
+        "path": "game/screens.rpy",
+        "line": 862,
+        "role": "interface"
+      },
+      {
+        "id": "game/screens.rpy:1550:26",
+        "path": "game/screens.rpy",
+        "line": 1550,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Skip (A)",
+    "target": "Überspringen (A)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1078:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1078,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Skip Mode",
+    "target": "Überspringmodus",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:470:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 470,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Skipping",
+    "target": "Überspringen",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1329:20",
+        "path": "game/screens.rpy",
+        "line": 1329,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Skips dialogue while held down.",
+    "target": "Überspringt Dialoge, solange die Taste gehalten wird.",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1140:16",
+        "path": "game/screens.rpy",
+        "line": 1140,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Sound Volume",
+    "target": "Effektlautstärke",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:896:33",
+        "path": "game/screens.rpy",
+        "line": 896,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Space",
+    "target": "Leertaste",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1127:17",
+        "path": "game/screens.rpy",
+        "line": 1127,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Start",
+    "target": "Starten",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:405:26",
+        "path": "game/screens.rpy",
+        "line": 405,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Start, Guide",
+    "target": "Start, Guide",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1210:17",
+        "path": "game/screens.rpy",
+        "line": 1210,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Statement:",
+    "target": "Anweisung:",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:390:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 390,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Style",
+    "target": "Stil",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:786:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 786,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Tab",
+    "target": "Tab",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1143:17",
+        "path": "game/screens.rpy",
+        "line": 1143,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Tag:",
+    "target": "Tag:",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:394:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 394,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Takes a screenshot.",
+    "target": "Erstellt einen Screenshot.",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1160:16",
+        "path": "game/screens.rpy",
+        "line": 1160,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Tearing",
+    "target": "Bildrisse",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1010:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1010,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Test",
+    "target": "Test",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:902:46",
+        "path": "game/screens.rpy",
+        "line": 902,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Text Size Scaling",
+    "target": "Textgröße skalieren",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:70:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 70,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Text Speed",
+    "target": "Textgeschwindigkeit",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:878:29",
+        "path": "game/screens.rpy",
+        "line": 878,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Text-to-speech",
+    "target": "Text-zu-Sprache",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:90:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 90,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Textures: [tex_count] ([tex_size_mb:.1f] MB)",
+    "target": "Texturen: [tex_count] ([tex_size_mb:.1f] MB)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:758:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 758,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "The Ren'Py Updater is not supported on mobile devices.",
+    "target": "Der Ren'Py-Updater wird auf Mobilgeräten nicht unterstützt.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:826:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 826,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "The dialogue history is empty.",
+    "target": "Der Dialogverlauf ist leer.",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1036:21",
+        "path": "game/screens.rpy",
+        "line": 1036,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "The interactive director is not enabled here.",
+    "target": "Der interaktive Regisseur ist hier nicht aktiviert.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:330:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 330,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "The options on this menu are intended to improve accessibility. They may not work with all games, and some combinations of options may render the game unplayable. This is not an issue with the game or engine. For the best results when changing fonts, try to keep the text size the same as it originally was.",
+    "target": "Die Optionen in diesem Menü sollen die Zugänglichkeit verbessern. Sie funktionieren möglicherweise nicht mit allen Spielen, und manche Kombinationen können das Spiel unspielbar machen. Dies ist kein Fehler des Spiels oder der Engine. Für beste Ergebnisse beim Ändern der Schriftart sollte die ursprüngliche Textgröße möglichst beibehalten werden.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:106:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 106,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "The update file does not have the correct digest - it may have been corrupted.",
+    "target": "Die Prüfsumme der Updatedatei stimmt nicht – sie wurde möglicherweise beschädigt.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:854:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 854,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "The update file was not downloaded.",
+    "target": "Die Updatedatei wurde nicht heruntergeladen.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:850:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 850,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "The updates have been installed.",
+    "target": "Die Updates wurden installiert.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:902:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 902,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "The updates have been installed. The program will restart.",
+    "target": "Die Updates wurden installiert. Das Programm wird neu gestartet.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:898:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 898,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "The updates were cancelled.",
+    "target": "Die Updates wurden abgebrochen.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:906:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 906,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "The {a=edit:1:log.txt}log.txt{/a} file may contain information to help you determine what is wrong with your computer.",
+    "target": "Die Datei {a=edit:1:log.txt}log.txt{/a} enthält möglicherweise Informationen, mit denen sich das Problem deines Computers ermitteln lässt.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1042:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1042,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "This account does not have permission to perform an update.",
+    "target": "Dieses Konto ist nicht berechtigt, ein Update durchzuführen.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:838:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 838,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "This account does not have permission to write the update log.",
+    "target": "Dieses Konto ist nicht berechtigt, das Updateprotokoll zu schreiben.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:842:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 842,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "This computer has a problem displaying graphics: [problem].",
+    "target": "Dieser Computer hat ein Problem bei der Grafikdarstellung: [problem].",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1034:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1034,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "This computer is using software rendering.",
+    "target": "Dieser Computer verwendet Software-Rendering.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1026:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1026,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "This game requires use of GL2 that can't be initialised.",
+    "target": "Dieses Spiel benötigt GL2, das nicht initialisiert werden kann.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1030:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1030,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}.",
+    "target": "Dieses Programm enthält freie Software unter verschiedenen Lizenzen, darunter die MIT-Lizenz und die GNU Lesser General Public License. Eine vollständige Softwareliste mit Links zum vollständigen Quellcode findest du {a=https://www.renpy.org/l/license}hier{/a}.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:474:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 474,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "This program is up to date.",
+    "target": "Dieses Programm ist auf dem neuesten Stand.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:874:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 874,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.",
+    "target": "Schaltet die unterstützende {a=https://www.renpy.org/l/voicing}Sprachausgabe{/a} um.",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1164:16",
+        "path": "game/screens.rpy",
+        "line": 1164,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Toggles dialogue skipping.",
+    "target": "Schaltet das Überspringen von Dialogen um.",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1144:16",
+        "path": "game/screens.rpy",
+        "line": 1144,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Transforms:",
+    "target": "Transformationen:",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:402:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 402,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Transition:",
+    "target": "Übergang:",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:410:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 410,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Transitions",
+    "target": "Übergänge",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:865:34",
+        "path": "game/screens.rpy",
+        "line": 865,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Type to filter: ",
+    "target": "Zum Filtern tippen: ",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:754:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 754,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Unpacking the updates.",
+    "target": "Updates werden entpackt.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:890:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 890,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Unseen Text",
+    "target": "Ungelesener Text",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:863:34",
+        "path": "game/screens.rpy",
+        "line": 863,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Updater",
+    "target": "Updater",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:862:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 862,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Variable Viewer",
+    "target": "Variablenanzeige",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:686:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 686,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "While unpacking {}, unknown type {}.",
+    "target": "Beim Entpacken von {} wurde der unbekannte Typ {} gefunden.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:858:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 858,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Window",
+    "target": "Fenster",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:850:38",
+        "path": "game/screens.rpy",
+        "line": 850,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Y/Top Button",
+    "target": "Y/obere Taste",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1214:17",
+        "path": "game/screens.rpy",
+        "line": 1214,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Yes",
+    "target": "Ja",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:1282:30",
+        "path": "game/screens.rpy",
+        "line": 1282,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "[name] [attributes]",
+    "target": "[name] [attributes]",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:714:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 714,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "[name] [attributes] (hidden)",
+    "target": "[name] [attributes] (verborgen)",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:710:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 710,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "[u.version] is available. Do you want to install it?",
+    "target": "[u.version] ist verfügbar. Möchtest du es installieren?",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:878:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 878,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "a",
+    "target": "a",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:814:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 814,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "activate",
+    "target": "aktivieren",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:38:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 38,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "after choices",
+    "target": "nach Entscheidungen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:526:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 526,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "auto-forward",
+    "target": "automatischer Vorlauf",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:538:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 538,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "auto-forward after click",
+    "target": "automatischer Vorlauf nach Klick",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:546:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 546,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "auto-forward time",
+    "target": "Zeit für automatischen Vorlauf",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:534:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 534,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "automatic move",
+    "target": "automatische Bewegung",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:550:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 550,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "bar",
+    "target": "Leiste",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:18:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 18,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "begin skipping",
+    "target": "Überspringen beginnen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:522:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 522,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "clear: clear the console history",
+    "target": "clear: Konsolenverlauf löschen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1198:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1198,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "clipboard voicing",
+    "target": "Sprachausgabe in die Zwischenablage",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:570:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 570,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "commands:\n",
+    "target": "Befehle:\n",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1186:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1186,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "deactivate",
+    "target": "deaktivieren",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:42:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 42,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "debug voicing",
+    "target": "Debug-Sprachausgabe",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:574:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 574,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "decrease",
+    "target": "verringern",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:50:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 50,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "display",
+    "target": "Anzeige",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:478:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 478,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "displayable:",
+    "target": "Anzeigeelement:",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:798:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 798,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "emphasize audio",
+    "target": "Audio hervorheben",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:578:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 578,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "escape: Enables escaping of unicode symbols in unicode strings.",
+    "target": "escape: Aktiviert das Escaping von Unicode-Zeichen in Unicode-Zeichenketten.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1242:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1242,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "exit: exit the console",
+    "target": "exit: Konsole verlassen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1202:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1202,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "font line spacing",
+    "target": "Schriftzeilenabstand",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:606:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 606,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "font size",
+    "target": "Schriftgröße",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:602:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 602,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "font transform",
+    "target": "Schrifttransformation",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:598:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 598,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "gl framerate",
+    "target": "GL-Bildrate",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:590:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 590,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "gl powersave",
+    "target": "GL-Energiesparen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:586:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 586,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "gl tearing",
+    "target": "GL-Bildrisse",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:594:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 594,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "help: show this help",
+    "target": "help: diese Hilfe anzeigen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1182:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1182,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "horizontal scroll",
+    "target": "horizontal scrollen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:30:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 30,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "increase",
+    "target": "erhöhen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:46:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 46,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "joystick",
+    "target": "Joystick",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:502:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 502,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "joystick...",
+    "target": "Joystick ...",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:506:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 506,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "jump <label>: jumps to label",
+    "target": "jump <label>: springt zur Marke",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1230:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1230,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "load <slot>: loads the game from slot",
+    "target": "load <slot>: lädt das Spiel aus dem Speicherplatz",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1206:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1206,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "long: Print the full representation of objects on the console.",
+    "target": "long: vollständige Darstellung von Objekten in der Konsole ausgeben.",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1238:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1238,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "music volume",
+    "target": "Musiklautstärke",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:614:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 614,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "mute all",
+    "target": "alles stummschalten",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:638:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 638,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "mute music",
+    "target": "Musik stummschalten",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:626:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 626,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "mute sound",
+    "target": "Effekte stummschalten",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:630:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 630,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "mute voice",
+    "target": "Stimmen stummschalten",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:634:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 634,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "next",
+    "target": "weiter",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:926:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 926,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "prev",
+    "target": "zurück",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:922:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 922,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "q",
+    "target": "q",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:818:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 818,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "reload: reloads the game, refreshing the scripts",
+    "target": "reload: lädt das Spiel und aktualisiert die Skripte",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1214:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1214,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "return",
+    "target": "zurück",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:934:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 934,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "rollback side",
+    "target": "Rücklaufseite",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:582:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 582,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "save <slot>: saves the game in slot",
+    "target": "save <slot>: speichert das Spiel im Speicherplatz",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1210:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1210,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "selected",
+    "target": "ausgewählt",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:22:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 22,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "self voicing",
+    "target": "Sprachausgabe",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:562:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 562,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "self voicing volume drop",
+    "target": "Lautstärkeabsenkung bei Sprachausgabe",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:566:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 566,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "short: Shorten the representation of objects on the console (default).",
+    "target": "short: Darstellung von Objekten in der Konsole verkürzen (Standard).",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1234:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1234,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "show empty window",
+    "target": "leeres Fenster anzeigen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:494:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 494,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "skip",
+    "target": "überspringen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:510:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 510,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "skip after choices",
+    "target": "nach Entscheidungen überspringen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:530:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 530,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "skip transitions",
+    "target": "Übergänge überspringen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:486:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 486,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "skip unseen [text]",
+    "target": "Ungelesenes überspringen [text]",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:514:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 514,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "skip unseen text",
+    "target": "ungelesenen Text überspringen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:518:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 518,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "slideshow",
+    "target": "Diashow",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:930:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 930,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "sound volume",
+    "target": "Effektlautstärke",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:618:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 618,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "system cursor",
+    "target": "Systemcursor",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:610:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 610,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "text speed",
+    "target": "Textgeschwindigkeit",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:498:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 498,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "transitions",
+    "target": "Übergänge",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:482:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 482,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "unescape: Disables escaping of unicode symbols in unicode strings and print it as is (default).",
+    "target": "unescape: Deaktiviert das Escaping von Unicode-Zeichen in Unicode-Zeichenketten und gibt sie unverändert aus (Standard).",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1246:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1246,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "unwatch <expression>: stop watching an expression",
+    "target": "unwatch <expression>: Überwachung eines Ausdrucks beenden",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1222:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1222,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "unwatchall: stop watching all expressions",
+    "target": "unwatchall: Überwachung aller Ausdrücke beenden",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1226:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1226,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "vertical scroll",
+    "target": "vertikal scrollen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:34:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 34,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "video sprites",
+    "target": "Video-Sprites",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:490:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 490,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "viewport",
+    "target": "Ansichtsbereich",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:26:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 26,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "voice sustain",
+    "target": "Stimme fortsetzen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:558:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 558,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "voice volume",
+    "target": "Stimmenlautstärke",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:622:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 622,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "wait for voice",
+    "target": "auf Stimme warten",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:554:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 554,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "watch <expression>: watch a python expression\n watch short: makes the representation of traced expressions short (default)\n watch long: makes the representation of traced expressions as is",
+    "target": "watch <expression>: Python-Ausdruck überwachen\n watch short: Darstellung überwachter Ausdrücke verkürzen (Standard)\n watch long: Darstellung überwachter Ausdrücke unverändert lassen",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:1218:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 1218,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month_short}Apr",
+    "target": "{#month_short}Apr",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:230:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 230,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month_short}Aug",
+    "target": "{#month_short}Aug",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:246:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 246,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month_short}Dec",
+    "target": "{#month_short}Dez",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:262:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 262,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month_short}Feb",
+    "target": "{#month_short}Feb",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:222:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 222,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month_short}Jan",
+    "target": "{#month_short}Jan",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:218:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 218,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month_short}Jul",
+    "target": "{#month_short}Jul",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:242:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 242,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month_short}Jun",
+    "target": "{#month_short}Jun",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:238:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 238,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month_short}Mar",
+    "target": "{#month_short}Mär",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:226:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 226,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month_short}May",
+    "target": "{#month_short}Mai",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:234:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 234,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month_short}Nov",
+    "target": "{#month_short}Nov",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:258:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 258,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month_short}Oct",
+    "target": "{#month_short}Okt",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:254:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 254,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month_short}Sep",
+    "target": "{#month_short}Sep",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:250:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 250,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month}April",
+    "target": "{#month}April",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:182:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 182,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month}August",
+    "target": "{#month}August",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:198:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 198,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month}December",
+    "target": "{#month}Dezember",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:214:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 214,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month}February",
+    "target": "{#month}Februar",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:174:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 174,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month}January",
+    "target": "{#month}Januar",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:170:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 170,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month}July",
+    "target": "{#month}Juli",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:194:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 194,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month}June",
+    "target": "{#month}Juni",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:190:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 190,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month}March",
+    "target": "{#month}März",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:178:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 178,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month}May",
+    "target": "{#month}Mai",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:186:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 186,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month}November",
+    "target": "{#month}November",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:210:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 210,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month}October",
+    "target": "{#month}Oktober",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:206:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 206,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#month}September",
+    "target": "{#month}September",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:202:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 202,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#weekday_short}Fri",
+    "target": "{#weekday_short}Fr",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:158:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 158,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#weekday_short}Mon",
+    "target": "{#weekday_short}Mo",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:142:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 142,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#weekday_short}Sat",
+    "target": "{#weekday_short}Sa",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:162:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 162,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#weekday_short}Sun",
+    "target": "{#weekday_short}So",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:166:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 166,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#weekday_short}Thu",
+    "target": "{#weekday_short}Do",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:154:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 154,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#weekday_short}Tue",
+    "target": "{#weekday_short}Di",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:146:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 146,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#weekday_short}Wed",
+    "target": "{#weekday_short}Mi",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:150:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 150,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#weekday}Friday",
+    "target": "{#weekday}Freitag",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:130:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 130,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#weekday}Monday",
+    "target": "{#weekday}Montag",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:114:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 114,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#weekday}Saturday",
+    "target": "{#weekday}Samstag",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:134:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 134,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#weekday}Sunday",
+    "target": "{#weekday}Sonntag",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:138:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 138,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#weekday}Thursday",
+    "target": "{#weekday}Donnerstag",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:126:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 126,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#weekday}Tuesday",
+    "target": "{#weekday}Dienstag",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:118:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 118,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "{#weekday}Wednesday",
+    "target": "{#weekday}Mittwoch",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:122:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 122,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "✔ ",
+    "target": "✔ ",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:766:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 766,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "✘ ",
+    "target": "✘ ",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:770:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 770,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "⬆",
+    "target": "⬆",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:334:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 334,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "⬇",
+    "target": "⬇",
+    "source_occurrences": [
+      {
+        "id": "game/tl/None/common.rpym:338:9",
+        "path": "game/tl/None/common.rpym",
+        "line": 338,
+        "role": "engine-string"
+      }
+    ],
+    "binding_note": null
+  },
+  {
+    "key": "Gallery",
+    "target": "Galerie",
+    "source_occurrences": [
+      {
+        "id": "game/screens.rpy:417:22",
+        "path": "game/screens.rpy",
+        "line": 417,
+        "role": "interface"
+      }
+    ],
+    "binding_note": null
+  }
+]

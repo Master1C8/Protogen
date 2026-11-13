@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_fe63399a",
+    "before": "Sumalampak si Juno sa harap ng tatlong-sungay. Inabot niya ang itim at malapot na naipong dugo at kumuha ng sample gamit ang isang espesyal na patpat.",
+    "after": "Lumupasay si Juno sa harap ng tatlong-sungay. Inabot niya ang itim at malapot na naipong dugo at kumuha ng sample gamit ang isang espesyal na patpat.",
+    "reason": "Restore Juno’s squatting posture."
+  },
+  {
+    "id": "start_9c767946",
+    "before": "Juno, walang mangyayari sa akin. At kung mayroon man... Ibig sabihin niyon, hindi mo iyon mapipigilan. Hindi rin naman ako magiging mas ligtas sa bahay kaysa kasama ka.",
+    "after": "Juno, walang mangyayari sa akin. At kung mayroon man... Ibig sabihin niyon, hindi mo iyon mapipigilan. Hindi rin naman gaanong mas mabuti ang kalagayan ko sa bahay kaysa kung kasama kita.",
+    "reason": "Preserve the broader comparison of his situation instead of limiting it to safety."
+  },
+  {
+    "id": "start_113abe72",
+    "before": "Sa tuwing nararating ko ang mga planetang iyon, wala nang tao at wala nang matutulungan, pati ang virus ay patay na rin.",
+    "after": "Sa tuwing nararating ko ang mga planetang iyon, wala nang sinuman o anuman na matutulungan, pati ang virus ay patay na rin.",
+    "reason": "Avoid narrowing the source’s “no one” to humans."
+  }
+]

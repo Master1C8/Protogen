@@ -1,0 +1,26 @@
+[
+  {
+    "id": "start_82cf338a",
+    "before": "Wakati huohuo, niliingia kwa nguvu chumbani, karibu niuangushe mlango uliokuwa tayari dhaifu.",
+    "after": "Wakati huohuo, niliingia kwa nguvu chumbani, nikiuangusha kabisa mlango uliokuwa tayari dhaifu.",
+    "reason": "Source states the door was knocked down, not nearly knocked down."
+  },
+  {
+    "id": "start_6b53eb1a",
+    "before": "Koo langu lilihisi kana kwamba mkono wa mtu mwingine ulikuwa ukilikaba. Kupumua kukawa kugumu sana kiasi kwamba karibu nizimie, kana kwamba kuna kitu kilikuwa kimekwama mapafuni mwangu.",
+    "after": "Koo langu lilihisi kana kwamba mkono wa mtu mwingine ulikuwa ukilikaba. Kupumua kukawa kugumu sana kiasi kwamba karibu nikose hewa, kana kwamba kuna kitu kilikuwa kimekwama mapafuni mwangu.",
+    "reason": "Preserve nearly suffocating rather than nearly fainting."
+  },
+  {
+    "id": "start_364819a2",
+    "before": "Alikatiza maneno kwa kikohozi cha kukwaruza. Nilisimama ghafla na kutafuta bakuli la maji. Lakini kisha nilitambua: maji lazima yatoke kisimani.",
+    "after": "Alikatiza maneno kwa kikohozi cha kukwaruza. Nilisimama ghafla na kutafuta bakuli la maji. Lakini kisha nilitambua: maji lazima yalikuwa yametoka kisimani.",
+    "reason": "Preserve his inference about the water’s source rather than an instruction to obtain water."
+  },
+  {
+    "id": "start_6274bbb5",
+    "before": "Sahihi. Tunahitaji kufanya hivyo kwa gharama yoyote. Lakini uchambuzi huu utaamua kila kitu.",
+    "after": "Sahihi. Tunahitaji kufanya hivyo kwa gharama yoyote. Lakini uchambuzi huu utatatua kila kitu.",
+    "reason": "Preserve her claim that the analysis will solve everything."
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_557ae46f",
+    "before": "因為和他們談論無關工作的話題越多，就越容易產生感情。",
+    "after": "因為和他們談論抽象話題越多，就越容易產生感情。",
+    "reason": "Preserve the source’s abstract topics rather than replacing them with topics unrelated to work."
+  },
+  {
+    "id": "start_8fa495bc",
+    "before": "我會盡量幫你，朱諾，我保證。我們不必，嗯，立刻成為非常親密的朋友。",
+    "after": "我會盡量幫你，朱諾，我保證。我們不必，嗯，成為非常親密的朋友。",
+    "reason": "Remove the unsupported immediate-time qualifier."
+  },
+  {
+    "id": "start_df9b08f4",
+    "before": "牠們好像…… {w}枯萎了？",
+    "after": "它們好像…… {w}枯萎了？",
+    "reason": "Use the inanimate pronoun for the leaves in Juno’s hands, retaining the pause."
+  }
+]

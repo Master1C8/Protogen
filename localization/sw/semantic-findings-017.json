@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_5588e9a5",
+    "before": "Na kadiri nilivyofikiria mambo hayo yote, kadiri nilivyotafuta majibu ya maswali niliyojiuliza...",
+    "after": "Na kadiri nilivyofikiria mambo hayo yote, kadiri nilivyotafuta majibu ya maswali niliyoulizwa...",
+    "reason": "Source says questions posed to him, not questions he asked himself."
+  },
+  {
+    "id": "start_29eade7d",
+    "before": "Wazo la kuwa shujaa mkuu liliondoka. Basi nini? Je, ningezuilia janga la asili la ulimwengu mzima? Ningewazuia wavamizi kutoka anga za mbali?",
+    "after": "Wazo la kuwa shujaa mkuu liliondoka. Basi nini? Je, ningezuia janga la asili la ulimwengu mzima? Ningewazuia wavamizi kutoka anga za mbali?",
+    "reason": "Correct verb form for preventing the disaster."
+  },
+  {
+    "id": "start_46dca9b7",
+    "before": "Jioni nilipaswa kutembea kijijini—desturi nyingine iliyobuniwa na Wazee—kisha kufanya kazi za nyumbani na hatimaye kulala. {w}Nisingemtakia mtu yeyote maisha kama hayo.",
+    "after": "Jioni nilipaswa kutembea kijijini—desturi nyingine iliyobuniwa na Wazee—kisha kufanya kazi za shule za nyumbani na hatimaye kulala. {w}Nisingemtakia mtu yeyote maisha kama hayo.",
+    "reason": "Disambiguate school homework from household chores."
+  }
+]

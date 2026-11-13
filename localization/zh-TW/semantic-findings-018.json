@@ -1,0 +1,8 @@
+[
+  {
+    "id": "start_b962687b",
+    "before": "我嘆了口氣：父母又開始老調重彈，說我出生在他們家是多麼幸運……",
+    "after": "我嘆了口氣：父母又開始老調重彈，說他們生下我有多麼幸運……",
+    "reason": "Clarify that the parents consider themselves lucky to have had the narrator, preserving the source subject."
+  }
+]

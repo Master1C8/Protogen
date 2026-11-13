@@ -1,0 +1,5 @@
+# Ukrainian author comparison batch 013
+
+2026-11-13. Compared all 394 base UI authored English keys and Ukrainian values in `strings.json` order. Exact reviewed keys are recorded in `semantic-coverage.json`. Corrected three exception messages: “виключення” became the appropriate technical term “виняток” or “виняткова ситуація”. Existing unresolved story findings in the locale status remain open.
+
+Strict `build_localization.edition_text(..., False)` validation passed after the edits: 1785/1785 base story, 394/394 base UI, 255/255 DLC delta including 17 aliases, and 1/1 DLC UI. It checks structural bindings and placeholders, not semantic correctness or rendering. Base strings SHA-256 `76ae72fbd456d1be75d69ef59914ce10a364f418e6f3be6c970f2f1c5258b7c7`; coverage SHA-256 `187d42693044091f6c84b7b29092ae019100448802b1abf184cd7d8c29ef808e`. Dependency closure, English comparison of explicit DLC, independent review, and runtime/visual verification remain pending. Next: explicit DLC story and UI.

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "start_2cfb05c4",
+    "before": "Macho kwenye kofia ya kinga ya Juno yalikodolea kwa shaka.",
+    "after": "Macho kwenye kofia ya kinga ya Juno yalijikaza kwa shaka.",
+    "reason": "Preserve the eyes narrowing, not staring."
+  },
+  {
+    "id": "start_12453058",
+    "before": "Bado nilikuwa nimeshikilia kiganja changu, nikisubiri kupeana mkono, na Juno alikuwa amesimama ng'ambo yangu akitabasamu.",
+    "after": "Bado nilikuwa nimenyoosha kiganja changu, nikisubiri kupeana mkono, na Juno alikuwa amesimama ng'ambo yangu akitabasamu.",
+    "reason": "The player holds his palm out, not holds his own palm."
+  },
+  {
+    "id": "start_5bfbfeac",
+    "before": "Tunaweza kuanza ng'ambo ya mto. Mbele kidogo kuna msitu unaoishi wanyama wadogo wa aina mbalimbali.",
+    "after": "Tunaweza kuanza ng'ambo ya mto. Mbele kidogo kuna msitu ambamo wanyama wadogo wa aina mbalimbali wanaishi.",
+    "reason": "Correct the forest/animals grammatical relationship."
+  },
+  {
+    "id": "start_a91c0bed",
+    "before": "Nilitikisa kichwa. {w}Ikiwa hii ilikuwa ndoto ya upotovu au njozi fulani kutokana na kugonga kichwa, angalau nilitaka kudhibiti hali hiyo.",
+    "after": "Nilitikisa kichwa. {w}Ikiwa hii ilikuwa ndoto ya kuchanganyikiwa au njozi fulani kutokana na kugonga kichwa, angalau nilitaka kudhibiti hali hiyo.",
+    "reason": "Avoid implying moral or sexual perversion for a delusional dream."
+  }
+]

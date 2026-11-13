@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_df743053",
+    "before": "Sa tingin ko, nagtagpo tayo sa tamang panahon. Wala akong mga kaibigan dahil walang gustong makipagkaibigan sa akin.",
+    "after": "Sa tingin ko, natagpuan natin ang isa’t isa. Wala akong mga kaibigan dahil walang gustong makipagkaibigan sa akin.",
+    "reason": "Remove the unsupported assertion about meeting at the right time."
+  },
+  {
+    "id": "start_e0c1405c",
+    "before": "Mabait na tumawa si Juno at tiniyak sa aking tiyak na mauunawaan ko rin iyon balang araw.",
+    "after": "Mabait na tumawa si Juno at tiniyak sa akin na mauunawaan ko rin iyon balang araw.",
+    "reason": "Correct the malformed assurance without changing its meaning."
+  },
+  {
+    "id": "start_5cab6b83",
+    "before": "Amoy bulok ang buong gubat, may mabigat at patay na amoy. Pareho kaming may nababahalang ekspresyon sa mukha ko at sa helmet ni Juno.",
+    "after": "Amoy bulok ang buong gubat, may mabigat at patay na amoy. Ang nababahalang ekspresyon sa helmet ni Juno ay katulad ng nasa mukha ko.",
+    "reason": "Clarify that the same worried expression appears on Juno’s helmet and the narrator’s face."
+  }
+]

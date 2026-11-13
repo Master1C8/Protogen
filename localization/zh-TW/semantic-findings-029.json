@@ -1,0 +1,14 @@
+[
+  {
+    "id": "start_6b44fb16",
+    "before": "我們一整天幾乎沒碰到彼此——她幾乎一直在實驗室工作。",
+    "after": "我們一整天幾乎沒有碰觸彼此——她幾乎一直在實驗室工作。",
+    "reason": "Clarify that the source refers to physical touch, not merely encountering one another."
+  },
+  {
+    "id": "start_b5882c18",
+    "before": "我的聲音沙啞而低沉，怯生生的，彷彿害怕聽見答案，而我確實害怕。我真的怕聽到她不會為我留下。",
+    "after": "我的聲音沙啞而輕，怯生生的，彷彿害怕聽見答案，而我確實害怕。我真的怕聽到她不會為我留下。",
+    "reason": "Preserve the source’s quiet volume rather than suggesting a low pitch."
+  }
+]

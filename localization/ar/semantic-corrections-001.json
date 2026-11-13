@@ -1,0 +1,219 @@
+{
+  "stage": "consolidated author corrections",
+  "changes": [
+    {
+      "edition": "base",
+      "id": "start_652ff7b1",
+      "before": "لكن أعياد ميلاد المختار كانت تُحتفل منفصلة، ولذلك كان موعد احتفال الآخرين يُنقل عادة إلى يوم آخر. {w}وحصلت أنا على أفضل الهدايا وأكثرها رغبة.",
+      "after": "لكن أعياد ميلاد المختار كانت تُقام منفصلة، ولذلك كان موعد احتفال الآخرين يُنقل عادة إلى يوم آخر. {w}وحصلت أنا على أفضل الهدايا وأكثرها طلبًا.",
+      "reason": "Arabic uses an unidiomatic passive for celebrating birthdays and describes gifts as desiring rather than desired."
+    },
+    {
+      "edition": "base",
+      "id": "start_ba339e2e",
+      "before": "كانت تعرف من أكون بالطبع، لكنها ما إن اقتربت حتى خفضت بصرها وتلاشت الابتسامة من وجهها.",
+      "after": "كانت تعرف من أكون بالطبع، لكنها ما إن اقتربتُ حتى خفضت بصرها وتلاشت الابتسامة من وجهها.",
+      "reason": "Arabic assigns the approach to the girl; the English protagonist approaches her."
+    },
+    {
+      "edition": "base",
+      "id": "start_243fd325",
+      "before": "فلا بد أن لديها بعض الطعام، فهي مستعدة للرحلات الطويلة.",
+      "after": "فربما كان لديها بعض الطعام، فهي مستعدة للرحلات الطويلة.",
+      "reason": "Probably is strengthened to certainty; restore uncertainty."
+    },
+    {
+      "edition": "base",
+      "id": "start_e0c0975a",
+      "before": "فلو حدث ذلك لأبلغوا القرية بكل شيء بالتأكيد، وسرعان ما سيرسلون وفدًا في أثر جونو وأنا.",
+      "after": "فلو حدث ذلك لأبلغوا القرية بكل شيء بالتأكيد، وسرعان ما سيرسلون وفدًا في أثر جونو وإياي.",
+      "reason": "Pronoun following في أثر is in the wrong grammatical form."
+    },
+    {
+      "edition": "base",
+      "id": "start_44bd485b",
+      "before": "أجل، يسمى مكوكًا. فيه أشياء كثيرة، وهو رائع. سيعجبك. لا يستطيع فتحه إلا أنا ببصمات كفي، ولا يمكن لأي شخص آخر الدخول إليه.",
+      "after": "أجل، يسمى مكوكًا. فيه أشياء كثيرة، وهو رائع. سيعجبك. لا يفتحه ببصمات كفي إلا أنا، ولا يمكن لأي شخص آخر الدخول إليه.",
+      "reason": "The exclusive subject construction لا يستطيع ... إلا أنا is grammatically defective."
+    },
+    {
+      "edition": "base",
+      "id": "start_aaf3cc89",
+      "before": "تُحتفل أعياد الميلاد عادة حتى سن العشرين، لكن ما إن تصبح بالغًا حتى ينتهي الأمر؛ تكون قد أنجزت مهمة النشأة المهمة.",
+      "after": "تُقام أعياد الميلاد عادة قبل سن العشرين، لكن ما إن تصبح بالغًا حتى ينتهي الأمر؛ تكون قد أنجزت مهمة النشأة المهمة.",
+      "reason": "Unidiomatic passive تُحتفل and before twenty is rendered ambiguously as until twenty."
+    },
+    {
+      "edition": "base",
+      "id": "start_53abc63e",
+      "before": "تقدمت جونو الطريق وتبعتها، مع أن المنطق يقتضي العكس؛ فقد تطوعت لأرافقها.",
+      "after": "قادت جونو الطريق وتبعتها، مع أن المنطق يقتضي العكس؛ فقد تطوعت لأرافقها.",
+      "reason": "تقدمت جونو الطريق is an invalid construction."
+    },
+    {
+      "edition": "base",
+      "id": "start_460fa21f",
+      "before": "كان ينبغي إجراء اختبارات أولًا، وبعدها فقط... أنا آسفة جدًا يا [pname]! لا بد أن هذا خطئي.",
+      "after": "كان ينبغي إجراء اختبارات أولًا، وبعدها فقط... أنا آسفة جدًا يا [pname]! ربما كان هذا خطئي.",
+      "reason": "Probably my fault is strengthened to certainty."
+    },
+    {
+      "edition": "base",
+      "id": "start_c2aa1ae7",
+      "before": "في الحقيقة كنت بحاجة فعلًا إلى العثور على طعام؛ فلم أستطع الاكتفاء بأكل مؤن جونو التي لا بد أنها محدودة ومخصصة لها وحدها. لكنني لم أرد التسمم مجددًا إطلاقًا.",
+      "after": "في الحقيقة كنت بحاجة فعلًا إلى العثور على طعام؛ فلم أستطع الاكتفاء بأكل مؤن جونو التي ربما كانت محدودة ومخصصة لها وحدها. لكنني لم أرد التسمم مجددًا إطلاقًا.",
+      "reason": "Probably limited supplies is rendered as certainty."
+    },
+    {
+      "edition": "base",
+      "id": "start_5ac5748e",
+      "before": "كنا نسير في المستنقع منذ نصف الليل، وكانت جونو طوال الوقت تنظر باهتمام إلى كل الحشرات والديدان والعناكب التي صادفناها في طريقنا.",
+      "after": "كنا نسير في المستنقع طوال نصف الليل، وكانت جونو طوال الوقت تنظر باهتمام إلى كل الحشرات والديدان والعناكب التي صادفناها في طريقنا.",
+      "reason": "For half the night is rendered as since midnight, changing elapsed time."
+    },
+    {
+      "edition": "base",
+      "id": "start_df49c90c",
+      "before": "نظرت إليّ جونو باهتمام لم تخفه؛ فلا بد أن الأمر بدا لها كحكاية خرافية. لكنه بدا كذلك لي أيضًا. لم أعرف ماذا أقول.",
+      "after": "نظرت إليّ جونو باهتمام لم تخفه؛ فربما بدا لها الأمر كحكاية خرافية. لكنه بدا كذلك لي أيضًا. لم أعرف ماذا أقول.",
+      "reason": "Probably sounded like a fairy tale is strengthened to certainty."
+    },
+    {
+      "edition": "base",
+      "id": "start_bbdaf32b",
+      "before": "كيف يعقل ذلك؟ ألم تلدكم أمهاتكم... {w}أو على الأقل من بيض أو شيء من هذا القبيل؟",
+      "after": "كيف يعقل ذلك؟ ألم تلدكم أمهاتكم... {w}أو ألم تولدوا على الأقل من بيض أو شيء من هذا القبيل؟",
+      "reason": "The alternative birth from eggs lacks a grammatical verb in Arabic."
+    },
+    {
+      "edition": "base",
+      "id": "start_966900e9",
+      "before": "لماذا كذبت عليّ؟! كان عليك أن تقول ذلك فورًا! هل أنا مربية أطفالك؟ احتجت إلى دليل، لا إلى عبء! وأنت لا تعرف شيئًا!",
+      "after": "لماذا كذبت عليّ؟! كان عليك أن تقول ذلك فورًا! هل أنا مكلفة برعايتك؟ احتجت إلى دليل، لا إلى عبء! وأنت لا تعرف شيئًا!",
+      "reason": "مربية أطفالك means nanny to his children rather than his babysitter."
+    },
+    {
+      "edition": "base",
+      "id": "start_c05ca554",
+      "before": "لا تكذب عليّ يا [pname]، لم ترتبك. قررت أن تلعب دور الرحالة واستغللتني، لكنني لست مربية أطفالك!",
+      "after": "لا تكذب عليّ يا [pname]، لم ترتبك. قررت أن تلعب دور الرحالة واستغللتني، لكنني لست مكلفة برعايتك!",
+      "reason": "مربية أطفالك means nanny to his children rather than his babysitter."
+    },
+    {
+      "edition": "base",
+      "id": "start_b31daf7e",
+      "before": "لا أحتاج إلى أصدقاء يا [pname]. لهذا أسافر وحدي، حتى لا أكون صداقات.",
+      "after": "لا أحتاج إلى أصدقاء يا [pname]. لهذا أسافر وحدي، حتى لا أُكوّن صداقات.",
+      "reason": "أكون without the distinguishing shadda is readily read as be rather than form."
+    },
+    {
+      "edition": "base",
+      "id": "start_557ae46f",
+      "before": "فكلما تحدثت معهم أكثر عن مواضيع عامة، ازددت تعلقًا بهم.",
+      "after": "فكلما تحدثت معهم أكثر عن مواضيع مجردة، ازددت تعلقًا بهم.",
+      "reason": "Abstract topics is rendered as general topics; restore the distinction."
+    },
+    {
+      "edition": "base",
+      "id": "start_19e87026",
+      "before": "كدنا مرتين نفلت بصعوبة من ذوات الأنياب الهائجة التي طاردتنا حتى المكوك، إلى أن أخرجت جونو بندقية وأطلقت عليها النار.",
+      "after": "أفلتنا بصعوبة مرتين من ذوات الأنياب الهائجة التي طاردتنا حتى المكوك، إلى أن أخرجت جونو بندقية وأطلقت عليها النار.",
+      "reason": "كدنا نفلت means almost escaped rather than did escape narrowly."
+    },
+    {
+      "edition": "base",
+      "id": "start_2fcbea78",
+      "before": "حسنًا... أشعر بالفضول فحسب. أعني، لا بد أن كوكبنا واحد من كواكب كثيرة بالنسبة إليك. فلماذا ترغبين بشدة في مساعدتنا؟",
+      "after": "حسنًا... أشعر بالفضول فحسب. أعني، ربما يكون كوكبنا واحدًا من كواكب كثيرة بالنسبة إليك. فلماذا ترغبين بشدة في مساعدتنا؟",
+      "reason": "Probably is strengthened to certainty."
+    },
+    {
+      "edition": "base",
+      "id": "start_44a17472",
+      "before": "كانت جونو مستلقية بجانبي تتنفس بالثقل نفسه، ومن الواضح أنها لا تستطيع التركيز على شيء محدد. استمتع كلانا بالخواء التام في رأسيه.",
+      "after": "كانت جونو مستلقية بجانبي تتنفس بالثقل نفسه، ومن الواضح أنها لا تستطيع التركيز على شيء محدد. استمتع كلانا بالخواء التام في رأسينا.",
+      "reason": "رأسيه refers to his two heads rather than our heads."
+    },
+    {
+      "edition": "base",
+      "id": "start_c0def7a3",
+      "before": "لا بد أن أم السماء ستكون مستاءة مني جدًا. فقد كلفتني بمهمة وفشلت فيها على هذا النحو المخزي.",
+      "after": "ربما ستكون أم السماء مستاءة مني جدًا. فقد كلفتني بمهمة وفشلت فيها على هذا النحو المخزي.",
+      "reason": "Probably displeased is strengthened to certainty."
+    },
+    {
+      "edition": "base",
+      "id": "start_6f05e539",
+      "before": "لكنني نجحت. يوجد علاج. لكنه لم يساعد إلا أنت. سامحني.",
+      "after": "لكنني نجحت. يوجد علاج. لكنه لم يساعد سواك. سامحني.",
+      "reason": "إلا أنت is the wrong object form; use سواك."
+    },
+    {
+      "edition": "base",
+      "id": "start_5cac91dd",
+      "before": "أمي؟ أبي؟ أنا هنا... أمي، أبي، هل أنتما هنا؟",
+      "after": "أمي؟ أبي؟ أنا... أمي، أبي، هل أنتما هنا؟",
+      "reason": "It is me identifies the speaker; أنا هنا instead only states presence."
+    },
+    {
+      "edition": "dlc",
+      "id": "start_8d59829a",
+      "before": "احمر وجهي كله وانتقلت نظرتي إلى صدر جونو، وانفتح فمي دهشة.",
+      "after": "احمر جسدي كله وانتقلت نظرتي إلى صدر جونو، وانفتح فمي دهشة.",
+      "reason": "English says the narrator turned red all over; Arabic narrows this to his face."
+    },
+    {
+      "edition": "dlc",
+      "id": "start_f3e6d131",
+      "before": "ظلت جونو صامتة ولم تشح بنظرها بينما اقتربت أنا من الذروة، مخمورًا بالشهوة والرغبة.",
+      "after": "ظلت جونو صامتة ولم ترفع نظرها بينما اقتربت أنا من الذروة، مخمورًا بالشهوة والرغبة.",
+      "reason": "Not looking up is rendered as not looking away, a different gaze direction."
+    },
+    {
+      "edition": "dlc",
+      "id": "start_c41163f4",
+      "before": "كانت جونو هنا، متجاوبة وساخنة ومن أجلي. ولم تهتم بمن أكون أو بما تنبأ به الشيوخ عني.",
+      "after": "كانت جونو هنا، متجاوبة وساخنة وملكًا لي. ولم تهتم بمن أكون أو بما تنبأ به الشيوخ عني.",
+      "reason": "Mine is rendered as for me, losing the possessive meaning."
+    },
+    {
+      "edition": "dlc",
+      "id": "start_a51a89e6",
+      "before": "أمسكت قضيبي من قاعدته وبدأت أدخل جسدها ببطء وحذر، دافعًا إياه إلى الداخل شبرًا فشبرًا.",
+      "after": "أمسكت قضيبي من قاعدته وبدأت أدخل جسدها ببطء وحذر، دافعًا إياه إلى الداخل قليلًا فقليلًا.",
+      "reason": "Inch by inch is rendered with شبر, a much larger unit; retain gradual pacing without the unit mismatch."
+    },
+    {
+      "edition": "dlc",
+      "id": "start_3103d745",
+      "before": "ارتفعت حولنا أصوات ارتطام الجلد الفاضحة وحركة قضيبي الرطبة داخل جسدها، ثم ارتدت صداها.",
+      "after": "ارتفعت حولنا أصوات ارتطام الجلد الفاضحة وحركة قضيبي الرطبة داخل جسدها، ثم ارتد صداها.",
+      "reason": "Arabic echo clause has incorrect verb agreement/object."
+    },
+    {
+      "edition": "dlc",
+      "id": "start_0a96d6a7",
+      "before": "استعدنا وعينا لبضع لحظات.",
+      "after": "استغرقنا بضع لحظات لنستعيد وعينا.",
+      "reason": "Arabic implies regained awareness only for a few moments; English says it took a few moments to recover."
+    }
+  ],
+  "unresolved": [
+    "start_0bf2fe34: alternative divine addressees; review prayer dependency before changing address",
+    "start_3e4333d1: English conflicts with preceding line about backpack ownership; preserve neutral translation pending source decision",
+    "start_5c6117e8: English speaker binding p conflicts with address to [pname]; binding retained pending source decision"
+  ],
+  "before_sha256": {
+    "text-assets/inventory.json": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/inventory.json": "b0feab1e5d5dfa697bbeee0a98a8dc310edd30ce6acc908aee8e776b5f0aa2ea",
+    "localization/ar/dialogue.tsv": "7baf44e22121fe7d9e7143454ee12915e3e7b6a6e58a4b23ef54514a243b9f86",
+    "localization/ar/strings.json": "140529da6184aa9446d4e18d67a61caf003241ea921b011c5cafe86b94b880f2",
+    "localization/ar/nsfw/dialogue.tsv": "c018d33e09553338c02869f766be8397c63e80361b9dd78709860a5a74a3b012",
+    "localization/ar/nsfw/strings.json": "e4ef0af0205f116642874b2a6769dbdf951d65379aadce3da63494e715492daa",
+    "localization/ar/special-scenes.md": "d606fc335cb397b216b55bfce687b6c642470bd03551e1282b1d032e9fb1cc33"
+  },
+  "after_sha256": {
+    "localization/ar/dialogue.tsv": "05eabecce4f70ee9882a5f1fc65964907e8ceae467ff545d53562175dd2155a7",
+    "localization/ar/nsfw/dialogue.tsv": "f0f59d7a8c95d84e872ca158737b9b3030b6963cbf88c1b7bf34e0774a6d9b0d"
+  }
+}

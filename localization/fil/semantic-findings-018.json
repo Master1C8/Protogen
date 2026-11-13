@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_47535e5a",
+    "before": "...lalo kong napagtantong kahit si Damien, na kaibigan ko, ay higit na babagay sa papel ng Hinirang kaysa sa akin.",
+    "after": "...lalo kong napagtantong kahit si Damien, na kaibigan ko, ay mas mahusay na magagampanan ang papel ng Hinirang kaysa sa akin.",
+    "reason": "Restore the comparison of how well Damien would handle the role."
+  },
+  {
+    "id": "start_b17cff65",
+    "before": "Ganoon ako namuhay—hindi makapagpasya para sa sarili, hindi makabangon sa oras na gusto ko, makakain ng gusto ko, o makapagsabi ng sa tingin ko ay nararapat.",
+    "after": "Ganoon ako namuhay—hindi makapagpasya para sa sarili, hindi makabangon sa oras na gusto ko, hindi makakain ng gusto ko, o makapagsabi ng sa tingin ko ay nararapat.",
+    "reason": "Make the inability to eat what he wants explicit."
+  },
+  {
+    "id": "start_8d2002d0",
+    "before": "Pinupuri ko sila, pero hindi kailanman naging normal ang pagtrato ng mga dalaga sa mga date, na para bang isa lang akong ordinaryong lalaking nag-aya sa kanila.",
+    "after": "Pinupuri ko sila, pero hindi kailanman naging normal ang pagtrato ng mga dalaga sa mga date, na para bang hindi ako isang ordinaryong lalaking nag-aya sa kanila.",
+    "reason": "Clarify that the dates were not treated as though he were an ordinary man."
+  }
+]

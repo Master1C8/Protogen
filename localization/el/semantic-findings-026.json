@@ -1,0 +1,11 @@
+{
+  "review": "author semantic comparison, base story source indices 1120 through 1249",
+  "findings": [
+    {
+      "id": "start_fe63399a",
+      "before": "Η Τζούνο έσκυψε μπροστά στο τρικέρατο. Πλησίασε τη μαύρη, παχύρρευστη λίμνη αίματος και πήρε δείγμα με ένα ειδικό στικ.",
+      "after": "Η Τζούνο κάθισε χαμηλά, λυγίζοντας τα γόνατά της μπροστά στο τρικέρατο. Πλησίασε τη μαύρη, παχύρρευστη λίμνη αίματος και πήρε δείγμα με ένα ειδικό στικ.",
+      "reason": "Restore the source posture: Juno squatted rather than merely bent over."
+    }
+  ]
+}

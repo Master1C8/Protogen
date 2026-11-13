@@ -1,0 +1,23 @@
+{
+  "review": "author semantic comparison, base story source indices 210 through 339",
+  "findings": [
+    {
+      "id": "start_bf4811ad",
+      "reason": "Pitchforks are not rakes.",
+      "before": "Ύστερα απ' όλα όσα συνέβησαν, ύστερα απ' όσα τους είπα, είτε θα άρπαζαν τις τσουγκράνες και τους πυρσούς τους με δίκαιη οργή είτε θα με έχωναν αμέσως σε κάποιο κλουβί.",
+      "after": "Ύστερα απ' όλα όσα συνέβησαν, ύστερα απ' όσα τους είπα, είτε θα άρπαζαν τα δικράνια και τους πυρσούς τους με δίκαιη οργή είτε θα με έχωναν αμέσως σε κάποιο κλουβί."
+    },
+    {
+      "id": "start_4f407986",
+      "reason": "Restore the human referent from the immediately preceding line; neuter άλλα does not agree with άνθρωποι.",
+      "before": "Δεν υπάρχουν πια άλλα σε ολόκληρο τον γαλαξία. {w}Είσαι ανώριμο δείγμα;",
+      "after": "Δεν υπάρχουν πια άνθρωποι σε ολόκληρο τον γαλαξία. {w}Είσαι ανώριμο δείγμα;"
+    },
+    {
+      "id": "start_fd08f3b7",
+      "reason": "Correct agreement with the neuter demonstrative while retaining the question about the creatures.",
+      "before": "Κούγκλες; Τι ενδιαφέρον, και ποια είναι αυτά;",
+      "after": "Κούγκλες; Τι ενδιαφέρον, και τι είναι αυτά;"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Author semantic comparison — batch 005
+
+2026-11-13. Compared base story positions 661–870 against complete English text and speaker context. Exact cumulative IDs are in `semantic-coverage.json`. This is author review, not independent review. Source inventory SHA-256 `8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff`; final reviewed `dialogue.tsv` SHA-256 `024200671d4b47d8f30ff9fba35d0e0e4ef887aa514b869d7c6e563187a8d067`. Batch ends at `start_6bdddf51`.
+
+Corrected IDs: `start_4e14166e` (ranchers produce milk and eggs), `start_0e9e2db7` (grammar), `start_24bb0a0b` (nature rather than living things alone), `start_2cd3ff90` (blurted out rather than disclosed a secret), and `start_68b5dfe2` (clarity). Old and new values are in `text-assets/cli-localization-wave-02-text/hu/turn-022/corrections.json`. Exact edits were reread against English and neighboring context. All five IDs are shared with the DLC; no alias points to them. Strict text-set validation passed after correction. This bounded closure does not replace full reproducible dependency closure or independent delta review. The Katie source finding remains open.

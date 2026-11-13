@@ -1,0 +1,14 @@
+# Hebrew special-scene decisions — in progress
+
+Build 11915262. Base registry SHA-256 `5d3950c98e01d34a49bca5ef8862c5ab5dcec2558c42f709748c68e5134af923`; DLC registry `2412020e4c4024a82dad7535976a6e1ff8239fec1214c4ac7c211492a75c6f8b`. English glossary file `611e6dec103d1857ec8ed5ce8dc10470312c5ef6d981e1ef307474b44f85d926`; Hebrew locale receipt fingerprint `4c788a4b20da731a012957dfae4a86b45777f21636f755f17600cad757272af4`. Alias map `6b020423fc1c45e678c6c8ef6914161ed2978864f91c805d3c0d286c084b8f7c`.
+
+**Pretranslation decisions: complete for the registered cases.** Target story wording is in `dialogue.tsv` and `nsfw/dialogue.tsv`, and display wording in `strings.json`. The player-name and timing groups were checked against the English lines and adjacent context. Base coverage is 79/79 name and 47/47 timing IDs; DLC coverage is 90/90 and 42/42 respectively, including aliases resolved by the existing map. Preserve shared IDs and do not author aliases twice. At DLC `start_5c6117e8`, context suggests Juno but the shipped speaker is the player and the line addresses `[pname]`; preserve both, record the source discrepancy and review it again in the full semantic audit.
+
+- Player name: prompt `קוראים לי...`, blank fallback `אתה`; preserve `[pname]`, input limit, trimming and empty comparison. Protagonist is male per glossary; do not inflect the entered name. Verify custom Hebrew and mixed names, blank and whitespace; nonblank values must not become the fallback. Runtime unverified.
+- Juno nameplate: `ג׳ונו`; preserve `j` and `[gname]` and source assignment; a separate display mapping is required. Verify first and later nameplates and unchanged identity. Runtime unverified.
+- Saves: `עמוד {}`, `שמירות אוטומטיות`, `שמירות מהירות`, `משבצת ריקה`, `{#file_time}%A, %d %B %Y, %H:%M`. Preserve field, tag and directives; check occupied and empty slots, numbered, automatic and quick pages. Date direction and platform formatting remain unverified.
+- Timing: preserve each `{w}` at its semantic pause and `{cps=5}...{/cps}`. `start_34ffd95c` uses `גנטי... {w}מה?` in relation to `הנדסה גנטית`; the preceding line uses genetic engineering and the speaker stumbles over that unfamiliar term. Test waits and slow ellipsis in game.
+- Logo: retain original `My Furry protogen` artwork and path as brand. Verify full logo and navigation in the joint pass.
+- Watch cutscenes: preserve movie paths and continuation. Shared checkpoint records both videos reviewed without captions. Runtime continuation remains unverified.
+
+Pixie is the proper name `פיקסי` for both AI and craft; preserve AI agency. The existing map probe demonstrates callback execution and restoration, not a visual pass. Hebrew glyph positioning, mixed bidi, input, wrapping and all gameplay checks remain unverified. The case review does not replace the full semantic audit or independent review.

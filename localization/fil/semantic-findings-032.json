@@ -1,0 +1,26 @@
+[
+  {
+    "id": "start_a0e2c5c6",
+    "before": "Nakarating pa rin iyon sa inyo, [pname]. Habang ginagawa ko ang lunas, may nalaman ako tungkol sa anomalya.",
+    "after": "Nakarating pa rin sana iyon sa inyo, [pname]. Habang ginagawa ko ang lunas, may nalaman ako tungkol sa anomalya.",
+    "reason": "Restore the hypothetical outcome had the narrator stayed."
+  },
+  {
+    "id": "start_18f03ec3",
+    "before": "O baka kuwentong-bayan lang ang lahat. At walang kapalaran, walang misyon. Nagkataon lang ang lahat, at napakadaling paniwalaan niyon.",
+    "after": "O baka kuwentong engkanto lang ang lahat. At walang kapalaran, walang misyon. Nagkataon lang ang lahat, at napakadaling paniwalaan iyon.",
+    "reason": "Restore the fairy-tale image and correct the object marker."
+  },
+  {
+    "id": "start_bf8935a8",
+    "before": "Lumingon kami ni Juno sa bintana—ang planetang naging tahanan ko, kung saan naiwan ang mga katawan ng mga magulang ko, ay nagkawatak-watak sa maliliit na piraso, nilulunod ng pulang liwanag ng anomalya.",
+    "after": "Lumingon kami ni Juno sa bintana—ang planetang naging tahanan ko, kung saan naiwan ang mga katawan ng mga magulang ko, ay nagkawatak-watak sa maliliit na piraso, nalulunod sa pulang liwanag ng anomalya.",
+    "reason": "Correct the direction of the drowning metaphor: the planet is engulfed in the red light."
+  },
+  {
+    "id": "Clipboard voicing enabled. ",
+    "before": "Naka-on ang pagbigkas sa clipboard. ",
+    "after": "Naka-on ang pagpapadala ng teksto sa clipboard para sa pagbigkas. ",
+    "reason": "Clarify that clipboard voicing sends text to the clipboard for voicing rather than reading the clipboard."
+  }
+]

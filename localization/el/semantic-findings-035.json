@@ -1,0 +1,11 @@
+{
+  "review": "author semantic comparison, DLC explicitly authored story source order indices 175 through 237",
+  "findings": [
+    {
+      "id": "start_ad0a74c0",
+      "before": "Η Τζούνο λαχάνιασε και κύρτωσε την πλάτη όταν βύθισα το πέος μου στο καυτό σώμα της για τελευταία φορά, τεντώνοντας το άνοιγμα, ώστε άρπαξε το σεντόνι με τα χέρια και ούρλιαξε δυνατά.",
+      "after": "Η Τζούνο λαχάνιασε και κύρτωσε την πλάτη όταν βύθισα το πέος μου στο καυτό σώμα της για τελευταία φορά, τεντώνοντας το άνοιγμα, κι εκείνη άρπαξε το σεντόνι με τα χέρια και ούρλιαξε δυνατά.",
+      "reason": "Correct the ungrammatical causal construction while retaining the actions in the source."
+    }
+  ]
+}

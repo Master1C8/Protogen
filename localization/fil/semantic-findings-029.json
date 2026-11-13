@@ -1,0 +1,26 @@
+[
+  {
+    "id": "start_7cdecf64",
+    "before": "Siya ang halos lahat ng nagtrabaho, at ako naman ay nagpaligid-ligid lang at sinikap tumulong sa bawat pagkakataon.",
+    "after": "Siya ang gumawa ng halos lahat ng trabaho, at ako naman ay nagpaligid-ligid lang at sinikap tumulong sa bawat pagkakataon.",
+    "reason": "Correct the ungrammatical statement that Juno did most of the work."
+  },
+  {
+    "id": "start_ca498e09",
+    "before": "Nakikinig siya sa usapan natin!",
+    "after": "Nakikinig siya nang palihim sa usapan natin!",
+    "reason": "Restore the accusation of eavesdropping, not merely listening."
+  },
+  {
+    "id": "start_0ba3ab5a",
+    "before": "Si Juno lang ang taong nakauunawa sa akin.",
+    "after": "Si Juno lang ang nakauunawa sa akin.",
+    "reason": "Avoid identifying Juno as a human; the English specifies only that she is the only one who understands him."
+  },
+  {
+    "id": "start_e5a5c236",
+    "before": "Nang makita ko siya, nakatayo siya sa harap ng isa sa mga aparato, bihis na bihis, at pinagmamasdan ang mga numero sa display na siya lamang ang nakauunawa.",
+    "after": "Nang makita ko siya, nakatayo siya sa harap ng isa sa mga aparato, nakabihis na, at pinagmamasdan ang mga numero sa display na siya lamang ang nakauunawa.",
+    "reason": "Say she is dressed rather than implying she is dressed up."
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "source_receipt_sha256": "1ad9c080caed30f47584a2a4062a1ab9ab665eba5bf7e8c35736c5ccfc05c0a8",
+  "glossary_layer_sha256": "06396db95c72d89cdd69fa75e40ab3707d1c74db2689464cd5cfccc64cc5dd4b",
+  "files": {
+    "dialogue.tsv": "2882d328bec99044389da96414d4c19fa2a47ab0c4d1b567724349496b67d613",
+    "strings.json": "81e941063596c7e11f03a8fecbddf4a0bd4a63e6c7dd2c2669920966e2432605",
+    "nsfw/dialogue.tsv": "f6e62c101fae5c5747877d29ee54c806d9170f12fd5bf0a45aa6c60be520fe3c",
+    "nsfw/strings.json": "4b431b07d109ecf94cb089ed313317fccbc99ec74593f2fdbb5f0c5f3d0012b4",
+    "semantic-coverage.json": "493d66c54b06d51de91ce1ebe1bccb6a43d58e703bb379091038955ad35179db"
+  },
+  "review": "All 1785 base story, 394 base UI, 238 explicit DLC story and 1 DLC UI entries compared with English in author self-review. Correction neighborhoods, Pixie mentions and accessibility wording rechecked as recorded in dependency-closure.json; independent review pending.",
+  "reviewer": "gpt-6.1-terra high, author self-review"
+}

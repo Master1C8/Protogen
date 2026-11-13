@@ -1,0 +1,10 @@
+{
+  "My name is...": "Je m’appelle…",
+  "You": "Toi",
+  "Juno": "Juno",
+  "Page {}": "Page {}",
+  "Automatic saves": "Sauvegardes automatiques",
+  "Quick saves": "Sauvegardes rapides",
+  "{#file_time}%A, %B %d %Y, %H:%M": "{#file_time}%A %d %B %Y, %H:%M",
+  "empty slot": "Emplacement vide"
+}

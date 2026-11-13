@@ -1,0 +1,33 @@
+{
+  "scope": "Author semantic review, base story rows 261-420",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+  "before_dialogue_sha256": "8d4ab66a654c0f466f4684e0d457e3ad65257f71663cac386809b65a260078e2",
+  "after_dialogue_sha256": "bcbb9872042dc0579c6d1955873f65e86e0261160f8025a5e3cfc03943c67f8c",
+  "changes": [
+    {
+      "id": "start_243fd325",
+      "before": "Lagi pula, dia pasti punya makanan. Dia sudah siap untuk perjalanan panjang.",
+      "after": "Lagi pula, dia mungkin punya makanan. Dia sudah siap untuk perjalanan panjang.",
+      "reason": "Restore source uncertainty: probably."
+    },
+    {
+      "id": "start_211f6dc6",
+      "before": "Aku tahu memulai persahabatan dengan kebohongan itu tidak baik, dan biasanya tak berhasil dengan orang lain, tetapi aku tak bisa menahan diri.",
+      "after": "Aku tahu memulai persahabatan dengan kebohongan itu tidak baik dan sama sekali tak berhasil dengan orang lain, tetapi aku tak bisa menahan diri.",
+      "reason": "Restore the source absolute rather than usually."
+    },
+    {
+      "id": "start_7855290d",
+      "before": "Aku berbohong tanpa rasa bersalah, berharap Juno tak menyadarinya. Katanya dia sudah lama tak bertemu manusia. Mungkin dia sudah lupa bahwa manusia bisa berbohong?",
+      "after": "Aku berbohong habis-habisan, berharap Juno tak menyadarinya. Katanya dia sudah lama tak bertemu manusia. Mungkin dia sudah lupa bahwa manusia bisa berbohong?",
+      "reason": "Remove unsupported absence of guilt; the surrounding passage establishes shame."
+    },
+    {
+      "id": "start_44bd485b",
+      "before": "Ya, ini disebut wahana ulang-alik. Ada banyak barang di dalamnya, dan ini benda yang keren. Kau akan menyukainya. Hanya aku yang bisa membukanya dengan telapak tanganku. Tak ada orang lain yang bisa masuk.",
+      "after": "Ya, ini disebut wahana ulang-alik. Ada banyak barang di dalamnya, dan ini benda yang keren. Kau akan menyukainya. Hanya aku yang bisa membukanya dengan sidik telapak tanganku. Tak ada orang lain yang bisa masuk.",
+      "reason": "Preserve the palm-print access mechanism."
+    }
+  ],
+  "closure": "Shared edition mappings and affected contextual dependencies require reproducible closure and delta review."
+}

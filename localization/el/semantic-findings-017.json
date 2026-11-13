@@ -1,0 +1,11 @@
+{
+  "review": "author semantic comparison, first 80 base story IDs in source order",
+  "finding": [
+    {
+      "id": "start_105f5eeb",
+      "reason": "Literal rendering of an English wake-up idiom was unnatural in Greek.",
+      "before": "Σήκω και λάμψε, γιε μου, σήμερα έχεις πολλή δουλειά!",
+      "after": "Σήκω, γιε μου, ξεκίνα τη μέρα σου, σήμερα έχεις πολλή δουλειά!"
+    }
+  ]
+}

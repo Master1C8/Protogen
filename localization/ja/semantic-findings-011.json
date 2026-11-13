@@ -1,0 +1,79 @@
+{
+  "phase": "author source comparison complete; dependency and independent review pending",
+  "reviewed_dlc_story_positions": [
+    0,
+    237
+  ],
+  "reviewed_dlc_ui_keys": [
+    "Gallery"
+  ],
+  "changed_ids": [
+    "start_ede2638b",
+    "start_f8471cc3",
+    "start_f260a1d1",
+    "start_ca4467e0"
+  ],
+  "findings": [
+    {
+      "id": "start_ede2638b",
+      "issue": "Restored choking on a groan, rather than almost making one."
+    },
+    {
+      "id": "start_f8471cc3",
+      "issue": "Restored the eyes rolling upward rather than looking away."
+    },
+    {
+      "id": "start_f260a1d1",
+      "issue": "Removed the implication that she lies in a separate bed."
+    },
+    {
+      "id": "start_ca4467e0",
+      "issue": "Restored swallowing rather than gasping."
+    }
+  ],
+  "local_context_ids": [
+    "start_29805728",
+    "start_ede2638b",
+    "start_11acfcdf",
+    "start_9c56b86f",
+    "start_f8471cc3",
+    "start_0e2799a2",
+    "start_03266f8a",
+    "start_f260a1d1",
+    "start_2652493f",
+    "start_f5ea0317",
+    "start_ca4467e0",
+    "start_e71fbdff"
+  ],
+  "source_inconsistencies": [
+    {
+      "ids": [
+        "start_98a30667",
+        "start_171d3654"
+      ],
+      "issue": "The scene says Juno’s helmet obscures her expression but later describes visible cheeks and eyelashes; English wording retained without inventing a helmet change."
+    }
+  ],
+  "coverage_counts": {
+    "base_story": 1785,
+    "base_ui": 394,
+    "dlc_story": 238,
+    "dlc_ui": 1
+  },
+  "dependency_closure": {
+    "method": "Conservative reproducible text scope: all IDs in semantic-coverage.json, all alias target-to-base bindings in localization/nsfw-story-aliases.json, pinned English inventories and special-scenes decisions, with exact SHA-256 inputs below. All authored IDs were compared with English in successive batches; transitive impact re-review after all corrections and independent review remain pending.",
+    "inputs_sha256": {
+      "text-assets/inventory.json": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+      "text-assets/edition-qa.0bfO9x/nsfw-export/inventory.json": "b0feab1e5d5dfa697bbeee0a98a8dc310edd30ce6acc908aee8e776b5f0aa2ea",
+      "localization/nsfw-story-aliases.json": "6b020423fc1c45e678c6c8ef6914161ed2978864f91c805d3c0d286c084b8f7c",
+      "localization/ja/dialogue.tsv": "05ed24d5fc1f8a20b7b37a0a785c06df000537840b8eb44ac3a3c630a7ce8168",
+      "localization/ja/strings.json": "3324cd6b584f443aafb406b3010ddd3737a824e66ee95645aaa460d12e718ce1",
+      "localization/ja/nsfw/dialogue.tsv": "435d44a733be65ac2a3fd23a5ed14566dfc1dcbf3f15687342fa7e3569e4645c",
+      "localization/ja/nsfw/strings.json": "d4f868d478ad8dc70ca010808848448a3468e1fd7c1a5ac22d33494aa88addac",
+      "localization/ja/special-scenes.md": "a3630b26305b10a5cf51ccbdbc6b80b3420eda7cfd9a668844899b9f2dec8d54",
+      "localization/ja/semantic-coverage.json": "12547a5bbb3e85d926068eac370aa7ba6fec59b30abe6d8f4e6461a0122f7d09"
+    },
+    "alias_count": 17
+  },
+  "limits": "Strict text validation is mechanical; applied-output, rendering and independent editorial review remain pending."
+}

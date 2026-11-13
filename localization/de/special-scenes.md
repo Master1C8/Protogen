@@ -1,0 +1,12 @@
+# German special-scene decisions
+
+Source registries: `text-assets/special-scenes.json` (SFW) and `text-assets/edition-qa.0bfO9x/nsfw-export/special-scenes.json` (NSFW); source and approved glossary fingerprints are recorded in STATUS.md. These decisions cover the registered text groups; renderer, resources and runtime tests are deferred to the coordinator.
+
+- Player name: prompt `Ich heiße ...`; empty fallback `Du`. Keep `[pname]`, the empty-name comparison and the twelve-character cap unchanged. All registered dialogue wording is in `dialogue.tsv` or `nsfw/dialogue.tsv` (with shared/alias mappings); retain the player's male agreement. Positive: a custom name displays in the nameplate and dialogue; blank or whitespace input displays `Du`. Negative: do not expose `[pname]` literally or change the comparison. Runtime pending.
+- Juno nameplate: `Juno`; preserve the `[gname]` binding and `j` identity. Positive: initial and later nameplates agree. Negative: no rewritten internal speaker ID. Runtime pending.
+- Save formats: `Seite {}`, `Automatische Speicherstände`, `Schnellspeicherstände`, `Leerer Speicherplatz`, and `{#file_time}%A, %d. %B %Y, %H:%M` in `strings.json`; preserve `[page]` and every format directive. Positive: ordinary, automatic and quick pages and occupied/empty slots display appropriately; negative: missing field or directive fails validation. Platform-specific date rendering remains pending.
+- Timed dialogue: exact German lines for every registered SFW timing ID live in `dialogue.tsv`; the matching DLC alias reuses its original ID and the common shared IDs reuse the same wording. Preserve `{w}` positions and `{cps=5}...{/cps}`. Positive: a wait advances and the final ellipsis remains slow; negative: missing or moved control tags fail validation or contextual review. Runtime pending.
+- Main-menu logo: retain the original brand artwork and wording `My Furry protogen`; preserve its asset path and hash. Positive: whole logo remains visible; negative: clipping or an unapproved replacement is a visual defect. Visual verification pending.
+- Watch cutscenes: preserve both movie paths; no translated captions are planned because the project checkpoint records prior review as containing no captions. Positive: playback returns to the next script line; negative: an incorrect path or unexpected text remains unresolved. Runtime pending.
+
+The recorded groups have draft target wording. Semantic and dependency review of their usage in the complete corpus remains pending; this record does not claim build or runtime acceptance.

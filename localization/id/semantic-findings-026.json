@@ -1,0 +1,15 @@
+{
+  "scope": "Author semantic review, base story rows 1061-1220",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+  "before_dialogue_sha256": "87e6fca540ebb6599a6a6675ced5964a6ad587ca315382b785dc36143d9bfcf0",
+  "after_dialogue_sha256": "d40afa474691ed9727081df96e5b78706f6ee48e6329dfdf25c9e41118320df3",
+  "changes": [
+    {
+      "id": "start_59d66fc8",
+      "before": "Daya tahanmu patut diiri.",
+      "after": "Daya tahanmu patut membuat iri.",
+      "reason": "Correct the ungrammatical phrase for enviable endurance."
+    }
+  ],
+  "closure": "Shared edition mappings and affected contextual dependencies require reproducible closure and delta review."
+}

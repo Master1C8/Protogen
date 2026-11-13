@@ -1,0 +1,38 @@
+[
+  {
+    "id": "start_df56dcb1",
+    "before": "Yule aliyekuwa ameshikamana naye. Yule ambaye karibu alimlazimisha ashikamane naye, akaomba na kubaki kando yake. Na sasa nilimwomba aniruhusu niende.",
+    "after": "Yule aliyekuwa ameshikamana naye. Yule ambaye kwa kweli alimlazimisha ashikamane naye, akaomba na kubaki kando yake. Na sasa nilimwomba aniruhusu niende.",
+    "reason": "English says literally forced, not nearly forced."
+  },
+  {
+    "id": "start_5b98c499",
+    "before": "Niliweza kuhisi mwili wangu wote ukilia kwa maumivu. Lazima nusu nzuri ya mifupa yangu ilikuwa imevunjika. Mdomoni mwangu kulikuwa na ladha ya damu, na pua iliyovunjika ilifanya kupumua kuwa kugumu.",
+    "after": "Niliweza kuhisi mwili wangu wote ukilia kwa maumivu. Lazima karibu nusu ya mifupa yangu ilikuwa imevunjika. Mdomoni mwangu kulikuwa na ladha ya damu, na pua iliyovunjika ilifanya kupumua kuwa kugumu.",
+    "reason": "Replace an English idiom rendered literally with the intended approximate extent."
+  },
+  {
+    "id": "start_4155cdcb",
+    "before": "Mlio wa kupimika ulinifikia, kana kwamba kupitia maji mengi. Ilikuwa vigumu kupumua, mwili wangu ulisisimka, vidole vyangu havikunitii.",
+    "after": "Mlio wa mpangilio uliojirudia ulinifikia, kana kwamba kupitia maji mengi. Ilikuwa vigumu kupumua, mwili wangu ulisisimka, vidole vyangu havikunitii.",
+    "reason": "Measured describes a regular rhythm, not a sound that can be measured."
+  },
+  {
+    "id": "start_947c859b",
+    "before": "Nilijaribu kuita msaada, nikafungua midomo yangu mikavu, lakini mlio wa kubanwa na pumzi tu ndio ulitoka mdomoni. Machozi yalitiririka kwenye vipaji vya uso wangu. Ilinichukua muda kuelewa kilichokuwa kinaendelea.",
+    "after": "Nilijaribu kuita msaada, nikafungua midomo yangu mikavu, lakini mlio wa kubanwa na pumzi tu ndio ulitoka mdomoni. Machozi yalitiririka kwenye mahekalu yangu. Ilinichukua muda kuelewa kilichokuwa kinaendelea.",
+    "reason": "The tears run down the temples, not foreheads."
+  },
+  {
+    "id": "start_cbc67ea4",
+    "before": "Juno alinipa tabasamu la huzuni, lakini mwili wake wote bado ulionyesha huzuni kubwa na hatia. Kwa hiyo nilimkaribia na kushika mkono wake.",
+    "after": "Juno alinipa tabasamu lililopinda, lakini mwili wake wote bado ulionyesha huzuni kubwa na hatia. Kwa hiyo nilimkaribia na kushika mkono wake.",
+    "reason": "Restore the crooked smile described by the source."
+  },
+  {
+    "id": "start_5ef98200",
+    "before": "Ni kosa lako kwa nini, [pname]?",
+    "after": "Ni jambo gani lililo kosa lako, [pname]?",
+    "reason": "Restore the question asking what is the protagonist’s fault, rather than why it is their fault."
+  }
+]

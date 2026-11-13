@@ -1,0 +1,17 @@
+{
+  "review": "author semantic comparison, base story source indices 470 through 599",
+  "findings": [
+    {
+      "id": "start_d249b06d",
+      "reason": "Clarify the squatting posture in natural Greek.",
+      "before": "Η Τζούνο γύρισε προς το μέρος μου και κάθισε στα χαμηλά. Γέλασα.",
+      "after": "Η Τζούνο γύρισε προς το μέρος μου και χαμήλωσε σε βαθύ κάθισμα. Γέλασα."
+    },
+    {
+      "id": "start_e65887fa",
+      "reason": "Render the sensation in the legs rather than an implausible literal buzzing sound.",
+      "before": "Ύστερα από μερικές ώρες ενός τόσο ασυνήθιστα μακρινού περιπάτου, ήμουν έτοιμος απλώς να πέσω στο έδαφος και να μείνω εκεί. Όλο μου το σώμα πονούσε και τα πόδια μου βούιζαν τρομερά.",
+      "after": "Ύστερα από μερικές ώρες ενός τόσο ασυνήθιστα μακρινού περιπάτου, ήμουν έτοιμος απλώς να πέσω στο έδαφος και να μείνω εκεί. Όλο μου το σώμα πονούσε και τα πόδια μου μυρμήγκιαζαν τρομερά."
+    }
+  ]
+}

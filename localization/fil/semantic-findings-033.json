@@ -1,0 +1,8 @@
+[
+  {
+    "id": "clipboard voicing",
+    "before": "pagbigkas sa clipboard",
+    "after": "pagpapadala ng teksto sa clipboard para sa pagbigkas",
+    "reason": "Clarify clipboard voicing consistently with the enabled status: text is sent to the clipboard for voicing."
+  }
+]

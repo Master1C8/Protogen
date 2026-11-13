@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_ab2be3ce",
+    "before": "Mwishowe, nilionyesha mmea ulioonekana kuufahamu kwa kiasi fulani.",
+    "after": "Mwishowe, nilionyesha mmea ulioonekana kama niliwahi kuuona.",
+    "reason": "Correct the subject: the plant looked familiar to the narrator."
+  },
+  {
+    "id": "start_733ff464",
+    "before": "Lakini licha ya jinsi nilivyofurahia uhuru nilioupata hatimaye, hamu ya nyumbani isiyopendeza ilinichomachoma kifuani.",
+    "after": "Lakini licha ya jinsi nilivyofurahia uhuru nilioupata hatimaye, hisia ya kutamani jambo fulani isiyopendeza ilinichomachoma kifuani.",
+    "reason": "Avoid identifying the longing as homesickness before the following context does."
+  },
+  {
+    "id": "start_3ca5d99a",
+    "before": "Mizizi ilikuwa tofauti kabisa na nilivyotarajia—ilikuwa na uchachu na ukakasi, ikalainika kama uji wa shayiri, na haikuwa na ladha nzuri.",
+    "after": "Mizizi ilikuwa tofauti kabisa na nilivyotarajia—ilikuwa na uchachu na ukakasi, ikalainika kama uji wa shayiri, na ilikuwa na ladha hafifu.",
+    "reason": "Preserve blandness rather than merely saying it tasted bad."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "start_f9510de0",
+    "before": "那「不通常」的情況呢？",
+    "after": "那「不尋常」的情況呢？",
+    "reason": "Use idiomatic wording for the contrast with usually, retained in the next line."
+  },
+  {
+    "id": "start_1d820ac4",
+    "before": "我不知道，但我……我是說，那個男孩一點也不喜歡聽到的話。他這輩子一直這樣過，不敢憑自己的意志做任何事。",
+    "after": "我不知道，但我……我是說，那個男孩一點也不喜歡他聽到的事。他這輩子一直這樣過，不敢憑自己的意志做任何事。",
+    "reason": "Make the boy the clear recipient of the prophecy without revealing his identity."
+  }
+]

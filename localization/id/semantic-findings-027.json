@@ -1,0 +1,21 @@
+{
+  "scope": "Author semantic review, base story rows 1221-1380",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+  "before_dialogue_sha256": "d40afa474691ed9727081df96e5b78706f6ee48e6329dfdf25c9e41118320df3",
+  "after_dialogue_sha256": "6e4f71e8d74eb4e32b350719c56ecb0a6db64b6d056da942f1c8a0b79ccffd0c",
+  "changes": [
+    {
+      "id": "start_31ab804a",
+      "before": "aku benar-benar jatuh cinta padanya tanpa harapan.",
+      "after": "aku benar-benar jatuh cinta setengah mati padanya.",
+      "reason": "Convey the intensity of hopelessly in love without implying the relationship has no hope."
+    },
+    {
+      "id": "start_171c5125",
+      "before": "Juno mulai berpakaian, dan aku juga menarik pakaianku.",
+      "after": "Juno mulai berpakaian, dan aku juga mulai mengenakan pakaianku.",
+      "reason": "Make clear that the narrator is putting clothes on."
+    }
+  ],
+  "closure": "Shared edition mappings and affected contextual dependencies require reproducible closure and delta review."
+}

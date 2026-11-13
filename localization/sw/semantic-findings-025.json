@@ -1,0 +1,26 @@
+[
+  {
+    "id": "start_557ae46f",
+    "before": "Kwa sababu kadiri unavyozungumza nao kuhusu mambo yasiyohusu kazi, ndivyo unavyozidi kushikamana nao.",
+    "after": "Kwa sababu kadiri unavyozungumza nao kuhusu mambo ya jumla, ndivyo unavyozidi kushikamana nao.",
+    "reason": "Avoid limiting the abstract topics to non-work topics."
+  },
+  {
+    "id": "start_a5349097",
+    "before": "Nilimnyooshea Juno mkono. Aliutazama akiwa haelewi, lakini inaonekana alikumbuka haraka ulimaanisha nini.",
+    "after": "Nilimnyooshea Juno mkono. Aliutazama akiwa haelewi, lakini inaonekana alikumbuka haraka ishara hiyo ilimaanisha nini.",
+    "reason": "Clarify that she recalls the meaning of the gesture."
+  },
+  {
+    "id": "start_df9b08f4",
+    "before": "Wanaonekana kama... {w}Wamenyauka?",
+    "after": "Yanaonekana kama... {w}Yamenyauka?",
+    "reason": "Use agreement for the leaves Juno is holding; preserve the wait."
+  },
+  {
+    "id": "start_68ed83cb",
+    "before": "Kwa muda niliona kwamba ingekuwa bora kama ningekufa pamoja naye. Hisingekuwepo hisia hii ya hatia ya daima. Iko nami kila wakati, bila kujali ninachofanya.",
+    "after": "Kwa muda niliona kwamba ingekuwa bora kama ningekufa pamoja naye. Isingekuwepo hisia hii ya hatia ya daima. Iko nami kila wakati, bila kujali ninachofanya.",
+    "reason": "Correct agreement with the feeling of guilt."
+  }
+]

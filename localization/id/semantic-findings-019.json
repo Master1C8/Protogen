@@ -1,0 +1,16 @@
+{
+  "scope": "Author semantic review, base story source-order rows 1-100",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+  "glossary_locale_sha256": "ba17b977238663f9232326a16248f14d612ef13c85bb18941434b2b9a2fc7945",
+  "changes": [
+    {
+      "id": "start_3ad19a9c",
+      "before": "Aneh, karena waktu itu umurku belum lebih dari tiga tahun.",
+      "after": "Aneh, karena waktu itu umurku tidak lebih dari tiga tahun.",
+      "reason": "Express the source's 'no more than three years old' bound naturally and unambiguously.",
+      "dependencies": "Shared base/DLC stable ID; final reproducible correction closure and delta review pending."
+    }
+  ],
+  "before_dialogue_sha256": "ab7691f6f5a48f2f30c7ebbc26173da1941139875dada80d65fd06e8403940d7",
+  "after_dialogue_sha256": "8d4ab66a654c0f466f4684e0d457e3ad65257f71663cac386809b65a260078e2"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_574f22fd",
+    "before": "抵達下一個補給站之前，連一個活人都沒有。",
+    "after": "抵達下一個燃料補給站之前，連一個活人都沒有。",
+    "reason": "Restore the refueling purpose of the station."
+  },
+  {
+    "id": "start_732d6bcb",
+    "before": "呃，嗯……對，我想應該不難。",
+    "after": "呃，嗯……對，我確定不會太難。",
+    "reason": "Preserve the speaker’s stated certainty."
+  },
+  {
+    "id": "start_aaf3cc89",
+    "before": "生日通常慶祝到二十歲，但一旦成年，就結束了，因為你已經完成長大這項重要任務。",
+    "after": "生日通常在滿二十歲之前慶祝，但一旦成年，就結束了，因為你已經完成長大這項重要任務。",
+    "reason": "Make the source’s before-twenty age boundary explicit."
+  }
+]

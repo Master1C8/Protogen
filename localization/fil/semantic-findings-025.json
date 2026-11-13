@@ -1,0 +1,26 @@
+[
+  {
+    "id": "start_b11bf260",
+    "before": "Sabi mo walang tao rito!",
+    "after": "Sabi mo walang nakatira rito!",
+    "reason": "Preserve the broader claim that no one lives there, referring to the creature."
+  },
+  {
+    "id": "start_065086cb",
+    "before": "Akala ko walang tao rito!",
+    "after": "Akala ko walang nakatira rito!",
+    "reason": "Keep the answer aligned with the broader claim in the preceding question."
+  },
+  {
+    "id": "start_738243d4",
+    "before": "Tama, hindi kita isinama at hindi ako magiging responsable sa buhay mo!",
+    "after": "Tama, hindi sana kita isinama at hindi ako magiging responsable sa buhay mo!",
+    "reason": "Restore the hypothetical outcome rather than asserting she did not take him."
+  },
+  {
+    "id": "start_5ad4e67c",
+    "before": "Pinilit niya akong umalis, sinabi niyang huwag ko man lang isipin na manatili sa tabi niya. At kinailangan kong umalis, kung hindi ay pareho kaming namatay.",
+    "after": "Pinilit niya akong umalis, sinabi niyang huwag ko man lang isipin na manatili sa tabi niya. At kinailangan kong umalis, kung hindi ay pareho sana kaming namatay.",
+    "reason": "Restore the counterfactual that both would have died."
+  }
+]

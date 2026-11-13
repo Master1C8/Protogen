@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_147b89d2",
+    "before": "Pero ngayon, sa unang pagkakataon, ako ang pumili kung ano ang gagawin at saan pupunta. Masayang kasama si Juno, pero paminsan-minsan ay naiisip ko pa rin ang mga magulang ko, kahit sinisikap kong pigilan iyon.",
+    "after": "Pero ngayon, sa pagkakataong ito, ako ang pumili kung ano ang gagawin at saan pupunta. Masayang kasama si Juno, pero paminsan-minsan ay naiisip ko pa rin ang mga magulang ko, kahit sinisikap kong pigilan iyon.",
+    "reason": "Preserve “for once” without asserting this is the first occurrence."
+  },
+  {
+    "id": "start_f9541386",
+    "before": "Ang alam ko lang ay ang matingkad na pula at matingkad na dilaw ay mga kabuteng nakamamatay na sa lason, kayang pumatay ng isang malaking hayop. Pero kung alin sa iba ang nakakain...",
+    "after": "Ang alam ko lang ay ang matingkad na pula at matingkad na dilaw na mga kabute ay lubhang makamandag, kayang pumatay ng isang malaking hayop. Pero kung alin sa iba ang nakakain...",
+    "reason": "Correct the malformed description of the deadly poisonous mushrooms."
+  },
+  {
+    "id": "start_9340aa79",
+    "before": "Kung ganoon, may mga kristal kayo? Ayos, kailangan nating humanap ng ilan!",
+    "after": "Kung ganoon, may mga kristal kayo? Ayos, kailangan nating humanap ng dalawa!",
+    "reason": "Preserve the source’s request for a couple of crystals."
+  }
+]

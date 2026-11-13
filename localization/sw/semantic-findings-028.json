@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_009c4f12",
+    "before": "Sikutaka kusikia kwamba alikuwa amekata tamaa. Ingawa, kwa kuangalia jinsi ilivyokwenda, alipenda kila kitu sana.",
+    "after": "Sikutaka kusikia kwamba alikuwa amevunjika moyo. Ingawa, kwa kuangalia jinsi ilivyokwenda, alipenda kila kitu sana.",
+    "reason": "Preserve disappointment instead of loss of hope."
+  },
+  {
+    "id": "start_476f17c7",
+    "before": "Juno alinifunga mikono shingoni, akinivuta karibu zaidi.",
+    "after": "Juno alinizungushia mikono yake shingoni, akinivuta karibu zaidi.",
+    "reason": "Clarify that Juno wrapped her own arms around his neck, rather than tied his hands."
+  },
+  {
+    "id": "start_64950fa2",
+    "before": "Ilibadilika kuwa myeusi, kana kwamba moto ulikuwa umepita juu yake, na tuliposhuka kuchukua sampuli, hata ndege hawakusikika.",
+    "after": "Misitu iligeuka kuwa nyeusi, kana kwamba moto ulikuwa umepita juu yake, na tuliposhuka kuchukua sampuli, hata ndege hawakusikika.",
+    "reason": "Use correct agreement for forests and preserve the blackening."
+  }
+]

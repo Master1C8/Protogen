@@ -1,0 +1,48 @@
+{
+  "phase": "author semantic audit in progress",
+  "reviewed_base_story_positions": [
+    910,
+    1104
+  ],
+  "new_reviewed_count": 195,
+  "cumulative_reviewed_count": 1105,
+  "changed_ids": [
+    "start_b808c3d7",
+    "start_80f8ed21",
+    "start_21f1ca7e",
+    "start_df743053",
+    "start_557ae46f",
+    "start_cf4a4025"
+  ],
+  "findings": [
+    {
+      "id": "start_b808c3d7",
+      "issue": "Aligned Pixie’s polite speech with the adjacent repeated question while preserving the personal-information reason and wait."
+    },
+    {
+      "id": "start_80f8ed21",
+      "issue": "Corrected the dust layer wording that implied an additional layer."
+    },
+    {
+      "id": "start_21f1ca7e",
+      "issue": "Clarified that this togetherness had never been experienced with anyone else."
+    },
+    {
+      "id": "start_df743053",
+      "issue": "Removed an unsupported assertion that the meeting was predestined."
+    },
+    {
+      "id": "start_557ae46f",
+      "issue": "Restored the source reference to abstract topics."
+    },
+    {
+      "id": "start_cf4a4025",
+      "issue": "Clarified the seating position on the fallen log."
+    }
+  ],
+  "closure": "Changed IDs and surrounding exchanges reread; full reproducible dependency closure and independent delta review remain pending the full audit.",
+  "previous_dialogue_sha256": "e0b1cfbb1ec7ac61465d24420e46113908dfbfced47d02516e161d5d2e637bfb",
+  "dialogue_sha256": "95b1b31865971baffe327c5003f1b96c379cd7c2a6b857648105ad22ee6a1e7a",
+  "coverage_sha256": "62181437f0a61e84525408381e099946eb3fd9df4c121e405276b5b3a4c412c7",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff"
+}

@@ -1,0 +1,38 @@
+{
+  "scope": "Text author semantic comparison and strict edition_text validation; no runtime or independent review.",
+  "python_version": "3.9.6",
+  "sha256": {
+    "/Users/antonkrutov/Desktop/Protogen/text-assets/manifest.json": "1ad9c080caed30f47584a2a4062a1ab9ab665eba5bf7e8c35736c5ccfc05c0a8",
+    "/Users/antonkrutov/Desktop/Protogen/text-assets/inventory.json": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+    "/Users/antonkrutov/Desktop/Protogen/text-assets/preserve-exactly.json": "f50583a62ea41e826c4668f8595592c60605ca0a3f48e2415a1f695846cd2afd",
+    "/Users/antonkrutov/Desktop/Protogen/text-assets/special-scenes.json": "5d3950c98e01d34a49bca5ef8862c5ab5dcec2558c42f709748c68e5134af923",
+    "/Users/antonkrutov/Desktop/Protogen/text-assets/edition-qa.0bfO9x/nsfw-export/manifest.json": "da9a7f72df14f7b725d7566ae0f1cac40f7390042d74b410c9aaf05a48063b6f",
+    "/Users/antonkrutov/Desktop/Protogen/text-assets/edition-qa.0bfO9x/nsfw-export/inventory.json": "b0feab1e5d5dfa697bbeee0a98a8dc310edd30ce6acc908aee8e776b5f0aa2ea",
+    "/Users/antonkrutov/Desktop/Protogen/text-assets/edition-qa.0bfO9x/nsfw-export/preserve-exactly.json": "36446dab69a956c65997d173f6d088c617514e4afbafb5158f7d66772a406c22",
+    "/Users/antonkrutov/Desktop/Protogen/text-assets/edition-qa.0bfO9x/nsfw-export/special-scenes.json": "2412020e4c4024a82dad7535976a6e1ff8239fec1214c4ac7c211492a75c6f8b",
+    "/Users/antonkrutov/Desktop/Protogen/text-assets/multilingual-probe.L4KEcD/glossary-receipts.json": "5935841fb335bb53db74afe2134e70c45068ee8dbea7cf6a87f287aef794cddd",
+    "/Users/antonkrutov/Desktop/Protogen/localization/edition-qa.json": "a7f2a8a3625bc73cd7a9889e09c61ac3f78abda27b853fc4af9803869d016d5c",
+    "/Users/antonkrutov/Desktop/Protogen/localization/nsfw-story-aliases.json": "6b020423fc1c45e678c6c8ef6914161ed2978864f91c805d3c0d286c084b8f7c",
+    "/Users/antonkrutov/Desktop/Protogen/tools/build_localization.py": "18937f78194ea7503bf14c316b7db3789013ea9accd6e455eadfe2fd3f909d5d",
+    "/Users/antonkrutov/Desktop/Protogen/tools/extract_text.py": "db7ae33202a62d85f882e142e11bc60de8332c896e8b1077a1781ab43c5ce691",
+    "/Users/antonkrutov/Desktop/Protogen/tools/install_language_picker.py": "c567eec2abd882dad7e72193cb4619444096469f25a741409873c24846d16428",
+    "/Users/antonkrutov/Desktop/Protogen/localization/fil/dialogue.tsv": "9557649ef1c54be24522f9dac6f6c69e7c5160e0bc99ab60c622853570283eed",
+    "/Users/antonkrutov/Desktop/Protogen/localization/fil/strings.json": "ed5666b16b3a18af91446a91e0ff9d402029c9585777a52bb9099f43fd68d55d",
+    "/Users/antonkrutov/Desktop/Protogen/localization/fil/nsfw/dialogue.tsv": "813ce41609384bf6a6e650955c91e5db49584246a3fa61fe367e1e5057f3a1fe",
+    "/Users/antonkrutov/Desktop/Protogen/localization/fil/nsfw/strings.json": "1fc8cbf154976b506e2d49f865dd0752e4fba38c19d0712c58754d3ad1919e9a",
+    "/Users/antonkrutov/Desktop/Protogen/localization/fil/special-scenes.md": "362492de32c4c461cd41aa1938f9790c79452b714f244d711092fdd9db35eed0",
+    "/Users/antonkrutov/Desktop/Protogen/localization/fil/semantic-coverage.json": "f5358e2e188eb27f6330b4b4aa431160ac5d71e46f2089269adbdb65d4b64809",
+    "/Users/antonkrutov/Desktop/SiteForMods/data/games/my-furry-protogen/glossary.json": "611e6dec103d1857ec8ed5ce8dc10470312c5ef6d981e1ef307474b44f85d926",
+    "/Users/antonkrutov/Desktop/SiteForMods/data/games/my-furry-protogen/glossary-translations.json": "126976849427c1a5de635d0cc6a7a378da6e315084cc5626b56fa7879e3a7ca2",
+    "/Users/antonkrutov/Desktop/SiteForMods/data/games/my-furry-protogen/glossary-translation-reviews/fil-review.json": "9a4bf712a5903b85ec1363d9be557ce66130333da1ee991fe013feb8f5330a34",
+    "/Users/antonkrutov/Desktop/SiteForMods/data/games/my-furry-protogen/glossary-review.md": "b952b5d3461a6d9a4103a0c947da28c7afc6860a9648c21a870274f7e923c59b"
+  },
+  "approved_glossary_entry_hashes_from_prior_coordinator_receipt": {
+    "source": "611e6dec103d1857ec8ed5ce8dc10470312c5ef6d981e1ef307474b44f85d926",
+    "fil": "1e1bdfdd858a51df54832c9db752a397f73f70ea8f8a74f4280a058d0953b131",
+    "fil_review": "9a4bf712a5903b85ec1363d9be557ce66130333da1ee991fe013feb8f5330a34"
+  },
+  "reproduce_strict_validation": "cd /Users/antonkrutov/Desktop/Protogen && python3 -B -c \"import sys,json; from pathlib import Path; sys.path.insert(0,'tools'); import build_localization as b; base=json.loads(Path('text-assets/inventory.json').read_text()); ed=json.loads(Path('text-assets/edition-qa.0bfO9x/nsfw-export/inventory.json').read_text()); b.edition_text(base,ed,Path('localization/fil'),False)\"",
+  "semantic_coverage": "Exact audited ID and key sets are in semantic-coverage.json. Alias targets are populated by the pinned alias map and are not separately authored.",
+  "limitations": "Author review only; full-scene rechecks, independent review, adapter mapping, reinsertion and runtime/visual checks remain pending. Protected subsets were previously checked against inventories; the strict command does not perform that check."
+}

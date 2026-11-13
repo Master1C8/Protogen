@@ -1,0 +1,14 @@
+[
+  {
+    "id": "start_4ea2ff68",
+    "before": "Wazo hilo lilikuwa la ghafla, angavu kama nyota ipitayo, na sikuwa nimewahi kutaka kitu chochote kiasi hicho.",
+    "after": "Wazo hilo lilikuwa la ghafla, angavu kama nyota inayoanguka, na sikuwa nimewahi kutaka kitu chochote kiasi hicho.",
+    "reason": "Specify a shooting star rather than an arbitrary passing star."
+  },
+  {
+    "id": "start_19e87026",
+    "before": "Mara kadhaa tulitoroka kwa shida kutoka kwa wenye meno makali walioghadhabika waliotukimbiza hadi kwenye chombo kidogo, hadi Juno alipotoa bunduki na kuwapiga risasi.",
+    "after": "Mara mbili hivi tulitoroka kwa shida kutoka kwa wenye meno makali walioghadhabika waliotukimbiza hadi kwenye chombo kidogo, hadi Juno alipotoa bunduki na kuwapiga risasi.",
+    "reason": "Preserve the approximate couple of incidents rather than several."
+  }
+]

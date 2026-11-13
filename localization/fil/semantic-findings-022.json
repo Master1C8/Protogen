@@ -1,0 +1,26 @@
+[
+  {
+    "id": "start_d249b06d",
+    "before": "Lumingon sa akin si Juno habang nakasasalampak. Natawa ako.",
+    "after": "Lumingon sa akin si Juno habang nakalupasay. Natawa ako.",
+    "reason": "Restore Juno’s squatting posture."
+  },
+  {
+    "id": "start_f97b3eac",
+    "before": "Salamat sa Ina ng Langit...",
+    "after": "Purihin ang Ina ng Langit...",
+    "reason": "Restore the source’s praise rather than replacing it with thanks."
+  },
+  {
+    "id": "start_14cbcd75",
+    "before": "Sabi ko, sayang naman. Gusto ko pa sanang maglakbay nang mas malayo... Pero mukhang hindi ko kaya.",
+    "after": "Sabi ko, sayang naman. Gusto ko pa sanang maglakbay nang mas matagal... Pero mukhang hindi ko kaya.",
+    "reason": "Preserve wanting to travel more without adding a greater distance."
+  },
+  {
+    "id": "start_e4801bf6",
+    "before": "Alam mo, si Pixie na lang ang hilingin mo. Aayusin niya ang lahat para sa iyo.",
+    "after": "Alam mo, kay Pixie mo na lang itanong. Aayusin niya ang lahat para sa iyo.",
+    "reason": "Clarify that the player should ask Pixie rather than request Pixie as an object."
+  }
+]

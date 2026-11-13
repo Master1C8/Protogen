@@ -1,0 +1,5 @@
+# Ukrainian author comparison batch 010
+
+2026-11-13. Compared base story positions 1231–1400 against English in source order, from `start_e094efb9` through `start_aa4cb097`. Exact reviewed IDs are in `semantic-coverage.json`. Adjusted `start_009c4f12` from “дуже сподобалося” to “цілком сподобалося” to match the English “quite liked” more closely. Existing unresolved findings in the locale status remain open.
+
+Strict `build_localization.edition_text(..., False)` validation passed after the edit: 1785/1785 base story, 394/394 base UI, 255/255 DLC delta including 17 aliases, and 1/1 DLC UI. It checks structural bindings and placeholders, not semantic correctness or rendering. Base dialogue SHA-256 `bcde755774ebc24ab9995db197a4fb46087d0688b67b3b631eae3b4221546078`; coverage SHA-256 `dc230d63e4d535d3557f67f7f66681adaaf889022c3855fc838228ec6273e7f2`. Dependency closure, complete English comparison, independent review, and runtime/visual verification remain pending. Next: base story position 1401.

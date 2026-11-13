@@ -1,0 +1,73 @@
+{
+  "phase": "author semantic audit in progress",
+  "reviewed_base_story_positions": [
+    1105,
+    1299
+  ],
+  "new_reviewed_count": 195,
+  "cumulative_reviewed_count": 1300,
+  "changed_ids": [
+    "start_df9b08f4",
+    "start_1bc36927",
+    "start_6163eefc",
+    "start_05e85242",
+    "start_7bd6720b",
+    "start_9c767946",
+    "start_5c5767a9",
+    "start_19e87026",
+    "start_2da8ae4c",
+    "start_b66a3644",
+    "start_241277d3"
+  ],
+  "findings": [
+    {
+      "id": "start_df9b08f4",
+      "issue": "Wilted was rendered as dead; restored wilting while preserving the wait."
+    },
+    {
+      "id": "start_1bc36927",
+      "issue": "Removed an unsupported assertion that they retraced the same path."
+    },
+    {
+      "id": "start_6163eefc",
+      "issue": "Restored the suggestion to talk to Pixie as an instruction."
+    },
+    {
+      "id": "start_05e85242",
+      "issue": "Broadened bad years beyond crop failure to preserve livestock context."
+    },
+    {
+      "id": "start_7bd6720b",
+      "issue": "Distinguished trying to make a cure from being able to make one."
+    },
+    {
+      "id": "start_9c767946",
+      "issue": "Restored general comparative wellbeing rather than narrowing it to safety."
+    },
+    {
+      "id": "start_5c5767a9",
+      "issue": "Restored the narrator’s asserted expectation of destruction."
+    },
+    {
+      "id": "start_19e87026",
+      "issue": "Restored that they barely escaped twice, not merely nearly faced attack."
+    },
+    {
+      "id": "start_2da8ae4c",
+      "issue": "Preserved the promise to try rather than an unconditional guarantee."
+    },
+    {
+      "id": "start_b66a3644",
+      "issue": "Distinguished lacking hope from lacking desire."
+    },
+    {
+      "id": "start_241277d3",
+      "issue": "Restored meeting rather than adding staying together."
+    }
+  ],
+  "closure": "Changed IDs and surrounding exchanges reread; full reproducible dependency closure and independent delta review remain pending the full audit.",
+  "previous_dialogue_sha256": "95b1b31865971baffe327c5003f1b96c379cd7c2a6b857648105ad22ee6a1e7a",
+  "dialogue_sha256": "d3cc2114cbd43b3021804220d1aa5bfc1727173994542f7e8b1af83f3c610fc3",
+  "coverage_sha256": "195e05e5ea3728e2667eb31831bb35d25c6b9c15281c6eb20b8c802f335ec56f",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff"
+}

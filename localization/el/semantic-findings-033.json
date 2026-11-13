@@ -1,0 +1,7 @@
+{
+  "review": "author semantic comparison, base UI authored key order indices 315 through 393, DLC explicitly authored story source order indices 0 through 54, and DLC UI",
+  "findings": [],
+  "pending": [
+    "DLC start_3a73faee uses an ambiguous English referent; Greek retains a masculine referent without asserting the intended meaning."
+  ]
+}

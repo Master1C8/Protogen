@@ -1,0 +1,26 @@
+[
+  {
+    "id": "start_424e1edf",
+    "before": "Katika joho hilo refu, nilifanana zaidi na mchawi mzee mwenye ndevu wa kwenye ngano kuliko mvulana wa kawaida aliyetimiza miaka ishirini.",
+    "after": "Katika joho hilo refu, nilifanana zaidi na mchawi mzee mwenye ndevu wa kwenye ngano kuliko mvulana wa kawaida aliyekuwa akisherehekea kutimiza miaka ishirini.",
+    "reason": "Restore that the twenty-year-old is celebrating his birthday."
+  },
+  {
+    "id": "start_0bf2fe34",
+    "before": "Mama wa Mbingu... au Lit, yeyote... Haijalishi. Kama mnaishi, na mimi nilikosea, nisameheni na kuniambia nifanye nini.",
+    "after": "Mama wa Mbingu... au Lit, yeyote... Haijalishi. Kama mko kweli, na mimi nilikosea, nisameheni na kuniambia nifanye nini.",
+    "reason": "Source asks whether they exist, rather than whether they live."
+  },
+  {
+    "id": "start_affb033a",
+    "before": "Yalikuwa mbali, nisingeyafikia, na hata kama ningefanikiwa kwa namna fulani, haikuwezekana sana kwamba lolote lingenikubali.",
+    "after": "Yalikuwa mbali, nisingeyafikia, na hata kama ningefanikiwa kwa namna fulani, haikuwa rahisi kwa lolote kunikubali.",
+    "reason": "Clarify that acceptance was unlikely, not impossible."
+  },
+  {
+    "id": "start_9545c84c",
+    "before": "Kulibaki uwezekano mbili: ama kulikuwa na watu wengine hapa, au...",
+    "after": "Kulibaki uwezekano miwili: ama kulikuwa na watu wengine hapa, au...",
+    "reason": "Correct agreement with uwezekano."
+  }
+]

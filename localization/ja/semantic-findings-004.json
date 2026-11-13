@@ -1,0 +1,48 @@
+{
+  "phase": "author semantic audit in progress",
+  "reviewed_base_story_positions": [
+    520,
+    714
+  ],
+  "new_reviewed_count": 195,
+  "cumulative_reviewed_count": 715,
+  "changed_ids": [
+    "start_3e4333d1",
+    "start_460fa21f",
+    "start_2c98d890",
+    "start_af12aa94",
+    "start_cf15cf90",
+    "start_147b89d2"
+  ],
+  "findings": [
+    {
+      "id": "start_3e4333d1",
+      "issue": "Restored source ownership of Juno’s backpack. Previous line refers to the player’s backpack; the inconsistency is source-bound, not silently resolved."
+    },
+    {
+      "id": "start_460fa21f",
+      "issue": "Clarified interrupted test-before-feeding sequence."
+    },
+    {
+      "id": "start_2c98d890",
+      "issue": "Restored planet-wide flora and fauna scope."
+    },
+    {
+      "id": "start_af12aa94",
+      "issue": "Restored speaker’s own fallibility alongside everyone else."
+    },
+    {
+      "id": "start_cf15cf90",
+      "issue": "Changed future intent to thank Pixie into present gratitude."
+    },
+    {
+      "id": "start_147b89d2",
+      "issue": "Avoided asserting an unsupported first occurrence."
+    }
+  ],
+  "closure": "Changed IDs and surrounding exchanges reread; full reproducible dependency closure and independent delta review remain pending the full audit.",
+  "previous_dialogue_sha256": "49b35ab0005eb622fce4859acea14c97d8a7ee48646518ceb42ad95c17a0bfbd",
+  "dialogue_sha256": "64c54507fd7026bf0d0088722961e658f85f2ff27172cd4e8024b2a2c2ab1a5e",
+  "coverage_sha256": "8387ff23ba05f22d8760d9901054341771b0815604d77ab9e317edd4c90c4b4a",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff"
+}

@@ -1,0 +1,5 @@
+# Bulgarian author semantic review: batch 009
+
+2026-11-13. Compared all 394 base UI entries against their English source keys, including controls, accessibility, dates, save prompts, engine diagnostics, console commands and names, in canonical `strings.json` order. Exact keys, including whitespace and newlines, are in `semantic-batch-009-ids.json` (JSON array), SHA-256 `b624e2571dc879ba4ea897d6f92cb126ad1aa9b35ca25816f547d8f75e8e9526`. No objective correction identified. Proper names, literal commands, format tokens, markup and placeholders were retained. This is author review, not independent review; visual fit and actual runtime behavior remain unverified.
+
+Base inventory `8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff`; Bulgarian glossary `fa06015f68057ec3d9d3c1cd1c40349237af14998f8ac3ca1d636cc3619c58ff`; authored strings `13fff38673b740c2ac8d225abf1308b959db0f12acb3ff1ce6b0341169f6a904`. Strict edition text validation passed on these inputs. DLC semantic audit, reproducible correction closure, derived protected-value checks and independent review remain pending.

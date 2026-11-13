@@ -1,0 +1,12 @@
+# French special-scene decisions
+
+Bound to SFW registry SHA-256 `5d3950c98e01d34a49bca5ef8862c5ab5dcec2558c42f709748c68e5134af923`, DLC registry `2412020e4c4024a82dad7535976a6e1ff8239fec1214c4ac7c211492a75c6f8b`, and French glossary layer `fb9cf9001e409789f4b5909e9c0c80d10403d94a2a2c95c945b2998325bbf109`. These decisions cover the registered cases; full corpus semantic review and coordinator runtime validation remain pending.
+
+- Player name: prompt « Je m’appelle… »; empty fallback « Toi ». Retain `[pname]` exactly, do not inflect the entered name, and preserve the empty/whitespace fallback, 12-character input bound and speaker binding. The contextual player-name dialogue is authored by stable ID in `dialogue.tsv` and `nsfw/dialogue.tsv`, with shared IDs and the existing alias map. Positive: accented custom name appears in both nameplate and dialogue. Negative: empty or whitespace-only entry uses the fallback; neither path exposes a placeholder.
+- Juno nameplate: retain `Juno` and the `[gname]` binding; do not translate speaker ID `j`. Positive: first and later nameplates match; negative: changing display wording must not alter the internal binding.
+- Save formats: « Page {} », « Sauvegardes automatiques », « Sauvegardes rapides », « Emplacement vide », and `{#file_time}%A %d %B %Y, %H:%M` in `strings.json`. Preserve replacement field, tag and every date directive. Positive: ordinary, quick and automatic pages and occupied/empty slots display correctly; negative: missing fields or directives fail text validation. Actual date rendering is coordinator QA.
+- Dialogue timing: `dialogue.tsv` and the DLC delta contain the authored lines, including exact `{w}` pauses and `{cps=5}...{/cps}`. Keep each wait in its associated passage, and retain the final slow ellipsis. Positive: dialogue resumes after waits; negative: an omitted, reordered or altered tag fails validation.
+- Main-menu logo: retain original brand artwork and title `My Furry protogen` unchanged; no French image wording. Coordinator checks complete logo and navigation visibility.
+- Watch cutscenes: retain both existing movie paths; prior review records no captions. Coordinator checks return to the next scripted line. No text or resource substitution is proposed.
+
+The existing Ren’Py interpolation, native string substitution and tag mechanisms are reused; the owner deferred the French-specific renderer probe. Text-level decisions do not claim runtime or visual acceptance. Alias IDs remain un-authored and resolve through `localization/nsfw-story-aliases.json`.

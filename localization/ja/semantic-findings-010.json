@@ -1,0 +1,58 @@
+{
+  "phase": "author semantic audit in progress",
+  "reviewed_base_story_positions": [
+    1690,
+    1784
+  ],
+  "reviewed_base_ui_positions": [
+    0,
+    393
+  ],
+  "new_reviewed_count": 489,
+  "cumulative_coverage": {
+    "base_story": 1785,
+    "base_ui": 394,
+    "dlc_story": 0,
+    "dlc_ui": 0
+  },
+  "story_findings": [
+    {
+      "id": "start_615cb0c3",
+      "issue": "Restored swallowing rather than gasping."
+    },
+    {
+      "id": "start_ddf1a212",
+      "issue": "Clarified that the feared threat might not have reached the village."
+    }
+  ],
+  "ui_findings": [
+    {
+      "id": "Clipboard voicing enabled. ",
+      "issue": "Clarified that clipboard voicing outputs text to the clipboard rather than speaking to it."
+    },
+    {
+      "id": "clipboard voicing",
+      "issue": "Clarified that clipboard voicing outputs text to the clipboard rather than speaking to it."
+    },
+    {
+      "id": "Clipboard voicing enabled. Press 'shift+C' to disable.",
+      "issue": "Clarified that clipboard voicing outputs text to the clipboard rather than speaking to it."
+    }
+  ],
+  "local_context_ids": [
+    "start_26c50133",
+    "start_615cb0c3",
+    "start_8e0cc5ed",
+    "start_54b30cf2",
+    "start_ddf1a212",
+    "start_a0e2c5c6"
+  ],
+  "affected_dlc_aliases": {},
+  "local_closure_method": "Adjacent story IDs, direct DLC aliases, and related clipboard-voicing UI entries; bounded check only, not final transitive dependency closure.",
+  "closure": "Full reproducible dependency closure and independent delta review remain pending the full audit.",
+  "previous_dialogue_sha256": "46dd10e28279519d11ceb1371fef11fadc4fd6055fa92b290a44e41630cbc058",
+  "dialogue_sha256": "05ed24d5fc1f8a20b7b37a0a785c06df000537840b8eb44ac3a3c630a7ce8168",
+  "strings_sha256": "3324cd6b584f443aafb406b3010ddd3737a824e66ee95645aaa460d12e718ce1",
+  "coverage_sha256": "b27dbf0947e0c231ae884b08bd5c576f5ec946d37e225dcf300fff7507bc41a3",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff"
+}

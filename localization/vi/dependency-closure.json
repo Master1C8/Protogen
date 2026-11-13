@@ -1,0 +1,239 @@
+{
+  "scope": "Corrections recorded during author semantic audit turns 017-033; immediate source-order authored story neighbors and DLC aliases. Full authored sets compared with English; runtime and independent review are separate.",
+  "reproduce": "python3 -B localization/vi/dependency-closure.py",
+  "sha256": {
+    "base_source": "4ba57708ea623be3177c60680b318461469741b1109e7874d8e4c3131e007ad5",
+    "dlc_source": "74ff2174cd5eb7515bbb5bc2ae8ce82dc672f80bf16909f57af23432fe29ab93",
+    "base_text": "816e06bb47df750351966aa87023d4b036026bea5815d17a8b9fa2fc880c0ec1",
+    "dlc_text": "a82bc03bbec43d9f5f19e0ffcbd45e46c2e328f8c56fda39c08c779ad4e11010",
+    "aliases": "6b020423fc1c45e678c6c8ef6914161ed2978864f91c805d3c0d286c084b8f7c",
+    "semantic_coverage": "b62a860a134aa126bb9dd0574fd03fd25822add362a335d583528dbb3cf74a9c",
+    "special_decisions": "93f0afdaa5cd7be69c5c69150660ea40e9343d06697ca12e01659d570c34b333"
+  },
+  "base_corrections_and_neighbors": {
+    "start_6f3a1b7b": [
+      "start_6f3a1b7b",
+      "start_ffeec2b6"
+    ],
+    "start_3ad19a9c": [
+      "start_a38ddd92",
+      "start_3ad19a9c",
+      "start_436ff1c4"
+    ],
+    "start_5c3962b6": [
+      "start_29846358",
+      "start_5c3962b6",
+      "start_e6540b2e"
+    ],
+    "start_d5e81f4b": [
+      "start_890151de",
+      "start_d5e81f4b",
+      "start_7c8b9a7c"
+    ],
+    "start_852af4cd": [
+      "start_b88144a8",
+      "start_852af4cd",
+      "start_963516dd"
+    ],
+    "start_67f1c6e1": [
+      "start_3f083d6d",
+      "start_67f1c6e1",
+      "start_f17e336e"
+    ],
+    "start_c89cdfa5": [
+      "start_6c5caa25",
+      "start_c89cdfa5",
+      "start_211f6dc6"
+    ],
+    "start_12453058": [
+      "start_85dc0176",
+      "start_12453058",
+      "start_51575dcb"
+    ],
+    "start_0d81f008": [
+      "start_7eb4de78",
+      "start_0d81f008",
+      "start_12edcaa8"
+    ],
+    "start_c0c0efbc": [
+      "start_ae138ec0",
+      "start_c0c0efbc",
+      "start_d3861ce2"
+    ],
+    "start_aaf3cc89": [
+      "start_ad392d4c",
+      "start_aaf3cc89",
+      "start_ae965bd0"
+    ],
+    "start_66e87b19": [
+      "start_45d12de2",
+      "start_66e87b19",
+      "start_9cd854d2"
+    ],
+    "start_14a0d744": [
+      "start_e6ec032a",
+      "start_14a0d744",
+      "start_864b6315"
+    ],
+    "start_b556caa4": [
+      "start_110a14b6",
+      "start_b556caa4",
+      "start_85324022"
+    ],
+    "start_5ac5748e": [
+      "start_72ec211e",
+      "start_5ac5748e",
+      "start_c0524654"
+    ],
+    "start_5fc1d03e": [
+      "start_7ba9b52a",
+      "start_5fc1d03e",
+      "start_d37e617d"
+    ],
+    "start_f610eb62": [
+      "start_1d820ac4",
+      "start_f610eb62",
+      "start_672b0c73"
+    ],
+    "start_2c3d9ae7": [
+      "start_6d767069",
+      "start_2c3d9ae7",
+      "start_c2e37ea3"
+    ],
+    "start_4618455b": [
+      "start_936aac97",
+      "start_4618455b",
+      "start_60ea290d"
+    ],
+    "start_6969d8ea": [
+      "start_300701d2",
+      "start_6969d8ea",
+      "start_bc153e3f"
+    ],
+    "start_a816a10e": [
+      "start_76d3952d",
+      "start_a816a10e",
+      "start_7e6952ee"
+    ],
+    "start_557ae46f": [
+      "start_1c86037d",
+      "start_557ae46f",
+      "start_df743053"
+    ],
+    "start_eeefa321": [
+      "start_a5349097",
+      "start_eeefa321",
+      "start_9d7884bb"
+    ],
+    "start_5d8dfecf": [
+      "start_c2e287ea",
+      "start_5d8dfecf",
+      "start_66560e7e"
+    ],
+    "start_e23b1a69": [
+      "start_91266188",
+      "start_e23b1a69",
+      "start_fb154735"
+    ],
+    "start_05e85242": [
+      "start_2fd609cc",
+      "start_05e85242",
+      "start_15648cf8"
+    ],
+    "start_9c767946": [
+      "start_999d800f",
+      "start_9c767946",
+      "start_89e46f8c"
+    ],
+    "start_31ab804a": [
+      "start_becec016",
+      "start_31ab804a",
+      "start_49aca91e"
+    ],
+    "start_8933c45b": [
+      "start_30f032c0",
+      "start_8933c45b",
+      "start_f8ca89eb"
+    ],
+    "start_bfb4fedb": [
+      "start_8f36c8a8",
+      "start_bfb4fedb",
+      "start_7cdecf64"
+    ],
+    "start_bc22e497": [
+      "start_ebeb78ac",
+      "start_bc22e497",
+      "start_ecb84ebb"
+    ],
+    "start_6f71b573": [
+      "start_0ba3ab5a",
+      "start_6f71b573",
+      "start_e2eaf05e"
+    ],
+    "start_b752b24d": [
+      "start_012adccc",
+      "start_b752b24d",
+      "start_c39d4399"
+    ],
+    "start_82cf338a": [
+      "start_b4aaeae2",
+      "start_82cf338a",
+      "start_68c1a549"
+    ],
+    "start_d99074dc": [
+      "start_f8fc4a74",
+      "start_d99074dc",
+      "start_4c4bef61"
+    ],
+    "start_5e8921dc": [
+      "start_74cc284b",
+      "start_5e8921dc",
+      "start_21b41cb8"
+    ],
+    "start_fb804d67": [
+      "start_e8ed360a",
+      "start_fb804d67",
+      "start_3f3b511f"
+    ],
+    "start_6b45b2a2": [
+      "start_3751abb7",
+      "start_6b45b2a2",
+      "start_796bf47b"
+    ]
+  },
+  "dlc_corrections_and_neighbors": {
+    "start_342c0dd6": [
+      "start_22a40610",
+      "start_342c0dd6",
+      "start_7d4107de"
+    ],
+    "start_c67d4386": [
+      "start_6fe15fae",
+      "start_c67d4386",
+      "start_c66c8f15"
+    ]
+  },
+  "aliases_referencing_corrected_base": {},
+  "all_alias_bindings": {
+    "start_f0558c65": "start_e32b82da",
+    "start_f4f0a94c": "start_b34ad1b5",
+    "start_86cf6216": "start_51bbf806",
+    "start_d55510ec": "start_19945a20",
+    "start_6c734c7e": "start_c2ebf58a",
+    "start_c02c9247": "start_052a036f",
+    "start_e5ad4373": "start_965e9751",
+    "start_5f10a61b": "start_141414cc",
+    "start_888c4b8e": "start_8181fef9",
+    "start_ab017dc1": "start_f0523fd8",
+    "start_7b64e49d": "start_f66bb6fe",
+    "start_143d3fc7": "start_4d49d9a8",
+    "start_54835e9e": "start_9b09f4f9",
+    "start_679fb123": "start_c451b1f5",
+    "start_561779d7": "start_ba0c8889",
+    "start_1e199ae6": "start_ca41a267",
+    "start_4d5e7851": "start_35a3ccf5"
+  },
+  "unresolved_source_evidence": {
+    "start_5c6117e8": "DLC source speaker is p although the line addresses [pname] amid Juno responses; preserve original binding, do not infer or change the speaker. Owner or source confirmation remains pending."
+  }
+}

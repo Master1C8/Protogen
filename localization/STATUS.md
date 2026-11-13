@@ -147,3 +147,15 @@ Windows through CrossOver. The production engine remains the shipped version.
   The dialogue and input fail Devanagari shaping. The cmap check separately
   identifies the two missing Latin characters. Upstream added complex shaping
   through HarfBuzz in [Ren’Py 8.2](https://www.renpy.org/doc/html/changelog.html#harfbuzz-integration).
+
+## Editorial queue closed by owner
+
+The owner closed this editorial task on 2026-11-13 and asked to keep the current
+translations. Strict authored-text validation passed for all 30 locales against
+the pinned base and DLC inventories. The independent reviews for Russian,
+Polish, Arabic and Bulgarian returned proposed corrections. Six reviews were
+stopped in progress, and 20 had not started. The existing reports and
+checkpoints are indexed in the local
+`text-assets/cli-editorial-review-20261113/closure.json`.
+Proposed corrections remain in the reports. Final editorial acceptance is
+incomplete. CrossOver remains deferred to a joint pass.

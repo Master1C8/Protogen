@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_ef382fa8",
+    "before": "Masunurin kong ipinasok ang titi ko sa masikip niyang butas, agad na tumulak hanggang dulo nang may malakas na hampas, at ibinalik ni Juno ang ulo niya. Umikot ang mga mata niya at nanginig siya, pinipisil ako sa loob.",
+    "after": "Masunurin kong ipinasok ang titi ko sa masikip niyang butas, agad na tumulak hanggang dulo nang may malakas na hampas, at inihagis ni Juno ang ulo niya paatras. Umikot ang mga mata niya at nanginig siya, pinipisil ako sa loob.",
+    "reason": "Restore that Juno throws her head back rather than merely returning it."
+  },
+  {
+    "id": "start_0a96d6a7",
+    "before": "Ilang sandali kaming nagpakatatag.",
+    "after": "Ilang sandali bago kami natauhan.",
+    "reason": "Restore coming to their senses rather than composing or strengthening themselves."
+  },
+  {
+    "id": "start_416b156b",
+    "before": "Sa puwitan? Oo, hindi pangkaraniwan iyon, gusto ko rin.",
+    "after": "Pagtatalik sa puwitan? Oo, hindi pangkaraniwan iyon, gusto ko rin.",
+    "reason": "Preserve the explicit reference to anal sex in the DLC source."
+  }
+]

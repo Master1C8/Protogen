@@ -1,0 +1,189 @@
+{
+  "method": "For each documented corrected base ID, record adjacent authored base IDs and all DLC IDs resolved by shared ID or alias. Strict edition_text validation verifies source-field identity, protections, mappings and coverage. Adjacent IDs were included in the saved full semantic comparison; independent review remains pending. This is a defined text dependency closure, not runtime verification.",
+  "input_sha256": {
+    "text-assets/inventory.json": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/inventory.json": "b0feab1e5d5dfa697bbeee0a98a8dc310edd30ce6acc908aee8e776b5f0aa2ea",
+    "localization/nsfw-story-aliases.json": "6b020423fc1c45e678c6c8ef6914161ed2978864f91c805d3c0d286c084b8f7c",
+    "tools/build_localization.py": "18937f78194ea7503bf14c316b7db3789013ea9accd6e455eadfe2fd3f909d5d",
+    "localization/pt-BR/dialogue.tsv": "a69aad27dd3d633637ffe9a1fa051413b2f7230f93e2b0db54056f916155db59",
+    "localization/pt-BR/strings.json": "713297eced4067983c45e7e103d5f0711e609a0576ba53de1850df5b8e422d4e",
+    "localization/pt-BR/nsfw/dialogue.tsv": "d7a9b9bb34affc6ca5c1690b2368aefa28e4cc12a1b54c1a72e43f0c28370d8c",
+    "localization/pt-BR/nsfw/strings.json": "0cbe04ec8df416f308a3def76d95c13de529635f8a657b968867d1904a5ee3af",
+    "localization/pt-BR/semantic-coverage.json": "98720537b09104512b5af1d3a1684cda4d880bf1be0132c1426da494005979eb"
+  },
+  "corrections": [
+    {
+      "corrected_base_id": "start_2464e318",
+      "adjacent_base_ids": [
+        "start_2ecc0d3d",
+        "start_2464e318",
+        "start_75b7c058"
+      ],
+      "resolved_dlc_ids": [
+        "start_2464e318"
+      ]
+    },
+    {
+      "corrected_base_id": "start_c0afeda0",
+      "adjacent_base_ids": [
+        "start_17e74dd2",
+        "start_c0afeda0",
+        "start_202aa22c"
+      ],
+      "resolved_dlc_ids": [
+        "start_c0afeda0"
+      ]
+    },
+    {
+      "corrected_base_id": "start_96a93178",
+      "adjacent_base_ids": [
+        "start_89e99cf3",
+        "start_96a93178",
+        "start_8cbf3ac0"
+      ],
+      "resolved_dlc_ids": [
+        "start_96a93178"
+      ]
+    },
+    {
+      "corrected_base_id": "start_259c38d4",
+      "adjacent_base_ids": [
+        "start_e2c70351",
+        "start_259c38d4",
+        "start_893c88af"
+      ],
+      "resolved_dlc_ids": [
+        "start_259c38d4"
+      ]
+    },
+    {
+      "corrected_base_id": "start_aaf3cc89",
+      "adjacent_base_ids": [
+        "start_ad392d4c",
+        "start_aaf3cc89",
+        "start_ae965bd0"
+      ],
+      "resolved_dlc_ids": [
+        "start_aaf3cc89"
+      ]
+    },
+    {
+      "corrected_base_id": "start_4d72ed6c",
+      "adjacent_base_ids": [
+        "start_1842474c",
+        "start_4d72ed6c",
+        "start_afb55634"
+      ],
+      "resolved_dlc_ids": [
+        "start_4d72ed6c"
+      ]
+    },
+    {
+      "corrected_base_id": "start_75aac808",
+      "adjacent_base_ids": [
+        "start_0e001e54",
+        "start_75aac808",
+        "start_35ced377"
+      ],
+      "resolved_dlc_ids": [
+        "start_75aac808"
+      ]
+    },
+    {
+      "corrected_base_id": "start_a5349097",
+      "adjacent_base_ids": [
+        "start_0167f1df",
+        "start_a5349097",
+        "start_eeefa321"
+      ],
+      "resolved_dlc_ids": [
+        "start_a5349097"
+      ]
+    },
+    {
+      "corrected_base_id": "start_df9b08f4",
+      "adjacent_base_ids": [
+        "start_48f873a8",
+        "start_df9b08f4",
+        "start_55c2c595"
+      ],
+      "resolved_dlc_ids": [
+        "start_df9b08f4"
+      ]
+    },
+    {
+      "corrected_base_id": "start_1623cada",
+      "adjacent_base_ids": [
+        "start_e7297207",
+        "start_1623cada",
+        "start_cb95c3d1"
+      ],
+      "resolved_dlc_ids": [
+        "start_1623cada"
+      ]
+    },
+    {
+      "corrected_base_id": "start_22f9b172",
+      "adjacent_base_ids": [
+        "start_f0523fd8",
+        "start_22f9b172",
+        "start_4bc9c357"
+      ],
+      "resolved_dlc_ids": [
+        "start_22f9b172"
+      ]
+    },
+    {
+      "corrected_base_id": "start_8d2c6dfa",
+      "adjacent_base_ids": [
+        "start_c7a19bf9",
+        "start_8d2c6dfa",
+        "start_8af76b21"
+      ],
+      "resolved_dlc_ids": [
+        "start_8d2c6dfa"
+      ]
+    },
+    {
+      "corrected_base_id": "start_24aad8ba",
+      "adjacent_base_ids": [
+        "start_1355147d",
+        "start_24aad8ba",
+        "start_2bfa44b7"
+      ],
+      "resolved_dlc_ids": [
+        "start_24aad8ba"
+      ]
+    },
+    {
+      "corrected_base_id": "start_9ee69d31",
+      "adjacent_base_ids": [
+        "start_5ef98200",
+        "start_9ee69d31",
+        "start_b59e835c"
+      ],
+      "resolved_dlc_ids": [
+        "start_9ee69d31"
+      ]
+    },
+    {
+      "corrected_base_id": "start_ddf1a212",
+      "adjacent_base_ids": [
+        "start_54b30cf2",
+        "start_ddf1a212",
+        "start_a0e2c5c6"
+      ],
+      "resolved_dlc_ids": [
+        "start_ddf1a212"
+      ]
+    }
+  ],
+  "semantic_coverage_counts": {
+    "base_story": 1785,
+    "base_ui": 394,
+    "dlc_story": 238,
+    "dlc_ui": 1
+  },
+  "resolved_dlc_story": 2007,
+  "resolved_dlc_ui": 395
+}

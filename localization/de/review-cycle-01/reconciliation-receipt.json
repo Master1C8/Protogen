@@ -1,0 +1,58 @@
+{
+  "description": "Author self-review and deterministic correction dependency reconciliation; independent review pending.",
+  "turn_receipt": "text-assets/cli-localization-completion.uuiga3aa/de/turn-001/model-verified.json",
+  "coverage_file": "localization/de/semantic-coverage.json",
+  "coverage_sha256": "7323e0cb3f56aeccb919bbe92ac38542a5004b74b222a5c94bf746117637b827",
+  "coverage_counts": {
+    "base_story": 1785,
+    "base_ui": 394,
+    "dlc_story": 238,
+    "dlc_ui": 1
+  },
+  "closure_manifest_sha256": "65c71ae48dcba12aced032949bdaa9f4ec62c1cf7077dc5dbe9fb242cdc1154e",
+  "selector_delta_sha256": "352f410defc5228deb5c9c33de41bf9f4586110e838552d6896baf36fdb02be9",
+  "reproducer_sha256": "4c3c50a20b6c8f0d51b9bdbe583879f76761d1b73d8194a9d469239b77bcc9c2",
+  "byte_identical_reproduced_outputs": [
+    "nsfw-changed.json",
+    "nsfw-closure.json",
+    "nsfw-components.json",
+    "nsfw-nonstory-context.json",
+    "nsfw-review.json",
+    "nsfw-ui-regression.json",
+    "sfw-changed.json",
+    "sfw-closure.json",
+    "sfw-components.json",
+    "sfw-nonstory-context.json",
+    "sfw-review.json",
+    "sfw-ui-regression.json"
+  ],
+  "reproduction_command": "python3 -B localization/de/review-cycle-01/reconciled-v3/reproduce.py <fresh-output-directory>",
+  "selection_counts": {
+    "sfw": {
+      "changed": 5,
+      "closure": 223,
+      "total": 1785
+    },
+    "nsfw": {
+      "changed": 12,
+      "closure": 262,
+      "total": 2007
+    }
+  },
+  "added_context_review": "All IDs listed as added in selector-delta.json were read against English in scene context by the author; no further corrections. This is not independent review.",
+  "ui_regression_keys": {
+    "sfw": 394,
+    "nsfw": 395
+  },
+  "nonstory_registered_occurrences_resolved": {
+    "sfw": 36,
+    "nsfw": 28
+  },
+  "unbound_project_added_ui_keys": [
+    "Juno",
+    "Damien",
+    "Language",
+    "Pixie"
+  ],
+  "independent_review": "pending; no authorized independent reviewer in this session"
+}

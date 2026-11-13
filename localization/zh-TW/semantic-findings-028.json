@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_19e87026",
+    "before": "有好幾次，我們差點逃不過憤怒的尖牙獸。牠們一路追著我們到穿梭艇，直到朱諾拿出步槍射殺牠們。",
+    "after": "有一兩次，我們差點逃不過憤怒的尖牙獸。牠們一路追著我們到穿梭艇，直到朱諾拿出步槍向牠們開槍。",
+    "reason": "Preserve the approximate couple of occasions and do not infer the animals died from being shot."
+  },
+  {
+    "id": "start_1ec245b3",
+    "before": "不太算。 {w}你說的「真正的」是什麼意思？",
+    "after": "不太明白。 {w}你說的「真正的」是什麼意思？",
+    "reason": "Make the negative response to understanding clear while preserving the pause."
+  },
+  {
+    "id": "start_171c5125",
+    "before": "朱諾開始穿衣服，我也拉上衣服。",
+    "after": "朱諾開始穿衣服，我也開始穿衣服。",
+    "reason": "Make clear that the narrator puts on clothes, rather than pulling up clothing already worn."
+  }
+]

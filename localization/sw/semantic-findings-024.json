@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_966900e9",
+    "before": "Kwa nini ulinidanganya?! Ulipaswa kusema mara moja! Mimi ni mlezi wako wa watoto? Nilihitaji mwongozaji, si mzigo! Na hujui chochote!",
+    "after": "Kwa nini ulinidanganya?! Ulipaswa kusema mara moja! Mimi ni yaya wako? Nilihitaji mwongozaji, si mzigo! Na hujui chochote!",
+    "reason": "Clarify that Juno asks whether she is his babysitter, not the babysitter of his children."
+  },
+  {
+    "id": "start_a7cbfd66",
+    "before": "Haiwezekani sana, vihisi vyangu vimegundua...",
+    "after": "Hilo halielekei kuwa hivyo, vihisi vyangu vimegundua...",
+    "reason": "Preserve unlikely rather than asserting impossibility."
+  },
+  {
+    "id": "start_0abd2ded",
+    "before": "Kila kitu nilikatazwa: nilikula kwa ratiba, siku yangu ilipangwa kwa kila dakika, sikuruhusiwa kusoma nilichotaka, kufanya nilichotaka, kwenda nilipotaka.",
+    "after": "Nilikatazwa kila kitu: nilikula kwa ratiba, siku yangu ilipangwa kwa kila dakika, sikuruhusiwa kusoma nilichotaka, kufanya nilichotaka, kwenda nilipotaka.",
+    "reason": "Correct the passive construction so the speaker is the person forbidden."
+  }
+]

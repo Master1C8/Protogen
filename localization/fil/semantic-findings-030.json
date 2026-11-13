@@ -1,0 +1,26 @@
+[
+  {
+    "id": "start_78b18a25",
+    "before": "Posibleng wala talaga kaming matulungan kahit sino.",
+    "after": "Posibleng wala talaga kaming sinumang matulungan.",
+    "reason": "Correct the malformed negative construction while retaining the possibility of helping no one."
+  },
+  {
+    "id": "start_cf580d17",
+    "before": "Kumapit sa ilong ko ang amoy ng bulok na laman. Galit na galit ang kabog ng puso ko, at iisang kaisipan lang ang pumipintig sa ulo ko: sana ay umabot ako, sana ay umabot ako, sana...",
+    "after": "Kumapit sa ilong ko ang amoy ng bulok na laman. Napakabilis ng kabog ng puso ko, at iisang kaisipan lang ang pumipintig sa ulo ko: sana ay umabot ako, sana ay umabot ako, sana...",
+    "reason": "Render the furious pounding as an intense heartbeat rather than describing it as angry."
+  },
+  {
+    "id": "start_24aad8ba",
+    "before": "Nangingitim sa asul ang mga labi niya, putol-putol at basa ang paghinga. May tuyong bakas na ng itim na dugo mula sa sulok ng bibig niya.",
+    "after": "Asul ang mga labi niya, putol-putol at basa ang paghinga. May tuyong bakas na ng itim na dugo mula sa sulok ng bibig niya.",
+    "reason": "Restore the blue color of her lips."
+  },
+  {
+    "id": "start_5cc5e260",
+    "before": "Mahinang ngumiti si Nanay sa pamamagitan ng nangingitim niyang mga labi, nakatingin sa akin nang malabo ang paningin.",
+    "after": "Mahinang ngumiti si Nanay, asul ang mga labi at malabo ang paningin habang nakatingin sa akin.",
+    "reason": "Preserve the blue color of her lips and clarify her bleary look."
+  }
+]

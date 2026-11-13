@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_4643a71f",
+    "before": "May alon ng init na dumaloy sa katawan ko. Nanginig din si Juno, nararamdaman ang mainit na lamang dumudulas sa balat niya.",
+    "after": "May alon ng init na dumaloy sa katawan ko. Nanginig din si Juno, nararamdaman ang mainit na laman na dumudulas sa balat niya.",
+    "reason": "Correct the malformed linker in the description of warm flesh."
+  },
+  {
+    "id": "start_c67d4386",
+    "before": "Mahinang dumaraing si Juno habang nararamdaman akong tumutulak sa pagitan ng mga suso niya at walang tiyagang iginagalaw ang balakang ko, hindi pinapansin ang anumang nasa paligid.",
+    "after": "Mahinang dumaraing si Juno habang nararamdaman niya akong tumutulak sa pagitan ng mga suso niya. Walang tiyaga kong iginagalaw ang balakang ko, hindi pinapansin ang anumang nasa paligid.",
+    "reason": "Make clear that the narrator, not Juno, is moving his hips and ignoring the surroundings."
+  },
+  {
+    "id": "start_7b584706",
+    "before": "Sumagot si Juno ng isang manipis at maligayang daing.",
+    "after": "Sumagot si Juno ng isang mahina at maligayang daing.",
+    "reason": "Render the thin sound naturally as a soft moan."
+  }
+]

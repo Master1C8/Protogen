@@ -1,0 +1,19 @@
+{
+  "text-assets/inventory.json": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+  "text-assets/manifest.json": "1ad9c080caed30f47584a2a4062a1ab9ab665eba5bf7e8c35736c5ccfc05c0a8",
+  "text-assets/preserve-exactly.json": "f50583a62ea41e826c4668f8595592c60605ca0a3f48e2415a1f695846cd2afd",
+  "text-assets/special-scenes.json": "5d3950c98e01d34a49bca5ef8862c5ab5dcec2558c42f709748c68e5134af923",
+  "text-assets/edition-qa.0bfO9x/nsfw-export/inventory.json": "b0feab1e5d5dfa697bbeee0a98a8dc310edd30ce6acc908aee8e776b5f0aa2ea",
+  "text-assets/edition-qa.0bfO9x/nsfw-export/manifest.json": "da9a7f72df14f7b725d7566ae0f1cac40f7390042d74b410c9aaf05a48063b6f",
+  "text-assets/edition-qa.0bfO9x/nsfw-export/preserve-exactly.json": "36446dab69a956c65997d173f6d088c617514e4afbafb5158f7d66772a406c22",
+  "text-assets/edition-qa.0bfO9x/nsfw-export/special-scenes.json": "2412020e4c4024a82dad7535976a6e1ff8239fec1214c4ac7c211492a75c6f8b",
+  "text-assets/multilingual-probe.L4KEcD/glossary-receipts.json": "5935841fb335bb53db74afe2134e70c45068ee8dbea7cf6a87f287aef794cddd",
+  "localization/nsfw-story-aliases.json": "6b020423fc1c45e678c6c8ef6914161ed2978864f91c805d3c0d286c084b8f7c",
+  "tools/build_localization.py": "18937f78194ea7503bf14c316b7db3789013ea9accd6e455eadfe2fd3f909d5d",
+  "localization/hu/special-scenes.md": "4c4455b7e1f2040e388b34c0455aeeea94bbe2c02fa3bde51933264f319d2c8a",
+  "localization/hu/dialogue.tsv": "d93e2a131891901a928baca22723d39657edabb2cc711a1bd7b605aeb7c0fa3e",
+  "localization/hu/strings.json": "089aee077b1e1a8436abdbd576ce7f342f08284312a26b8e171c86a3c25bad20",
+  "localization/hu/nsfw/dialogue.tsv": "facfc40365e95f190d909d77de8516ba4e7355c169d75e160d93da2406512d00",
+  "localization/hu/nsfw/strings.json": "1df4f936d77507e4d6ea0c97e05c318ab84a10bb7a994d17ef36978160773e7e",
+  "localization/hu/semantic-coverage.json": "a9c5f0cb083f96fc8f560080676c511fa27b9f568558be403f37f596165fdcf0"
+}

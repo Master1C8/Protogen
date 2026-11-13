@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_b66a3644",
+    "before": "Hindi ko kailanman inakalang makakakilala ako ng isang tulad mo. Ang ibig kong sabihin... hindi ko man lang iyon inasahan, sa totoo lang.",
+    "after": "Hindi ko kailanman inakalang makakakilala ako ng isang tulad mo. Ang ibig kong sabihin... hindi man lang ako umasa, sa totoo lang.",
+    "reason": "Restore the source’s lack of hope rather than expectation."
+  },
+  {
+    "id": "start_f372f6b9",
+    "before": "Nag-alinlangan akong tumahimik, hindi alam kung ano pa ang sasabihin. Magulo ang mga iniisip ko, bawat isa ay mas hangal pa sa nauna.",
+    "after": "Nag-aalinlangan akong natahimik, hindi alam kung ano pa ang sasabihin. Magulo ang mga iniisip ko, bawat isa ay mas hangal pa sa nauna.",
+    "reason": "Restore that the narrator fell silent hesitantly rather than hesitated to fall silent."
+  },
+  {
+    "id": "start_22f9b172",
+    "before": "Hindi ko napigilan ang lambing sa dibdib ko, kaya kinuha ko ang kamay ni Juno at idiniin ang palad niya sa mga labi ko. Sa sandaling iyon, narinig namin si Pixie sa itaas.",
+    "after": "Hindi ko napigilan ang lambing sa dibdib ko, kaya kinuha ko ang kamay ni Juno at idiniin ang palad niya sa mga labi ko. Sa sandaling iyon, muling nag-aktibo si Pixie sa itaas ng kisame.",
+    "reason": "Restore Pixie’s activation and the location above the ceiling."
+  }
+]

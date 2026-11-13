@@ -1,0 +1,54 @@
+{
+  "status": "prepared; semantic and runtime checks pending",
+  "sourceRegistries": {
+    "sfwSha256": "5d3950c98e01d34a49bca5ef8862c5ab5dcec2558c42f709748c68e5134af923",
+    "nsfwSha256": "2412020e4c4024a82dad7535976a6e1ff8239fec1214c4ac7c211492a75c6f8b"
+  },
+  "glossaryLocaleSha256": "de2a741c0b1777d5b5a0a44799808159932b6f77faf76bb19199853ac03de829",
+  "cases": {
+    "player-name": {
+      "wording": {
+        "My name is...": "Jmenuji se…",
+        "You": "Ty",
+        "start_0b79856a": "Dobré ráno, [pname], ty už jsi vzhůru!"
+      },
+      "contract": "Keep [pname], the 12-character limit, stripping, empty comparison and fallback binding. Avoid inflecting an arbitrary entered name; preserve male protagonist agreement.",
+      "checks": "Custom name appears unchanged; blank and whitespace-only input selects Ty. Runtime pending."
+    },
+    "juno-nameplate": {
+      "wording": {
+        "Juno": "Juno"
+      },
+      "contract": "Keep speaker ID j and [gname] binding; do not alter assignment.",
+      "checks": "First and later nameplates match; runtime pending."
+    },
+    "save-formats": {
+      "wording": {
+        "Page {}": "Stránka {}",
+        "Automatic saves": "Automatická uložení",
+        "Quick saves": "Rychlá uložení",
+        "{#file_time}%A, %B %d %Y, %H:%M": "{#file_time}%A, %d %B %Y, %H:%M",
+        "empty slot": "Prázdná pozice"
+      },
+      "contract": "Preserve replacement field, tag and each date directive; platform date names and rendering remain runtime checks.",
+      "checks": "Ordinary, automatic and quick pages, occupied and empty slots; runtime pending."
+    },
+    "dialogue-timing": {
+      "wording": {
+        "reference": "localization/cs/dialogue.tsv: all 47 SFW timing IDs; DLC start_7b64e49d aliases start_f66bb6fe"
+      },
+      "contract": "All source timing IDs have authored Czech wording; preserve wait and speed tags. The DLC-only timing ID aliases the identical shared source. Contextual semantic audit remains pending.",
+      "checks": "Verify advancement and final slow ellipsis later; full textual group pending."
+    },
+    "main-menu-logo": {
+      "wording": "My Furry protogen",
+      "contract": "Retain original brand artwork and resource identity.",
+      "checks": "Visual verification deferred."
+    },
+    "watch-cutscenes": {
+      "wording": "No captions in the two previously reviewed videos, per localization/STATUS.md.",
+      "contract": "Preserve original movie paths and script control flow.",
+      "checks": "Return to following story statement remains runtime pending."
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "sha256": {
+    "text-assets/inventory.json": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/inventory.json": "b0feab1e5d5dfa697bbeee0a98a8dc310edd30ce6acc908aee8e776b5f0aa2ea",
+    "text-assets/renpy-dialogue.tab": "4ba57708ea623be3177c60680b318461469741b1109e7874d8e4c3131e007ad5",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/renpy-dialogue.tab": "74ff2174cd5eb7515bbb5bc2ae8ce82dc672f80bf16909f57af23432fe29ab93",
+    "localization/nsfw-story-aliases.json": "6b020423fc1c45e678c6c8ef6914161ed2978864f91c805d3c0d286c084b8f7c",
+    "localization/sr/dialogue.tsv": "dc73808059843d12274a57b2da8eace7afe17954a49e11f42c555288140d7f6c",
+    "localization/sr/strings.json": "a6a2596f995a8ba2d20202808aba3b825474f6e411f8ec49a97065ad3a2e1391",
+    "localization/sr/nsfw/dialogue.tsv": "53adf46ce27c4b9a80a250adc8bf01df72cdd8ad6f3c701feab243e1fe99c4be",
+    "localization/sr/nsfw/strings.json": "8e36c218878d5eb3c353635aaee86038ac27e76b2b76915603d44a08af0c83f8",
+    "localization/sr/semantic-coverage.json": "4aaab4ba9fa84ebc9ff3418d91d55c9f73226875e732f5b1f6fa5c4a43d893a4"
+  },
+  "base_corrections": [
+    {
+      "id": "start_7e6bbff6",
+      "previous": "start_fb1f5644",
+      "next": "start_81cf3a70",
+      "shared_english_and_speaker": true,
+      "aliases": [],
+      "target": "Моји учитељи су увек говорили да ће искуство доћи с временом, да само треба неуморно да вежбам, али ком детету би се допала таква перспектива?"
+    },
+    {
+      "id": "start_5c3962b6",
+      "previous": "start_29846358",
+      "next": "start_e6540b2e",
+      "shared_english_and_speaker": true,
+      "aliases": [],
+      "target": "Родитељи су ме и облачили према саветима старешина: у чисту одећу најбољег квалитета. На грудима сваког одела био је истакнут грб Долине — отисак длана у кругу, симбол јединства."
+    },
+    {
+      "id": "start_d4346f8c",
+      "previous": "start_9a084396",
+      "next": "start_4f9a3afa",
+      "shared_english_and_speaker": true,
+      "aliases": [],
+      "target": "Готово целу прославу сам је посматрао — била је чудесно лепа: дуга плава коса уплетена у плетеницу, плава хаљина, осмех на уснама."
+    },
+    {
+      "id": "start_13d35f98",
+      "previous": "start_7ba482a7",
+      "next": "start_fdfa1bb3",
+      "shared_english_and_speaker": true,
+      "aliases": [],
+      "target": "Али пут до западних племена био је предуг. Сигурно не бих могао да стигнем пешице, осим ако не бих отпливао низ реку."
+    },
+    {
+      "id": "start_57e49fb0",
+      "previous": "start_9050fd6a",
+      "next": "start_655543fe",
+      "shared_english_and_speaker": true,
+      "aliases": [],
+      "target": "Или бар све до чега могу да дођем. Можеш ли да ме одведеш до ваших старешина или онога ко је већ задужен за ваше село?"
+    },
+    {
+      "id": "start_731484ac",
+      "previous": "start_c9030f57",
+      "next": "start_d132f23e",
+      "shared_english_and_speaker": true,
+      "aliases": [],
+      "target": "Џуно је наредила Пиксију да очисти барицу с пода и одвукла ме у други одељак шатла."
+    },
+    {
+      "id": "start_e4801bf6",
+      "previous": "start_d132f23e",
+      "next": "start_d885fbcd",
+      "shared_english_and_speaker": true,
+      "aliases": [],
+      "target": "Заправо, знаш шта, само замоли Пиксија. Све ће ти наместити."
+    },
+    {
+      "id": "start_85324022",
+      "previous": "start_b556caa4",
+      "next": "start_7cfa60d2",
+      "shared_english_and_speaker": true,
+      "aliases": [],
+      "target": "Наравно, она сада није укључена, али шта ако у сну притиснеш нека дугмад?"
+    },
+    {
+      "id": "start_bad91272",
+      "previous": "start_b43dc5b1",
+      "next": "start_936aac97",
+      "shared_english_and_speaker": true,
+      "aliases": [],
+      "target": "Изненада сам се сетио да морам да играм улогу свезналице која познаје целу планету у душу, па сам с најнеусиљенијим изразом лица рекао:"
+    },
+    {
+      "id": "start_df9b08f4",
+      "previous": "start_48f873a8",
+      "next": "start_55c2c595",
+      "shared_english_and_speaker": true,
+      "aliases": [],
+      "target": "Као да су... {w}Увенули?"
+    },
+    {
+      "id": "start_4b50c481",
+      "previous": "start_dcc2070c",
+      "next": "start_832119e3",
+      "shared_english_and_speaker": true,
+      "aliases": [],
+      "target": "Шта да кажеш? Како то мислиш, [pname]?"
+    },
+    {
+      "id": "start_05713692",
+      "previous": "start_346451fe",
+      "next": "start_0f4ee969",
+      "shared_english_and_speaker": true,
+      "aliases": [],
+      "target": "Било је прекасно да све исправим — нисам могао да вратим време, мада бих то желео."
+    },
+    {
+      "id": "start_91c3ad14",
+      "previous": "start_8a9c3a55",
+      "next": "start_61091d5e",
+      "shared_english_and_speaker": true,
+      "aliases": [],
+      "target": "Шта је..."
+    }
+  ],
+  "dlc_correction": {
+    "id": "start_0e2799a2",
+    "previous": "start_f8471cc3",
+    "next": "start_f347ffbc",
+    "target": "Повукла ме је за рамена и поново се пољупцем зарила у моје усне, преносећи ми свој слатки јаук пун задовољства."
+  },
+  "source_anomaly": {
+    "id": "start_5c6117e8",
+    "speaker": "p",
+    "target": "[pname]... Тако је добро... хајде, пожури!"
+  },
+  "source_name": {
+    "id": "start_75bdc594",
+    "target": "Готово сам дрхтао од узбуђења и задовољства, ватра ми је букнула у дну стомака — ипак нисам имао много искуства с девојкама, осим оног глупог покушаја с Кејти."
+  }
+}

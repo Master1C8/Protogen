@@ -1,0 +1,26 @@
+[
+  {
+    "id": "start_0d81f008",
+    "before": "Ananisaidia na chombo cha angani na utafiti, na pia naweza kuzungumza naye wakati mwingine ninapochoka.",
+    "after": "Ananisaidia na chombo cha angani na utafiti, na pia naweza kuzungumza naye wakati mwingine ninapohisi kuchoshwa.",
+    "reason": "Distinguish boredom from physical tiredness."
+  },
+  {
+    "id": "start_d9b33a04",
+    "before": "Waliamua kwamba mimi ni aina fulani ya mungu kutoka ulimwengu wa chini na wakajaribu kuniua. Karibu wanikate miguu pia.",
+    "after": "Waliamua kwamba mimi ni aina fulani ya mungu kutoka ulimwengu wa chini na wakajaribu kuniua. Karibu wanikate miguu kwenye vifundo pia.",
+    "reason": "Source specifies feet, not entire legs."
+  },
+  {
+    "id": "start_31ee85ce",
+    "before": "Baada ya kutoka katika chombo kidogo Pixie, Juno alikifunga na kubonyeza kitu kwenye kofia yake ya kinga. Baada ya sekunde chache, chombo kilionekana wazi kabisa kana kwamba hakipo.",
+    "after": "Baada ya kutoka katika chombo kidogo Pixie, Juno alikifunga na kubonyeza kitu kwenye kofia yake ya kinga. Baada ya sekunde chache, chombo kikawa wazi kabisa, kiasi cha kuweza kuona kupitia kwacho.",
+    "reason": "Preserve complete transparency rather than implying the ship was clearly visible."
+  },
+  {
+    "id": "start_aaf3cc89",
+    "before": "Siku za kuzaliwa kwa kawaida husherehekewa hadi umri wa miaka ishirini, lakini mara unapokuwa mtu mzima—basi, umemaliza kazi muhimu ya kukua.",
+    "after": "Siku za kuzaliwa kwa kawaida husherehekewa kabla ya umri wa miaka ishirini, lakini mara unapokuwa mtu mzima—basi, umemaliza kazi muhimu ya kukua.",
+    "reason": "Preserve the source boundary before age twenty."
+  }
+]

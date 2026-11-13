@@ -1,0 +1,21 @@
+{
+  "scope": "Author semantic review, base story rows 1381-1540",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+  "before_dialogue_sha256": "6e4f71e8d74eb4e32b350719c56ecb0a6db64b6d056da942f1c8a0b79ccffd0c",
+  "after_dialogue_sha256": "f4e37b277bd59b0df70e8273c68d888bf0a549666efe96e626ed4eecbb809a5c",
+  "changes": [
+    {
+      "id": "start_c451b1f5",
+      "before": "Tak ada yang perlu disyukuri, [pname].",
+      "after": "Tak perlu berterima kasih, [pname].",
+      "reason": "Address the preceding thanks naturally rather than implying there is nothing to be grateful for."
+    },
+    {
+      "id": "start_93d352bc",
+      "before": "Aku tahu hari ini akan menjadi Hari di Atas Segala Hari.",
+      "after": "Aku tahu hari ini akan menjadi hari yang menentukan.",
+      "reason": "Convey the source idiom for a momentous day in natural Indonesian."
+    }
+  ],
+  "closure": "Shared edition mappings and affected contextual dependencies require reproducible closure and delta review."
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "encoding": "UTF-8",
+  "newline": "LF",
+  "description": "Reconciled first correction closure; expanded neighbors, craft variants, resolvable nonstory bindings and all UI keys. Independent review remains pending.",
+  "counts": {
+    "sfw": {
+      "changed": 5,
+      "closure": 223,
+      "total": 1785
+    },
+    "nsfw": {
+      "changed": 12,
+      "closure": 262,
+      "total": 2007
+    }
+  },
+  "inputs": {
+    "text-assets/inventory.json": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/inventory.json": "b0feab1e5d5dfa697bbeee0a98a8dc310edd30ce6acc908aee8e776b5f0aa2ea",
+    "text-assets/special-scenes.json": "5d3950c98e01d34a49bca5ef8862c5ab5dcec2558c42f709748c68e5134af923",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/special-scenes.json": "2412020e4c4024a82dad7535976a6e1ff8239fec1214c4ac7c211492a75c6f8b",
+    "/Users/antonkrutov/Desktop/SiteForMods/data/games/my-furry-protogen/glossary.json": "611e6dec103d1857ec8ed5ce8dc10470312c5ef6d981e1ef307474b44f85d926",
+    "localization/de/dialogue.tsv": "67610afda3149e3fa38ae8bf667b5e3d4c43163ede134df414ba26e3ef135858",
+    "localization/de/strings.json": "33404699223ebbf51ef00ba014baf58e7f41579a31ea5d50597bb733cbbfd52c",
+    "localization/de/nsfw/dialogue.tsv": "64a93524af888607df9536e819c48d26a18b5eb08b8e1da32872766a3ea99876",
+    "localization/de/nsfw/strings.json": "ece354df31fba7ffbd959a14457692b27d8d6acf7631b421766164e888ad8839",
+    "localization/de/review-cycle-01/before/dialogue.tsv": "5de520894d5c18d29efab1bd6480afee2420b8677aab831a128315761e7e462e",
+    "localization/de/review-cycle-01/before/strings.json": "33404699223ebbf51ef00ba014baf58e7f41579a31ea5d50597bb733cbbfd52c",
+    "localization/de/review-cycle-01/before/nsfw/dialogue.tsv": "c2dc89091b885d137b3a07aca2d26547cd153670fff819834eadcab0ea5a921c",
+    "localization/de/review-cycle-01/before/nsfw/strings.json": "ece354df31fba7ffbd959a14457692b27d8d6acf7631b421766164e888ad8839"
+  },
+  "files": {
+    "nsfw-changed.json": "107e0c8fded6d8afbd5f878e0d2db75a34204c86357764f575784a9f6fc142ba",
+    "nsfw-closure.json": "71a1b7089965f5a2f1ac4c7835ac82055b22fcf8cc2e9db80923c7aa2ce03d52",
+    "nsfw-components.json": "8b565401a0bfef3345b9e65a2b65321786cd77dc32d63ff1fc20907183512b76",
+    "nsfw-nonstory-context.json": "96ea1d2f32608775c6497b6de87c6fead290a1942008d060834e51be54849365",
+    "nsfw-review.json": "889232f3b7bcf71c6f4375df5e4eb6f1c2b892aab99e397daf8dd1fd15b42388",
+    "nsfw-ui-regression.json": "a40cabd5620cc5eb4e8ecbcbf9dcf2e4bb9af9e6a03012f20c1a67c2a2177aae",
+    "sfw-changed.json": "24d51bb94b4930429c8eef7d1140055c7adb77ec623fc4741bc7daa7567f7438",
+    "sfw-closure.json": "d94999363c536af3d0a9b3aabe8a5e2de29b168030883ddb480ac84bd05f6d4c",
+    "sfw-components.json": "fe3809fe4c5aed412aee6d593b885d7d38d805aa038347ea6dbb8d06299101c6",
+    "sfw-nonstory-context.json": "b5de987e34e9364f7771111196b7ea32cdb8d8466a299c3e4fb55babf1ca1e98",
+    "sfw-review.json": "c13f6acd792f0bf4cbbd8700d3b240accdf3ec462367469966f2258d28c6c7e2",
+    "sfw-ui-regression.json": "5bafa19c5742b1826688c661aa400bb9280e9628afc4bedfd9cb44a3ff123806"
+  }
+}

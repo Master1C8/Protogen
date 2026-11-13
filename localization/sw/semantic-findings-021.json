@@ -1,0 +1,14 @@
+[
+  {
+    "id": "start_8b50bfec",
+    "before": "Juno aling'oa uyoga mdogo ardhini, ambao ulianza kunung'unika kwa hasira na kumtemea ukungu wa manjano, lakini Juno hakushtuka: inaonekana kofia yake ya kinga ilimkinga dhidi ya kuupumua bure.",
+    "after": "Juno aling'oa uyoga mdogo ardhini, ambao ulianza kunung'unika kwa hasira na kumtemea ukungu wa manjano, lakini Juno hakushtuka: inaonekana kofia yake ya kinga ilimkinga dhidi ya kuathiriwa bila sababu.",
+    "reason": "The source says exposure generally, not specifically inhalation."
+  },
+  {
+    "id": "start_e65887fa",
+    "before": "Baada ya saa kadhaa za matembezi marefu yasiyo ya kawaida, nilikuwa tayari kuanguka tu chini na kubaki hapo. Mwili wangu wote uliuma, na miguu yangu ilivuma vibaya sana.",
+    "after": "Baada ya saa kadhaa za matembezi marefu yasiyo ya kawaida, nilikuwa tayari kuanguka tu chini na kubaki hapo. Mwili wangu wote uliuma, na miguu yangu ilisisimka vibaya sana.",
+    "reason": "Express the sensation in his legs rather than an audible humming."
+  }
+]

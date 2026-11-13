@@ -1,0 +1,70 @@
+{
+  "phase": "author semantic audit in progress",
+  "reviewed_base_story_positions": [
+    1300,
+    1494
+  ],
+  "new_reviewed_count": 195,
+  "cumulative_reviewed_count": 1495,
+  "changed_ids": [
+    "start_65960f42",
+    "start_553ca432",
+    "start_1ec245b3",
+    "start_3a2e7bab",
+    "start_e876782b",
+    "start_90de4a99"
+  ],
+  "findings": [
+    {
+      "id": "start_65960f42",
+      "issue": "Removed an unsupported causal connection from the family comparison."
+    },
+    {
+      "id": "start_553ca432",
+      "issue": "Replaced an inserted predestination assertion with being well matched."
+    },
+    {
+      "id": "start_1ec245b3",
+      "issue": "Clarified that Juno does not really understand while preserving the wait."
+    },
+    {
+      "id": "start_3a2e7bab",
+      "issue": "Restored the question about certainty rather than seriousness."
+    },
+    {
+      "id": "start_e876782b",
+      "issue": "Made the repeated-action phrasing grammatical while preserving the wait."
+    },
+    {
+      "id": "start_90de4a99",
+      "issue": "Restored that the result no longer depends on her, rather than asserting that she can do nothing."
+    }
+  ],
+  "local_closure_method": "Changed base IDs plus their immediately adjacent base story IDs and DLC aliases targeting changed IDs; this is a bounded local recheck, not the final transitive dependency closure.",
+  "local_context_ids": [
+    "start_04e424dd",
+    "start_3a2e7bab",
+    "start_8156a1d8",
+    "start_19945a20",
+    "start_65960f42",
+    "start_c2ebf58a",
+    "start_f03430dc_1",
+    "start_1ec245b3",
+    "start_5cf6a3ae",
+    "start_12895e07",
+    "start_553ca432",
+    "start_3f8a1934",
+    "start_13a895ee",
+    "start_e876782b",
+    "start_30f032c0",
+    "start_6274bbb5",
+    "start_90de4a99",
+    "start_d83f3609"
+  ],
+  "affected_dlc_aliases": {},
+  "closure": "Full reproducible dependency closure and independent delta review remain pending the full audit.",
+  "previous_dialogue_sha256": "d3cc2114cbd43b3021804220d1aa5bfc1727173994542f7e8b1af83f3c610fc3",
+  "dialogue_sha256": "24b0966104225d8bba85338d0871c1cdd2d70694dda4b4d6bad6b3bb1ef11010",
+  "coverage_sha256": "5587990add48bb21a6f9a1c6b14bf4a4dcbdcef01664e57363c1095361717408",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff"
+}

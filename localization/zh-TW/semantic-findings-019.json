@@ -1,0 +1,32 @@
+[
+  {
+    "id": "start_fcd2bb0b",
+    "before": "算起來，這已經是我第十次寫演說稿了——自從我學會把句子組成有意義的文章以來，每年都要寫——為了避免重複，我實在費了不少心思。",
+    "after": "算起來，自從我學會把句子組成有意義的文章以來，這已經是我第十次寫演說稿了；為了避免重複，我實在費了不少心思。",
+    "reason": "Remove an unsupported annual frequency."
+  },
+  {
+    "id": "start_0bf2fe34",
+    "before": "天母……或是利特，隨便哪位……都無所謂。如果你們存在，而我錯了，請原諒我，告訴我該怎麼辦。",
+    "after": "天母……或是利特，隨便哪位……都無所謂。如果你存在，而我錯了，請原諒我，告訴我該怎麼辦。",
+    "reason": "Keep the addressee compatible with either deity."
+  },
+  {
+    "id": "start_6e7f7469",
+    "before": "如果你們生氣了，就別生氣了。我不知道自己在說什麼。事情弄得一團糟，而且……聽我說，你們應該很睿智、很善解人意，對吧？",
+    "after": "如果你生氣了，就別生氣了。我不知道自己在說什麼。事情弄得一團糟，而且……聽我說，你應該很睿智、很善解人意，對吧？",
+    "reason": "Preserve the same open addressee in the prayer."
+  },
+  {
+    "id": "start_1cc22a45",
+    "before": "我想你們應該看得出來，我沒有惡意。",
+    "after": "我想你應該看得出來，我沒有惡意。",
+    "reason": "Preserve the same open addressee in the prayer."
+  },
+  {
+    "id": "start_90581042",
+    "before": "我不需要你們的幫忙！也不需要你們的建議！沒有你們，我也會試試看……",
+    "after": "我不需要你的幫忙！也不需要你的建議！沒有你，我也會試試看……",
+    "reason": "Preserve the same open addressee in the prayer."
+  }
+]

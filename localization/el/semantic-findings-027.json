@@ -1,0 +1,23 @@
+{
+  "review": "author semantic comparison, base story source indices 1250 through 1379",
+  "findings": [
+    {
+      "id": "start_4b50c481",
+      "before": "Πώς είπες; Τι εννοείς, [pname];",
+      "after": "Να πεις τι; Τι εννοείς, [pname];",
+      "reason": "Juno asks what he wants to say, not what he has already said."
+    },
+    {
+      "id": "start_f002456d",
+      "before": "Λοιπόν, μπορώ να πω πως για πρώτη φορά όλα πήγαν μια χαρά.",
+      "after": "Λοιπόν, μπορώ να πω πως, για πρώτη φορά, τα πήγαμε μια χαρά.",
+      "reason": "Clarify that this was their first time, rather than the first time things went well."
+    },
+    {
+      "id": "start_0504e2d9",
+      "before": "Η Τζούνο γελάκιασε και με αγκάλιασε.",
+      "after": "Η Τζούνο γέλασε σιγανά και με αγκάλιασε.",
+      "reason": "Replace a malformed Greek verb with a natural expression for giggling."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "review": "author semantic comparison, base story source indices 1770 through 1784 and base UI authored key order indices 0 through 154",
+  "findings": [],
+  "pending": [
+    "Back binding is context sensitive and remains for runtime verification.",
+    "Date formatting and generated date labels require runtime verification."
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_301af731",
+    "before": "Tumagal iyon nang ilang minuto bago sa wakas ay nakabawi ng hininga ang isa sa mga Nakatatanda.",
+    "after": "Tumagal iyon nang hindi bababa sa ilang minuto bago sa wakas ay nakabawi ng hininga ang isa sa mga Nakatatanda.",
+    "reason": "Restore the source’s lower bound on the duration."
+  },
+  {
+    "id": "start_bf4811ad",
+    "before": "Matapos ang lahat ng nangyari at ang lahat ng sinabi ko sa kanila, kukuha sila ng mga suyod at sulo sa galit na inaakala nilang makatarungan, o agad nila akong isisiksik sa kung anong hawla.",
+    "after": "Matapos ang lahat ng nangyari at ang lahat ng sinabi ko sa kanila, kukuha sila ng mga tinidor na pangbukid at sulo sa galit na inaakala nilang makatarungan, o agad nila akong isisiksik sa kung anong hawla.",
+    "reason": "Replace rakes with pitchforks as specified in the source."
+  },
+  {
+    "id": "start_8115131c",
+    "before": "Hindi ako natakot; sa halip ay natigilan lang ako: sino ito? At ano ang ginagawa niya rito?",
+    "after": "Hindi ako natakot; sa halip ay natigilan lang ako: sino ito? At ano ang ginagawa nito rito?",
+    "reason": "Preserve the source’s impersonal reference before the next line identifies the creature."
+  }
+]

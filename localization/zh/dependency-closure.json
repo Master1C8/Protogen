@@ -1,0 +1,129 @@
+{
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+  "target_sha256": "1fd313b9dd836e42339aed18f94e33aff74d87ecfbf0df24678c2681520e3789",
+  "corrections": [
+    {
+      "id": "start_c9af06b8",
+      "target": "她咬着嘴唇，迟疑地回答：“嗯……我不知道……”这时，她那些站在附近、刚才还崇拜地看着我的朋友们勃然大怒。",
+      "reviewed_context_ids": [
+        "start_fbe8a476",
+        "start_c9af06b8",
+        "start_253ba86c"
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_b962687b",
+      "target": "我叹了口气：父母又开始唱起老调，说他们生了我这个儿子是多么幸运……",
+      "reviewed_context_ids": [
+        "start_c3e50d9c",
+        "start_b962687b",
+        "start_5eeb9d7c"
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_b0929960",
+      "target": "围着篝火坐在桌旁的全村人纷纷回应，参差不齐地喊着“万岁”。",
+      "reviewed_context_ids": [
+        "start_7c8b9a7c",
+        "start_b0929960",
+        "start_bfc76918"
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_18c535eb",
+      "target": "就在这时，一个生物从那巨大金属物体的后面走了出来。它用两条腿行走，看起来很像人，但显然不是。",
+      "reviewed_context_ids": [
+        "start_938fd64e",
+        "start_18c535eb",
+        "start_ba173a35"
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_71fde99f",
+      "target": "它的脸藏在头盔后面，上面闪烁着黄色的灯光。有那么一会儿，我只是站在那里，不知道该怎么办。",
+      "reviewed_context_ids": [
+        "start_ba173a35",
+        "start_71fde99f",
+        "start_8115131c"
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_8115131c",
+      "target": "我倒不是害怕，更像是愣住了：这是谁？它在这里做什么？",
+      "reviewed_context_ids": [
+        "start_71fde99f",
+        "start_8115131c",
+        "start_180a960f"
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_cecfe425",
+      "target": "你的星球还没有得到充分研究。我的同类以前来过，不过那时候这里的一切都不一样，自然生态也不多，哇！",
+      "reviewed_context_ids": [
+        "start_bade7cc7",
+        "start_cecfe425",
+        "start_5d3e094a"
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_211f6dc6",
+      "target": "我明白，以谎言开始一段友谊并不好，对人类来说也根本行不通，但我忍不住了。",
+      "reviewed_context_ids": [
+        "start_c89cdfa5",
+        "start_211f6dc6",
+        "start_4361f06f"
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_82af50fc",
+      "target": "朱诺没有把动物当作样本收集——据她说，只需给它们“拍照”并取一份“涂片”就够了。她解释说，拍照就是用头盔捕捉图像。",
+      "reviewed_context_ids": [
+        "start_cedbfd9e",
+        "start_82af50fc",
+        "start_46d92844"
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_6b44fb16",
+      "target": "我们一整天几乎没有碰触彼此——她几乎一直在实验室工作。",
+      "reviewed_context_ids": [
+        "start_a66057b2",
+        "start_6b44fb16",
+        "start_6e2d9aa8"
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_82cf338a",
+      "target": "同一时刻，我冲进房间，把本就摇摇欲坠的门撞倒了。",
+      "reviewed_context_ids": [
+        "start_b4aaeae2",
+        "start_82cf338a",
+        "start_68c1a549"
+      ],
+      "dlc_aliases": []
+    }
+  ],
+  "dlc_corrections": [
+    {
+      "id": "start_d6923fde",
+      "target": "由于急切和在遥远太空旅行时长久的禁欲，她开始朝我挺起臀部，摩擦着我，在我的唇边粗重喘息。",
+      "reviewed_context_ids": [
+        "start_6a7384f2",
+        "start_d6923fde",
+        "start_8cfab327"
+      ],
+      "source_inventory_sha256": "b0feab1e5d5dfa697bbeee0a98a8dc310edd30ce6acc908aee8e776b5f0aa2ea"
+    }
+  ],
+  "dlc_target_sha256": "10b008adb3beb96c728e4bcdb44f647989d1f720ffeb49d113b3e5ffc27a9231"
+}

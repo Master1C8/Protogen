@@ -1,0 +1,14 @@
+[
+  {
+    "id": "start_3e4333d1",
+    "before": "我轉過身。朱諾打開背包，把蘑菇塞進一個小袋子。",
+    "after": "我轉過身。朱諾打開她的背包，把蘑菇塞進一個小袋子。",
+    "reason": "Restore the source’s stated backpack owner; the preceding line says your backpack, a source inconsistency retained."
+  },
+  {
+    "id": "start_c7e47d62",
+    "before": "畢竟，我曾騙她說自己比誰都耐走，實在不想這樣出糗。",
+    "after": "最後，我還是騙她說自己比誰都耐走，因為我實在不想這樣出糗。",
+    "reason": "Preserve the source’s action at this point rather than recasting it as a prior lie."
+  }
+]

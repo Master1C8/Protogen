@@ -1,0 +1,47 @@
+{
+  "stage": "author comparison and correction dependency closure",
+  "sha256": {
+    "text-assets/inventory.json": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+    "text-assets/renpy-dialogue.tab": "4ba57708ea623be3177c60680b318461469741b1109e7874d8e4c3131e007ad5",
+    "text-assets/special-scenes.json": "5d3950c98e01d34a49bca5ef8862c5ab5dcec2558c42f709748c68e5134af923",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/inventory.json": "b0feab1e5d5dfa697bbeee0a98a8dc310edd30ce6acc908aee8e776b5f0aa2ea",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/renpy-dialogue.tab": "74ff2174cd5eb7515bbb5bc2ae8ce82dc672f80bf16909f57af23432fe29ab93",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/special-scenes.json": "2412020e4c4024a82dad7535976a6e1ff8239fec1214c4ac7c211492a75c6f8b",
+    "text-assets/multilingual-probe.L4KEcD/glossary-receipts.json": "5935841fb335bb53db74afe2134e70c45068ee8dbea7cf6a87f287aef794cddd",
+    "localization/nsfw-story-aliases.json": "6b020423fc1c45e678c6c8ef6914161ed2978864f91c805d3c0d286c084b8f7c",
+    "tools/build_localization.py": "18937f78194ea7503bf14c316b7db3789013ea9accd6e455eadfe2fd3f909d5d",
+    "tools/extract_text.py": "db7ae33202a62d85f882e142e11bc60de8332c896e8b1077a1781ab43c5ce691",
+    "tools/install_language_picker.py": "c567eec2abd882dad7e72193cb4619444096469f25a741409873c24846d16428",
+    "localization/ar/dialogue.tsv": "05eabecce4f70ee9882a5f1fc65964907e8ceae467ff545d53562175dd2155a7",
+    "localization/ar/strings.json": "140529da6184aa9446d4e18d67a61caf003241ea921b011c5cafe86b94b880f2",
+    "localization/ar/nsfw/dialogue.tsv": "f0f59d7a8c95d84e872ca158737b9b3030b6963cbf88c1b7bf34e0774a6d9b0d",
+    "localization/ar/nsfw/strings.json": "e4ef0af0205f116642874b2a6769dbdf951d65379aadce3da63494e715492daa",
+    "localization/ar/special-scenes.md": "d606fc335cb397b216b55bfce687b6c642470bd03551e1282b1d032e9fb1cc33",
+    "localization/ar/semantic-coverage.json": "b380289b4e7fd816a2ce05d93755411257217570702b8d36a2ad8f87b731a44e",
+    "localization/ar/semantic-corrections-001.json": "6eb71a98c49a2ff4ef045750807bbe72b27af641ba91787f542cb6b5dd9b8861",
+    "localization/ar/semantic-batch-001.json": "eb0b58b9120606db66ea0768e1abba151f74f3cfc433b65f488378b92cb14b49",
+    "localization/ar/semantic-batch-002.json": "a9e67feff9fa4d9ae9b713252126ff284e9519389ae252e57efb81ae930bd061",
+    "localization/ar/semantic-batch-003.json": "4c0c1c18d67a98998546c499e809d4f9af061e431e464acb97e6521120d27ea2",
+    "localization/ar/semantic-batch-004.json": "c56edcaa0f271248f19e9bc8b77e7a6f59283b4b3eca13ca1c40c4677fa54324",
+    "localization/ar/semantic-batch-005.json": "5074b3fab6cdd2fc6f34677b78c38efab20fe4e4658baf4fdee5cdc5bd9d16d5",
+    "localization/ar/semantic-batch-006.json": "24227ccedf5a58ee93fcef7694623c85c3109de6aa2b951c1f07fc8e1a79be78",
+    "localization/ar/semantic-batch-007-ui.json": "2e927d318e06800b92a16cfd7c2f0e67dc522f3e06ed147ba7f1bc3627951db8",
+    "localization/ar/semantic-batch-008-ui.json": "bac0a0971733b71fb640f2b6d69e56a650ecf638eac6d2a04ad17bdc3edb8fa8",
+    "localization/ar/semantic-batch-009-dlc.json": "1fc91fd94a7bdea3d212bf715de5835cd5680fa01009d93459068e8178624d91",
+    "localization/ar/semantic-batch-010-dlc.json": "4de07a5a42e50ea25b8dcc068f4aa4cb38752db0ea3942bf6408c1d6de5ad46b"
+  },
+  "verified": {
+    "authored_id_sets": {
+      "base_story": 1785,
+      "base_ui": 394,
+      "dlc_story": 238,
+      "dlc_ui": 1
+    },
+    "correction_count": 28,
+    "correction_values_equal_record": true,
+    "strict_edition_text": true,
+    "base_and_resolved_dlc_preserveTokens": true
+  },
+  "reproduction": "From repository root, load tools/build_localization.py; call edition_text(base inventory, DLC inventory, Path(\"localization/ar\"), False); compare each base and resolved DLC story preserveTokens count to its source, and compare semantic-coverage.json arrays as sets to the four authored files. Recheck all listed SHA-256 values before reusing this closure.",
+  "limits": "Semantic comparison is author review, not independent review. Original-versus-reinserted protected-field comparison, runtime, visual and input verification are pending. Three source/context findings remain in semantic-corrections-001.json."
+}

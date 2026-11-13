@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_67f1c6e1",
+    "before": "啊，抱歉！我忘了把頭盔切換到正確模式。",
+    "after": "啊，抱歉！我沒想到要把頭盔切換到正確模式。",
+    "reason": "The source says she did not think to switch modes, not that she forgot."
+  },
+  {
+    "id": "start_cecfe425",
+    "before": "你們的星球還沒被充分研究過。我的物種前一陣子來過，不過那時這裡的一切都不一樣，大自然也沒這麼豐富，哇！",
+    "after": "你們的星球還沒被充分研究過。我的物種在一段時間以前來過，不過那時這裡的一切都不一樣，大自然也沒這麼豐富，哇！",
+    "reason": "Avoid implying the unspecified previous visit was recent."
+  },
+  {
+    "id": "start_e0c0975a",
+    "before": "要是碰上了，他們一定會把一切報告給村子，村裡很快就會派人跟著我和朱諾。",
+    "after": "要是碰上了，他們一定會把一切報告給村子，村裡很快就會派出代表團跟著我和朱諾。",
+    "reason": "Restore the source’s delegation rather than an unspecified group."
+  }
+]

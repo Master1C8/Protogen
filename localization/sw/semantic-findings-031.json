@@ -1,0 +1,14 @@
+[
+  {
+    "id": "start_ede2638b",
+    "before": "Karibu nikabane na mguno.",
+    "after": "Karibu nikasongwa na mguno.",
+    "reason": "Correct the phrasing for nearly choking on a groan."
+  },
+  {
+    "id": "start_aad4bd8b",
+    "before": "Nilisukuma uume wangu wote kati ya matiti yake, kiasi kwamba kichwa chake kikachungulia kati yao, na kumfanya Juno apinde mgongo wake kwa uzuri na kuzuia pumzi ya chini.",
+    "after": "Nilisukuma uume wangu wote kati ya matiti yake, kiasi kwamba kichwa chake kikachungulia kati yao, na kumfanya Juno apinde mgongo wake kwa uzuri na kuzuia kuhema kwa sauti ya chini.",
+    "reason": "Restore the quiet sigh rather than a low breath."
+  }
+]

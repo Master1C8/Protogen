@@ -1,0 +1,937 @@
+[
+  {
+    "id": "player-name",
+    "occurrences": [
+      "game/script.rpy:13:22",
+      "game/script.rpy:13:40",
+      "start_0b79856a",
+      "start_9d2aa1bf",
+      "start_b3d56ace",
+      "start_0338f9fd",
+      "start_673dd838",
+      "start_37b36845",
+      "start_259c38d4",
+      "start_8dff287c",
+      "start_8012a83b",
+      "start_460fa21f",
+      "start_66e87b19",
+      "start_2198f6c6",
+      "start_8202549b",
+      "start_4919d017",
+      "start_25ec1088",
+      "start_594712ec",
+      "start_9f4424aa",
+      "start_89775211",
+      "start_8244e6ed",
+      "start_aa7aed51",
+      "start_6f27ab9f",
+      "start_14550ddd",
+      "start_ab9682c5",
+      "start_5a5ed74d",
+      "start_b808c3d7",
+      "start_f1463985",
+      "start_ab39df60",
+      "start_c05ca554",
+      "start_bf2c662f",
+      "start_b31daf7e",
+      "start_a07490fb",
+      "start_59d66fc8",
+      "start_acd522c1",
+      "start_6c5ae4fb",
+      "start_6ec36fb4",
+      "start_6163eefc",
+      "start_d71ef47a",
+      "start_a8d08602",
+      "start_2da8ae4c",
+      "start_82fce081",
+      "start_4b50c481",
+      "start_3a2e7bab",
+      "start_c05e8ac2",
+      "start_c6098241",
+      "start_3a73faee",
+      "start_e80cad76",
+      "start_d55510ec",
+      "start_2e4de5d2",
+      "start_4eea30de",
+      "start_5c6117e8",
+      "start_8f36c8a8",
+      "start_0d4d35a0",
+      "start_0a4ade2d",
+      "start_44873818",
+      "start_5dfed80c",
+      "start_618897d8",
+      "start_7956b15f",
+      "start_679fb123",
+      "start_0b072141",
+      "start_c7a19bf9",
+      "start_8c5a4866",
+      "start_d2f78eb8",
+      "start_72e254fc",
+      "start_e7bdf2ca",
+      "start_adaf4e17",
+      "start_639e151c",
+      "start_39f2ee38",
+      "start_a49e0c16",
+      "start_397545eb",
+      "start_b57bc156",
+      "start_49a21696",
+      "start_0295634b",
+      "start_ba9a009d",
+      "start_8c97cc53",
+      "start_72d231a7",
+      "start_f1b3b5b5",
+      "start_fc9414c3",
+      "start_6326678b",
+      "start_31612253",
+      "start_21b41cb8",
+      "start_a0f80c42",
+      "start_ff5d3f09",
+      "start_507c274f",
+      "start_89cefc9d",
+      "start_5ef98200",
+      "start_a0e2c5c6",
+      "start_c77b41ff",
+      "start_9a63ffa5",
+      "start_27e385ac",
+      "start_796bf47b"
+    ],
+    "behavior": "Input is capped at 12 characters and stripped. Empty input selects the default name. The name is reused in the nameplate and later dialogue.",
+    "route": "Translate prompt and fallback display label. Preserve the empty-string comparison, variable name, and interpolation. Review address forms around the variable.",
+    "checks": [
+      "Enter a custom name and confirm it survives in a nameplate and later lines.",
+      "Submit blank and whitespace-only names and verify the fallback appears."
+    ]
+  },
+  {
+    "id": "player-name",
+    "occurrences": [
+      "game/script.rpy:13:22",
+      "game/script.rpy:13:40",
+      "start_0b79856a",
+      "start_9d2aa1bf",
+      "start_b3d56ace",
+      "start_0338f9fd",
+      "start_673dd838",
+      "start_37b36845",
+      "start_259c38d4",
+      "start_8dff287c",
+      "start_8012a83b",
+      "start_460fa21f",
+      "start_66e87b19",
+      "start_2198f6c6",
+      "start_8202549b",
+      "start_4919d017",
+      "start_25ec1088",
+      "start_594712ec",
+      "start_9f4424aa",
+      "start_89775211",
+      "start_8244e6ed",
+      "start_aa7aed51",
+      "start_6f27ab9f",
+      "start_14550ddd",
+      "start_ab9682c5",
+      "start_5a5ed74d",
+      "start_b808c3d7",
+      "start_f1463985",
+      "start_ab39df60",
+      "start_c05ca554",
+      "start_bf2c662f",
+      "start_b31daf7e",
+      "start_a07490fb",
+      "start_59d66fc8",
+      "start_acd522c1",
+      "start_6c5ae4fb",
+      "start_6ec36fb4",
+      "start_6163eefc",
+      "start_d71ef47a",
+      "start_a8d08602",
+      "start_2da8ae4c",
+      "start_82fce081",
+      "start_4b50c481",
+      "start_3a2e7bab",
+      "start_c05e8ac2",
+      "start_c6098241",
+      "start_3a73faee",
+      "start_e80cad76",
+      "start_d55510ec",
+      "start_2e4de5d2",
+      "start_4eea30de",
+      "start_5c6117e8",
+      "start_8f36c8a8",
+      "start_0d4d35a0",
+      "start_0a4ade2d",
+      "start_44873818",
+      "start_5dfed80c",
+      "start_618897d8",
+      "start_7956b15f",
+      "start_679fb123",
+      "start_0b072141",
+      "start_c7a19bf9",
+      "start_8c5a4866",
+      "start_d2f78eb8",
+      "start_72e254fc",
+      "start_e7bdf2ca",
+      "start_adaf4e17",
+      "start_639e151c",
+      "start_39f2ee38",
+      "start_a49e0c16",
+      "start_397545eb",
+      "start_b57bc156",
+      "start_49a21696",
+      "start_0295634b",
+      "start_ba9a009d",
+      "start_8c97cc53",
+      "start_72d231a7",
+      "start_f1b3b5b5",
+      "start_fc9414c3",
+      "start_6326678b",
+      "start_31612253",
+      "start_21b41cb8",
+      "start_a0f80c42",
+      "start_ff5d3f09",
+      "start_507c274f",
+      "start_89cefc9d",
+      "start_5ef98200",
+      "start_a0e2c5c6",
+      "start_c77b41ff",
+      "start_9a63ffa5",
+      "start_27e385ac",
+      "start_796bf47b"
+    ],
+    "behavior": "Input is capped at 12 characters and stripped. Empty input selects the default name. The name is reused in the nameplate and later dialogue.",
+    "route": "Translate prompt and fallback display label. Preserve the empty-string comparison, variable name, and interpolation. Review address forms around the variable.",
+    "checks": [
+      "Enter a custom name and confirm it survives in a nameplate and later lines.",
+      "Submit blank and whitespace-only names and verify the fallback appears."
+    ]
+  },
+  {
+    "id": "juno-nameplate",
+    "occurrences": [
+      "game/script.rpy:8:22",
+      "game/script.rpy:8:40",
+      "game/script.rpy:8:57"
+    ],
+    "behavior": "Character j displays [gname], which is assigned Juno at start.",
+    "route": "Preserve the binding and separate any future localized display name from the speaker ID.",
+    "checks": [
+      "Verify Juno’s first and later nameplates use the same name with speaker ID j intact."
+    ]
+  },
+  {
+    "id": "juno-nameplate",
+    "occurrences": [
+      "game/script.rpy:8:22",
+      "game/script.rpy:8:40",
+      "game/script.rpy:8:57"
+    ],
+    "behavior": "Character j displays [gname], which is assigned Juno at start.",
+    "route": "Preserve the binding and separate any future localized display name from the speaker ID.",
+    "checks": [
+      "Verify Juno’s first and later nameplates use the same name with speaker ID j intact."
+    ]
+  },
+  {
+    "id": "juno-nameplate",
+    "occurrences": [
+      "game/script.rpy:8:22",
+      "game/script.rpy:8:40",
+      "game/script.rpy:8:57"
+    ],
+    "behavior": "Character j displays [gname], which is assigned Juno at start.",
+    "route": "Preserve the binding and separate any future localized display name from the speaker ID.",
+    "checks": [
+      "Verify Juno’s first and later nameplates use the same name with speaker ID j intact."
+    ]
+  },
+  {
+    "id": "save-formats",
+    "occurrences": [
+      "game/screens.rpy:721:64",
+      "game/screens.rpy:721:83",
+      "game/screens.rpy:721:111",
+      "game/screens.rpy:763:54",
+      "game/screens.rpy:763:98",
+      "game/screens.rpy:790:32"
+    ],
+    "behavior": "Save page names interpolate the page index and occupied slots format a timestamp. Empty slots use their own caption.",
+    "route": "Preserve the replacement field and date directives, then review locale order and platform behavior.",
+    "checks": [
+      "Compare ordinary, quick and automatic pages and occupied versus empty slots."
+    ]
+  },
+  {
+    "id": "save-formats",
+    "occurrences": [
+      "game/screens.rpy:721:64",
+      "game/screens.rpy:721:83",
+      "game/screens.rpy:721:111",
+      "game/screens.rpy:763:54",
+      "game/screens.rpy:763:98",
+      "game/screens.rpy:790:32"
+    ],
+    "behavior": "Save page names interpolate the page index and occupied slots format a timestamp. Empty slots use their own caption.",
+    "route": "Preserve the replacement field and date directives, then review locale order and platform behavior.",
+    "checks": [
+      "Compare ordinary, quick and automatic pages and occupied versus empty slots."
+    ]
+  },
+  {
+    "id": "save-formats",
+    "occurrences": [
+      "game/screens.rpy:721:64",
+      "game/screens.rpy:721:83",
+      "game/screens.rpy:721:111",
+      "game/screens.rpy:763:54",
+      "game/screens.rpy:763:98",
+      "game/screens.rpy:790:32"
+    ],
+    "behavior": "Save page names interpolate the page index and occupied slots format a timestamp. Empty slots use their own caption.",
+    "route": "Preserve the replacement field and date directives, then review locale order and platform behavior.",
+    "checks": [
+      "Compare ordinary, quick and automatic pages and occupied versus empty slots."
+    ]
+  },
+  {
+    "id": "save-formats",
+    "occurrences": [
+      "game/screens.rpy:721:64",
+      "game/screens.rpy:721:83",
+      "game/screens.rpy:721:111",
+      "game/screens.rpy:763:54",
+      "game/screens.rpy:763:98",
+      "game/screens.rpy:790:32"
+    ],
+    "behavior": "Save page names interpolate the page index and occupied slots format a timestamp. Empty slots use their own caption.",
+    "route": "Preserve the replacement field and date directives, then review locale order and platform behavior.",
+    "checks": [
+      "Compare ordinary, quick and automatic pages and occupied versus empty slots."
+    ]
+  },
+  {
+    "id": "save-formats",
+    "occurrences": [
+      "game/screens.rpy:721:64",
+      "game/screens.rpy:721:83",
+      "game/screens.rpy:721:111",
+      "game/screens.rpy:763:54",
+      "game/screens.rpy:763:98",
+      "game/screens.rpy:790:32"
+    ],
+    "behavior": "Save page names interpolate the page index and occupied slots format a timestamp. Empty slots use their own caption.",
+    "route": "Preserve the replacement field and date directives, then review locale order and platform behavior.",
+    "checks": [
+      "Compare ordinary, quick and automatic pages and occupied versus empty slots."
+    ]
+  },
+  {
+    "id": "save-formats",
+    "occurrences": [
+      "game/screens.rpy:721:64",
+      "game/screens.rpy:721:83",
+      "game/screens.rpy:721:111",
+      "game/screens.rpy:763:54",
+      "game/screens.rpy:763:98",
+      "game/screens.rpy:790:32"
+    ],
+    "behavior": "Save page names interpolate the page index and occupied slots format a timestamp. Empty slots use their own caption.",
+    "route": "Preserve the replacement field and date directives, then review locale order and platform behavior.",
+    "checks": [
+      "Compare ordinary, quick and automatic pages and occupied versus empty slots."
+    ]
+  },
+  {
+    "id": "main-menu-logo",
+    "occurrences": [
+      "game/gui.rpy:91:35"
+    ],
+    "assets": [
+      {
+        "path": "game/gui/main_menu.png",
+        "sha256": "462f4107290a474fa4a15a7198407e0b3ef856f4a354362bf1bab90094e2a3b6"
+      }
+    ],
+    "sourceText": "My Furry\nprotogen",
+    "behavior": "The visible main-menu title is drawn into the background image.",
+    "route": "Preserve the brand artwork unless a localized logo is explicitly planned.",
+    "checks": [
+      "Confirm the menu still displays the complete logo and its navigation text."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  },
+  {
+    "id": "watch-cutscenes",
+    "occurrences": [
+      "game/script.rpy:579:28",
+      "game/script.rpy:762:28",
+      "game/script.rpy:1876:28",
+      "game/script.rpy:2223:28",
+      "game/script.rpy:2438:28",
+      "game/script.rpy:2922:28",
+      "game/script.rpy:3177:28",
+      "game/script.rpy:3641:28",
+      "game/script.rpy:4141:28",
+      "game/script.rpy:4297:28",
+      "game/script.rpy:4926:28",
+      "game/script.rpy:5279:28",
+      "game/script.rpy:5629:28",
+      "game/script.rpy:5885:28",
+      "game/script.rpy:6520:28",
+      "game/script.rpy:6591:28"
+    ],
+    "assets": [
+      {
+        "path": "game/images/watches.webm",
+        "sha256": "f20f2e584d6739728c11024f41184103bf3414d02734d24ea72628cf7b37112c"
+      },
+      {
+        "path": "game/images/watchesLong.webm",
+        "sha256": "e0de56e28795bba9e415b40fe3c25df07dd9af8fd2a30b9d6ac907d5a41d3eeb"
+      }
+    ],
+    "behavior": "The script repeatedly calls the same movie. A second similarly named video is shipped.",
+    "route": "Keep movie paths. Inspect both videos for embedded text separately before accepting visual coverage.",
+    "checks": [
+      "Verify a watched scene returns to the next scripted line and inspect both videos for baked-in wording."
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "start_610d8e79",
+    "before": "NV-0903, pero puwede mo akong tawaging Juno! {w}May mga pangalan kayo rito, tama?",
+    "after": "NV-0903, pero puwede mo akong tawaging Juno! {w}Sa palagay ko may mga pangalan kayo rito, tama?",
+    "reason": "Restore Juno’s assumption before her question while preserving the wait."
+  },
+  {
+    "id": "start_34d5c2b1",
+    "before": "Hindi mo ba ako pakikipagkamayan?",
+    "after": "Hindi mo ba ako kakamayan?",
+    "reason": "Correct the Filipino verb form in the handshake question."
+  }
+]

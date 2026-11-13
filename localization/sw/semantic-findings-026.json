@@ -1,0 +1,14 @@
+[
+  {
+    "id": "start_0acdc139",
+    "before": "Vinaua viumbe vinavyoviambukiza na kubaki katika viumbe vilivyokufa kwa muda. Nilijaribu kuua virusi kwa baridi au joto, lakini mabadiliko ya halijoto hayavidhuru.",
+    "after": "Vinaua viumbe vilivyoambukizwa navyo na kubaki katika viumbe vilivyokufa kwa muda. Nilijaribu kuua virusi kwa baridi au joto, lakini mabadiliko ya halijoto hayavidhuru.",
+    "reason": "Correct agency: the virus infects and kills its carriers."
+  },
+  {
+    "id": "start_05e85242",
+    "before": "Angalau, kama havingekuwa hatari kwa watu. Ndiyo, mifugo na mazao vinaweza kufa, lakini tungeweza kukabiliana na hilo, tulikuwa tumepitia miaka mibaya kabla, na wakati huo tuliishi tukiwa pamoja.",
+    "after": "Angalau, kama havingekuwa hatari kwa watu. Ndiyo, mifugo na mazao vinaweza kufa, lakini tungeweza kukabiliana na hilo, tulikuwa tumepitia miaka mibaya kabla, na wakati huo tulinusurika yote pamoja.",
+    "reason": "Restore that they survived the bad years together, rather than only lived together."
+  }
+]

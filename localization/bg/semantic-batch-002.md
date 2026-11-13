@@ -1,0 +1,5 @@
+# Bulgarian author semantic review: batch 002
+
+2026-11-13. Compared 250 base story units directly against English in source order, `start_28450d7b` through `start_938fd64e`, covering childhood, Damien, the birthday speech, escape and arrival at the clearing. Exact reviewed IDs in `semantic-batch-002-ids.txt`, 250 newline-terminated lines, SHA-256 `08a50f6f083c40bbd0cc00b211f37a9c000e3b8e40e6769cc1c22ce62c1a3dec`. Read for meaning, voice, referents, terminology and protected syntax; no objective correction identified in this bounded batch. This is author review, not independent review or full acceptance.
+
+Base dialogue SHA-256 `999556efb966569a83325044f4360b3788817007cbed9cb0adbc6de597288dfe`; source inventory `8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff`; Bulgarian glossary layer `fa06015f68057ec3d9d3c1cd1c40349237af14998f8ac3ca1d636cc3619c58ff`. Cumulative semantic coverage: 285/1,785 base story, zero base UI and DLC. Next `start_18c535eb`. Batch 001's correction and later closure remain pending. No runtime or derived-output comparison is implied.

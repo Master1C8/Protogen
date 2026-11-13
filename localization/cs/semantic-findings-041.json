@@ -1,0 +1,10 @@
+[
+  {
+    "id": "The {a=edit:1:log.txt}log.txt{/a} file may contain information to help you determine what is wrong with your computer.",
+    "reason": "Restore the explicit reference to the user’s computer."
+  },
+  {
+    "id": "start_8b5d720c",
+    "reason": "Remove the repeated Czech word in the goosebumps description."
+  }
+]

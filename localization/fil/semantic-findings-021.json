@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_8dff287c",
+    "before": "Kumusta, Pixie, hindi ko balak bumalik agad, pero may nakilala akong kinatawan ng mga uri rito. Kilalanin mo si [pname], tao siya.",
+    "after": "Kumusta, Pixie, hindi ko balak bumalik agad, pero may nakilala akong kinatawan ng isang uri rito. Kilalanin mo si [pname], tao siya.",
+    "reason": "Restore the singular local species reference while preserving the name interpolation."
+  },
+  {
+    "id": "start_0cf6e0eb",
+    "before": "May kinuha siya mula sa isang malaking aparador na mukhang bag, at ipinasok doon ang ilang bagay na hindi ko alam kung para saan.",
+    "after": "May kinuha siyang mukhang bag mula sa isang malaking aparador at ipinasok doon ang ilang bagay na hindi ko alam kung para saan.",
+    "reason": "Make clear that the object, not the closet, resembles a bag."
+  },
+  {
+    "id": "start_31ee85ce",
+    "before": "Pagkalabas namin sa shuttle na Pixie, isinara iyon ni Juno at may pinindot sa helmet niya. Makalipas ang ilang segundo, naging ganap na aninag ang shuttle.",
+    "after": "Pagkalabas namin sa shuttle na Pixie, isinara iyon ni Juno at may pinindot sa helmet niya. Makalipas ang ilang segundo, naging ganap na transparent ang shuttle.",
+    "reason": "Correct the description of the shuttle becoming transparent."
+  }
+]

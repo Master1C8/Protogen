@@ -1,0 +1,25 @@
+{
+  "scope": "base story semantic audit 31–390; first 30 retained",
+  "before_dialogue_sha256": "cfd008de4c9356b7e34bc1743557653f686e76b92a481e588ee284fdf0e836c9",
+  "after_dialogue_sha256": "86794398d41dbdb89f1cb66dd97654facccbd712a471f11814446a7d6db1ca8a",
+  "changes": [
+    {
+      "id": "start_2464e318",
+      "before": "Era un niño común al que pocos prestaban atención, que tenía que hacer lo mismo que los demás y competir naturalmente por los juguetes, los papeles en los juegos y el turno para saltar en la cuerda...",
+      "after": "Era un niño común al que pocos prestaban atención, que tenía que hacer lo mismo que los demás y competir naturalmente por los juguetes, los papeles en los juegos y el turno para hacer salto con cuerda elástica..."
+    },
+    {
+      "id": "start_574afc36",
+      "before": "Pero el elegido era yo, y Damien se alegraba por mí porque «eso habían decidido las estrellas, así que era lo correcto».",
+      "after": "Pero el Elegido era yo, y Damien se alegraba por mí porque «eso habían decidido las estrellas, así que era lo correcto»."
+    },
+    {
+      "id": "start_476a4fa4",
+      "before": "La chica me dio las gracias y desde entonces procuré no volver a acercarme a ella. Ni a ninguna otra, en realidad.",
+      "after": "La chica me dio las gracias y desde entonces procuré no volver a acercarme a ella. Ni a nadie más, en realidad."
+    }
+  ],
+  "direct_dlc_alias_dependents": {},
+  "closure_method": "exact alias map lookup; changed stable IDs and direct alias targets, plus scene context on next complete review; no broader dependency closure claimed",
+  "correction_delta_review": "three changed target strings reread against English; independent diff review pending"
+}

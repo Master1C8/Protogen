@@ -1,0 +1,11 @@
+{
+  "review": "author semantic comparison, base story source indices 990 through 1119",
+  "findings": [
+    {
+      "id": "start_32af1b39",
+      "before": "Αυτό μεταφράζεται ως... Χμ, ας πούμε, «Λοιπόν, μάζεψε τις μύξες σου και σταμάτα να φέρεσαι σαν παιδί!». Ο Τόσι ήταν αρκετά αυστηρός όταν επρόκειτο για αυτομαστίγωμα.",
+      "after": "Αυτό μεταφράζεται ως... Χμ, ας πούμε, «Λοιπόν, σκούπισε τις μύξες σου και σταμάτα να φέρεσαι σαν παιδί!». Ο Τόσι ήταν αρκετά αυστηρός όταν επρόκειτο για αυτομαστίγωμα.",
+      "reason": "Replace the literal, unnatural Greek rendering of the source nose-wiping expression with an idiomatic equivalent."
+    }
+  ]
+}

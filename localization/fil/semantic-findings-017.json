@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_6f3a1b7b",
+    "before": "Tumama mismo sa mukha ko ang sikat ng araw nang sumilip ang mga sinag nito sa siwang ng mga kurtina sa bintana, na nagkataong nasa itaas mismo ng kama ko.",
+    "after": "Tumama mismo sa mukha ko ang sikat ng araw nang sumilip ang mga sinag nito sa siwang ng mga kurtina sa bintana, na sa malas ay nasa itaas mismo ng kama ko.",
+    "reason": "Restore the unfortunate placement of the window."
+  },
+  {
+    "id": "start_70f799c6",
+    "before": "Nangako siyang itatahi ka ng pinakamagandang damit para sa kaarawan mo nang libre—pumayag siyang gawin iyon bilang regalo. {w}Maniniwala ka ba?",
+    "after": "Nangako siyang tatahan ka niya ng pinakamagandang damit para sa kaarawan mo nang libre—pumayag siyang gawin iyon bilang regalo. {w}Maniniwala ka ba?",
+    "reason": "Correct the Filipino verb construction while preserving the promise and wait."
+  },
+  {
+    "id": "start_a38ddd92",
+    "before": "Ang araw na “itinakda” ng mga diyos ang kapalaran ko—o, para maging tumpak, ng isang diyos na ayon sa alamat ay nakababatang kapatid ng Ina ng Langit na nagngangalang Lit—ay naalala ko habang buhay...",
+    "after": "Naalala ko habang buhay ang araw na “itinakda” ng mga diyos ang kapalaran ko—o, para maging tumpak, ng isang diyos na nagngangalang Lit, na ayon sa alamat ay nakababatang kapatid ng Ina ng Langit...",
+    "reason": "Clarify that Lit, not the Mother of Heaven, is the named younger brother."
+  }
+]

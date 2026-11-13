@@ -1,0 +1,153 @@
+{
+  "description": "Author correction dependency closure; neighbor IDs are preceding and following authored entries, not a claim of exhaustive literary dependency.",
+  "inputs_sha256": {
+    "text-assets/inventory.json": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+    "text-assets/renpy-dialogue.tab": "4ba57708ea623be3177c60680b318461469741b1109e7874d8e4c3131e007ad5",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/inventory.json": "b0feab1e5d5dfa697bbeee0a98a8dc310edd30ce6acc908aee8e776b5f0aa2ea",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/renpy-dialogue.tab": "74ff2174cd5eb7515bbb5bc2ae8ce82dc672f80bf16909f57af23432fe29ab93",
+    "localization/nsfw-story-aliases.json": "6b020423fc1c45e678c6c8ef6914161ed2978864f91c805d3c0d286c084b8f7c",
+    "tools/build_localization.py": "18937f78194ea7503bf14c316b7db3789013ea9accd6e455eadfe2fd3f909d5d",
+    "localization/bg/dialogue.tsv": "c3ecc9babc00b01f3024652841fd6f4fbb354a55eee285d0be369b168d263694",
+    "localization/bg/strings.json": "13fff38673b740c2ac8d225abf1308b959db0f12acb3ff1ce6b0341169f6a904",
+    "localization/bg/nsfw/dialogue.tsv": "212ed06e9222417b21e9ae0c1d40b0760a7f1c300f0fc8b6327307508cd7d02e",
+    "localization/bg/nsfw/strings.json": "eb1fe14f9a083cdfd2ce38c5a0f0fa86e8495f46c1b2e6bbb317ead88e2b3dd6",
+    "localization/bg/semantic-coverage.json": "0382bffe895b37d102eb340cb9faed1e9bc971dcfff8fb5bbbb60cd69a7e802d"
+  },
+  "approved_bg_glossary_sha256": "fa06015f68057ec3d9d3c1cd1c40349237af14998f8ac3ca1d636cc3619c58ff",
+  "corrections": [
+    {
+      "edition": "base",
+      "id": "start_3ad19a9c",
+      "authored_neighbors": [
+        "start_a38ddd92",
+        "start_3ad19a9c",
+        "start_436ff1c4"
+      ],
+      "shared_with_other_edition": true,
+      "dlc_aliases": []
+    },
+    {
+      "edition": "base",
+      "id": "start_4237a182",
+      "authored_neighbors": [
+        "start_56d3b845",
+        "start_4237a182",
+        "start_4881db66"
+      ],
+      "shared_with_other_edition": true,
+      "dlc_aliases": []
+    },
+    {
+      "edition": "base",
+      "id": "start_fe1b972a",
+      "authored_neighbors": [
+        "start_f2f8c58f",
+        "start_fe1b972a",
+        "start_e2c70351"
+      ],
+      "shared_with_other_edition": true,
+      "dlc_aliases": []
+    },
+    {
+      "edition": "base",
+      "id": "start_e6ec032a",
+      "authored_neighbors": [
+        "start_35d9b5f9",
+        "start_e6ec032a",
+        "start_14a0d744"
+      ],
+      "shared_with_other_edition": true,
+      "dlc_aliases": []
+    },
+    {
+      "edition": "base",
+      "id": "start_44aabcaa",
+      "authored_neighbors": [
+        "start_7f091239",
+        "start_44aabcaa",
+        "start_e8c0a9bf"
+      ],
+      "shared_with_other_edition": true,
+      "dlc_aliases": []
+    },
+    {
+      "edition": "base",
+      "id": "start_d766772e",
+      "authored_neighbors": [
+        "start_710e4ac4",
+        "start_d766772e",
+        "start_2c30b803"
+      ],
+      "shared_with_other_edition": true,
+      "dlc_aliases": []
+    },
+    {
+      "edition": "base",
+      "id": "start_1f701b16",
+      "authored_neighbors": [
+        "start_968c4f2b",
+        "start_1f701b16",
+        "start_c6c97047"
+      ],
+      "shared_with_other_edition": true,
+      "dlc_aliases": []
+    },
+    {
+      "edition": "base",
+      "id": "start_4b50c481",
+      "authored_neighbors": [
+        "start_dcc2070c",
+        "start_4b50c481",
+        "start_832119e3"
+      ],
+      "shared_with_other_edition": true,
+      "dlc_aliases": []
+    },
+    {
+      "edition": "base",
+      "id": "start_0b072141",
+      "authored_neighbors": [
+        "start_ca498e09",
+        "start_0b072141",
+        "start_31f0aa36"
+      ],
+      "shared_with_other_edition": true,
+      "dlc_aliases": []
+    },
+    {
+      "edition": "base",
+      "id": "start_4c4bef61",
+      "authored_neighbors": [
+        "start_d99074dc",
+        "start_4c4bef61",
+        "start_66978299"
+      ],
+      "shared_with_other_edition": true,
+      "dlc_aliases": []
+    },
+    {
+      "edition": "dlc",
+      "id": "start_6a7384f2",
+      "authored_neighbors": [
+        "start_b760e411",
+        "start_6a7384f2",
+        "start_d6923fde"
+      ],
+      "shared_with_other_edition": false,
+      "dlc_aliases": []
+    }
+  ],
+  "coverage_counts": {
+    "base_story": 1785,
+    "base_ui": 394,
+    "dlc_story": 238,
+    "dlc_ui": 1
+  },
+  "source_findings": [
+    "start_5c6117e8: DLC speaker p conflicts with name and immediate narrative context; source binding preserved.",
+    "start_75bdc594: English names Katie but does not establish identity with earlier unnamed girl."
+  ],
+  "independent_review": "pending",
+  "runtime_and_visual": "unverified",
+  "derived_protected_fields": "pending"
+}

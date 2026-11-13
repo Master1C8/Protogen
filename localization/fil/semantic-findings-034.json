@@ -1,0 +1,14 @@
+[
+  {
+    "id": "Clipboard voicing enabled. Press 'shift+C' to disable.",
+    "before": "Naka-on ang pagbigkas sa clipboard. Pindutin ang 'shift+C' para i-off.",
+    "after": "Naka-on ang pagpapadala ng teksto sa clipboard para sa pagbigkas. Pindutin ang 'shift+C' para i-off.",
+    "reason": "Clarify clipboard voicing consistently with the other accessibility labels."
+  },
+  {
+    "id": "This program is up to date.",
+    "before": "Napapanahon ang programang ito.",
+    "after": "Pinakabagong bersyon na ang programang ito.",
+    "reason": "Express that the installed program is current rather than timely."
+  }
+]

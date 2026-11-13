@@ -1,0 +1,69 @@
+{
+  "phase": "author semantic audit in progress",
+  "reviewed_base_story_positions": [
+    1495,
+    1689
+  ],
+  "new_reviewed_count": 195,
+  "cumulative_reviewed_count": 1690,
+  "changed_ids": [
+    "start_82cf338a",
+    "start_39f2ee38",
+    "start_e912529e",
+    "start_6d106e90",
+    "start_a77cb623",
+    "start_6f9d2f5d"
+  ],
+  "findings": [
+    {
+      "id": "start_82cf338a",
+      "issue": "Removed an unsupported kick while keeping the door being knocked out."
+    },
+    {
+      "id": "start_39f2ee38",
+      "issue": "Made the mother’s address natural while preserving recognition of her son."
+    },
+    {
+      "id": "start_e912529e",
+      "issue": "Made the affectionate address and missing her son natural."
+    },
+    {
+      "id": "start_6d106e90",
+      "issue": "Made the affectionate address natural."
+    },
+    {
+      "id": "start_a77cb623",
+      "issue": "Corrected ungrammatical wording of the request not to remain angry with the parents."
+    },
+    {
+      "id": "start_6f9d2f5d",
+      "issue": "Restored that the parents are waiting for the protagonist and the others who died."
+    }
+  ],
+  "local_closure_method": "Changed base IDs plus immediately adjacent base story IDs and DLC aliases targeting changed IDs; bounded local recheck, not final transitive dependency closure.",
+  "local_context_ids": [
+    "start_b4aaeae2",
+    "start_82cf338a",
+    "start_68c1a549",
+    "start_aba74c20",
+    "start_39f2ee38",
+    "start_4856a0f6",
+    "start_e912529e",
+    "start_364819a2",
+    "start_5d6bd0bd",
+    "start_6d106e90",
+    "start_55989752",
+    "start_0d0f472b",
+    "start_a77cb623",
+    "start_f10874c7",
+    "start_d745480e",
+    "start_6f9d2f5d",
+    "start_c0def7a3"
+  ],
+  "affected_dlc_aliases": {},
+  "closure": "Full reproducible dependency closure and independent delta review remain pending the full audit.",
+  "previous_dialogue_sha256": "24b0966104225d8bba85338d0871c1cdd2d70694dda4b4d6bad6b3bb1ef11010",
+  "dialogue_sha256": "46dd10e28279519d11ceb1371fef11fadc4fd6055fa92b290a44e41630cbc058",
+  "coverage_sha256": "4f38899411eb554fc03e17aa70855c898b78e1699cdeaf13726d33ce1d2127a5",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff"
+}

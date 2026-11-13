@@ -1,0 +1,43 @@
+{
+  "phase": "author semantic audit in progress",
+  "reviewed_base_story_positions": [
+    325,
+    519
+  ],
+  "new_reviewed_count": 195,
+  "cumulative_reviewed_count": 520,
+  "changed_ids": [
+    "start_893c88af",
+    "start_574f22fd",
+    "start_6d6c67b7",
+    "start_590f63d1",
+    "start_aaf3cc89"
+  ],
+  "findings": [
+    {
+      "id": "start_893c88af",
+      "issue": "Restored the interrupted contrast with a nonliving interlocutor."
+    },
+    {
+      "id": "start_574f22fd",
+      "issue": "Specified the station is for refueling."
+    },
+    {
+      "id": "start_6d6c67b7",
+      "issue": "Changed scraps wording to fruit pieces."
+    },
+    {
+      "id": "start_590f63d1",
+      "issue": "Whole evening had been expanded to all night; corrected."
+    },
+    {
+      "id": "start_aaf3cc89",
+      "issue": "Before age twenty could be read as including the twentieth year; clarified."
+    }
+  ],
+  "closure": "Changed IDs and surrounding exchanges reread; complete reproducible dependency closure and independent delta review remain pending the full audit.",
+  "previous_dialogue_sha256": "87f6f22bb2a24888b2a39788201fc6a826af6f2cc9027d1b89051a7df44ecd5c",
+  "dialogue_sha256": "49b35ab0005eb622fce4859acea14c97d8a7ee48646518ceb42ad95c17a0bfbd",
+  "coverage_sha256": "f5020fdf082104822de0ce73ef0e2283c1fcadfe65f366db543253e0d730394c",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff"
+}

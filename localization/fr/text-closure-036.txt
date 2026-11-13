@@ -1,0 +1,75 @@
+Story 1785/1785. String keys 394/394.
+NSFW delta: 255/255 story rows, 1/1 UI keys.
+{
+  "semantic_counts": {
+    "base_story": 1785,
+    "base_ui": 394,
+    "dlc_story": 238,
+    "dlc_ui": 1
+  },
+  "story_preserve_token_checks": {
+    "base": 127,
+    "dlc": 135
+  },
+  "alias_count": 17,
+  "corrected_ids": [
+    "start_04867749",
+    "start_0cf612a4",
+    "start_10b97f61",
+    "start_114fb40a",
+    "start_1c5ad493",
+    "start_1d584564",
+    "start_1ec245b3",
+    "start_2d9f9777",
+    "start_31dbbe48",
+    "start_31f0aa36",
+    "start_35a3ccf5",
+    "start_35ef60f3",
+    "start_46dca9b7",
+    "start_4bd93874",
+    "start_5186d4f8",
+    "start_5ac5748e",
+    "start_5fc1d03e",
+    "start_6f9d2f5d",
+    "start_731484ac",
+    "start_78736a15",
+    "start_8012a83b",
+    "start_8af76b21",
+    "start_8cfab327",
+    "start_8d2002d0",
+    "start_9451eb50",
+    "start_973d7ac2",
+    "start_9f120078",
+    "start_aa18e11b",
+    "start_aaf3cc89",
+    "start_b37f00c2",
+    "start_b808c3d7",
+    "start_c7e47d62",
+    "start_c925e5d0",
+    "start_cd2fe863",
+    "start_cf15cf90",
+    "start_d99074dc",
+    "start_e0adbde7",
+    "start_e85130c6",
+    "start_e8ed360a",
+    "start_ecb0886f",
+    "start_ed63ce1e",
+    "start_f1463985",
+    "start_f2f8c58f"
+  ],
+  "corrected_alias_dependencies": {
+    "start_4d5e7851": "start_35a3ccf5"
+  },
+  "sha256": {
+    "text-assets/inventory.json": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/inventory.json": "b0feab1e5d5dfa697bbeee0a98a8dc310edd30ce6acc908aee8e776b5f0aa2ea",
+    "localization/nsfw-story-aliases.json": "6b020423fc1c45e678c6c8ef6914161ed2978864f91c805d3c0d286c084b8f7c",
+    "tools/build_localization.py": "18937f78194ea7503bf14c316b7db3789013ea9accd6e455eadfe2fd3f909d5d",
+    "localization/fr/dialogue.tsv": "86ff46bb3b55f18290920ffbd4a19f09063e633acf2696a1927d91e6001dda50",
+    "localization/fr/strings.json": "2eefdb7414339280a38025e71c18f21e8a512b5664c5c5626bcc55049bc70afb",
+    "localization/fr/nsfw/dialogue.tsv": "81903bb636c5691d8ed7717c13200eef9fbc1efdafedd64652c6b1ff6a38e483",
+    "localization/fr/nsfw/strings.json": "ece354df31fba7ffbd959a14457692b27d8d6acf7631b421766164e888ad8839",
+    "localization/fr/semantic-coverage.json": "056446578eb1be4317cc5c737223ccfd229673d004c0b24b6b318cd6a48cb4e3"
+  },
+  "limits": "Checks authored text and story preserveTokens; non-translatable original script literals and runtime output require coordinator verification."
+}

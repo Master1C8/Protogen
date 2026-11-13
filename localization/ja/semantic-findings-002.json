@@ -1,0 +1,53 @@
+{
+  "phase": "author semantic audit in progress",
+  "reviewed_base_story_positions": [
+    130,
+    324
+  ],
+  "new_reviewed_count": 195,
+  "cumulative_reviewed_count": 325,
+  "changed_ids": [
+    "start_301af731",
+    "start_17e74dd2",
+    "start_a7f14adb",
+    "start_67f1c6e1",
+    "start_a91c0bed",
+    "start_cecfe425",
+    "start_993156b5"
+  ],
+  "findings": [
+    {
+      "id": "start_301af731",
+      "issue": "Recovering breath read as returning to life; corrected."
+    },
+    {
+      "id": "start_17e74dd2",
+      "issue": "Crowd question about why he spoke omitted; restored."
+    },
+    {
+      "id": "start_a7f14adb",
+      "issue": "Turn around could read as looking back; clarified departure."
+    },
+    {
+      "id": "start_67f1c6e1",
+      "issue": "Not thinking to switch was changed to forgetting; corrected."
+    },
+    {
+      "id": "start_a91c0bed",
+      "issue": "Maintaining control was weakened to understanding; corrected."
+    },
+    {
+      "id": "start_cecfe425",
+      "issue": "Earlier visit was made explicitly long ago; removed unsupported timing."
+    },
+    {
+      "id": "start_993156b5",
+      "issue": "All visited planets was weakened to visited planets; restored."
+    }
+  ],
+  "closure": "Changed IDs and neighboring exchanges were reread; complete reproducible dependency closure and independent delta review remain pending the full audit.",
+  "previous_dialogue_sha256": "6783b3ef101a731c5916ead1e96ca8311f9e14fac8a1b0f85cc12ba1ce1eed47",
+  "dialogue_sha256": "87f6f22bb2a24888b2a39788201fc6a826af6f2cc9027d1b89051a7df44ecd5c",
+  "coverage_sha256": "ae9c5f400da2ef35aa097c9ca6379158eeaea494cdbf0167cbc9ab43138a6154",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff"
+}

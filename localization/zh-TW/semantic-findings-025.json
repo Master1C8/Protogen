@@ -1,0 +1,14 @@
+[
+  {
+    "id": "start_55b82cbc",
+    "before": "我們沉默了幾分鐘，只顧著調勻呼吸。因為跑得太快，我的雙腿仍在發抖，摔倒時撞到的臀部也很痛，不久就會瘀青。",
+    "after": "我們沉默了幾分鐘，只顧著調勻呼吸。因為跑得太快，我的雙腿仍在發抖，摔倒時撞到的髖部也很痛，不久就會瘀青。",
+    "reason": "Preserve the source’s hip as the injured location."
+  },
+  {
+    "id": "start_8b295b37",
+    "before": "好，我想。謝謝你，Pixie。",
+    "after": "好，麻煩你。謝謝你，Pixie。",
+    "reason": "Express the affirmative response to the offered water and change of clothes naturally."
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "scope": "Author semantic review, base story rows 901-1060",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+  "before_dialogue_sha256": "bcbb9872042dc0579c6d1955873f65e86e0261160f8025a5e3cfc03943c67f8c",
+  "after_dialogue_sha256": "87e6fca540ebb6599a6a6675ced5964a6ad587ca315382b785dc36143d9bfcf0",
+  "changes": [
+    {
+      "id": "start_557ae46f",
+      "before": "Karena semakin sering kau berbicara dengan mereka tentang hal-hal lain, semakin kau terikat.",
+      "after": "Karena semakin sering kau berbicara dengan mereka tentang topik-topik abstrak, semakin kau terikat.",
+      "reason": "Preserve the source reference to abstract topics."
+    },
+    {
+      "id": "start_eeefa321",
+      "before": "Sambil tersenyum, ia mengendus seolah sedang menangis dan menggenggam tanganku untuk berjabat tangan.",
+      "after": "Sambil tersenyum, ia menarik napas lewat hidung seolah sedang menangis dan menggenggam tanganku untuk berjabat tangan.",
+      "reason": "Make sniffing as if crying clear rather than implying she smelled something."
+    }
+  ],
+  "closure": "Shared edition mappings and affected contextual dependencies require reproducible closure and delta review."
+}

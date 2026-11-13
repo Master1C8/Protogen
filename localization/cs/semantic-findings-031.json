@@ -1,0 +1,14 @@
+[
+  {
+    "id": "start_8fa495bc",
+    "reason": "Remove timing qualifier absent from source."
+  },
+  {
+    "id": "start_ec3f54cb",
+    "reason": "Restore missing first-person auxiliary."
+  },
+  {
+    "id": "start_e23b1a69",
+    "reason": "Avoid asserting the animal was lying down when source does not specify its posture."
+  }
+]

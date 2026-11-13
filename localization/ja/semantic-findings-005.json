@@ -1,0 +1,48 @@
+{
+  "phase": "author semantic audit in progress",
+  "reviewed_base_story_positions": [
+    715,
+    909
+  ],
+  "new_reviewed_count": 195,
+  "cumulative_reviewed_count": 910,
+  "changed_ids": [
+    "start_1d820ac4",
+    "start_4dd62252",
+    "start_3c9221c3",
+    "start_112eb171",
+    "start_de603576",
+    "start_68b5dfe2"
+  ],
+  "findings": [
+    {
+      "id": "start_1d820ac4",
+      "issue": "Restored lack of courage rather than a neutral choice not to act."
+    },
+    {
+      "id": "start_4dd62252",
+      "issue": "Removed an asserted cause from a temporal source clause."
+    },
+    {
+      "id": "start_3c9221c3",
+      "issue": "Restored the lonely-life description and permissive meaning."
+    },
+    {
+      "id": "start_112eb171",
+      "issue": "Clarified that goals are collective."
+    },
+    {
+      "id": "start_de603576",
+      "issue": "Distinguished confidence in safety from insisting on it."
+    },
+    {
+      "id": "start_68b5dfe2",
+      "issue": "Clarified readiness to collect last-minute samples."
+    }
+  ],
+  "closure": "Changed IDs and surrounding exchanges reread; full reproducible dependency closure and independent delta review remain pending the full audit.",
+  "previous_dialogue_sha256": "64c54507fd7026bf0d0088722961e658f85f2ff27172cd4e8024b2a2c2ab1a5e",
+  "dialogue_sha256": "e0b1cfbb1ec7ac61465d24420e46113908dfbfced47d02516e161d5d2e637bfb",
+  "coverage_sha256": "540a925602965ab0a83220c2f75ce2733c7ed03b5da211683935c4af768089b2",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff"
+}

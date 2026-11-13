@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_33462eb9",
+    "before": "Parang pagpapasya iyon kung anong mga katangian ang magkakaroon ang nilalang bago ito ipanganak.",
+    "after": "Parang pagpapasya iyon kung anong mga katangian ang taglay ng isang nilalang bago ito ipanganak.",
+    "reason": "Repair the malformed Filipino clause describing predetermined characteristics."
+  },
+  {
+    "id": "start_162de15e",
+    "before": "Na sinunggaban ko lang ang unang pagkakataong makatakas mula sa bilangguang pinaggugulan ko ng buong buhay ko. Kung hindi humarang si Juno sa daan ko, ano kaya ang ginawa ko?",
+    "after": "Na sinunggaban ko lang ang unang pagkakataong makatakas mula sa bilangguang pinaggugulan ko ng buong buhay ko. Kung hindi ko nakasalubong si Juno, ano kaya ang ginawa ko?",
+    "reason": "Avoid implying that Juno obstructed him when the context describes their encounter."
+  },
+  {
+    "id": "start_b23c96f9",
+    "before": "Nakasalampak siyang pinag-aralan ang buhangin at mga bato habang pagala-gala ako sa malapit, nakapikit-pikit dahil sa nakakasilaw na sinag.",
+    "after": "Nakalupasay siyang pinag-aralan ang buhangin at mga bato habang pagala-gala ako sa malapit, nakapikit-pikit dahil sa nakakasilaw na sinag.",
+    "reason": "Restore the source’s squatting posture."
+  }
+]

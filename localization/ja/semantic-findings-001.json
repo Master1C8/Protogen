@@ -1,0 +1,25 @@
+{
+  "phase": "author semantic audit in progress",
+  "reviewed_base_story_positions": [
+    0,
+    129
+  ],
+  "reviewed_count": 130,
+  "finding": {
+    "id": "start_3ad19a9c",
+    "issue": "Source says no more than three years old; draft incorrectly said not yet three.",
+    "correction": "Changed to three years old or younger.",
+    "reviewed_dependency_ids": [
+      "start_a38ddd92",
+      "start_3ad19a9c",
+      "start_670bfa00"
+    ]
+  },
+  "closure_scope": "Bounded age wording and its adjacent premise; further dependency closure and independent diff review remain pending the full audit.",
+  "base_dialogue_sha256": "6783b3ef101a731c5916ead1e96ca8311f9e14fac8a1b0f85cc12ba1ce1eed47",
+  "base_strings_sha256": "9aa81e369378a9326494721f76b8012b661b63c319d08d14594f881f02cb559e",
+  "dlc_dialogue_sha256": "831d3834ce9b1c707d2c5095360fa129e1ef5ae9fc48508a610a5151a12c75e0",
+  "dlc_strings_sha256": "d4f868d478ad8dc70ca010808848448a3468e1fd7c1a5ac22d33494aa88addac",
+  "coverage_sha256": "ab2dcf1628bbeb5f61398a455de074f6eb074d494d6a6f087a2a19f5f0f28162",
+  "source_inventory_sha256": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff"
+}

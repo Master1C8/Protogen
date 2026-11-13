@@ -1,0 +1,1340 @@
+[
+  {
+    "id": "start_0b79856a",
+    "source": "Good morning, [pname], you're already awake! ",
+    "before": "Guten Morgen, [pname], du bist ja schon wach!",
+    "after": "Guten Morgen, [pname], du bist ja schon wach!"
+  },
+  {
+    "id": "start_e705b4a2",
+    "source": "What do you mean? Your every day, son, is a little feat for our entire community! ",
+    "before": "Wie meinst du das? Jeder deiner Tage ist eine kleine Heldentat für unsere ganze Gemeinschaft, Sohn!",
+    "after": "Wie meinst du das? Jeder deiner Tage ist eine kleine Heldentat für unsere ganze Gemeinschaft, Sohn!"
+  },
+  {
+    "id": "start_fab552b1",
+    "source": "Come on, get up. I made an agreement with Stefan.",
+    "before": "Komm, steh auf. Ich habe etwas mit Stefan ausgemacht.",
+    "after": "Komm, steh auf. Ich habe etwas mit Stefan ausgemacht."
+  },
+  {
+    "id": "start_70f799c6",
+    "source": "He promised to sew you the best outfit for your birthday for free - he agreed to do it as a gift. {w}Can you believe it?",
+    "before": "Er hat versprochen, dir dein Geburtstagsgewand kostenlos zu nähen – als Geschenk. {w}Kannst du das glauben?",
+    "after": "Er hat versprochen, dir das beste Geburtstagsgewand kostenlos zu nähen – als Geschenk. {w}Kannst du das glauben?"
+  },
+  {
+    "id": "start_cbcea470",
+    "source": "Without hiding the sarcastic notes in my voice, I chuckled from under the blanket. ",
+    "before": "Ohne den spöttischen Unterton zu verbergen, lachte ich unter der Decke hervor.",
+    "after": "Ohne den spöttischen Unterton zu verbergen, lachte ich unter der Decke hervor."
+  },
+  {
+    "id": "start_da832074",
+    "source": "It is unbelievable, an act of outstanding generosity.",
+    "before": "Unglaublich, ein Akt außerordentlicher Großzügigkeit.",
+    "after": "Unglaublich, ein Akt außerordentlicher Großzügigkeit."
+  },
+  {
+    "id": "start_97e0486a",
+    "source": "Stefan is a busy man. He won't have time later. {w}Although, of course, he will definitely have time for our Chosen One.",
+    "before": "Stefan ist ein vielbeschäftigter Mann. Später hat er keine Zeit mehr. {w}Obwohl er für unseren Auserwählten natürlich bestimmt Zeit finden wird.",
+    "after": "Stefan ist ein vielbeschäftigter Mann. Später hat er keine Zeit mehr. {w}Obwohl er für unseren Auserwählten natürlich bestimmt Zeit finden wird."
+  },
+  {
+    "id": "start_436ff1c4",
+    "source": "Maybe these were false memories that I invented for myself while listening to my parents' stories about this wonderful day throughout my childhood.",
+    "before": "Vielleicht waren es falsche Erinnerungen, die ich mir ausgedacht hatte, während ich meine ganze Kindheit lang den Erzählungen meiner Eltern über diesen wunderbaren Tag lauschte.",
+    "after": "Vielleicht waren es falsche Erinnerungen, die ich mir ausgedacht hatte, während ich meine ganze Kindheit lang den Erzählungen meiner Eltern über diesen wunderbaren Tag lauschte."
+  },
+  {
+    "id": "start_9c30f04d",
+    "source": "But it didn’t matter whether they were false or not. All that mattered were the blurry pictures stuck in my head. ",
+    "before": "Aber ob sie falsch waren oder nicht, spielte keine Rolle. Alles, was zählte, waren die verschwommenen Bilder in meinem Kopf.",
+    "after": "Aber ob sie falsch waren oder nicht, spielte keine Rolle. Alles, was zählte, waren die verschwommenen Bilder in meinem Kopf."
+  },
+  {
+    "id": "start_2fcee7f5",
+    "source": "It was the flame of the bonfire, at which the solemn birthday celebration of all the village children born on this date took place. ",
+    "before": "Da war das Feuer des Lagerfeuers, an dem die feierliche Geburtstagsfeier aller an diesem Tag geborenen Dorfkinder stattfand.",
+    "after": "Da waren die Flammen des Lagerfeuers, an dem die feierliche Geburtstagsfeier aller an diesem Tag geborenen Dorfkinder stattfand."
+  },
+  {
+    "id": "start_048ae057",
+    "source": "It just coincided with the end of the year, when our settlement of Northern Valley was harvesting.",
+    "before": "Der Tag fiel zufällig auf das Jahresende, wenn unsere Siedlung im Nordtal die Ernte einbrachte.",
+    "after": "Der Tag fiel zufällig auf das Jahresende, wenn unsere Siedlung im Nordtal die Ernte einbrachte."
+  },
+  {
+    "id": "start_7efa994e",
+    "source": "It was the singing of the school choir girls, the smell of freshly brewed birdberry juice.",
+    "before": "Da waren der Gesang der Mädchen aus dem Schulchor und der Duft von frisch zubereitetem Vogelfruchtsaft.",
+    "after": "Da waren der Gesang der Mädchen aus dem Schulchor und der Duft von frisch zubereitetem Vogelfruchtsaft."
+  },
+  {
+    "id": "start_d62cfbce",
+    "source": "Though, what kind of trouble was this? {w}No one specified, we were simply confronted with that fact.",
+    "before": "Doch um was für eine Gefahr handelte es sich? {w}Das sagte niemand; man stellte uns einfach vor diese Tatsache.",
+    "after": "Doch um was für eine Gefahr handelte es sich? {w}Das sagte niemand; man stellte uns einfach vor diese Tatsache."
+  },
+  {
+    "id": "start_652ff7b1",
+    "source": "But the birthdays of the Chosen One were celebrated separately, so the birthdays of the others were usually switched to another day. {w}I got the best, most desired gifts. ",
+    "before": "Aber die Geburtstage des Auserwählten wurden gesondert gefeiert, also verlegte man die der anderen gewöhnlich auf einen anderen Tag. {w}Ich bekam die besten Geschenke, die sich alle wünschten.",
+    "after": "Aber die Geburtstage des Auserwählten wurden gesondert gefeiert, also verlegte man die der anderen gewöhnlich auf einen anderen Tag. {w}Ich bekam die besten Geschenke, die sich alle wünschten."
+  },
+  {
+    "id": "start_79960c7e",
+    "source": "From whom would I save the Northern Valley? {w}If it meant the attack of the southern tribes, I would hardly be of any help.",
+    "before": "Vor wem sollte ich das Nordtal retten? {w}Falls ein Angriff der Stämme des Südens gemeint war, konnte ich wohl kaum helfen.",
+    "after": "Vor wem sollte ich das Nordtal retten? {w}Falls ein Angriff der Stämme des Südens gemeint war, konnte ich wohl kaum helfen."
+  },
+  {
+    "id": "start_e0ec2002",
+    "source": "All my life, I tried to hide my real thoughts from people - it seemed that everyone would react exactly the same as Damien. {w}Even my parents.",
+    "before": "Mein ganzes Leben lang hatte ich versucht, meine wahren Gedanken vor den Leuten zu verbergen – offenbar würden alle genauso reagieren wie Damien. {w}Sogar meine Eltern.",
+    "after": "Mein ganzes Leben lang hatte ich versucht, meine wahren Gedanken vor den Leuten zu verbergen – offenbar würden alle genauso reagieren wie Damien. {w}Sogar meine Eltern."
+  },
+  {
+    "id": "start_29846358",
+    "source": "All because \"the Chosen One should have excellent health\". {w}No treats, no sweets. ",
+    "before": "Alles nur, weil „der Auserwählte kerngesund sein muss“. {w}Keine Leckereien, keine Süßigkeiten.",
+    "after": "Alles nur, weil „der Auserwählte kerngesund sein muss“. {w}Keine Leckereien, keine Süßigkeiten."
+  },
+  {
+    "id": "start_46dca9b7",
+    "source": "In the evening I had to walk through the village - a kind of ritual that the Elders also came up with - then homework and finally sleep. {w}I wouldn't wish such a life on anyone.",
+    "before": "Abends musste ich durchs Dorf gehen – eine Art Ritual, das sich ebenfalls die Ältesten ausgedacht hatten –, dann Hausaufgaben machen und schließlich schlafen. {w}So ein Leben wünschte ich niemandem.",
+    "after": "Abends musste ich durchs Dorf gehen – eine Art Ritual, das sich ebenfalls die Ältesten ausgedacht hatten –, dann Hausaufgaben machen und schließlich schlafen. {w}So ein Leben wünschte ich niemandem."
+  },
+  {
+    "id": "start_9d2aa1bf",
+    "source": "[pname]! Get up quickly! Your breakfast will be cold soon.",
+    "before": "[pname]! Steh schnell auf! Dein Frühstück wird sonst kalt.",
+    "after": "[pname]! Steh schnell auf! Dein Frühstück wird sonst kalt."
+  },
+  {
+    "id": "start_253ba86c",
+    "source": "How dare she refuse someone like him? {w}The Chosen One called her on a date, and she dared to refuse?",
+    "before": "Wie konnte sie es wagen, jemanden wie ihn abzuweisen? {w}Der Auserwählte hatte sie zu einem Date eingeladen, und sie hatte es gewagt abzulehnen?",
+    "after": "Wie konnte sie es wagen, jemanden wie ihn abzuweisen? {w}Der Auserwählte hatte sie zu einem Date eingeladen, und sie hatte es gewagt abzulehnen?"
+  },
+  {
+    "id": "start_d5e81f4b",
+    "source": "The day when he will become the ruler of the Northern Valley and decide our fate is inexorably approaching. It's only a few months away! ",
+    "before": "Der Tag, an dem er Herrscher des Nordtals wird und über unser Schicksal entscheidet, rückt unaufhaltsam näher. Es sind nur noch wenige Monate!",
+    "after": "Der Tag, an dem er Herrscher des Nordtals wird und über unser Schicksal entscheidet, rückt unaufhaltsam näher. Es sind nur noch wenige Monate!"
+  },
+  {
+    "id": "start_7c8b9a7c",
+    "source": "And today we will be happy to welcome a new, significant chapter of our life. Hurrah!",
+    "before": "Und heute begrüßen wir voller Freude ein neues, bedeutsames Kapitel unseres Lebens. Hurra!",
+    "after": "Und heute begrüßen wir voller Freude ein neues, bedeutsames Kapitel unseres Lebens. Hurra!"
+  },
+  {
+    "id": "start_b0929960",
+    "source": "The crowd - the whole village, seated at tables around the bonfire - shouted, responding with an out-of-sync \"hurrah\". ",
+    "before": "Die Menge – das ganze Dorf, das an Tischen um das Lagerfeuer saß – antwortete mit einem vielstimmigen „Hurra“.",
+    "after": "Die Menge – das ganze Dorf, das an Tischen um das Lagerfeuer saß – antwortete mit einem nicht ganz gleichzeitigen „Hurra“."
+  },
+  {
+    "id": "start_bfc76918",
+    "source": "I tried to squeeze out a smile, but without much success.",
+    "before": "Ich versuchte, mir ein Lächeln abzuringen, doch ohne großen Erfolg.",
+    "after": "Ich versuchte, mir ein Lächeln abzuringen, doch ohne großen Erfolg."
+  },
+  {
+    "id": "start_148afe35",
+    "source": "I didn't like anything that was happening at all, and the thought that this was the kind of life that was waiting for me in the future, until my death, scared me to hiccups.",
+    "before": "Nichts von alledem gefiel mir, und der Gedanke, dass mich bis zu meinem Tod ein solches Leben erwartete, machte mir solche Angst, dass ich Schluckauf bekam.",
+    "after": "Nichts von alledem gefiel mir, und der Gedanke, dass mich bis zu meinem Tod ein solches Leben erwartete, machte mir solche Angst, dass ich Schluckauf bekam."
+  },
+  {
+    "id": "start_4a9d0b4f",
+    "source": "Dear friends... {w}Our Chosen One, apparently, is tired, or overworked... ",
+    "before": "Liebe Freunde ... {w}Unser Auserwählter ist offenbar müde oder überarbeitet ...",
+    "after": "Liebe Freunde ... {w}Unser Auserwählter ist offenbar müde oder überarbeitet ..."
+  },
+  {
+    "id": "start_d29a3685",
+    "source": "Son, what are you doing? {w}Why did you say that?",
+    "before": "Sohn, was tust du da? {w}Warum hast du das gesagt?",
+    "after": "Sohn, was tust du da? {w}Warum hast du das gesagt?"
+  },
+  {
+    "id": "start_b3d56ace",
+    "source": "[pname]! [pname], come back!",
+    "before": "[pname]! [pname], komm zurück!",
+    "after": "[pname]! [pname], komm zurück!"
+  },
+  {
+    "id": "start_541b9195",
+    "source": "Go back to the village? {w}No, no way. ",
+    "before": "Ins Dorf zurückgehen? {w}Nein, auf keinen Fall.",
+    "after": "Ins Dorf zurückgehen? {w}Nein, auf keinen Fall."
+  },
+  {
+    "id": "start_d6ba3cf3",
+    "source": "How long would I have to walk if I decided to return? {w}But, on the other hand, I had nowhere else to go.",
+    "before": "Wie lange müsste ich wohl laufen, wenn ich zurückginge? {w}Andererseits hatte ich keinen anderen Ort, an den ich gehen konnte.",
+    "after": "Wie lange müsste ich wohl laufen, wenn ich zurückginge? {w}Andererseits hatte ich keinen anderen Ort, an den ich gehen konnte."
+  },
+  {
+    "id": "start_04867749",
+    "source": "I'm talking to fictional creatures, no wonder they don’t answer. {w}You know what?",
+    "before": "Ich rede mit eingebildeten Wesen, kein Wunder, dass sie nicht antworten. {w}Weißt du was?",
+    "after": "Ich rede mit eingebildeten Wesen, kein Wunder, dass sie nicht antworten. {w}Weißt du was?"
+  },
+  {
+    "id": "start_180a960f",
+    "source": "The creature - judging by its shape, was a female - she noticed me and rushed towards me. {w}She then said something, but I didn't understand a word. ",
+    "before": "Das Wesen – seiner Gestalt nach zu urteilen war es weiblich – bemerkte mich und eilte auf mich zu. {w}Dann sagte sie etwas, aber ich verstand kein Wort.",
+    "after": "Das Wesen – seiner Gestalt nach zu urteilen war es weiblich – bemerkte mich und eilte auf mich zu. {w}Dann sagte sie etwas, aber ich verstand kein Wort."
+  },
+  {
+    "id": "start_7ff2b620",
+    "source": "Well... {w}yes, I guess I’m intelligent...",
+    "before": "Nun ... {w}ja, ich glaube schon, dass ich intelligent bin ...",
+    "after": "Nun ... {w}ja, ich glaube schon, dass ich intelligent bin ..."
+  },
+  {
+    "id": "start_85bc6f85",
+    "source": "NV... {w}Could you repeat it?",
+    "before": "NV ... {w}Kannst du das wiederholen?",
+    "after": "NV ... {w}Kannst du das wiederholen?"
+  },
+  {
+    "id": "start_610d8e79",
+    "source": "NV-0903, but you can call me Juno! {w}I assume you have names here, right? ",
+    "before": "NV-0903, aber du kannst mich Juno nennen! {w}Ihr habt hier doch Namen, oder?",
+    "after": "NV-0903, aber du kannst mich Juno nennen! {w}Ihr habt hier doch Namen, oder?"
+  },
+  {
+    "id": "start_0338f9fd",
+    "source": "My name is [pname], and I'm... {w}Well, just a human.",
+    "before": "Ich heiße [pname] und bin ... {w}Nun ja, nur ein Mensch.",
+    "after": "Ich heiße [pname] und bin ... {w}Nun ja, nur ein Mensch."
+  },
+  {
+    "id": "start_4f407986",
+    "source": "There are no more of them in this galaxy at all. {w}Are you a juvenile specimen?",
+    "before": "In dieser Galaxie gibt es überhaupt keine mehr. {w}Bist du ein jugendliches Exemplar?",
+    "after": "In dieser Galaxie gibt es überhaupt keine mehr. {w}Bist du ein jugendliches Exemplar?"
+  },
+  {
+    "id": "start_a91c0bed",
+    "source": "I shook my head. {w}If this was a delusional dream or some kind of hallucination from hitting my head, then at least I wanted to keep control of the situation.",
+    "before": "Ich schüttelte den Kopf. {w}Falls dies ein Wahntraum oder eine Halluzination durch den Schlag auf den Kopf war, wollte ich wenigstens die Kontrolle über die Situation behalten.",
+    "after": "Ich schüttelte den Kopf. {w}Falls dies ein Wahntraum oder eine Halluzination durch den Schlag auf den Kopf war, wollte ich wenigstens die Kontrolle über die Situation behalten."
+  },
+  {
+    "id": "start_673dd838",
+    "source": "Wait, stop calling me that, I am [pname]! ",
+    "before": "Warte, hör auf, mich so zu nennen, ich heiße [pname]!",
+    "after": "Warte, hör auf, mich so zu nennen, ich heiße [pname]!"
+  },
+  {
+    "id": "start_993156b5",
+    "source": "What? No! {w}I am a scientist and researcher, I study and document all the planets I travel to. This is our universal mission and even a hobby. ",
+    "before": "Was? Nein! {w}Ich bin Wissenschaftlerin und Forscherin. Ich untersuche und dokumentiere alle Planeten, die ich besuche. Das ist unser allgemeiner Auftrag und sogar ein Hobby.",
+    "after": "Was? Nein! {w}Ich bin Wissenschaftlerin und Forscherin. Ich untersuche und dokumentiere alle Planeten, die ich besuche. Das ist unser allgemeiner Auftrag und sogar ein Hobby."
+  },
+  {
+    "id": "start_623220ca",
+    "source": "Ah, well, then... {w}That's good... {w}Welcome, I guess?",
+    "before": "Ach, nun ja, dann ... {w}Das ist gut ... {w}Willkommen, schätze ich?",
+    "after": "Ach, nun ja, dann ... {w}Das ist gut ... {w}Willkommen, schätze ich?"
+  },
+  {
+    "id": "start_f6e531ba",
+    "source": "Thank you! What stage of technological progress are you at now? {w}What energy do you use?",
+    "before": "Danke! Auf welcher Stufe des technischen Fortschritts steht ihr gerade? {w}Welche Energie nutzt ihr?",
+    "after": "Danke! Auf welcher Stufe des technischen Fortschritts steht ihr gerade? {w}Welche Energie nutzt ihr?"
+  },
+  {
+    "id": "start_e7eb586a",
+    "source": "Uh... They are kind of a fish, but they are not exactly fish. {w}In short, they live underwater and they’re smart creatures.",
+    "before": "Äh ... Sie sind eine Art Fisch, aber eigentlich auch wieder nicht. {w}Kurz gesagt, sie leben unter Wasser und sind kluge Wesen.",
+    "after": "Äh ... Sie sind eine Art Fisch, aber eigentlich auch wieder nicht. {w}Kurz gesagt, sie leben unter Wasser und sind kluge Wesen."
+  },
+  {
+    "id": "start_18fe7bf8",
+    "source": "By the way, your planet is quite beautiful... {w}Where are you from? Do you have a settlement here?",
+    "before": "Übrigens ist dein Planet ziemlich schön ... {w}Woher kommst du? Habt ihr hier eine Siedlung?",
+    "after": "Übrigens ist dein Planet ziemlich schön ... {w}Woher kommst du? Habt ihr hier eine Siedlung?"
+  },
+  {
+    "id": "start_37b36845",
+    "source": "[pname], that's just great! I didn't expect to be so lucky! Are you sure you know everything here?",
+    "before": "[pname], das ist ja großartig! Ich hätte nicht gedacht, dass ich so viel Glück habe! Kennst du dich hier wirklich überall aus?",
+    "after": "[pname], das ist ja großartig! Ich hätte nicht gedacht, dass ich so viel Glück habe! Kennst du dich hier wirklich überall aus?"
+  },
+  {
+    "id": "start_44bd485b",
+    "source": "Yes, it's called a jet. There's a lot of stuff in there, it’s a cool thing. You’ll like it. Only I can open it with my palm prints. No one else can access it.",
+    "before": "Ja, es heißt Shuttle. Da drin ist eine Menge Zeug, es ist ein tolles Ding. Es wird dir gefallen. Nur ich kann es mit meinen Handflächenabdrücken öffnen. Niemand sonst hat Zugang.",
+    "after": "Ja, es heißt Shuttle. Da drin ist eine Menge Zeug, es ist ein tolles Ding. Es wird dir gefallen. Nur ich kann es mit meinen Handflächenabdrücken öffnen. Niemand sonst hat Zugang."
+  },
+  {
+    "id": "start_90458a18",
+    "source": "Juno walked over to the jet and put her hand on its side. At that moment, a panel slid away, making it possible to enter inside.",
+    "before": "Juno ging zum Shuttle und legte die Hand an seine Seite. In diesem Moment glitt eine Platte zur Seite, sodass man einsteigen konnte.",
+    "after": "Juno ging zum Shuttle und legte die Hand an seine Seite. In diesem Moment glitt eine Platte zur Seite, sodass man einsteigen konnte."
+  },
+  {
+    "id": "start_8cbf3ac0",
+    "source": "Such an unkillable thing! It's important to me as a memory, you know... I call it Pixie.",
+    "before": "Es ist einfach nicht totzukriegen! Als Erinnerungsstück bedeutet es mir viel, weißt du ... Ich nenne es Pixie.",
+    "after": "Es ist einfach nicht totzukriegen! Als Erinnerungsstück bedeutet es mir viel, weißt du ... Ich nenne es Pixie."
+  },
+  {
+    "id": "start_56d3b845",
+    "source": "Why Pixie?",
+    "before": "Warum Pixie?",
+    "after": "Warum Pixie?"
+  },
+  {
+    "id": "start_f2f8c58f",
+    "source": "Moreover, now I was inside this thing - this Pixie - and I didn't like it at all.",
+    "before": "Außerdem befand ich mich jetzt in diesem Ding – diesem Pixie –, und das gefiel mir überhaupt nicht.",
+    "after": "Außerdem befand ich mich jetzt in diesem Ding – diesem Pixie –, und das gefiel mir überhaupt nicht."
+  },
+  {
+    "id": "start_259c38d4",
+    "source": "You should have seen your face! Just hilarious! No, [pname], don't worry, it's not alive. Although I would really like it to be alive. ",
+    "before": "Du hättest dein Gesicht sehen sollen! Einfach köstlich! Nein, [pname], keine Sorge, es lebt nicht. Auch wenn ich mir das sehr wünschen würde.",
+    "after": "Du hättest dein Gesicht sehen sollen! Einfach köstlich! Nein, [pname], keine Sorge, es lebt nicht. Auch wenn ich mir das sehr wünschen würde."
+  },
+  {
+    "id": "start_c2da5bca",
+    "source": "Don't worry, it's Pixie.",
+    "before": "Keine Sorge, das ist Pixie.",
+    "after": "Keine Sorge, das ist Pixie."
+  },
+  {
+    "id": "start_8dff287c",
+    "source": "Hi, Pixie, I wasn't planning on coming back so soon, but I met a representative of the local species. Meet [pname], he is a human.",
+    "before": "Hallo, Pixie, ich hatte nicht vor, so bald zurückzukommen, aber ich habe einen Vertreter der einheimischen Spezies getroffen. Das ist [pname], er ist ein Mensch.",
+    "after": "Hallo, Pixie, ich hatte nicht vor, so bald zurückzukommen, aber ich habe einen Vertreter der einheimischen Spezies getroffen. Das ist [pname], er ist ein Mensch."
+  },
+  {
+    "id": "start_8012a83b",
+    "source": "Hello, [pname], human, nice to meet you. I am Pixie, an artificial intelligence assistant.",
+    "before": "Hallo, [pname], Mensch, freut mich, dich kennenzulernen. Ich bin Pixie, ein Assistent mit künstlicher Intelligenz.",
+    "after": "Hallo, [pname], Mensch, freut mich, dich kennenzulernen. Ich bin Pixie, ein Assistent mit künstlicher Intelligenz."
+  },
+  {
+    "id": "start_3be27729",
+    "source": "The inside of Pixie was clean and very beautiful - it all resembled the hold of a ship from books I read at school, but it was so much more than that. Juno opened a cabinet and took out a box.",
+    "before": "Das Innere von Pixie war sauber und sehr schön – es erinnerte mich an den Laderaum eines Schiffs aus Büchern, die ich in der Schule gelesen hatte, war aber so viel mehr als das. Juno öffnete einen Schrank und nahm eine Schachtel heraus.",
+    "after": "Das Innere von Pixie war sauber und sehr schön – es erinnerte mich an den Laderaum eines Schiffs aus Büchern, die ich in der Schule gelesen hatte, war aber so viel mehr als das. Juno öffnete einen Schrank und nahm eine Schachtel heraus."
+  },
+  {
+    "id": "start_4c32aafb",
+    "source": "Pixie is an artificial intelligence that lives on my jet.",
+    "before": "Pixie ist eine künstliche Intelligenz, die auf meinem Shuttle lebt.",
+    "after": "Pixie ist eine künstliche Intelligenz, die auf meinem Shuttle lebt."
+  },
+  {
+    "id": "start_7eb4de78",
+    "source": "Well, my Pixie is almost the same. He doesn't speak \"for real\", he kind of... imitates speech.",
+    "before": "Nun, bei meinem Pixie ist es fast genauso. Er spricht nicht „wirklich“, er ahmt die Sprache irgendwie ... nach.",
+    "after": "Nun, bei meinem Pixie ist es fast genauso. Er spricht nicht „wirklich“, er ahmt die Sprache irgendwie ... nach."
+  },
+  {
+    "id": "start_0d81f008",
+    "source": "He helps me with the ship and research, and I can also chat with him sometimes if I get bored.",
+    "before": "Er hilft mir mit dem Schiff und bei der Forschung, und manchmal kann ich auch mit ihm plaudern, wenn mir langweilig ist.",
+    "after": "Er hilft mir mit dem Schiff und bei der Forschung, und manchmal kann ich auch mit ihm plaudern, wenn mir langweilig ist."
+  },
+  {
+    "id": "start_e5bf96e1",
+    "source": "Juno was fussing over the jet. She was clearly impatient to start a trip as soon as possible. ",
+    "before": "Juno hantierte im Shuttle herum. Sie konnte es offenbar kaum erwarten, endlich aufzubrechen.",
+    "after": "Juno hantierte im Shuttle herum. Sie konnte es offenbar kaum erwarten, endlich aufzubrechen."
+  },
+  {
+    "id": "start_31ee85ce",
+    "source": "After we got out of the Pixie jet, Juno closed it and pressed something on her helmet. After a couple of seconds, the jet became completely transparent. ",
+    "before": "Nachdem wir aus dem Shuttle Pixie ausgestiegen waren, verschloss Juno es und drückte etwas an ihrem Helm. Nach ein paar Sekunden wurde das Shuttle völlig durchsichtig.",
+    "after": "Nachdem wir aus dem Shuttle Pixie ausgestiegen waren, verschloss Juno es und drückte etwas an ihrem Helm. Nach ein paar Sekunden wurde das Shuttle völlig durchsichtig."
+  },
+  {
+    "id": "start_563d4a12",
+    "source": "I activated a special disguise so that no one will notice it. I don't want some random person to see Pixie and consider it some kind of sign of the devil. ",
+    "before": "Ich habe eine spezielle Tarnung aktiviert, damit niemand es bemerkt. Ich will nicht, dass irgendein zufällig Vorbeikommender Pixie sieht und für ein Zeichen des Teufels hält.",
+    "after": "Ich habe eine spezielle Tarnung aktiviert, damit niemand es bemerkt. Ich will nicht, dass irgendein zufällig Vorbeikommender Pixie sieht und für ein Zeichen des Teufels hält."
+  },
+  {
+    "id": "start_c008c3af",
+    "source": "I would like to find some unusual species here... {w}Can you tell me what lives here?",
+    "before": "Ich würde hier gern ein paar ungewöhnliche Arten finden ... {w}Kannst du mir sagen, was hier lebt?",
+    "after": "Ich würde hier gern ein paar ungewöhnliche Arten finden ... {w}Kannst du mir sagen, was hier lebt?"
+  },
+  {
+    "id": "start_460fa21f",
+    "source": "It was necessary to conduct experiments first, and only then... I'm so sorry, [pname]! It's probably my fault.",
+    "before": "Ich hätte erst Experimente durchführen müssen und erst dann ... Es tut mir so leid, [pname]! Wahrscheinlich bin ich schuld.",
+    "after": "Ich hätte erst Experimente durchführen müssen und erst dann ... Es tut mir so leid, [pname]! Wahrscheinlich bin ich schuld."
+  },
+  {
+    "id": "start_66e87b19",
+    "source": "Just a second, [pname], I'm going to call Pixie. It’ll find us, and you'll be able to rest, okay? I hope you aren’t getting worse... How stupid I am!",
+    "before": "Einen Moment, [pname], ich rufe Pixie. Pixie wird uns finden, und dann kannst du dich ausruhen, ja? Hoffentlich geht es dir nicht schlechter ... Wie dumm ich bin!",
+    "after": "Einen Moment, [pname], ich rufe Pixie. Pixie wird uns finden, und dann kannst du dich ausruhen, ja? Hoffentlich geht es dir nicht schlechter ... Wie dumm ich bin!"
+  },
+  {
+    "id": "start_9cd854d2",
+    "source": "Juno began to wade through the forest, apparently intending to find some clearing to summon Pixie. ",
+    "before": "Juno bahnte sich einen Weg durch den Wald, offenbar auf der Suche nach einer Lichtung, um Pixie zu rufen.",
+    "after": "Juno bahnte sich einen Weg durch den Wald, offenbar auf der Suche nach einer Lichtung, um Pixie zu rufen."
+  },
+  {
+    "id": "start_35d9b5f9",
+    "source": "When she succeeded, the jet was already hanging over the tops of the trees, and immediately descended, removing its disguise. ",
+    "before": "Als sie eine fand, schwebte das Shuttle bereits über den Baumwipfeln und sank sofort herab, wobei es seine Tarnung ablegte.",
+    "after": "Als sie eine fand, schwebte das Shuttle bereits über den Baumwipfeln und sank sofort herab, wobei es seine Tarnung ablegte."
+  },
+  {
+    "id": "start_2198f6c6",
+    "source": "Holy crap! What the... [pname], is this some kind of special way for you to attract attention?!",
+    "before": "Heilige Scheiße! Was zum ... [pname], ist das eine besondere Art, Aufmerksamkeit zu erregen?!",
+    "after": "Heilige Scheiße! Was zum ... [pname], ist das eine besondere Art, Aufmerksamkeit zu erregen?!"
+  },
+  {
+    "id": "start_8202549b",
+    "source": "The case is solved, [pname]!",
+    "before": "Der Fall ist gelöst, [pname]!",
+    "after": "Der Fall ist gelöst, [pname]!"
+  },
+  {
+    "id": "start_731484ac",
+    "source": "Juno ordered Pixie to clean up the puddle on the floor, and dragged me to another compartment of the jet.",
+    "before": "Juno befahl Pixie, die Pfütze auf dem Boden zu beseitigen, und zog mich in ein anderes Abteil des Shuttles.",
+    "after": "Juno befahl Pixie, die Pfütze auf dem Boden zu beseitigen, und zog mich in ein anderes Abteil des Shuttles."
+  },
+  {
+    "id": "start_e4801bf6",
+    "source": "Actually, you know, just ask Pixie. It'll set everything up for you.",
+    "before": "Weißt du was, frag einfach Pixie. Pixie stellt alles für dich ein.",
+    "after": "Weißt du was, frag einfach Pixie. Pixie stellt alles für dich ein."
+  },
+  {
+    "id": "start_e444dc4d",
+    "source": "Uh, Pixie?",
+    "before": "Äh, Pixie?",
+    "after": "Äh, Pixie?"
+  },
+  {
+    "id": "start_4919d017",
+    "source": "Yes, [pname], I'm listening.",
+    "before": "Ja, [pname], ich höre.",
+    "after": "Ja, [pname], ich höre."
+  },
+  {
+    "id": "start_25ec1088",
+    "source": "Of course, [pname]. Just a second.",
+    "before": "Natürlich, [pname]. Einen Moment.",
+    "after": "Natürlich, [pname]. Einen Moment."
+  },
+  {
+    "id": "start_3ba0f249",
+    "source": "Pixie also gave me some kind of small brush and advised me to brush my teeth. ",
+    "before": "Pixie gab mir außerdem eine kleine Bürste und riet mir, meine Zähne zu putzen.",
+    "after": "Pixie gab mir außerdem eine kleine Bürste und riet mir, meine Zähne zu putzen."
+  },
+  {
+    "id": "start_cf15cf90",
+    "source": "Yes, Pixie helped me. Thank it for that.",
+    "before": "Ja, Pixie hat mir geholfen. Dafür danke ich Pixie.",
+    "after": "Ja, Pixie hat mir geholfen. Dafür danke ich Pixie."
+  },
+  {
+    "id": "start_7fc9fd20",
+    "source": "I don’t know, it sounds wrong to me. I mean, it's your jet... I don't want to kick you out of your own bed. ",
+    "before": "Ich weiß nicht, das kommt mir falsch vor. Ich meine, es ist dein Shuttle ... Ich will dich nicht aus deinem eigenen Bett vertreiben.",
+    "after": "Ich weiß nicht, das kommt mir falsch vor. Ich meine, es ist dein Shuttle ... Ich will dich nicht aus deinem eigenen Bett vertreiben."
+  },
+  {
+    "id": "start_594712ec",
+    "source": "No, we just say bye. Bye, [pname]! See you tomorrow.",
+    "before": "Nein, wir sagen einfach Tschüss. Tschüss, [pname]! Bis morgen.",
+    "after": "Nein, wir sagen einfach Tschüss. Tschüss, [pname]! Bis morgen."
+  },
+  {
+    "id": "start_07eff98c",
+    "source": "She got up even earlier than I was used to - the sun had not yet risen, and yet she was already walking around the jet, sometimes hiding in her laboratory.",
+    "before": "Sie stand sogar früher auf, als ich es gewohnt war – die Sonne war noch nicht aufgegangen, und doch lief sie schon im Shuttle herum und verschwand gelegentlich in ihrem Labor.",
+    "after": "Sie stand sogar früher auf, als ich es gewohnt war – die Sonne war noch nicht aufgegangen, und doch lief sie schon im Shuttle herum und verschwand gelegentlich in ihrem Labor."
+  },
+  {
+    "id": "start_7dd47a70",
+    "source": "Hey, I think we can go back to Pixie! By the way, I was thinking, maybe you need to pack something to eat. What about mushrooms? We could cook them, I have a kitchen on the jet.",
+    "before": "Hey, ich glaube, wir können zu Pixie zurück! Übrigens habe ich überlegt, dass du vielleicht etwas zu essen einpacken solltest. Wie wäre es mit Pilzen? Wir könnten sie kochen, ich habe eine Küche im Shuttle.",
+    "after": "Hey, ich glaube, wir können zu Pixie zurück! Übrigens habe ich überlegt, dass du vielleicht etwas zu essen einpacken solltest. Wie wäre es mit Pilzen? Wir könnten sie kochen, ich habe eine Küche im Shuttle."
+  },
+  {
+    "id": "start_6381c928",
+    "source": "Well, I hope so... Come on, Pixie will help you.",
+    "before": "Nun, das hoffe ich ... Komm, Pixie wird dir helfen.",
+    "after": "Nun, das hoffe ich ... Komm, Pixie wird dir helfen."
+  },
+  {
+    "id": "start_2fe219a7",
+    "source": "Back on the jet, we started cooking. I didn't know how to cook - after all, my parents or villagers cooked all the food for me throughout my life - and therefore I didn't know at all what to do with the raw ingredients. ",
+    "before": "Zurück im Shuttle begannen wir zu kochen. Ich konnte nicht kochen – schließlich hatten meine Eltern oder die Dorfbewohner mein Leben lang alles Essen für mich zubereitet – und wusste daher überhaupt nicht, was ich mit den rohen Zutaten anfangen sollte.",
+    "after": "Zurück im Shuttle begannen wir zu kochen. Ich konnte nicht kochen – schließlich hatten meine Eltern oder die Dorfbewohner mein Leben lang alles Essen für mich zubereitet – und wusste daher überhaupt nicht, was ich mit den rohen Zutaten anfangen sollte."
+  },
+  {
+    "id": "start_9f4424aa",
+    "source": "No, I have my own food, thank you, [pname].",
+    "before": "Nein, ich habe mein eigenes Essen, danke, [pname].",
+    "after": "Nein, ich habe mein eigenes Essen, danke, [pname]."
+  },
+  {
+    "id": "start_89775211",
+    "source": "Of course, [pname], ask! Why do you need permission?",
+    "before": "Natürlich, [pname], frag nur! Warum brauchst du dafür eine Erlaubnis?",
+    "after": "Natürlich, [pname], frag nur! Warum brauchst du dafür eine Erlaubnis?"
+  },
+  {
+    "id": "start_4a9ef248",
+    "source": "Why did you decide to, well... {w}Travel the universe? Have you always wanted to do this? Or did you just have no choice?",
+    "before": "Warum hast du beschlossen, na ja ... {w}Durchs Universum zu reisen? Wolltest du das schon immer? Oder hattest du einfach keine Wahl?",
+    "after": "Warum hast du beschlossen, na ja ... {w}Durchs Universum zu reisen? Wolltest du das schon immer? Oder hattest du einfach keine Wahl?"
+  },
+  {
+    "id": "start_71e2159a",
+    "source": "So... It's like... {w}Uhm, your fate? {w}Something like that?",
+    "before": "Also ... Das ist so etwas wie ... {w}Ähm, dein Schicksal? {w}So ungefähr?",
+    "after": "Also ... Das ist so etwas wie ... {w}Ähm, dein Schicksal? {w}So ungefähr?"
+  },
+  {
+    "id": "start_f610eb62",
+    "source": "The villagers decided everything for him, because they believed that since he was their Savior, it meant that he became their property. {w}Something like that.",
+    "before": "Die Dorfbewohner entschieden alles für ihn, weil sie glaubten, dass er als ihr Retter auch ihr Eigentum geworden war. {w}So ungefähr.",
+    "after": "Die Dorfbewohner entschieden alles für ihn, weil sie glaubten, dass er als ihr Retter auch ihr Eigentum geworden war. {w}So ungefähr."
+  },
+  {
+    "id": "start_bbdaf32b",
+    "source": "How is that possible? Weren't you born by your mothers... {w}Or at least eggs or something like that?",
+    "before": "Wie ist das möglich? Wurdet ihr nicht von euren Müttern geboren ... {w}Oder seid zumindest aus Eiern geschlüpft oder so?",
+    "after": "Wie ist das möglich? Wurdet ihr nicht von euren Müttern geboren ... {w}Oder seid zumindest aus Eiern geschlüpft oder so?"
+  },
+  {
+    "id": "start_34ffd95c",
+    "source": "Gene... {w}What?",
+    "before": "Gene ... {w}Was?",
+    "after": "Gene ... {w}Was?"
+  },
+  {
+    "id": "start_57bbc435",
+    "source": "Our creators made us strong and healthy, but obedient. {w}Gladly - we destroyed our shackles and started a new life.",
+    "before": "Unsere Schöpfer machten uns stark und gesund, aber gehorsam. {w}Zum Glück haben wir unsere Fesseln gesprengt und ein neues Leben begonnen.",
+    "after": "Unsere Schöpfer machten uns stark und gesund, aber gehorsam. {w}Zum Glück haben wir unsere Fesseln gesprengt und ein neues Leben begonnen."
+  },
+  {
+    "id": "start_679a328a",
+    "source": "Well, I don't have a jet to fly everywhere, and it's dangerous to travel alone on foot for such a weak creature like me.",
+    "before": "Nun, ich habe kein Shuttle, um überallhin zu fliegen, und für ein schwaches Wesen wie mich ist es gefährlich, allein zu Fuß zu reisen.",
+    "after": "Nun, ich habe kein Shuttle, um überallhin zu fliegen, und für ein schwaches Wesen wie mich ist es gefährlich, allein zu Fuß zu reisen."
+  },
+  {
+    "id": "start_8244e6ed",
+    "source": "I'm sorry to hear that, [pname]... Though, I don’t know if it’s alright in your culture to not have friends.",
+    "before": "Das tut mir leid, [pname] ... Allerdings weiß ich nicht, ob es in deiner Kultur in Ordnung ist, keine Freunde zu haben.",
+    "after": "Das tut mir leid, [pname] ... Allerdings weiß ich nicht, ob es in deiner Kultur in Ordnung ist, keine Freunde zu haben."
+  },
+  {
+    "id": "start_aa7aed51",
+    "source": "Well, it doesn't matter now: look, [pname], you're traveling right now!",
+    "before": "Na ja, jetzt spielt das keine Rolle mehr: Sieh mal, [pname], du bist gerade auf Reisen!",
+    "after": "Na ja, jetzt spielt das keine Rolle mehr: Sieh mal, [pname], du bist gerade auf Reisen!"
+  },
+  {
+    "id": "start_6f27ab9f",
+    "source": "It's okay, [pname], forget it.",
+    "before": "Schon gut, [pname], vergiss es.",
+    "after": "Schon gut, [pname], vergiss es."
+  },
+  {
+    "id": "start_7c05b1e4",
+    "source": "It's okay, I told you. Come on, Pixie's waiting for us. ",
+    "before": "Schon gut, habe ich doch gesagt. Komm, Pixie wartet auf uns.",
+    "after": "Schon gut, habe ich doch gesagt. Komm, Pixie wartet auf uns."
+  },
+  {
+    "id": "start_14550ddd",
+    "source": "I’ll check when we’re there. Don't worry, I won't leave you hungry, [pname].",
+    "before": "Ich sehe nach, wenn wir dort sind. Keine Sorge, ich lasse dich nicht hungern, [pname].",
+    "after": "Ich sehe nach, wenn wir dort sind. Keine Sorge, ich lasse dich nicht hungern, [pname]."
+  },
+  {
+    "id": "start_ab9682c5",
+    "source": "[pname], over here!",
+    "before": "[pname], hier entlang!",
+    "after": "[pname], hier entlang!"
+  },
+  {
+    "id": "start_de603576",
+    "source": "Due to the fact that I was confident in the safety of this place, we had moved quite far away from the jet, and now we could easily become the lunch of an underground worm.",
+    "before": "Weil ich von der Sicherheit dieses Ortes überzeugt gewesen war, hatten wir uns ziemlich weit vom Shuttle entfernt, und nun konnten wir leicht zum Mittagessen eines unterirdischen Wurms werden.",
+    "after": "Weil ich von der Sicherheit dieses Ortes überzeugt gewesen war, hatten wir uns ziemlich weit vom Shuttle entfernt, und nun konnten wir leicht zum Mittagessen eines unterirdischen Wurms werden."
+  },
+  {
+    "id": "start_e5aec2f3",
+    "source": "The worm became distracted and squeaked loudly, so Juno grabbed me and almost dragged me to the jet. We barely had enough time to get in , so Juno threw me into a chair and shouted:",
+    "before": "Der Wurm wurde abgelenkt und quietschte laut, sodass Juno mich packte und beinahe zum Shuttle schleifte. Wir schafften es gerade noch hinein, da warf Juno mich in einen Stuhl und rief:",
+    "after": "Der Wurm wurde abgelenkt und quietschte laut, sodass Juno mich packte und beinahe zum Shuttle schleifte. Wir schafften es gerade noch hinein, da warf Juno mich in einen Stuhl und rief:"
+  },
+  {
+    "id": "start_832646fb",
+    "source": "Pixie, let's get out of here!",
+    "before": "Pixie, nichts wie weg hier!",
+    "after": "Pixie, nichts wie weg hier!"
+  },
+  {
+    "id": "start_c0e2c4ba",
+    "source": "Pixie obeyed- the jet hummed, and we soared into the air. I was breathing heavily, sitting in an armchair, trying to calm the frantic pounding of my heart. ",
+    "before": "Pixie gehorchte – das Shuttle summte, und wir stiegen in die Luft. Ich saß schwer atmend in einem Sessel und versuchte, mein wild klopfendes Herz zu beruhigen.",
+    "after": "Pixie gehorchte – das Shuttle summte, und wir stiegen in die Luft. Ich saß schwer atmend in einem Sessel und versuchte, mein wild klopfendes Herz zu beruhigen."
+  },
+  {
+    "id": "start_e6043bfa",
+    "source": "Pixie?",
+    "before": "Pixie?",
+    "after": "Pixie?"
+  },
+  {
+    "id": "start_5a5ed74d",
+    "source": "Yes, [pname]?",
+    "before": "Ja, [pname]?",
+    "after": "Ja, [pname]?"
+  },
+  {
+    "id": "start_b808c3d7",
+    "source": "Sorry, [pname], I can't talk about this, it’s personal. {w}Would you like to drink some water and change your clothes?",
+    "before": "Tut mir leid, [pname], darüber kann ich nicht sprechen, das ist persönlich. {w}Möchtest du etwas Wasser trinken und dich umziehen?",
+    "after": "Tut mir leid, [pname], darüber kann ich nicht sprechen, das ist persönlich. {w}Möchtest du etwas Wasser trinken und dich umziehen?"
+  },
+  {
+    "id": "start_aa18e11b",
+    "source": "I frowned even harder - what couldn't Pixie talk about?",
+    "before": "Ich runzelte die Stirn noch stärker – worüber konnte Pixie nicht sprechen?",
+    "after": "Ich runzelte die Stirn noch stärker – worüber konnte Pixie nicht sprechen?"
+  },
+  {
+    "id": "start_f1463985",
+    "source": "Sorry, [pname], I can't tell you. Would you like to drink some water and change your clothes?",
+    "before": "Tut mir leid, [pname], das kann ich dir nicht sagen. Möchtest du etwas Wasser trinken und dich umziehen?",
+    "after": "Tut mir leid, [pname], das kann ich dir nicht sagen. Möchtest du etwas Wasser trinken und dich umziehen?"
+  },
+  {
+    "id": "start_8b295b37",
+    "source": "Yeah, I would. Thanks, Pixie.",
+    "before": "Ja, gern. Danke, Pixie.",
+    "after": "Ja, gern. Danke, Pixie."
+  },
+  {
+    "id": "start_ab39df60",
+    "source": "[pname], tell me the truth.",
+    "before": "[pname], sag mir die Wahrheit.",
+    "after": "[pname], sag mir die Wahrheit."
+  },
+  {
+    "id": "start_c05ca554",
+    "source": "Don't lie to me, [pname], you didn't get confused, you decided to play traveler and took advantage of me, but I'm not your babysitter! ",
+    "before": "Belüg mich nicht, [pname], du warst nicht verwirrt. Du wolltest Reisender spielen und hast mich ausgenutzt, aber ich bin nicht dein Kindermädchen!",
+    "after": "Belüg mich nicht, [pname], du warst nicht verwirrt. Du wolltest Reisender spielen und hast mich ausgenutzt, aber ich bin nicht dein Kindermädchen!"
+  },
+  {
+    "id": "start_bf2c662f",
+    "source": "Why did you ask to come with me? What do you want, [pname]?",
+    "before": "Warum wolltest du mit mir kommen? Was willst du, [pname]?",
+    "after": "Warum wolltest du mit mir kommen? Was willst du, [pname]?"
+  },
+  {
+    "id": "start_b31daf7e",
+    "source": "I don't need friends, [pname]. That's why I travel alone - so as not to make friends.",
+    "before": "Ich brauche keine Freunde, [pname]. Deshalb reise ich allein – damit ich keine Freunde finde.",
+    "after": "Ich brauche keine Freunde, [pname]. Deshalb reise ich allein – damit ich keine Freunde finde."
+  },
+  {
+    "id": "start_a07490fb",
+    "source": "Sorry, [pname], I also lied to you...",
+    "before": "Tut mir leid, [pname], ich habe dich auch belogen ...",
+    "after": "Tut mir leid, [pname], ich habe dich auch belogen ..."
+  },
+  {
+    "id": "start_5837447e",
+    "source": "I actually had a friend. {w}My very best friend.",
+    "before": "Ich hatte tatsächlich einen Freund. {w}Meinen allerbesten Freund.",
+    "after": "Ich hatte tatsächlich einen Freund. {w}Meinen allerbesten Freund."
+  },
+  {
+    "id": "start_78736a15",
+    "source": "I fell into a stupor. {w}It was as if Toshi appeared before my eyes, and history was repeating itself.",
+    "before": "Ich erstarrte. {w}Es war, als stünde Toshi vor mir und die Geschichte wiederholte sich.",
+    "after": "Ich erstarrte. {w}Es war, als stünde Toshi vor mir und die Geschichte wiederholte sich."
+  },
+  {
+    "id": "start_59d66fc8",
+    "source": "What’s wrong with you, [pname]! You’d eat such filth, just to not tell the truth. You know, your endurance is enviable. I probably wouldn't be able to do that.",
+    "before": "Was stimmt nicht mit dir, [pname]?! Du würdest solchen Dreck essen, nur um nicht die Wahrheit sagen zu müssen. Deine Ausdauer ist beneidenswert. Ich könnte das wahrscheinlich nicht.",
+    "after": "Was stimmt nicht mit dir, [pname]?! Du würdest solchen Dreck essen, nur um nicht die Wahrheit sagen zu müssen. Deine Ausdauer ist beneidenswert. Ich könnte das wahrscheinlich nicht."
+  },
+  {
+    "id": "start_6951128a",
+    "source": "I helped her do some things in the jet, Juno even let me into her laboratory: she showed me everything there, although I still didn't understand most of her words. ",
+    "before": "Ich half ihr bei einigen Dingen im Shuttle. Juno ließ mich sogar in ihr Labor: Sie zeigte mir dort alles, obwohl ich die meisten ihrer Worte noch immer nicht verstand.",
+    "after": "Ich half ihr bei einigen Dingen im Shuttle. Juno ließ mich sogar in ihr Labor: Sie zeigte mir dort alles, obwohl ich die meisten ihrer Worte noch immer nicht verstand."
+  },
+  {
+    "id": "start_eb012378",
+    "source": "As soon as we got out of the jet, a strange smell hit our noses - it smelled like rot, or long dead meat. ",
+    "before": "Kaum waren wir aus dem Shuttle gestiegen, schlug uns ein seltsamer Geruch entgegen – es roch nach Fäulnis oder nach Fleisch, das schon lange tot war.",
+    "after": "Kaum waren wir aus dem Shuttle gestiegen, schlug uns ein seltsamer Geruch entgegen – es roch nach Fäulnis oder nach Fleisch, das schon lange tot war."
+  },
+  {
+    "id": "start_df9b08f4",
+    "source": "They're like... {w}Wilted?",
+    "before": "Sie sind irgendwie ... {w}verwelkt?",
+    "after": "Sie sind irgendwie ... {w}verwelkt?"
+  },
+  {
+    "id": "start_acd522c1",
+    "source": "I will try, [pname], I promise.",
+    "before": "Ich werde es versuchen, [pname], versprochen.",
+    "after": "Ich werde es versuchen, [pname], versprochen."
+  },
+  {
+    "id": "start_dd8da741",
+    "source": "We're not taking it to Pixie, are we?",
+    "before": "Wir nehmen es doch nicht mit zu Pixie, oder?",
+    "after": "Wir nehmen es doch nicht mit zu Pixie, oder?"
+  },
+  {
+    "id": "start_b5319b1b",
+    "source": "Let's get out of here. I'll tell you everything as soon as we get on the jet. It's not safe here.",
+    "before": "Lass uns hier verschwinden. Ich erzähle dir alles, sobald wir im Shuttle sind. Hier ist es nicht sicher.",
+    "after": "Lass uns hier verschwinden. Ich erzähle dir alles, sobald wir im Shuttle sind. Hier ist es nicht sicher."
+  },
+  {
+    "id": "start_335827d2",
+    "source": "My heart was clenching in my chest with fear. What happened to this forest? What happened to this animal? Why did Juno react like that?",
+    "before": "Mein Herz zog sich vor Angst zusammen. Was war mit diesem Wald geschehen? Was war mit diesem Tier geschehen? Warum hatte Juno so reagiert?",
+    "after": "Mein Herz zog sich vor Angst zusammen. Was war mit diesem Wald geschehen? Was war mit diesem Tier geschehen? Warum hatte Juno so reagiert?"
+  },
+  {
+    "id": "start_096a4d30",
+    "source": "When we were in the jet, Pixie greeted us with a standard greeting, but immediately said: ",
+    "before": "Als wir im Shuttle waren, begrüßte Pixie uns wie üblich, sagte dann aber sofort:",
+    "after": "Als wir im Shuttle waren, begrüßte Pixie uns wie üblich, sagte dann aber sofort:"
+  },
+  {
+    "id": "start_fe91027e",
+    "source": "Juno, I must warn you, there is an unknown virus on the ship.",
+    "before": "Juno, ich muss dich warnen, an Bord des Schiffs befindet sich ein unbekanntes Virus.",
+    "after": "Juno, ich muss dich warnen, an Bord des Shuttles befindet sich ein unbekanntes Virus."
+  },
+  {
+    "id": "start_997413a0",
+    "source": "I know, Pixie. We brought it. We need to understand what it is.",
+    "before": "Ich weiß, Pixie. Wir haben es mitgebracht. Wir müssen herausfinden, was es ist.",
+    "after": "Ich weiß, Pixie. Wir haben es mitgebracht. Wir müssen herausfinden, was es ist."
+  },
+  {
+    "id": "start_e30f8db5",
+    "source": "Be careful. It could be dangerous.",
+    "before": "Sei vorsichtig. Es könnte gefährlich sein.",
+    "after": "Sei vorsichtig. Es könnte gefährlich sein."
+  },
+  {
+    "id": "start_85ee6443",
+    "source": "Juno took my backpack with samples and told Pixie to take off. She decided to go back to where we were yesterday and stay in a safe place.",
+    "before": "Juno nahm meinen Rucksack mit den Proben und befahl Pixie abzuheben. Sie beschloss, dorthin zurückzukehren, wo wir gestern gewesen waren, und an einem sicheren Ort zu bleiben.",
+    "after": "Juno nahm meinen Rucksack mit den Proben und befahl Pixie abzuheben. Sie beschloss, dorthin zurückzukehren, wo wir gestern gewesen waren, und an einem sicheren Ort zu bleiben."
+  },
+  {
+    "id": "start_6c5ae4fb",
+    "source": "[pname], I...",
+    "before": "[pname], ich ...",
+    "after": "[pname], ich ..."
+  },
+  {
+    "id": "start_6ec36fb4",
+    "source": "[pname], I'm not a magician. Yes, I am a scientist, but this does not mean that I can do everything. It may not work out, and then we will need to figure out what to do. ",
+    "before": "[pname], ich bin keine Zauberin. Ja, ich bin Wissenschaftlerin, aber das heißt nicht, dass ich alles kann. Vielleicht klappt es nicht, und dann müssen wir überlegen, was wir tun.",
+    "after": "[pname], ich bin keine Zauberin. Ja, ich bin Wissenschaftlerin, aber das heißt nicht, dass ich alles kann. Vielleicht klappt es nicht, und dann müssen wir überlegen, was wir tun."
+  },
+  {
+    "id": "start_6163eefc",
+    "source": "Of course, [pname]. Go get some rest. Chat with Pixie.",
+    "before": "Natürlich, [pname]. Ruh dich aus. Unterhalte dich mit Pixie.",
+    "after": "Natürlich, [pname]. Ruh dich aus. Unterhalte dich mit Pixie."
+  },
+  {
+    "id": "start_d5de93a8",
+    "source": "For several hours, I restlessly roamed around the jet and tried to occupy myself with something, but to no avail. ",
+    "before": "Mehrere Stunden lief ich unruhig im Shuttle umher und versuchte, mich mit irgendetwas zu beschäftigen, aber ohne Erfolg.",
+    "after": "Mehrere Stunden lief ich unruhig im Shuttle umher und versuchte, mich mit irgendetwas zu beschäftigen, aber ohne Erfolg."
+  },
+  {
+    "id": "start_2217ec9b",
+    "source": "Something. Pixie, keep an eye on the lab.",
+    "before": "Einiges. Pixie, behalte das Labor im Auge.",
+    "after": "Einiges. Pixie, behalte das Labor im Auge."
+  },
+  {
+    "id": "start_d71ef47a",
+    "source": "Listen, [pname]. I don't want to scare you, but I think it's very serious.",
+    "before": "Hör zu, [pname]. Ich will dir keine Angst machen, aber ich glaube, es ist sehr ernst.",
+    "after": "Hör zu, [pname]. Ich will dir keine Angst machen, aber ich glaube, es ist sehr ernst."
+  },
+  {
+    "id": "start_4b02969f",
+    "source": "I'm going back to my ship. ",
+    "before": "Ich kehre auf mein Schiff zurück.",
+    "after": "Ich kehre auf mein Schiff zurück."
+  },
+  {
+    "id": "start_7bd6720b",
+    "source": "This jet is only part of the ship, the ship itself is waiting for me in orbit. There I have more devices, more tools, I can try to create a cure. ",
+    "before": "Dieses Shuttle ist nur ein Teil des Schiffs, das Schiff selbst wartet im Orbit auf mich. Dort habe ich mehr Geräte und Werkzeuge und kann versuchen, ein Heilmittel zu entwickeln.",
+    "after": "Dieses Shuttle ist nur ein Teil des Schiffs, das Schiff selbst wartet im Orbit auf mich. Dort habe ich mehr Geräte und Werkzeuge und kann versuchen, ein Heilmittel zu entwickeln."
+  },
+  {
+    "id": "start_a8d08602",
+    "source": "[pname], it can be very dangerous. What if you get infected? Or...",
+    "before": "[pname], das kann sehr gefährlich sein. Was, wenn du dich ansteckst? Oder ...",
+    "after": "[pname], das kann sehr gefährlich sein. Was, wenn du dich ansteckst? Oder ..."
+  },
+  {
+    "id": "start_89e46f8c",
+    "source": "If the virus is spreading so fast, then my village may be in danger. But this virus won't be able to get on your ship.",
+    "before": "Wenn sich das Virus so schnell ausbreitet, könnte mein Dorf in Gefahr sein. Aber auf dein Schiff kann dieses Virus nicht gelangen.",
+    "after": "Wenn sich das Virus so schnell ausbreitet, könnte mein Dorf in Gefahr sein. Aber auf dein Schiff kann dieses Virus nicht gelangen."
+  },
+  {
+    "id": "start_cf46f26d",
+    "source": "Fine. You're probably right. Pixie, let's go to the ship. We need to decide what to do with all this.",
+    "before": "Gut. Du hast wahrscheinlich recht. Pixie, bring uns zum Schiff. Wir müssen entscheiden, was wir mit all dem tun.",
+    "after": "Gut. Du hast wahrscheinlich recht. Pixie, bring uns zum Schiff. Wir müssen entscheiden, was wir mit all dem tun."
+  },
+  {
+    "id": "start_836dfa2b",
+    "source": "The jet shook, and soon we soared into the sky.",
+    "before": "Das Shuttle bebte, und bald stiegen wir in den Himmel auf.",
+    "after": "Das Shuttle bebte, und bald stiegen wir in den Himmel auf."
+  },
+  {
+    "id": "start_0b753fcf",
+    "source": "Juno's ship, hovering like Tilia in the sky, was much bigger than I thought. It was huge - I'd never seen anything like it before. ",
+    "before": "Junos Schiff, das wie Tilia am Himmel schwebte, war viel größer, als ich gedacht hatte. Es war riesig – ich hatte noch nie etwas Vergleichbares gesehen.",
+    "after": "Junos Schiff, das wie Tilia am Himmel schwebte, war viel größer, als ich gedacht hatte. Es war riesig – ich hatte noch nie etwas Vergleichbares gesehen."
+  },
+  {
+    "id": "start_2da8ae4c",
+    "source": "You're right, [pname]. We will work together. I... I promise that I will try to do everything in my power to help you and your planet. ",
+    "before": "Du hast recht, [pname]. Wir arbeiten zusammen. Ich ... ich verspreche dir, dass ich alles in meiner Macht Stehende versuchen werde, um dir und deinem Planeten zu helfen.",
+    "after": "Du hast recht, [pname]. Wir arbeiten zusammen. Ich ... ich verspreche dir, dass ich alles in meiner Macht Stehende versuchen werde, um dir und deinem Planeten zu helfen."
+  },
+  {
+    "id": "start_36058c0a",
+    "source": "I won’t give up, I'll do everything I can. {w}I give you my word.",
+    "before": "Ich gebe nicht auf, ich werde alles tun, was ich kann. {w}Das verspreche ich dir.",
+    "after": "Ich gebe nicht auf, ich werde alles tun, was ich kann. {w}Das verspreche ich dir."
+  },
+  {
+    "id": "start_a62d2e2b",
+    "source": "We were collecting samples - Juno had given me a huge strange suit that was a little too big for me, and didn't let me out of the jet without it.",
+    "before": "Wir sammelten Proben – Juno hatte mir einen riesigen seltsamen Anzug gegeben, der mir etwas zu groß war, und ließ mich ohne ihn nicht aus dem Shuttle.",
+    "after": "Wir sammelten Proben – Juno hatte mir einen riesigen seltsamen Anzug gegeben, der mir etwas zu groß war, und ließ mich ohne ihn nicht aus dem Shuttle."
+  },
+  {
+    "id": "start_19e87026",
+    "source": "A couple of times we barely escaped from the enraged fanggers who chased us all the way to the jet, until Juno pulled out a rifle and shot them.",
+    "before": "Ein paarmal entkamen wir nur knapp wütenden Reißzähnern, die uns bis zum Shuttle verfolgten, bis Juno ein Gewehr zog und sie erschoss.",
+    "after": "Ein paarmal entkamen wir nur knapp wütenden Reißzähnern, die uns bis zum Shuttle verfolgten, bis Juno ein Gewehr zog und sie erschoss."
+  },
+  {
+    "id": "start_1abfab80",
+    "source": "On the ship, I spent more and more time hanging around Juno in the lab, trying to learn something at least.",
+    "before": "Auf dem Schiff verbrachte ich immer mehr Zeit bei Juno im Labor und versuchte, wenigstens etwas zu lernen.",
+    "after": "Auf dem Schiff verbrachte ich immer mehr Zeit bei Juno im Labor und versuchte, wenigstens etwas zu lernen."
+  },
+  {
+    "id": "start_82fce081",
+    "source": "And I want to help you, you are a great human, [pname], and I am very glad that you have become my friend.",
+    "before": "Und ich will dir helfen. Du bist ein großartiger Mensch, [pname], und ich bin sehr froh, dass du mein Freund geworden bist.",
+    "after": "Und ich will dir helfen. Du bist ein großartiger Mensch, [pname], und ich bin sehr froh, dass du mein Freund geworden bist."
+  },
+  {
+    "id": "start_4b50c481",
+    "source": "Say what? What do you mean, [pname]?",
+    "before": "Wie bitte? Was meinst du damit, [pname]?",
+    "after": "Wie bitte? Was meinst du damit, [pname]?"
+  },
+  {
+    "id": "start_3a2e7bab",
+    "source": "[pname]... Are you... are you sure?",
+    "before": "[pname] ... Bist du ... bist du sicher?",
+    "after": "[pname] ... Bist du ... bist du sicher?"
+  },
+  {
+    "id": "start_c05e8ac2",
+    "source": "I've always been so afraid to get attached... especially after Toshi. But now... I don't know why, but I... I feel it for you, too, [pname]. ",
+    "before": "Ich hatte immer solche Angst, mich an jemanden zu binden ... besonders nach Toshi. Aber jetzt ... ich weiß nicht warum, aber ich ... ich empfinde auch so für dich, [pname].",
+    "after": "Ich hatte immer solche Angst, mich an jemanden zu binden ... besonders nach Toshi. Aber jetzt ... ich weiß nicht warum, aber ich ... ich empfinde auch so für dich, [pname]."
+  },
+  {
+    "id": "start_1cb74488",
+    "source": "It was just... {w}Wonderful...",
+    "before": "Es war einfach ... {w}wunderschön ...",
+    "after": "Es war einfach ... {w}wunderschön ..."
+  },
+  {
+    "id": "start_19945a20",
+    "source": "No, [pname]. Toshi and I were best friends.",
+    "before": "Nein, [pname]. Toshi und ich waren beste Freunde.",
+    "after": "Nein, [pname]. Toshi und ich waren beste Freunde."
+  },
+  {
+    "id": "start_1ec245b3",
+    "source": "Not really. {w}What do you mean by \"real\"?",
+    "before": "Nicht wirklich. {w}Was meinst du mit „echt“?",
+    "after": "Nicht wirklich. {w}Was meinst du mit „echt“?"
+  },
+  {
+    "id": "start_22f9b172",
+    "source": "Unable to restrain the tenderness in my chest, I took Juno's hand and pressed her palm to my lips. At that moment, Pixie came to life above the ceiling.",
+    "before": "Ich konnte die Zärtlichkeit in meiner Brust nicht zurückhalten, nahm Junos Hand und drückte ihre Handfläche an meine Lippen. In diesem Moment wurde Pixie über uns an der Decke lebendig.",
+    "after": "Ich konnte die Zärtlichkeit in meiner Brust nicht zurückhalten, nahm Junos Hand und drückte ihre Handfläche an meine Lippen. In diesem Moment wurde Pixie über uns an der Decke lebendig."
+  },
+  {
+    "id": "start_f66bb6fe",
+    "source": "Oh, right! The analysis! {w}Thanks, Pixie.",
+    "before": "Ach ja! Die Analyse! {w}Danke, Pixie.",
+    "after": "Ach ja! Die Analyse! {w}Danke, Pixie."
+  },
+  {
+    "id": "start_3c185e8d",
+    "source": "Wait, has Pixie seen us all this time?",
+    "before": "Warte, hat Pixie uns die ganze Zeit gesehen?",
+    "after": "Warte, hat Pixie uns die ganze Zeit gesehen?"
+  },
+  {
+    "id": "start_e876782b",
+    "source": "And... {w}We did it again.",
+    "before": "Und ... {w}Wir haben es wieder getan.",
+    "after": "Und ... {w}Wir haben es wieder getan."
+  },
+  {
+    "id": "start_30f032c0",
+    "source": "Our bodies were filled with drowsiness and fatigue. {w}Juno lay there for a while, trying to catch her breath. ",
+    "before": "Schläfrigkeit und Erschöpfung erfüllten unsere Körper. {w}Juno lag eine Weile da und versuchte, wieder zu Atem zu kommen.",
+    "after": "Schläfrigkeit und Erschöpfung erfüllten unsere Körper. {w}Juno lag eine Weile da und versuchte, wieder zu Atem zu kommen."
+  },
+  {
+    "id": "start_b37f00c2",
+    "source": "Really? {w}Phew... Well, great, I'm happy. And I will also be happy to do this again.",
+    "before": "Wirklich? {w}Puh ... Na, großartig, das freut mich. Und ich würde das auch gern wieder tun.",
+    "after": "Wirklich? {w}Puh ... Na, großartig, das freut mich. Und ich würde das auch gern wieder tun."
+  },
+  {
+    "id": "start_6651f069",
+    "source": "Juno spent more and more time in the laboratory, and we went down from the ship to earth less and less. ",
+    "before": "Juno verbrachte immer mehr Zeit im Labor, und wir flogen immer seltener vom Schiff zur Erde hinab.",
+    "after": "Juno verbrachte immer mehr Zeit im Labor, und wir flogen immer seltener vom Schiff zur Erde hinab."
+  },
+  {
+    "id": "start_d1d6ff34",
+    "source": "From the height of our jet, it was clearly visible how the virus was devouring forests.",
+    "before": "Aus der Höhe unseres Shuttles war deutlich zu sehen, wie das Virus die Wälder verschlang.",
+    "after": "Aus der Höhe unseres Shuttles war deutlich zu sehen, wie das Virus die Wälder verschlang."
+  },
+  {
+    "id": "start_8f36c8a8",
+    "source": "Sorry, [pname], but it seems to me that everything is much more serious than we thought.",
+    "before": "Tut mir leid, [pname], aber ich glaube, alles ist viel ernster, als wir dachten.",
+    "after": "Tut mir leid, [pname], aber ich glaube, alles ist viel ernster, als wir dachten."
+  },
+  {
+    "id": "start_0d4d35a0",
+    "source": "I'm not that powerful, [pname]. I may not succeed. And then I want you to...",
+    "before": "Ich bin nicht so mächtig, [pname]. Vielleicht schaffe ich es nicht. Und dann möchte ich, dass du ...",
+    "after": "Ich bin nicht so mächtig, [pname]. Vielleicht schaffe ich es nicht. Und dann möchte ich, dass du ..."
+  },
+  {
+    "id": "start_cd2fe863",
+    "source": "Backdoor-thing? {w}Yes, it's unusual, I like it too.",
+    "before": "Die Sache mit dem Hintereingang? {w}Ja, das ist ungewöhnlich, mir gefällt es auch.",
+    "after": "Die Sache mit dem Hintereingang? {w}Ja, das ist ungewöhnlich, mir gefällt es auch."
+  },
+  {
+    "id": "start_c451b1f5",
+    "source": "There isn't anything to be thankful for, [pname]. Thanks to you, I felt again how great it is to have someone around. ",
+    "before": "Du brauchst mir nicht zu danken, [pname]. Dank dir habe ich wieder gespürt, wie schön es ist, jemanden an seiner Seite zu haben.",
+    "after": "Du brauchst mir nicht zu danken, [pname]. Dank dir habe ich wieder gespürt, wie schön es ist, jemanden an seiner Seite zu haben."
+  },
+  {
+    "id": "start_4384b5ef",
+    "source": "What about Pixie?",
+    "before": "Und was ist mit Pixie?",
+    "after": "Und was ist mit Pixie?"
+  },
+  {
+    "id": "start_ba0c8889",
+    "source": "What about Pixie?",
+    "before": "Was ist mit Pixie?",
+    "after": "Was ist mit Pixie?"
+  },
+  {
+    "id": "start_ca41a267",
+    "source": "Pixie, of course, is my friend, but...",
+    "before": "Pixie ist natürlich mein Freund, aber ...",
+    "after": "Pixie ist natürlich mein Freund, aber ..."
+  },
+  {
+    "id": "start_883f332a",
+    "source": "Pixie's voice suddenly rang out. I almost jumped and immediately laughed out loud.",
+    "before": "Plötzlich ertönte Pixies Stimme. Ich zuckte beinahe zusammen und lachte sofort laut auf.",
+    "after": "Plötzlich ertönte Pixies Stimme. Ich zuckte beinahe zusammen und lachte sofort laut auf."
+  },
+  {
+    "id": "start_0b072141",
+    "source": "Excuse me, [pname], I have to know what's going on the ship.",
+    "before": "Entschuldige, [pname], ich muss wissen, was auf dem Schiff los ist.",
+    "after": "Entschuldige, [pname], ich muss wissen, was auf dem Schiff los ist."
+  },
+  {
+    "id": "start_31f0aa36",
+    "source": "You don't have to eavesdrop on our conversations, Pixie.",
+    "before": "Du musst unsere Gespräche nicht belauschen, Pixie.",
+    "after": "Du musst unsere Gespräche nicht belauschen, Pixie."
+  },
+  {
+    "id": "start_407b43c0",
+    "source": "Pixie responded positively.",
+    "before": "Pixie antwortete zustimmend.",
+    "after": "Pixie antwortete zustimmend."
+  },
+  {
+    "id": "start_c7a19bf9",
+    "source": "If not now, then it will be too late. I'm sorry to say this, [pname], but that's what I'm afraid of. That it will be too late.",
+    "before": "Wenn nicht jetzt, ist es zu spät. Es tut mir leid, das zu sagen, [pname], aber davor habe ich Angst. Dass es zu spät sein wird.",
+    "after": "Wenn nicht jetzt, ist es zu spät. Es tut mir leid, das zu sagen, [pname], aber davor habe ich Angst. Dass es zu spät sein wird."
+  },
+  {
+    "id": "start_8c5a4866",
+    "source": "[pname]... I want you so much...",
+    "before": "[pname] ... Ich will dich so sehr ...",
+    "after": "[pname] ... Ich will dich so sehr ..."
+  },
+  {
+    "id": "start_d2f78eb8",
+    "source": "Damn, [pname]... I definitely missed this while I was traveling in space...",
+    "before": "Verdammt, [pname] ... Das habe ich auf meinen Reisen durchs All wirklich vermisst ...",
+    "after": "Verdammt, [pname] ... Das habe ich auf meinen Reisen durchs All wirklich vermisst ..."
+  },
+  {
+    "id": "start_72e254fc",
+    "source": "I would stay for you, [pname].",
+    "before": "Für dich würde ich bleiben, [pname].",
+    "after": "Für dich würde ich bleiben, [pname]."
+  },
+  {
+    "id": "start_e7bdf2ca",
+    "source": "Hope you don't have to, [pname]. I'll try not to have to.",
+    "before": "Hoffentlich musst du das nicht, [pname]. Ich werde versuchen, es nicht so weit kommen zu lassen.",
+    "after": "Hoffentlich musst du das nicht, [pname]. Ich werde versuchen, es nicht so weit kommen zu lassen."
+  },
+  {
+    "id": "start_feb01a0c",
+    "source": "Do you mind if I take a jet and visit my village?",
+    "before": "Hast du etwas dagegen, wenn ich ein Shuttle nehme und mein Dorf besuche?",
+    "after": "Hast du etwas dagegen, wenn ich ein Shuttle nehme und mein Dorf besuche?"
+  },
+  {
+    "id": "start_adaf4e17",
+    "source": "[pname]!",
+    "before": "[pname]!",
+    "after": "[pname]!"
+  },
+  {
+    "id": "start_913bb94d",
+    "source": "I still didn't know how to fly a jet - for me, it was real magic. It was easier to learn to move objects with the power of thought. ",
+    "before": "Ich wusste noch immer nicht, wie man ein Shuttle flog – für mich war es echte Magie. Es war leichter zu lernen, Gegenstände mit Gedankenkraft zu bewegen.",
+    "after": "Ich wusste noch immer nicht, wie man ein Shuttle flog – für mich war es echte Magie. Es war leichter zu lernen, Gegenstände mit Gedankenkraft zu bewegen."
+  },
+  {
+    "id": "start_5186d4f8",
+    "source": "But, fortunately for me, Pixie, to whom I had managed to get used to and even become attached over the past few weeks, coped with this task perfectly.",
+    "before": "Aber zum Glück für mich meisterte Pixie, an den ich mich in den letzten Wochen gewöhnt und den ich sogar liebgewonnen hatte, diese Aufgabe vollkommen.",
+    "after": "Aber zum Glück für mich meisterte Pixie, an den ich mich in den letzten Wochen gewöhnt und den ich sogar liebgewonnen hatte, diese Aufgabe vollkommen."
+  },
+  {
+    "id": "start_c7a402b8",
+    "source": "As soon as we flew up to the river, on the bank of which I once met Juno, Pixie warned that it wasn't safe outside.",
+    "before": "Sobald wir den Fluss erreichten, an dessen Ufer ich einst Juno getroffen hatte, warnte Pixie, dass es draußen nicht sicher sei.",
+    "after": "Sobald wir den Fluss erreichten, an dessen Ufer ich einst Juno getroffen hatte, warnte Pixie, dass es draußen nicht sicher sei."
+  },
+  {
+    "id": "start_639e151c",
+    "source": "Please, [pname], put on the protective suit that Juno gave you. I'm afraid the virus infection rate in this area is very high.",
+    "before": "Bitte, [pname], zieh den Schutzanzug an, den Juno dir gegeben hat. Ich fürchte, die Virusinfektionsrate in diesem Gebiet ist sehr hoch.",
+    "after": "Bitte, [pname], zieh den Schutzanzug an, den Juno dir gegeben hat. Ich fürchte, die Virusinfektionsrate in diesem Gebiet ist sehr hoch."
+  },
+  {
+    "id": "start_3d91a830",
+    "source": "I obediently put on the suit, waiting with bated breath for the landing. The jet, to my surprise, flew almost all the way to the village, and didn't drop me off at the river.",
+    "before": "Gehorsam zog ich den Anzug an und wartete mit angehaltenem Atem auf die Landung. Zu meiner Überraschung flog das Shuttle fast bis zum Dorf und setzte mich nicht am Fluss ab.",
+    "after": "Gehorsam zog ich den Anzug an und wartete mit angehaltenem Atem auf die Landung. Zu meiner Überraschung flog das Shuttle fast bis zum Dorf und setzte mich nicht am Fluss ab."
+  },
+  {
+    "id": "start_39f2ee38",
+    "source": "[pname]?... Son, is that you?",
+    "before": "[pname]? ... Sohn, bist du das?",
+    "after": "[pname]? ... Sohn, bist du das?"
+  },
+  {
+    "id": "start_a49e0c16",
+    "source": "Dad was helping the survivors, so he immediately fell down... I couldn't do anything, [pname], anything...",
+    "before": "Papa hat den Überlebenden geholfen, und dann ist er sofort zusammengebrochen ... Ich konnte nichts tun, [pname], gar nichts ...",
+    "after": "Papa hat den Überlebenden geholfen, und dann ist er sofort zusammengebrochen ... Ich konnte nichts tun, [pname], gar nichts ..."
+  },
+  {
+    "id": "start_397545eb",
+    "source": "What are you saying, [pname]?..",
+    "before": "Was sagst du da, [pname]? ...",
+    "after": "Was sagst du da, [pname]? ..."
+  },
+  {
+    "id": "start_b57bc156",
+    "source": "Do you know when it all started, [pname]... ",
+    "before": "Weißt du, wann das alles angefangen hat, [pname] ...",
+    "after": "Weißt du, wann das alles angefangen hat, [pname] ..."
+  },
+  {
+    "id": "start_f501141b",
+    "source": "Somehow managing myself, I took a blanket and covered her body.",
+    "before": "Irgendwie riss ich mich zusammen, nahm eine Decke und bedeckte ihren Körper.",
+    "after": "Irgendwie riss ich mich zusammen, nahm eine Decke und bedeckte ihren Körper."
+  },
+  {
+    "id": "start_836c694c",
+    "source": "Sorry, Mom. I'm sorry it happened.",
+    "before": "Entschuldige, Mama. Es tut mir leid, dass es geschehen ist.",
+    "after": "Entschuldige, Mama. Es tut mir leid, dass es geschehen ist."
+  },
+  {
+    "id": "start_d1fc5d10",
+    "source": "Having said these words, I flew out of the house. And as soon as I was outside, I fell to my knees, right into the dirty ground, wet from the rain, and screamed with all my strength. ",
+    "before": "Nachdem ich diese Worte gesagt hatte, stürmte ich aus dem Haus. Und sobald ich draußen war, fiel ich direkt auf den schmutzigen, regennassen Boden und schrie aus voller Kehle.",
+    "after": "Nachdem ich diese Worte gesagt hatte, stürmte ich aus dem Haus. Und sobald ich draußen war, fiel ich direkt auf dem schmutzigen, regennassen Boden auf die Knie und schrie aus voller Kehle."
+  },
+  {
+    "id": "start_fd0041c7",
+    "source": "I screamed until I tore out my throat, I beat the ground with my fists. The world around me was breaking into pieces. Into small pieces.",
+    "before": "Ich schrie, bis meine Kehle wund war, und schlug mit den Fäusten auf den Boden. Die Welt um mich herum zerbrach. In kleine Stücke.",
+    "after": "Ich schrie, bis meine Kehle wund war, und schlug mit den Fäusten auf den Boden. Die Welt um mich herum zerbrach. In kleine Stücke."
+  },
+  {
+    "id": "start_53d69d90",
+    "source": "Only when I had no strength left, I went limp on the ground. I wanted to visit this place for the last time. ",
+    "before": "Erst als ich keine Kraft mehr hatte, sank ich schlaff zu Boden. Ich wollte diesen Ort ein letztes Mal besuchen.",
+    "after": "Erst als ich keine Kraft mehr hatte, sank ich schlaff zu Boden. Ich wollte diesen Ort ein letztes Mal besuchen."
+  },
+  {
+    "id": "start_9302b414",
+    "source": "Everything was lost. I had nothing left. Nothing but Juno. And as soon as her name flashed in my head, I jumped up from the ground and ran towards the jet. ",
+    "before": "Alles war verloren. Ich hatte nichts mehr. Nichts außer Juno. Und sobald ihr Name in meinem Kopf aufblitzte, sprang ich vom Boden auf und rannte zum Shuttle.",
+    "after": "Alles war verloren. Ich hatte nichts mehr. Nichts außer Juno. Und sobald ihr Name in meinem Kopf aufblitzte, sprang ich vom Boden auf und rannte zum Shuttle."
+  },
+  {
+    "id": "start_9ff40607",
+    "source": "Pixie greeted me and asked if everything was okay.",
+    "before": "Pixie begrüßte mich und fragte, ob alles in Ordnung sei.",
+    "after": "Pixie begrüßte mich und fragte, ob alles in Ordnung sei."
+  },
+  {
+    "id": "start_49a21696",
+    "source": "Your condition is unstable, [pname].",
+    "before": "Dein Zustand ist instabil, [pname].",
+    "after": "Dein Zustand ist instabil, [pname]."
+  },
+  {
+    "id": "start_0295634b",
+    "source": "Yes, [pname].",
+    "before": "Ja, [pname].",
+    "after": "Ja, [pname]."
+  },
+  {
+    "id": "start_66978299",
+    "source": "Once I was finally on the ship, I flew into Juno's lab.",
+    "before": "Als ich endlich auf dem Schiff war, stürmte ich in Junos Labor.",
+    "after": "Als ich endlich auf dem Schiff war, stürmte ich in Junos Labor."
+  },
+  {
+    "id": "start_ba9a009d",
+    "source": "Sorry, [pname]. I'm sorry about what happened.",
+    "before": "Es tut mir leid, [pname]. Es tut mir leid, was geschehen ist.",
+    "after": "Es tut mir leid, [pname]. Es tut mir leid, was geschehen ist."
+  },
+  {
+    "id": "start_8c97cc53",
+    "source": "[pname]... Oh, I'm so sorry, so sorry...",
+    "before": "[pname] ... Oh, es tut mir so leid, so leid ...",
+    "after": "[pname] ... Oh, es tut mir so leid, so leid ..."
+  },
+  {
+    "id": "start_72d231a7",
+    "source": "Are you crazy? [pname], I understand your pain, believe me, I understand what it's like to lose dear ones... ",
+    "before": "Bist du verrückt? [pname], ich verstehe deinen Schmerz, glaub mir, ich weiß, wie es ist, geliebte Menschen zu verlieren ...",
+    "after": "Bist du verrückt? [pname], ich verstehe deinen Schmerz, glaub mir, ich weiß, wie es ist, geliebte Menschen zu verlieren ..."
+  },
+  {
+    "id": "start_f1b3b5b5",
+    "source": "Pixie, take [pname] where he asks. To the anomaly.",
+    "before": "Pixie, bring [pname] dorthin, wo er hinwill. Zur Anomalie.",
+    "after": "Pixie, bring [pname] dorthin, wo er hinwill. Zur Anomalie."
+  },
+  {
+    "id": "start_fc9414c3",
+    "source": "Yes, Juno. [pname], proceed to the jet.",
+    "before": "Ja, Juno. [pname], begib dich zum Shuttle.",
+    "after": "Ja, Juno. [pname], begib dich zum Shuttle."
+  },
+  {
+    "id": "start_cced870b",
+    "source": "Juno didn't say anything, just turned away, not wanting to watch me walk towards the jet, as the doors closed behind me. ",
+    "before": "Juno sagte nichts, wandte sich nur ab, weil sie nicht zusehen wollte, wie ich zum Shuttle ging und die Türen sich hinter mir schlossen.",
+    "after": "Juno sagte nichts, wandte sich nur ab, weil sie nicht zusehen wollte, wie ich zum Shuttle ging und die Türen sich hinter mir schlossen."
+  },
+  {
+    "id": "start_9b53ac87",
+    "source": "Even if I die, even if it was the last thing I do in this life. When Pixie brought me to the indicated place, before leaving, I asked:",
+    "before": "Selbst wenn ich starb, selbst wenn es das Letzte war, was ich in diesem Leben tat. Als Pixie mich an den angegebenen Ort brachte, fragte ich vor dem Aussteigen:",
+    "after": "Selbst wenn ich starb, selbst wenn es das Letzte war, was ich in diesem Leben tat. Als Pixie mich an den angegebenen Ort brachte, fragte ich vor dem Aussteigen:"
+  },
+  {
+    "id": "start_19a19b9c",
+    "source": "Pixie, can you give Juno a message? In case, I don't come back.",
+    "before": "Pixie, kannst du Juno eine Nachricht ausrichten? Falls ich nicht zurückkomme.",
+    "after": "Pixie, kannst du Juno eine Nachricht ausrichten? Falls ich nicht zurückkomme."
+  },
+  {
+    "id": "start_6326678b",
+    "source": "Of course, [pname]. What should I tell her?",
+    "before": "Natürlich, [pname]. Was soll ich ihr sagen?",
+    "after": "Natürlich, [pname]. Was soll ich ihr sagen?"
+  },
+  {
+    "id": "start_31612253",
+    "source": "It will be done, [pname].",
+    "before": "Wird erledigt, [pname].",
+    "after": "Wird erledigt, [pname]."
+  },
+  {
+    "id": "start_74cc284b",
+    "source": "I smiled at Pixie, even though it couldn't see it.",
+    "before": "Ich lächelte Pixie an, obwohl er es nicht sehen konnte.",
+    "after": "Ich lächelte Pixie an, obwohl er es nicht sehen konnte."
+  },
+  {
+    "id": "start_5e8921dc",
+    "source": "Thank you, Pixie. You're a nice helper. Keep an eye on Juno.",
+    "before": "Danke, Pixie. Du bist ein guter Helfer. Pass auf Juno auf.",
+    "after": "Danke, Pixie. Du bist ein guter Helfer. Pass auf Juno auf."
+  },
+  {
+    "id": "start_21b41cb8",
+    "source": "Of course, [pname], but I still hope that you will come back.",
+    "before": "Natürlich, [pname], aber ich hoffe immer noch, dass du zurückkommst.",
+    "after": "Natürlich, [pname], aber ich hoffe immer noch, dass du zurückkommst."
+  },
+  {
+    "id": "start_346451fe",
+    "source": "Maybe it would have been better if I had just stayed on the ship with her, tried to find the cure, thought out a plan, and then went to take revenge, but... it didn't matter now. ",
+    "before": "Vielleicht wäre es besser gewesen, einfach bei ihr auf dem Schiff zu bleiben, das Heilmittel zu suchen, einen Plan auszudenken und dann Rache zu nehmen, aber ... jetzt spielte es keine Rolle mehr.",
+    "after": "Vielleicht wäre es besser gewesen, einfach bei ihr auf dem Schiff zu bleiben, das Heilmittel zu suchen, einen Plan auszudenken und dann Rache zu nehmen, aber ... jetzt spielte es keine Rolle mehr."
+  },
+  {
+    "id": "start_0b130e0a",
+    "source": "Somehow I got up and went in search of Juno. It was her ship - I wouldn't have confused it with anything else.",
+    "before": "Irgendwie stand ich auf und machte mich auf die Suche nach Juno. Es war ihr Schiff – ich hätte es mit nichts anderem verwechselt.",
+    "after": "Irgendwie stand ich auf und machte mich auf die Suche nach Juno. Es war ihr Schiff – ich hätte es mit nichts anderem verwechselt."
+  },
+  {
+    "id": "start_a0f80c42",
+    "source": "[pname]...",
+    "before": "[pname] ...",
+    "after": "[pname] ..."
+  },
+  {
+    "id": "start_ff5d3f09",
+    "source": "How glad I am... [pname]...",
+    "before": "Wie froh ich bin ... [pname] ...",
+    "after": "Wie froh ich bin ... [pname] ..."
+  },
+  {
+    "id": "start_507c274f",
+    "source": "A month. {w}Sorry, [pname].",
+    "before": "Einen Monat. {w}Tut mir leid, [pname].",
+    "after": "Einen Monat. {w}Tut mir leid, [pname]."
+  },
+  {
+    "id": "start_89cefc9d",
+    "source": "I'm so sorry, [pname], I... I've been working all month, trying to do everything in my power, I haven't left your side...",
+    "before": "Es tut mir so leid, [pname], ich ... Ich habe den ganzen Monat gearbeitet und versucht, alles in meiner Macht Stehende zu tun. Ich bin nicht von deiner Seite gewichen ...",
+    "after": "Es tut mir so leid, [pname], ich ... Ich habe den ganzen Monat gearbeitet und versucht, alles in meiner Macht Stehende zu tun. Ich bin nicht von deiner Seite gewichen ..."
+  },
+  {
+    "id": "start_5ef98200",
+    "source": "What is your fault, [pname]?",
+    "before": "Was ist denn deine Schuld, [pname]?",
+    "after": "Was ist denn deine Schuld, [pname]?"
+  },
+  {
+    "id": "start_a0e2c5c6",
+    "source": "It would have gotten to you anyway, [pname]. While I was synthesizing the cure, I learned something about the anomaly. ",
+    "before": "Es hätte dich ohnehin erreicht, [pname]. Während ich das Heilmittel synthetisierte, habe ich etwas über die Anomalie erfahren.",
+    "after": "Es hätte dich ohnehin erreicht, [pname]. Während ich das Heilmittel synthetisierte, habe ich etwas über die Anomalie erfahren."
+  },
+  {
+    "id": "start_c77b41ff",
+    "source": "You couldn't stop it, [pname]. Believe me, it was impossible. It would have happened anyway, but you would have died too if you had stayed in your village. ",
+    "before": "Du hättest es nicht aufhalten können, [pname]. Glaub mir, das war unmöglich. Es wäre ohnehin geschehen, aber du wärst auch gestorben, wenn du in deinem Dorf geblieben wärst.",
+    "after": "Du hättest es nicht aufhalten können, [pname]. Glaub mir, das war unmöglich. Es wäre ohnehin geschehen, aber du wärst auch gestorben, wenn du in deinem Dorf geblieben wärst."
+  },
+  {
+    "id": "start_9a63ffa5",
+    "source": "Don't know. Sorry, but your planet... No one survived. The last time I was there, the whole area was infected. I'm sorry, [pname]. You're the only survivor.",
+    "before": "Ich weiß es nicht. Es tut mir leid, aber dein Planet ... Niemand hat überlebt. Als ich zuletzt dort war, war das ganze Gebiet infiziert. Es tut mir leid, [pname]. Du bist der einzige Überlebende.",
+    "after": "Ich weiß es nicht. Es tut mir leid, aber dein Planet ... Niemand hat überlebt. Als ich zuletzt dort war, war das ganze Gebiet infiziert. Es tut mir leid, [pname]. Du bist der einzige Überlebende."
+  },
+  {
+    "id": "start_27e385ac",
+    "source": "I promise I will avenge your planet, [pname]. No matter what it costs me... I will do everything, but I will take revenge on those who did this to your house.",
+    "before": "Ich verspreche dir, dass ich deinen Planeten rächen werde, [pname]. Ganz gleich, was es mich kostet ... Ich werde alles tun, aber ich werde mich an denen rächen, die das deinem Zuhause angetan haben.",
+    "after": "Ich verspreche dir, dass ich deinen Planeten rächen werde, [pname]. Ganz gleich, was es mich kostet ... Ich werde alles tun, aber ich werde mich an denen rächen, die das deinem Zuhause angetan haben."
+  },
+  {
+    "id": "start_796bf47b",
+    "source": "Of course, [pname].",
+    "before": "Natürlich, [pname].",
+    "after": "Natürlich, [pname]."
+  },
+  {
+    "id": "start_e49c6ded",
+    "source": "We watched the fragments of the planet fly through space as the ship sailed further into the darkness.",
+    "before": "Wir sahen zu, wie die Bruchstücke des Planeten durchs All flogen, während das Schiff weiter in die Dunkelheit segelte.",
+    "after": "Wir sahen zu, wie die Bruchstücke des Planeten durchs All flogen, während das Schiff weiter in die Dunkelheit segelte."
+  },
+  {
+    "id": "start_f822e506",
+    "source": "{cps=5}...{/cps}",
+    "before": "{cps=5}...{/cps}",
+    "after": "{cps=5}...{/cps}"
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "scope": "Correction wording and direct edition bindings; mechanical checks do not establish semantic independence or runtime.",
+  "inputs_sha256": {
+    "localization/ko/dialogue.tsv": "e34ea743ba7d2180473776ea8cdf79a889a1d55cce8a69fe65d4a58e318d7b94",
+    "localization/ko/nsfw/dialogue.tsv": "48bf5342a8393e55d44ff531287445e2715af5e55fd5b7dcbaafee8d0fcbd4fd",
+    "localization/ko/nsfw/strings.json": "c97325e9fb310c2c0dff290fd9295ff18e5065412891570376c8c6034db0e0b1",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/renpy-dialogue.tab": "74ff2174cd5eb7515bbb5bc2ae8ce82dc672f80bf16909f57af23432fe29ab93",
+    "localization/nsfw-story-aliases.json": "6b020423fc1c45e678c6c8ef6914161ed2978864f91c805d3c0d286c084b8f7c",
+    "text-assets/inventory.json": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/inventory.json": "b0feab1e5d5dfa697bbeee0a98a8dc310edd30ce6acc908aee8e776b5f0aa2ea"
+  },
+  "checks": [
+    "For every correction in semantic-batch-turn-*.json, compare its recorded after text with the current authored row (the two turn-033 sentence edits are checked as substrings), and find its stable ID in the DLC tab.",
+    "Enumerate localization/nsfw-story-aliases.json; assert every alias target is in base dialogue and no alias is separately authored in DLC dialogue.",
+    "Run PYTHONPATH=tools edition_text with base and DLC inventory and localization/ko, draft=False."
+  ],
+  "corrections": [
+    {
+      "id": "start_2e9aaa9a",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-016.json"
+    },
+    {
+      "id": "start_57e49fb0",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-018.json"
+    },
+    {
+      "id": "start_2f678da3",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-018.json"
+    },
+    {
+      "id": "start_92240d5b",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-019.json"
+    },
+    {
+      "id": "start_aaf3cc89",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-019.json"
+    },
+    {
+      "id": "start_976b6126",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-020.json"
+    },
+    {
+      "id": "start_594712ec",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-021.json"
+    },
+    {
+      "id": "start_b808c3d7",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-023.json"
+    },
+    {
+      "id": "start_f1463985",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-023.json"
+    },
+    {
+      "id": "start_c05ca554",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-023.json"
+    },
+    {
+      "id": "start_5837447e",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-024.json"
+    },
+    {
+      "id": "start_de721b37",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-025.json"
+    },
+    {
+      "id": "start_15648cf8",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-025.json"
+    },
+    {
+      "id": "start_7f82a60f",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-026.json"
+    },
+    {
+      "id": "start_f1e6087c",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-026.json"
+    },
+    {
+      "id": "start_0b072141",
+      "authored": "base",
+      "dlc_binding": "shared ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-027.json"
+    },
+    {
+      "id": "start_ad2e3039",
+      "authored": "DLC",
+      "dlc_binding": "DLC authored ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-033.json"
+    },
+    {
+      "id": "start_07839bcc",
+      "authored": "DLC",
+      "dlc_binding": "DLC authored ID",
+      "aliases": [],
+      "batch": "localization/ko/semantic-batch-turn-033.json"
+    }
+  ],
+  "alias_count": 17,
+  "unresolved": [
+    "DLC start_75bdc594 names Katie; approved glossary has an unnamed girl and no Katie entry; relationship is not established. Preserve 케이티 and flag for coordinator.",
+    "DLC start_5c6117e8 is bound to player speaker p while text addresses [pname]; preserve shipped binding pending source-owner decision."
+  ],
+  "independent_review": "pending",
+  "reinsertion_and_runtime": "unverified"
+}

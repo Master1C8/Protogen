@@ -1,0 +1,15 @@
+{
+  "review": "author semantic comparison, DLC explicitly authored story source order indices 55 through 174",
+  "findings": [
+    {
+      "id": "start_a51a89e6",
+      "before": "Έπιασα το καβλί μου στη βάση και άρχισα αργά, προσεκτικά να βυθίζομαι στο σώμα της, σπιθαμή προς σπιθαμή, σπρώχνοντάς το μέσα της.",
+      "after": "Έπιασα το καβλί μου στη βάση και άρχισα αργά, προσεκτικά να βυθίζομαι στο σώμα της, εκατοστό προς εκατοστό, σπρώχνοντάς το μέσα της.",
+      "reason": "Use a small incremental distance consistent with the source; a handspan is much larger than an inch."
+    }
+  ],
+  "pending": [
+    "DLC start_5c6117e8 is tagged with the protagonist speaker despite addressing him; preserve the source binding pending review.",
+    "DLC start_75bdc594 names Katie (Κέιτι); preserve the source despite possible continuity tension."
+  ]
+}

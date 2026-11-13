@@ -1,0 +1,7 @@
+# Ukrainian author comparison batch 014
+
+2026-11-13. Compared all 238 explicitly authored DLC story IDs in source order, from `start_f8b7e1b5` through `start_4cfbe8d2`, and the DLC UI key `Gallery`. Exact reviewed IDs/keys are in `semantic-coverage.json`; 17 aliases are resolved through their base originals and were not authored twice. Changed `start_2af0850e` from “дуже сподобалося” to “цілком сподобалося” to match the source qualifier and the corresponding base wording.
+
+Reviewed surrounding source for the two existing unresolved issues: `start_5c6117e8` uses speaker `p` while addressing `[pname]`, with neighboring narration describing Juno's vocalizations; `start_75bdc594` mentions Katie despite the earlier girl's absent name and no roster entry. The Ukrainian preserves source binding and name; neither discrepancy is silently resolved. Full timed-scene contextual audit remains pending.
+
+Strict `build_localization.edition_text(..., False)` passed after editing: 1785/1785 base story, 394/394 base UI, 255/255 DLC delta including 17 aliases and 1/1 DLC UI. It does not establish semantic acceptance or rendering. DLC dialogue SHA-256 `f403fa189e70fbcae51dbb98c4bc68e0aeb1213961e15d7799bef09ec79d6ff3`; coverage SHA-256 `2cf78c39b4f0554b1a6d91e9c6aa5ac5153c74e32b7c2057cefb461291a3d5b4`. Reproducible dependency binding is in `semantic-dependencies.md`. Independent review and runtime/visual verification remain pending.

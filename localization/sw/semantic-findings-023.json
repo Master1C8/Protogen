@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_b23c96f9",
+    "before": "Alichuchumaa kuchunguza mchanga na miamba huku mimi nikizunguka karibu, nikikodolea macho kwa sababu ya miale inayopofusha.",
+    "after": "Alichuchumaa kuchunguza mchanga na miamba huku mimi nikizunguka karibu, nikikaza macho kwa sababu ya miale inayopofusha.",
+    "reason": "Preserve squinting against the bright rays rather than staring."
+  },
+  {
+    "id": "start_618deca0",
+    "before": "Kama ilivyobainika, Juno hakuweza kuvumilia joto kali. Na mimi, naam, kulikuwa na maana gani kulificha.",
+    "after": "Kama ilivyobainika, Juno hakuweza kuvumilia joto kali. Nami pia, naam, kuna haja gani ya kuficha hilo.",
+    "reason": "Make the narrator’s shared inability to tolerate the heat clear."
+  },
+  {
+    "id": "start_d6fa675a",
+    "before": "Huna marafiki kwa sababu humwamini Mama wa Mbingu na Lit?",
+    "after": "Huna marafiki kwa sababu huwaamini Mama wa Mbingu na Lit?",
+    "reason": "Use plural object agreement for both named figures."
+  }
+]

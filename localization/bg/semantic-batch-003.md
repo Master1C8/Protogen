@@ -1,0 +1,9 @@
+# Bulgarian author semantic review: batch 003
+
+2026-11-13. Compared 250 base story units in source order, `start_18c535eb` through `start_139e5576`, covering Juno's introduction, the guide agreement, Pixie and the river crossing. Exact reviewed IDs: `semantic-batch-003-ids.txt`, 250 newline-terminated lines, SHA-256 `c24b4aba9efc688292e4ab74284ee59de02f1d557ef022418378bc6034d22f63`. Reviewed meaning, scene context, voice, character and glossary references and inline syntax. This is author review, not independent review.
+
+Corrections:
+- `start_4237a182`: `Не знам, харесва ми. Тя ми е най-добрата приятелка.` → `Не знам, харесва ми. Това е най-добрият ми приятел.` The former introduces a feminine friend where the source is ambiguous between the shuttle and the AI; the latter preserves that ambiguity and the AI's later masculine references. Re-read adjacent `start_8cbf3ac0`, `start_56d3b845`, `start_4881db66`, `start_259c38d4` and the AI introduction in the present batch. Include the Pixie referent and relevant shared edition mappings in the eventual correction closure.
+- `start_fe1b972a`: changed `в утробата на митичен звяр` to `вътре в митичен звяр`; English says inside the beast without identifying a womb. The rest of the unit is unchanged. Include the containing exchange in the closure.
+
+Source inventory `8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff`; Bulgarian glossary layer `fa06015f68057ec3d9d3c1cd1c40349237af14998f8ac3ca1d636cc3619c58ff`; before dialogue `999556efb966569a83325044f4360b3788817007cbed9cb0adbc6de597288dfe`, after `a521bccf47c56e22f3758b4f486df3e7cfde8765dbed4c43218d4d1bce6d13a6`. Only these two story rows changed; prior reviewed rows are outside their concrete context and retain their evidence. Strict edition text validation passed after correction. Final dependency closure and independent diff review remain pending; these notes are not a substitute for either.

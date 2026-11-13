@@ -1,0 +1,1870 @@
+{
+  "scope": "Author corrections from semantic-findings-017 through 035, including every shared or aliased edition occurrence and immediate source-order neighbors. This supports review; it is not independent acceptance.",
+  "reproduction": "Read each findings file in numeric order (finding or findings); match corrected IDs against each edition source and DLC aliases; for each occurrence capture the preceding, current and following identified source rows, resolving Greek DLC aliases to their base ID. Verify input hashes and each final after value before using.",
+  "input_sha256": {
+    "text-assets/renpy-dialogue.tab": "4ba57708ea623be3177c60680b318461469741b1109e7874d8e4c3131e007ad5",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/renpy-dialogue.tab": "74ff2174cd5eb7515bbb5bc2ae8ce82dc672f80bf16909f57af23432fe29ab93",
+    "localization/nsfw-story-aliases.json": "6b020423fc1c45e678c6c8ef6914161ed2978864f91c805d3c0d286c084b8f7c",
+    "localization/el/dialogue.tsv": "062aedaa78d81baafe6831549f62f7ff6a276a6eafe481e1b4da41cf149376cf",
+    "localization/el/strings.json": "31dfd259d44b769a9b725bfe55407db146eea40e26286b4d16f965395472a527",
+    "localization/el/nsfw/dialogue.tsv": "652be93c38403fac769e0f102acac8a0c972d022468fcb3bdd0027ff6e4683a2",
+    "localization/el/nsfw/strings.json": "199a6cd7b00c00398e4b09fbc14d22ece1c16427b646cf7335bee490a41b0882",
+    "localization/el/semantic-coverage.json": "b8428c80fefc6772dcc1c7c550e1c8d7131cbd01852f68748b728298baff7381",
+    "localization/el/semantic-findings-017.json": "e1ba9b8cda30f8323bcd8b05a1a62a7f4b3ecbb3dd1bbd93817069225a9e29c9",
+    "localization/el/semantic-findings-018.json": "e617214768efd3b3fcda5c199b64f7b6056363399b445eb8e454047d683a87ae",
+    "localization/el/semantic-findings-019.json": "69cc7a707a3e716c85cff1b8a6391aa0969ff3c18006502aeac8178964c88c76",
+    "localization/el/semantic-findings-020.json": "52595545e74e1ccda94b86f8913be198218cb094305c406f52be62d8b9556ea8",
+    "localization/el/semantic-findings-021.json": "369a3f0bd6d600cb8b4771d481634fda8e62b969d3361b20422b63876b217e5a",
+    "localization/el/semantic-findings-022.json": "3802cabfb414c555268f3b38fd310aca5d2fe794a471379e3afac35f4f9eaaf3",
+    "localization/el/semantic-findings-023.json": "e45acef8ef09232241f9323ba6eb84c6a0fd6946ec877068df29691f52ea9d38",
+    "localization/el/semantic-findings-024.json": "2ffe29a034cf09ae88e6db9ab4c3019c39b5a636944931b650a90765a67cc4f3",
+    "localization/el/semantic-findings-025.json": "350ed37370fd2e6a467f8e2238c047c462f8a09a028d0825d022678bdf9f385d",
+    "localization/el/semantic-findings-026.json": "77fd329deaefca7234b067f7a7fc38ec63ab0c6a621c42f1e7d4513c3d080d40",
+    "localization/el/semantic-findings-027.json": "fe77d206924c4acb8ca3eb76aa1006ca33db835bcd2507113505f0fb991b2aca",
+    "localization/el/semantic-findings-028.json": "1c4d14394399b2b66f26c7643f7a5debb4c6b3de78ce6336e9751be362d5070f",
+    "localization/el/semantic-findings-029.json": "2922bfa08aa28447546ecfef7e181d59ca764e576e48e77e000235a714d89901",
+    "localization/el/semantic-findings-030.json": "6e3ead9c96ebf0f796b123334e5cd279a02907b2e005138ea4579a9a70514b4a",
+    "localization/el/semantic-findings-031.json": "40d45ee7f606b516206040bb730d775b6b8db650e3a080dd73abcb853c324da7",
+    "localization/el/semantic-findings-032.json": "cb1ab563b0b2810db8ee8a234729e014e9def65f8a09437875651cc027dcd8ce",
+    "localization/el/semantic-findings-033.json": "d4633df2acb01b6abb2c85f8ac16bc2e50acf4d848588ff7a4c827a1738fb30f",
+    "localization/el/semantic-findings-034.json": "bf6541b0c40b769585fbd26c75c0365bd165d8e47ddd0882da2d48f6231556b4",
+    "localization/el/semantic-findings-035.json": "6e354d2d1130192f29a81d1a91762db6dec2229ffd640f069f1e21f4c076c30c"
+  },
+  "corrections": [
+    {
+      "id": "start_105f5eeb",
+      "file": "localization/el/semantic-findings-017.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_105f5eeb",
+          "source_index": 3,
+          "context": [
+            {
+              "id": "start_0b79856a",
+              "speaker": "z",
+              "english": "Good morning, [pname], you're already awake! ",
+              "greek": "Καλημέρα, [pname], ξύπνησες κιόλας!",
+              "binding": "start_0b79856a"
+            },
+            {
+              "id": "start_105f5eeb",
+              "speaker": "z",
+              "english": "Rise and shine, son, you have a lot of work today!",
+              "greek": "Σήκω, γιε μου, ξεκίνα τη μέρα σου, σήμερα έχεις πολλή δουλειά!",
+              "binding": "start_105f5eeb"
+            },
+            {
+              "id": "start_2a8cfefd",
+              "speaker": "",
+              "english": "Dad, too cheerful for a man who got up with the sunrise, opened the curtains that serve as a door to my room, and stepped right up to my bed. ",
+              "greek": "Ο μπαμπάς, υπερβολικά κεφάτος για κάποιον που είχε σηκωθεί με την ανατολή, άνοιξε την κουρτίνα που χρησίμευε ως πόρτα στο δωμάτιό μου και ήρθε κατευθείαν στο κρεβάτι μου.",
+              "binding": "start_2a8cfefd"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_105f5eeb",
+          "source_index": 4,
+          "context": [
+            {
+              "id": "start_0b79856a",
+              "speaker": "z",
+              "english": "Good morning, [pname], you're already awake! ",
+              "greek": "Καλημέρα, [pname], ξύπνησες κιόλας!",
+              "binding": "start_0b79856a"
+            },
+            {
+              "id": "start_105f5eeb",
+              "speaker": "z",
+              "english": "Rise and shine, son, you have a lot of work today!",
+              "greek": "Σήκω, γιε μου, ξεκίνα τη μέρα σου, σήμερα έχεις πολλή δουλειά!",
+              "binding": "start_105f5eeb"
+            },
+            {
+              "id": "start_2a8cfefd",
+              "speaker": "",
+              "english": "Dad, too cheerful for a man who got up with the sunrise, opened the curtains that serve as a door to my room, and stepped right up to my bed. ",
+              "greek": "Ο μπαμπάς, υπερβολικά κεφάτος για κάποιον που είχε σηκωθεί με την ανατολή, άνοιξε την κουρτίνα που χρησίμευε ως πόρτα στο δωμάτιό μου και ήρθε κατευθείαν στο κρεβάτι μου.",
+              "binding": "start_2a8cfefd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_aaf96dfd",
+      "file": "localization/el/semantic-findings-018.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_aaf96dfd",
+          "source_index": 122,
+          "context": [
+            {
+              "id": "start_84561163",
+              "speaker": "",
+              "english": "And every time it turned into some kind of farce: a parade of fake smiles and attempts to please. I saw that I was of interest to them not as a person, but as a Savior. ",
+              "greek": "Και κάθε φορά κατέληγε σε φάρσα: μια παρέλαση από ψεύτικα χαμόγελα και προσπάθειες να με ευχαριστήσουν. Έβλεπα πως δεν τις ενδιέφερα ως άνθρωπος, αλλά ως Σωτήρας.",
+              "binding": "start_84561163"
+            },
+            {
+              "id": "start_aaf96dfd",
+              "speaker": "",
+              "english": "And it was very insulting, because I wasn't a freak whose entire personality revolved around being chosen, with nothing else behind his soul.",
+              "greek": "Κι αυτό με πλήγωνε πολύ, γιατί δεν ήμουν κανένα φρικιό που όλη του η προσωπικότητα περιστρεφόταν γύρω από το ότι ήταν εκλεκτός, χωρίς τίποτε άλλο μέσα του.",
+              "binding": "start_aaf96dfd"
+            },
+            {
+              "id": "start_45cc12da",
+              "speaker": "",
+              "english": "I tried to be interesting. I was always able to keep up a conversation. ",
+              "greek": "Προσπαθούσα να είμαι ενδιαφέρων. Μπορούσα πάντα να κρατήσω μια συζήτηση.",
+              "binding": "start_45cc12da"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_aaf96dfd",
+          "source_index": 123,
+          "context": [
+            {
+              "id": "start_84561163",
+              "speaker": "",
+              "english": "And every time it turned into some kind of farce: a parade of fake smiles and attempts to please. I saw that I was of interest to them not as a person, but as a Savior. ",
+              "greek": "Και κάθε φορά κατέληγε σε φάρσα: μια παρέλαση από ψεύτικα χαμόγελα και προσπάθειες να με ευχαριστήσουν. Έβλεπα πως δεν τις ενδιέφερα ως άνθρωπος, αλλά ως Σωτήρας.",
+              "binding": "start_84561163"
+            },
+            {
+              "id": "start_aaf96dfd",
+              "speaker": "",
+              "english": "And it was very insulting, because I wasn't a freak whose entire personality revolved around being chosen, with nothing else behind his soul.",
+              "greek": "Κι αυτό με πλήγωνε πολύ, γιατί δεν ήμουν κανένα φρικιό που όλη του η προσωπικότητα περιστρεφόταν γύρω από το ότι ήταν εκλεκτός, χωρίς τίποτε άλλο μέσα του.",
+              "binding": "start_aaf96dfd"
+            },
+            {
+              "id": "start_45cc12da",
+              "speaker": "",
+              "english": "I tried to be interesting. I was always able to keep up a conversation. ",
+              "greek": "Προσπαθούσα να είμαι ενδιαφέρων. Μπορούσα πάντα να κρατήσω μια συζήτηση.",
+              "binding": "start_45cc12da"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_6818c4a5",
+      "file": "localization/el/semantic-findings-018.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_6818c4a5",
+          "source_index": 137,
+          "context": [
+            {
+              "id": "start_c4679e49",
+              "speaker": "",
+              "english": "But that girl really didn't want to go anywhere with me, no matter how sad I was to admit it.",
+              "greek": "Όμως εκείνη η κοπέλα πραγματικά δεν ήθελε να πάει πουθενά μαζί μου, όσο κι αν με στενοχωρούσε να το παραδεχτώ.",
+              "binding": "start_c4679e49"
+            },
+            {
+              "id": "start_6818c4a5",
+              "speaker": "",
+              "english": "But, under the pressure of a small crowd, which began to shame her for her ignorance, almost with tears in her eyes, she agreed. ",
+              "greek": "Αλλά κάτω από την πίεση ενός μικρού πλήθους, που άρχισε να τη ντροπιάζει για την άγνοιά της, δέχτηκε με τα μάτια σχεδόν γεμάτα δάκρυα.",
+              "binding": "start_6818c4a5"
+            },
+            {
+              "id": "start_5a1616c6",
+              "speaker": "",
+              "english": "It was at this moment I realized that I would definitely not invite girls anywhere else - in order to spare them from any public judgment they might receive by simply interacting with me.",
+              "greek": "Εκείνη ακριβώς τη στιγμή κατάλαβα πως δεν θα ξανακαλούσα κοπέλες πουθενά, για να τις γλιτώσω από την κατακραυγή που θα μπορούσαν να δεχτούν απλώς και μόνο επειδή συναναστράφηκαν μαζί μου.",
+              "binding": "start_5a1616c6"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_6818c4a5",
+          "source_index": 138,
+          "context": [
+            {
+              "id": "start_c4679e49",
+              "speaker": "",
+              "english": "But that girl really didn't want to go anywhere with me, no matter how sad I was to admit it.",
+              "greek": "Όμως εκείνη η κοπέλα πραγματικά δεν ήθελε να πάει πουθενά μαζί μου, όσο κι αν με στενοχωρούσε να το παραδεχτώ.",
+              "binding": "start_c4679e49"
+            },
+            {
+              "id": "start_6818c4a5",
+              "speaker": "",
+              "english": "But, under the pressure of a small crowd, which began to shame her for her ignorance, almost with tears in her eyes, she agreed. ",
+              "greek": "Αλλά κάτω από την πίεση ενός μικρού πλήθους, που άρχισε να τη ντροπιάζει για την άγνοιά της, δέχτηκε με τα μάτια σχεδόν γεμάτα δάκρυα.",
+              "binding": "start_6818c4a5"
+            },
+            {
+              "id": "start_5a1616c6",
+              "speaker": "",
+              "english": "It was at this moment I realized that I would definitely not invite girls anywhere else - in order to spare them from any public judgment they might receive by simply interacting with me.",
+              "greek": "Εκείνη ακριβώς τη στιγμή κατάλαβα πως δεν θα ξανακαλούσα κοπέλες πουθενά, για να τις γλιτώσω από την κατακραυγή που θα μπορούσαν να δεχτούν απλώς και μόνο επειδή συναναστράφηκαν μαζί μου.",
+              "binding": "start_5a1616c6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_406e4ab5",
+      "file": "localization/el/semantic-findings-018.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_406e4ab5",
+          "source_index": 190,
+          "context": [
+            {
+              "id": "start_1fb71b2b",
+              "speaker": "",
+              "english": "I got up and looked around the crowd. My fingers were clutching a glass of wine. I tried to remember my speech.",
+              "greek": "Σηκώθηκα και κοίταξα γύρω μου το πλήθος. Τα δάχτυλά μου έσφιγγαν ένα ποτήρι κρασί. Προσπάθησα να θυμηθώ τον λόγο μου.",
+              "binding": "start_1fb71b2b"
+            },
+            {
+              "id": "start_406e4ab5",
+              "speaker": "p",
+              "english": "Thanks to everyone who came today to celebrate my birthday. It is a great honor for me to see your joyful faces. ",
+              "greek": "Ευχαριστώ όλους εσάς που ήρθατε σήμερα να γιορτάσετε τα γενέθλιά μου. Είναι μεγάλη τιμή για μένα να βλέπω τα χαρούμενα πρόσωπά σας.",
+              "binding": "start_406e4ab5"
+            },
+            {
+              "id": "start_71012c2e",
+              "speaker": "p",
+              "english": "I have turned twenty years old, and this means that I have ceased to be a child, that I have grown into an adult with a whole life ahead of me.",
+              "greek": "Έκλεισα τα είκοσι, κι αυτό σημαίνει πως έπαψα να είμαι παιδί, πως μεγάλωσα κι έγινα ενήλικος με μια ολόκληρη ζωή μπροστά μου.",
+              "binding": "start_71012c2e"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_406e4ab5",
+          "source_index": 191,
+          "context": [
+            {
+              "id": "start_1fb71b2b",
+              "speaker": "",
+              "english": "I got up and looked around the crowd. My fingers were clutching a glass of wine. I tried to remember my speech.",
+              "greek": "Σηκώθηκα και κοίταξα γύρω μου το πλήθος. Τα δάχτυλά μου έσφιγγαν ένα ποτήρι κρασί. Προσπάθησα να θυμηθώ τον λόγο μου.",
+              "binding": "start_1fb71b2b"
+            },
+            {
+              "id": "start_406e4ab5",
+              "speaker": "p",
+              "english": "Thanks to everyone who came today to celebrate my birthday. It is a great honor for me to see your joyful faces. ",
+              "greek": "Ευχαριστώ όλους εσάς που ήρθατε σήμερα να γιορτάσετε τα γενέθλιά μου. Είναι μεγάλη τιμή για μένα να βλέπω τα χαρούμενα πρόσωπά σας.",
+              "binding": "start_406e4ab5"
+            },
+            {
+              "id": "start_71012c2e",
+              "speaker": "p",
+              "english": "I have turned twenty years old, and this means that I have ceased to be a child, that I have grown into an adult with a whole life ahead of me.",
+              "greek": "Έκλεισα τα είκοσι, κι αυτό σημαίνει πως έπαψα να είμαι παιδί, πως μεγάλωσα κι έγινα ενήλικος με μια ολόκληρη ζωή μπροστά μου.",
+              "binding": "start_71012c2e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_bf4811ad",
+      "file": "localization/el/semantic-findings-019.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_bf4811ad",
+          "source_index": 226,
+          "context": [
+            {
+              "id": "start_541b9195",
+              "speaker": "",
+              "english": "Go back to the village? {w}No, no way. ",
+              "greek": "Να γυρίσω στο χωριό; {w}Όχι, αποκλείεται.",
+              "binding": "start_541b9195"
+            },
+            {
+              "id": "start_bf4811ad",
+              "speaker": "",
+              "english": "After everything that happened, after everything I said to them, they would either grab pitchforks and torches in righteous anger, or they would immediately shove me into some kind of cage. ",
+              "greek": "Ύστερα απ' όλα όσα συνέβησαν, ύστερα απ' όσα τους είπα, είτε θα άρπαζαν τα δικράνια και τους πυρσούς τους με δίκαιη οργή είτε θα με έχωναν αμέσως σε κάποιο κλουβί.",
+              "binding": "start_bf4811ad"
+            },
+            {
+              "id": "start_e6040a31",
+              "speaker": "",
+              "english": "And this time they'll put me into a real, and not at all metaphorical one l, under the supervision of healers and Elders.",
+              "greek": "Και αυτή τη φορά θα με έβαζαν σ' ένα αληθινό, καθόλου μεταφορικό κλουβί, υπό την επίβλεψη θεραπευτών και πρεσβυτέρων.",
+              "binding": "start_e6040a31"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_bf4811ad",
+          "source_index": 227,
+          "context": [
+            {
+              "id": "start_541b9195",
+              "speaker": "",
+              "english": "Go back to the village? {w}No, no way. ",
+              "greek": "Να γυρίσω στο χωριό; {w}Όχι, αποκλείεται.",
+              "binding": "start_541b9195"
+            },
+            {
+              "id": "start_bf4811ad",
+              "speaker": "",
+              "english": "After everything that happened, after everything I said to them, they would either grab pitchforks and torches in righteous anger, or they would immediately shove me into some kind of cage. ",
+              "greek": "Ύστερα απ' όλα όσα συνέβησαν, ύστερα απ' όσα τους είπα, είτε θα άρπαζαν τα δικράνια και τους πυρσούς τους με δίκαιη οργή είτε θα με έχωναν αμέσως σε κάποιο κλουβί.",
+              "binding": "start_bf4811ad"
+            },
+            {
+              "id": "start_e6040a31",
+              "speaker": "",
+              "english": "And this time they'll put me into a real, and not at all metaphorical one l, under the supervision of healers and Elders.",
+              "greek": "Και αυτή τη φορά θα με έβαζαν σ' ένα αληθινό, καθόλου μεταφορικό κλουβί, υπό την επίβλεψη θεραπευτών και πρεσβυτέρων.",
+              "binding": "start_e6040a31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_4f407986",
+      "file": "localization/el/semantic-findings-019.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_4f407986",
+          "source_index": 311,
+          "context": [
+            {
+              "id": "start_c0b04ea7",
+              "speaker": "j",
+              "english": "How old are you? I'm sorry, I completely forgot what people look like - I haven't encountered them for a long time. ",
+              "greek": "Πόσων χρονών είσαι; Συγγνώμη, ξέχασα εντελώς πώς μοιάζουν οι άνθρωποι — έχω πολύ καιρό να συναντήσω.",
+              "binding": "start_c0b04ea7"
+            },
+            {
+              "id": "start_4f407986",
+              "speaker": "j",
+              "english": "There are no more of them in this galaxy at all. {w}Are you a juvenile specimen?",
+              "greek": "Δεν υπάρχουν πια άνθρωποι σε ολόκληρο τον γαλαξία. {w}Είσαι ανώριμο δείγμα;",
+              "binding": "start_4f407986"
+            },
+            {
+              "id": "start_a91c0bed",
+              "speaker": "",
+              "english": "I shook my head. {w}If this was a delusional dream or some kind of hallucination from hitting my head, then at least I wanted to keep control of the situation.",
+              "greek": "Κούνησα το κεφάλι μου. {w}Αν αυτό ήταν ένα παραληρηματικό όνειρο ή κάποια παραίσθηση από το χτύπημα στο κεφάλι, τουλάχιστον ήθελα να κρατήσω τον έλεγχο της κατάστασης.",
+              "binding": "start_a91c0bed"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_4f407986",
+          "source_index": 312,
+          "context": [
+            {
+              "id": "start_c0b04ea7",
+              "speaker": "j",
+              "english": "How old are you? I'm sorry, I completely forgot what people look like - I haven't encountered them for a long time. ",
+              "greek": "Πόσων χρονών είσαι; Συγγνώμη, ξέχασα εντελώς πώς μοιάζουν οι άνθρωποι — έχω πολύ καιρό να συναντήσω.",
+              "binding": "start_c0b04ea7"
+            },
+            {
+              "id": "start_4f407986",
+              "speaker": "j",
+              "english": "There are no more of them in this galaxy at all. {w}Are you a juvenile specimen?",
+              "greek": "Δεν υπάρχουν πια άνθρωποι σε ολόκληρο τον γαλαξία. {w}Είσαι ανώριμο δείγμα;",
+              "binding": "start_4f407986"
+            },
+            {
+              "id": "start_a91c0bed",
+              "speaker": "",
+              "english": "I shook my head. {w}If this was a delusional dream or some kind of hallucination from hitting my head, then at least I wanted to keep control of the situation.",
+              "greek": "Κούνησα το κεφάλι μου. {w}Αν αυτό ήταν ένα παραληρηματικό όνειρο ή κάποια παραίσθηση από το χτύπημα στο κεφάλι, τουλάχιστον ήθελα να κρατήσω τον έλεγχο της κατάστασης.",
+              "binding": "start_a91c0bed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_fd08f3b7",
+      "file": "localization/el/semantic-findings-019.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_fd08f3b7",
+          "source_index": 338,
+          "context": [
+            {
+              "id": "start_5a578a0a",
+              "speaker": "p",
+              "english": "Well, except with the Koogles, but they are not that intelligent, just very clever animals...",
+              "greek": "Λοιπόν, εκτός από τις κούγκλες, αλλά δεν είναι τόσο νοήμονες, απλώς πολύ έξυπνα ζώα...",
+              "binding": "start_5a578a0a"
+            },
+            {
+              "id": "start_fd08f3b7",
+              "speaker": "j",
+              "english": "Koogles? How interesting, and who is that?",
+              "greek": "Κούγκλες; Τι ενδιαφέρον, και τι είναι αυτά;",
+              "binding": "start_fd08f3b7"
+            },
+            {
+              "id": "start_e7eb586a",
+              "speaker": "p",
+              "english": "Uh... They are kind of a fish, but they are not exactly fish. {w}In short, they live underwater and they’re smart creatures.",
+              "greek": "Ε... Είναι κάτι σαν ψάρια, αλλά δεν είναι ακριβώς ψάρια. {w}Με λίγα λόγια, ζουν κάτω από το νερό και είναι έξυπνα πλάσματα.",
+              "binding": "start_e7eb586a"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_fd08f3b7",
+          "source_index": 339,
+          "context": [
+            {
+              "id": "start_5a578a0a",
+              "speaker": "p",
+              "english": "Well, except with the Koogles, but they are not that intelligent, just very clever animals...",
+              "greek": "Λοιπόν, εκτός από τις κούγκλες, αλλά δεν είναι τόσο νοήμονες, απλώς πολύ έξυπνα ζώα...",
+              "binding": "start_5a578a0a"
+            },
+            {
+              "id": "start_fd08f3b7",
+              "speaker": "j",
+              "english": "Koogles? How interesting, and who is that?",
+              "greek": "Κούγκλες; Τι ενδιαφέρον, και τι είναι αυτά;",
+              "binding": "start_fd08f3b7"
+            },
+            {
+              "id": "start_e7eb586a",
+              "speaker": "p",
+              "english": "Uh... They are kind of a fish, but they are not exactly fish. {w}In short, they live underwater and they’re smart creatures.",
+              "greek": "Ε... Είναι κάτι σαν ψάρια, αλλά δεν είναι ακριβώς ψάρια. {w}Με λίγα λόγια, ζουν κάτω από το νερό και είναι έξυπνα πλάσματα.",
+              "binding": "start_e7eb586a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_c16061f8",
+      "file": "localization/el/semantic-findings-020.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_c16061f8",
+          "source_index": 385,
+          "context": [
+            {
+              "id": "start_2fdefc32",
+              "speaker": "j",
+              "english": "Why?",
+              "greek": "Γιατί;",
+              "binding": "start_2fdefc32"
+            },
+            {
+              "id": "start_c16061f8",
+              "speaker": "p",
+              "english": "Eh... We seal the deal, I assume? I will go with you and help you, and you... well, you will help me not to perish in all these forests. Something like that.",
+              "greek": "Ε... Επισφραγίζουμε τη συμφωνία, υποθέτω; Θα έρθω μαζί σου και θα σε βοηθήσω, κι εσύ... ε, θα με βοηθήσεις να μην πεθάνω μέσα σ' όλα αυτά τα δάση. Κάπως έτσι.",
+              "binding": "start_c16061f8"
+            },
+            {
+              "id": "start_7f84f9bb",
+              "speaker": "",
+              "english": "Juno shrugged, still not understanding what I was asking of her, but held out her hand.",
+              "greek": "Η Τζούνο σήκωσε τους ώμους, ακόμα χωρίς να καταλαβαίνει τι της ζητούσα, αλλά άπλωσε το χέρι της.",
+              "binding": "start_7f84f9bb"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_c16061f8",
+          "source_index": 386,
+          "context": [
+            {
+              "id": "start_2fdefc32",
+              "speaker": "j",
+              "english": "Why?",
+              "greek": "Γιατί;",
+              "binding": "start_2fdefc32"
+            },
+            {
+              "id": "start_c16061f8",
+              "speaker": "p",
+              "english": "Eh... We seal the deal, I assume? I will go with you and help you, and you... well, you will help me not to perish in all these forests. Something like that.",
+              "greek": "Ε... Επισφραγίζουμε τη συμφωνία, υποθέτω; Θα έρθω μαζί σου και θα σε βοηθήσω, κι εσύ... ε, θα με βοηθήσεις να μην πεθάνω μέσα σ' όλα αυτά τα δάση. Κάπως έτσι.",
+              "binding": "start_c16061f8"
+            },
+            {
+              "id": "start_7f84f9bb",
+              "speaker": "",
+              "english": "Juno shrugged, still not understanding what I was asking of her, but held out her hand.",
+              "greek": "Η Τζούνο σήκωσε τους ώμους, ακόμα χωρίς να καταλαβαίνει τι της ζητούσα, αλλά άπλωσε το χέρι της.",
+              "binding": "start_7f84f9bb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_12edcaa8",
+      "file": "localization/el/semantic-findings-020.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_12edcaa8",
+          "source_index": 446,
+          "context": [
+            {
+              "id": "start_0d81f008",
+              "speaker": "j",
+              "english": "He helps me with the ship and research, and I can also chat with him sometimes if I get bored.",
+              "greek": "Με βοηθάει με το σκάφος και την έρευνα, και μπορώ επίσης να κουβεντιάζω μαζί του πού και πού αν βαρεθώ.",
+              "binding": "start_0d81f008"
+            },
+            {
+              "id": "start_12edcaa8",
+              "speaker": "j",
+              "english": "Actually, I talk to him all the time. Traveling through space alone, you know, can be very boring. Imagine that there is only endless emptiness and silence around you... ",
+              "greek": "Στην πραγματικότητα, του μιλάω όλη την ώρα. Το να ταξιδεύει κανείς μόνος στο διάστημα, ξέρεις, μπορεί να είναι πολύ βαρετό. Φαντάσου να μην υπάρχει γύρω σου παρά ατέλειωτο κενό και σιωπή...",
+              "binding": "start_12edcaa8"
+            },
+            {
+              "id": "start_574f22fd",
+              "speaker": "j",
+              "english": "And not a single living soul until you reach the next station for refueling.",
+              "greek": "Και ούτε μια ζωντανή ψυχή μέχρι να φτάσεις στον επόμενο σταθμό ανεφοδιασμού.",
+              "binding": "start_574f22fd"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_12edcaa8",
+          "source_index": 447,
+          "context": [
+            {
+              "id": "start_0d81f008",
+              "speaker": "j",
+              "english": "He helps me with the ship and research, and I can also chat with him sometimes if I get bored.",
+              "greek": "Με βοηθάει με το σκάφος και την έρευνα, και μπορώ επίσης να κουβεντιάζω μαζί του πού και πού αν βαρεθώ.",
+              "binding": "start_0d81f008"
+            },
+            {
+              "id": "start_12edcaa8",
+              "speaker": "j",
+              "english": "Actually, I talk to him all the time. Traveling through space alone, you know, can be very boring. Imagine that there is only endless emptiness and silence around you... ",
+              "greek": "Στην πραγματικότητα, του μιλάω όλη την ώρα. Το να ταξιδεύει κανείς μόνος στο διάστημα, ξέρεις, μπορεί να είναι πολύ βαρετό. Φαντάσου να μην υπάρχει γύρω σου παρά ατέλειωτο κενό και σιωπή...",
+              "binding": "start_12edcaa8"
+            },
+            {
+              "id": "start_574f22fd",
+              "speaker": "j",
+              "english": "And not a single living soul until you reach the next station for refueling.",
+              "greek": "Και ούτε μια ζωντανή ψυχή μέχρι να φτάσεις στον επόμενο σταθμό ανεφοδιασμού.",
+              "binding": "start_574f22fd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_d249b06d",
+      "file": "localization/el/semantic-findings-021.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_d249b06d",
+          "source_index": 548,
+          "context": [
+            {
+              "id": "start_9f7a7512",
+              "speaker": "j",
+              "english": "They're not intelligent, are they?",
+              "greek": "Δεν είναι νοήμονα, έτσι;",
+              "binding": "start_9f7a7512"
+            },
+            {
+              "id": "start_d249b06d",
+              "speaker": "",
+              "english": "Juno turned to me, squatting down. I laughed.",
+              "greek": "Η Τζούνο γύρισε προς το μέρος μου και χαμήλωσε σε βαθύ κάθισμα. Γέλασα.",
+              "binding": "start_d249b06d"
+            },
+            {
+              "id": "start_b5df78c1",
+              "speaker": "p",
+              "english": "Of course not, how can mushrooms be intelligent?",
+              "greek": "Φυσικά όχι, πώς μπορούν τα μανιτάρια να είναι νοήμονα;",
+              "binding": "start_b5df78c1"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_d249b06d",
+          "source_index": 549,
+          "context": [
+            {
+              "id": "start_9f7a7512",
+              "speaker": "j",
+              "english": "They're not intelligent, are they?",
+              "greek": "Δεν είναι νοήμονα, έτσι;",
+              "binding": "start_9f7a7512"
+            },
+            {
+              "id": "start_d249b06d",
+              "speaker": "",
+              "english": "Juno turned to me, squatting down. I laughed.",
+              "greek": "Η Τζούνο γύρισε προς το μέρος μου και χαμήλωσε σε βαθύ κάθισμα. Γέλασα.",
+              "binding": "start_d249b06d"
+            },
+            {
+              "id": "start_b5df78c1",
+              "speaker": "p",
+              "english": "Of course not, how can mushrooms be intelligent?",
+              "greek": "Φυσικά όχι, πώς μπορούν τα μανιτάρια να είναι νοήμονα;",
+              "binding": "start_b5df78c1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_e65887fa",
+      "file": "localization/el/semantic-findings-021.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_e65887fa",
+          "source_index": 561,
+          "context": [
+            {
+              "id": "start_46d92844",
+              "speaker": "",
+              "english": "But she cut off a piece from the plants and tucked them into my backpack, intending to study them in her laboratory in the near future.",
+              "greek": "Από τα φυτά όμως έκοβε ένα κομμάτι και το έχωνε στο σακίδιό μου, σκοπεύοντας να τα μελετήσει στο εργαστήριό της στο κοντινό μέλλον.",
+              "binding": "start_46d92844"
+            },
+            {
+              "id": "start_e65887fa",
+              "speaker": "",
+              "english": "After a few hours of such an unusually long walk, I was ready to just fall to the ground and stay there. My whole body ached, and my legs were buzzing terribly. ",
+              "greek": "Ύστερα από μερικές ώρες ενός τόσο ασυνήθιστα μακρινού περιπάτου, ήμουν έτοιμος απλώς να πέσω στο έδαφος και να μείνω εκεί. Όλο μου το σώμα πονούσε και τα πόδια μου μυρμήγκιαζαν τρομερά.",
+              "binding": "start_e65887fa"
+            },
+            {
+              "id": "start_1b0f6d2b",
+              "speaker": "",
+              "english": "I wanted to eat and sleep, but I couldn't say a word to Juno.",
+              "greek": "Ήθελα να φάω και να κοιμηθώ, αλλά δεν μπορούσα να πω λέξη στην Τζούνο.",
+              "binding": "start_1b0f6d2b"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_e65887fa",
+          "source_index": 562,
+          "context": [
+            {
+              "id": "start_46d92844",
+              "speaker": "",
+              "english": "But she cut off a piece from the plants and tucked them into my backpack, intending to study them in her laboratory in the near future.",
+              "greek": "Από τα φυτά όμως έκοβε ένα κομμάτι και το έχωνε στο σακίδιό μου, σκοπεύοντας να τα μελετήσει στο εργαστήριό της στο κοντινό μέλλον.",
+              "binding": "start_46d92844"
+            },
+            {
+              "id": "start_e65887fa",
+              "speaker": "",
+              "english": "After a few hours of such an unusually long walk, I was ready to just fall to the ground and stay there. My whole body ached, and my legs were buzzing terribly. ",
+              "greek": "Ύστερα από μερικές ώρες ενός τόσο ασυνήθιστα μακρινού περιπάτου, ήμουν έτοιμος απλώς να πέσω στο έδαφος και να μείνω εκεί. Όλο μου το σώμα πονούσε και τα πόδια μου μυρμήγκιαζαν τρομερά.",
+              "binding": "start_e65887fa"
+            },
+            {
+              "id": "start_1b0f6d2b",
+              "speaker": "",
+              "english": "I wanted to eat and sleep, but I couldn't say a word to Juno.",
+              "greek": "Ήθελα να φάω και να κοιμηθώ, αλλά δεν μπορούσα να πω λέξη στην Τζούνο.",
+              "binding": "start_1b0f6d2b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_7cfa60d2",
+      "file": "localization/el/semantic-findings-022.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_7cfa60d2",
+          "source_index": 648,
+          "context": [
+            {
+              "id": "start_85324022",
+              "speaker": "j",
+              "english": "It's not turned on right now of course, but what if you press some buttons in your sleep? ",
+              "greek": "Φυσικά τώρα δεν είναι σε λειτουργία, αλλά τι θα γίνει αν πατήσεις κανένα κουμπί στον ύπνο σου;",
+              "binding": "start_85324022"
+            },
+            {
+              "id": "start_7cfa60d2",
+              "speaker": "j",
+              "english": "Also, I'm used to sleeping there, and it might be uncomfortable for you. So lie down on my bed, don't worry.",
+              "greek": "Επίσης, εγώ έχω συνηθίσει να κοιμάμαι εκεί, ενώ εσένα μπορεί να σου είναι άβολο. Οπότε ξάπλωσε στο κρεβάτι μου, μην ανησυχείς.",
+              "binding": "start_7cfa60d2"
+            },
+            {
+              "id": "start_630087c5",
+              "speaker": "",
+              "english": "Juno pointed to a bed in the corner of the compartment. The bed looked exactly the same as ours, but bigger. I couldn't even dream of such a big bed.",
+              "greek": "Η Τζούνο έδειξε ένα κρεβάτι στη γωνία του διαμερίσματος. Έμοιαζε ακριβώς με τα δικά μας, αλλά ήταν μεγαλύτερο. Ούτε να το ονειρευτώ δεν μπορούσα ένα τόσο μεγάλο κρεβάτι.",
+              "binding": "start_630087c5"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_7cfa60d2",
+          "source_index": 649,
+          "context": [
+            {
+              "id": "start_85324022",
+              "speaker": "j",
+              "english": "It's not turned on right now of course, but what if you press some buttons in your sleep? ",
+              "greek": "Φυσικά τώρα δεν είναι σε λειτουργία, αλλά τι θα γίνει αν πατήσεις κανένα κουμπί στον ύπνο σου;",
+              "binding": "start_85324022"
+            },
+            {
+              "id": "start_7cfa60d2",
+              "speaker": "j",
+              "english": "Also, I'm used to sleeping there, and it might be uncomfortable for you. So lie down on my bed, don't worry.",
+              "greek": "Επίσης, εγώ έχω συνηθίσει να κοιμάμαι εκεί, ενώ εσένα μπορεί να σου είναι άβολο. Οπότε ξάπλωσε στο κρεβάτι μου, μην ανησυχείς.",
+              "binding": "start_7cfa60d2"
+            },
+            {
+              "id": "start_630087c5",
+              "speaker": "",
+              "english": "Juno pointed to a bed in the corner of the compartment. The bed looked exactly the same as ours, but bigger. I couldn't even dream of such a big bed.",
+              "greek": "Η Τζούνο έδειξε ένα κρεβάτι στη γωνία του διαμερίσματος. Έμοιαζε ακριβώς με τα δικά μας, αλλά ήταν μεγαλύτερο. Ούτε να το ονειρευτώ δεν μπορούσα ένα τόσο μεγάλο κρεβάτι.",
+              "binding": "start_630087c5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_07eff98c",
+      "file": "localization/el/semantic-findings-022.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_07eff98c",
+          "source_index": 657,
+          "context": [
+            {
+              "id": "start_0f55a990",
+              "speaker": "",
+              "english": "Our journey continued the next day. As it turned out, Juno was a pretty early bird. ",
+              "greek": "Το ταξίδι μας συνεχίστηκε την επόμενη μέρα. Όπως αποδείχτηκε, η Τζούνο ήταν αρκετά πρωινός τύπος.",
+              "binding": "start_0f55a990"
+            },
+            {
+              "id": "start_07eff98c",
+              "speaker": "",
+              "english": "She got up even earlier than I was used to - the sun had not yet risen, and yet she was already walking around the jet, sometimes hiding in her laboratory.",
+              "greek": "Σηκώθηκε ακόμα νωρίτερα απ' ό,τι είχα συνηθίσει εγώ — ο ήλιος δεν είχε ακόμα ανατείλει, κι όμως εκείνη ήδη περπατούσε μέσα στο μεταγωγικό και πότε πότε κλεινόταν στο εργαστήριό της.",
+              "binding": "start_07eff98c"
+            },
+            {
+              "id": "start_dee6debf",
+              "speaker": "",
+              "english": "I didn't know what kind of laboratory it was, we didn't have anything like that, but as Juno explained to me, the laboratory was a special place where she did her research.",
+              "greek": "Δεν ήξερα τι είδους εργαστήριο ήταν, εμείς δεν είχαμε τίποτα τέτοιο, αλλά όπως μου εξήγησε η Τζούνο, το εργαστήριο ήταν ένας ειδικός χώρος όπου έκανε την έρευνά της.",
+              "binding": "start_dee6debf"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_07eff98c",
+          "source_index": 658,
+          "context": [
+            {
+              "id": "start_0f55a990",
+              "speaker": "",
+              "english": "Our journey continued the next day. As it turned out, Juno was a pretty early bird. ",
+              "greek": "Το ταξίδι μας συνεχίστηκε την επόμενη μέρα. Όπως αποδείχτηκε, η Τζούνο ήταν αρκετά πρωινός τύπος.",
+              "binding": "start_0f55a990"
+            },
+            {
+              "id": "start_07eff98c",
+              "speaker": "",
+              "english": "She got up even earlier than I was used to - the sun had not yet risen, and yet she was already walking around the jet, sometimes hiding in her laboratory.",
+              "greek": "Σηκώθηκε ακόμα νωρίτερα απ' ό,τι είχα συνηθίσει εγώ — ο ήλιος δεν είχε ακόμα ανατείλει, κι όμως εκείνη ήδη περπατούσε μέσα στο μεταγωγικό και πότε πότε κλεινόταν στο εργαστήριό της.",
+              "binding": "start_07eff98c"
+            },
+            {
+              "id": "start_dee6debf",
+              "speaker": "",
+              "english": "I didn't know what kind of laboratory it was, we didn't have anything like that, but as Juno explained to me, the laboratory was a special place where she did her research.",
+              "greek": "Δεν ήξερα τι είδους εργαστήριο ήταν, εμείς δεν είχαμε τίποτα τέτοιο, αλλά όπως μου εξήγησε η Τζούνο, το εργαστήριο ήταν ένας ειδικός χώρος όπου έκανε την έρευνά της.",
+              "binding": "start_dee6debf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_b23c96f9",
+      "file": "localization/el/semantic-findings-024.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_b23c96f9",
+          "source_index": 874,
+          "context": [
+            {
+              "id": "start_ad8e0194",
+              "speaker": "",
+              "english": "Juno began to illuminate everything with a yellowish light that came from her helmet. ",
+              "greek": "Η Τζούνο άρχισε να φωτίζει τα πάντα με ένα κιτρινωπό φως που έβγαινε από το κράνος της.",
+              "binding": "start_ad8e0194"
+            },
+            {
+              "id": "start_b23c96f9",
+              "speaker": "",
+              "english": "She squatted down to study the sand and rocks while I loitered nearby, squinting from the blinding rays.",
+              "greek": "Έκατσε χαμηλά, λυγίζοντας τα γόνατά της, για να μελετήσει την άμμο και τα βράχια, ενώ εγώ περιφερόμουν κοντά της μισοκλείνοντας τα μάτια από τις εκτυφλωτικές ακτίνες.",
+              "binding": "start_b23c96f9"
+            },
+            {
+              "id": "start_de9e7c2f",
+              "speaker": "j",
+              "english": "Look... Are you sure no one lives here?",
+              "greek": "Κοίτα... Είσαι σίγουρος πως δεν ζει κανείς εδώ;",
+              "binding": "start_de9e7c2f"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_b23c96f9",
+          "source_index": 875,
+          "context": [
+            {
+              "id": "start_ad8e0194",
+              "speaker": "",
+              "english": "Juno began to illuminate everything with a yellowish light that came from her helmet. ",
+              "greek": "Η Τζούνο άρχισε να φωτίζει τα πάντα με ένα κιτρινωπό φως που έβγαινε από το κράνος της.",
+              "binding": "start_ad8e0194"
+            },
+            {
+              "id": "start_b23c96f9",
+              "speaker": "",
+              "english": "She squatted down to study the sand and rocks while I loitered nearby, squinting from the blinding rays.",
+              "greek": "Έκατσε χαμηλά, λυγίζοντας τα γόνατά της, για να μελετήσει την άμμο και τα βράχια, ενώ εγώ περιφερόμουν κοντά της μισοκλείνοντας τα μάτια από τις εκτυφλωτικές ακτίνες.",
+              "binding": "start_b23c96f9"
+            },
+            {
+              "id": "start_de9e7c2f",
+              "speaker": "j",
+              "english": "Look... Are you sure no one lives here?",
+              "greek": "Κοίτα... Είσαι σίγουρος πως δεν ζει κανείς εδώ;",
+              "binding": "start_de9e7c2f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_bfdffee3",
+      "file": "localization/el/semantic-findings-024.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_bfdffee3",
+          "source_index": 979,
+          "context": [
+            {
+              "id": "start_e00544de",
+              "speaker": "p",
+              "english": "I lived there as a pet! And so, on my twentieth birthday, I couldn't do it anymore.",
+              "greek": "Ζούσα εκεί σαν κατοικίδιο! Κι έτσι, στα εικοστά μου γενέθλια, δεν άντεχα άλλο.",
+              "binding": "start_e00544de"
+            },
+            {
+              "id": "start_bfdffee3",
+              "speaker": "p",
+              "english": "I spoke in front of the whole village. I had to prepare a speech for every birthday, and this time I just... I expressed everything that boiled over. ",
+              "greek": "Μίλησα μπροστά σε όλο το χωριό. Έπρεπε να ετοιμάζω έναν λόγο για τα γενέθλιά μου κάθε χρόνο και αυτή τη φορά απλώς... εξέφρασα όλα όσα είχαν ξεχειλίσει μέσα μου.",
+              "binding": "start_bfdffee3"
+            },
+            {
+              "id": "start_14a7fb29",
+              "speaker": "p",
+              "english": "That there is no Mother of Heaven, there is no destiny, and in general, I don't believe in all this. I said it in front of everyone, in front of Elders, in front of parents...",
+              "greek": "Πως δεν υπάρχει Μητέρα του Ουρανού, πως δεν υπάρχει μοίρα και πως γενικά δεν τα πιστεύω όλα αυτά. Το είπα μπροστά σε όλους, μπροστά στους πρεσβυτέρους, μπροστά στους γονείς μου...",
+              "binding": "start_14a7fb29"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_bfdffee3",
+          "source_index": 980,
+          "context": [
+            {
+              "id": "start_e00544de",
+              "speaker": "p",
+              "english": "I lived there as a pet! And so, on my twentieth birthday, I couldn't do it anymore.",
+              "greek": "Ζούσα εκεί σαν κατοικίδιο! Κι έτσι, στα εικοστά μου γενέθλια, δεν άντεχα άλλο.",
+              "binding": "start_e00544de"
+            },
+            {
+              "id": "start_bfdffee3",
+              "speaker": "p",
+              "english": "I spoke in front of the whole village. I had to prepare a speech for every birthday, and this time I just... I expressed everything that boiled over. ",
+              "greek": "Μίλησα μπροστά σε όλο το χωριό. Έπρεπε να ετοιμάζω έναν λόγο για τα γενέθλιά μου κάθε χρόνο και αυτή τη φορά απλώς... εξέφρασα όλα όσα είχαν ξεχειλίσει μέσα μου.",
+              "binding": "start_bfdffee3"
+            },
+            {
+              "id": "start_14a7fb29",
+              "speaker": "p",
+              "english": "That there is no Mother of Heaven, there is no destiny, and in general, I don't believe in all this. I said it in front of everyone, in front of Elders, in front of parents...",
+              "greek": "Πως δεν υπάρχει Μητέρα του Ουρανού, πως δεν υπάρχει μοίρα και πως γενικά δεν τα πιστεύω όλα αυτά. Το είπα μπροστά σε όλους, μπροστά στους πρεσβυτέρους, μπροστά στους γονείς μου...",
+              "binding": "start_14a7fb29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_32af1b39",
+      "file": "localization/el/semantic-findings-025.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_32af1b39",
+          "source_index": 1042,
+          "context": [
+            {
+              "id": "start_22363890",
+              "speaker": "p",
+              "english": "Whatever that means.",
+              "greek": "Ό,τι κι αν σημαίνει αυτό.",
+              "binding": "start_22363890"
+            },
+            {
+              "id": "start_32af1b39",
+              "speaker": "j",
+              "english": "This translates as... Hmm, let's say, \"Well, pick up your snots and stop behaving like a child!\". Toshi was quite strict when it came to self-flagellation. ",
+              "greek": "Αυτό μεταφράζεται ως... Χμ, ας πούμε, «Λοιπόν, σκούπισε τις μύξες σου και σταμάτα να φέρεσαι σαν παιδί!». Ο Τόσι ήταν αρκετά αυστηρός όταν επρόκειτο για αυτομαστίγωμα.",
+              "binding": "start_32af1b39"
+            },
+            {
+              "id": "start_01819494",
+              "speaker": "j",
+              "english": "His philosophy was somewhat similar to yours. He believed that what was meant to happen couldn't be avoided, and what had already happened couldn't be changed.",
+              "greek": "Η φιλοσοφία του έμοιαζε κάπως με τη δική σου. Πίστευε πως αυτό που ήταν γραφτό να συμβεί δεν μπορούσε να αποφευχθεί και πως ό,τι είχε ήδη συμβεί δεν μπορούσε να αλλάξει.",
+              "binding": "start_01819494"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_32af1b39",
+          "source_index": 1043,
+          "context": [
+            {
+              "id": "start_22363890",
+              "speaker": "p",
+              "english": "Whatever that means.",
+              "greek": "Ό,τι κι αν σημαίνει αυτό.",
+              "binding": "start_22363890"
+            },
+            {
+              "id": "start_32af1b39",
+              "speaker": "j",
+              "english": "This translates as... Hmm, let's say, \"Well, pick up your snots and stop behaving like a child!\". Toshi was quite strict when it came to self-flagellation. ",
+              "greek": "Αυτό μεταφράζεται ως... Χμ, ας πούμε, «Λοιπόν, σκούπισε τις μύξες σου και σταμάτα να φέρεσαι σαν παιδί!». Ο Τόσι ήταν αρκετά αυστηρός όταν επρόκειτο για αυτομαστίγωμα.",
+              "binding": "start_32af1b39"
+            },
+            {
+              "id": "start_01819494",
+              "speaker": "j",
+              "english": "His philosophy was somewhat similar to yours. He believed that what was meant to happen couldn't be avoided, and what had already happened couldn't be changed.",
+              "greek": "Η φιλοσοφία του έμοιαζε κάπως με τη δική σου. Πίστευε πως αυτό που ήταν γραφτό να συμβεί δεν μπορούσε να αποφευχθεί και πως ό,τι είχε ήδη συμβεί δεν μπορούσε να αλλάξει.",
+              "binding": "start_01819494"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_fe63399a",
+      "file": "localization/el/semantic-findings-026.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_fe63399a",
+          "source_index": 1141,
+          "context": [
+            {
+              "id": "start_25a80ca9",
+              "speaker": "j",
+              "english": "I'll take samples.",
+              "greek": "Θα πάρω δείγματα.",
+              "binding": "start_25a80ca9"
+            },
+            {
+              "id": "start_fe63399a",
+              "speaker": "",
+              "english": "Juno squatted down in front of the threehorn. She reached for the black, viscous pool of blood and took a sample on a special stick.",
+              "greek": "Η Τζούνο κάθισε χαμηλά, λυγίζοντας τα γόνατά της μπροστά στο τρικέρατο. Πλησίασε τη μαύρη, παχύρρευστη λίμνη αίματος και πήρε δείγμα με ένα ειδικό στικ.",
+              "binding": "start_fe63399a"
+            },
+            {
+              "id": "start_b5319b1b",
+              "speaker": "j",
+              "english": "Let's get out of here. I'll tell you everything as soon as we get on the jet. It's not safe here.",
+              "greek": "Ας φύγουμε από εδώ. Θα σου τα πω όλα μόλις μπούμε στο μεταγωγικό. Δεν είναι ασφαλές εδώ.",
+              "binding": "start_b5319b1b"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_fe63399a",
+          "source_index": 1142,
+          "context": [
+            {
+              "id": "start_25a80ca9",
+              "speaker": "j",
+              "english": "I'll take samples.",
+              "greek": "Θα πάρω δείγματα.",
+              "binding": "start_25a80ca9"
+            },
+            {
+              "id": "start_fe63399a",
+              "speaker": "",
+              "english": "Juno squatted down in front of the threehorn. She reached for the black, viscous pool of blood and took a sample on a special stick.",
+              "greek": "Η Τζούνο κάθισε χαμηλά, λυγίζοντας τα γόνατά της μπροστά στο τρικέρατο. Πλησίασε τη μαύρη, παχύρρευστη λίμνη αίματος και πήρε δείγμα με ένα ειδικό στικ.",
+              "binding": "start_fe63399a"
+            },
+            {
+              "id": "start_b5319b1b",
+              "speaker": "j",
+              "english": "Let's get out of here. I'll tell you everything as soon as we get on the jet. It's not safe here.",
+              "greek": "Ας φύγουμε από εδώ. Θα σου τα πω όλα μόλις μπούμε στο μεταγωγικό. Δεν είναι ασφαλές εδώ.",
+              "binding": "start_b5319b1b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_4b50c481",
+      "file": "localization/el/semantic-findings-027.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_4b50c481",
+          "source_index": 1292,
+          "context": [
+            {
+              "id": "start_dcc2070c",
+              "speaker": "",
+              "english": "I smiled sheepishly. Juno tilted her head to the side like a bird.",
+              "greek": "Χαμογέλασα αμήχανα. Η Τζούνο έγειρε το κεφάλι στο πλάι σαν πουλί.",
+              "binding": "start_dcc2070c"
+            },
+            {
+              "id": "start_4b50c481",
+              "speaker": "j",
+              "english": "Say what? What do you mean, [pname]?",
+              "greek": "Να πεις τι; Τι εννοείς, [pname];",
+              "binding": "start_4b50c481"
+            },
+            {
+              "id": "start_832119e3",
+              "speaker": "",
+              "english": "I shifted in my chair, gathering my thoughts. I couldn't turn back! I'd already started!",
+              "greek": "Μετακινήθηκα στην καρέκλα μου, συγκεντρώνοντας τις σκέψεις μου. Δεν μπορούσα να κάνω πίσω! Είχα ήδη αρχίσει!",
+              "binding": "start_832119e3"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_4b50c481",
+          "source_index": 1293,
+          "context": [
+            {
+              "id": "start_dcc2070c",
+              "speaker": "",
+              "english": "I smiled sheepishly. Juno tilted her head to the side like a bird.",
+              "greek": "Χαμογέλασα αμήχανα. Η Τζούνο έγειρε το κεφάλι στο πλάι σαν πουλί.",
+              "binding": "start_dcc2070c"
+            },
+            {
+              "id": "start_4b50c481",
+              "speaker": "j",
+              "english": "Say what? What do you mean, [pname]?",
+              "greek": "Να πεις τι; Τι εννοείς, [pname];",
+              "binding": "start_4b50c481"
+            },
+            {
+              "id": "start_832119e3",
+              "speaker": "",
+              "english": "I shifted in my chair, gathering my thoughts. I couldn't turn back! I'd already started!",
+              "greek": "Μετακινήθηκα στην καρέκλα μου, συγκεντρώνοντας τις σκέψεις μου. Δεν μπορούσα να κάνω πίσω! Είχα ήδη αρχίσει!",
+              "binding": "start_832119e3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_f002456d",
+      "file": "localization/el/semantic-findings-027.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_f002456d",
+          "source_index": 1374,
+          "context": [
+            {
+              "id": "start_009c4f12",
+              "speaker": "",
+              "english": "I didn't want to hear that she was disappointed. Although, judging by how it went, she quite liked everything.",
+              "greek": "Δεν ήθελα να ακούσω πως είχε απογοητευτεί. Αν και, κρίνοντας από το πώς πήγε, μάλλον της άρεσαν όλα.",
+              "binding": "start_009c4f12"
+            },
+            {
+              "id": "start_f002456d",
+              "speaker": "j",
+              "english": "Well, I can say that everything went just fine for the first time.",
+              "greek": "Λοιπόν, μπορώ να πω πως, για πρώτη φορά, τα πήγαμε μια χαρά.",
+              "binding": "start_f002456d"
+            },
+            {
+              "id": "start_ab9a29bd",
+              "speaker": "",
+              "english": "Juno turned her head to me, a smile appeared on her helmet.",
+              "greek": "Η Τζούνο γύρισε το κεφάλι της προς το μέρος μου και ένα χαμόγελο εμφανίστηκε στο κράνος της.",
+              "binding": "start_ab9a29bd"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_f002456d",
+          "source_index": 1532,
+          "context": [
+            {
+              "id": "start_2af0850e",
+              "speaker": "",
+              "english": "I didn't want to hear that she was disappointed. Although, judging by her moans, she quite liked everything.",
+              "greek": "Δεν ήθελα να ακούσω πως είχε απογοητευτεί. Αν και, κρίνοντας από τα βογκητά της, μάλλον της άρεσαν όλα.",
+              "binding": "start_2af0850e"
+            },
+            {
+              "id": "start_f002456d",
+              "speaker": "j",
+              "english": "Well, I can say that everything went just fine for the first time.",
+              "greek": "Λοιπόν, μπορώ να πω πως, για πρώτη φορά, τα πήγαμε μια χαρά.",
+              "binding": "start_f002456d"
+            },
+            {
+              "id": "start_ab9a29bd",
+              "speaker": "",
+              "english": "Juno turned her head to me, a smile appeared on her helmet.",
+              "greek": "Η Τζούνο γύρισε το κεφάλι της προς το μέρος μου και ένα χαμόγελο εμφανίστηκε στο κράνος της.",
+              "binding": "start_ab9a29bd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_0504e2d9",
+      "file": "localization/el/semantic-findings-027.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_0504e2d9",
+          "source_index": 1378,
+          "context": [
+            {
+              "id": "start_b37f00c2",
+              "speaker": "p",
+              "english": "Really? {w}Phew... Well, great, I'm happy. And I will also be happy to do this again.",
+              "greek": "Αλήθεια; {w}Ουφ... Ωραία, χαίρομαι. Και θα χαρώ να το ξανακάνουμε.",
+              "binding": "start_b37f00c2"
+            },
+            {
+              "id": "start_0504e2d9",
+              "speaker": "",
+              "english": "Juno giggled and hugged me.",
+              "greek": "Η Τζούνο γέλασε σιγανά και με αγκάλιασε.",
+              "binding": "start_0504e2d9"
+            },
+            {
+              "id": "start_4d49d9a8",
+              "speaker": "j",
+              "english": "Did you like it? I've never done it with someone else, I don't know how...",
+              "greek": "Σου άρεσε; Δεν το έχω ξανακάνει με άλλον, δεν ξέρω πώς...",
+              "binding": "start_4d49d9a8"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_0504e2d9",
+          "source_index": 1536,
+          "context": [
+            {
+              "id": "start_cb890a5a",
+              "speaker": "p",
+              "english": "Really? Phew... Well, great, I'm happy. And I will also be happy to do this again.",
+              "greek": "Αλήθεια; Ουφ... Ωραία, χαίρομαι. Και θα χαρώ να το ξανακάνουμε.",
+              "binding": "start_cb890a5a"
+            },
+            {
+              "id": "start_0504e2d9",
+              "speaker": "",
+              "english": "Juno giggled and hugged me.",
+              "greek": "Η Τζούνο γέλασε σιγανά και με αγκάλιασε.",
+              "binding": "start_0504e2d9"
+            },
+            {
+              "id": "start_143d3fc7",
+              "speaker": "j",
+              "english": "Did you like it? I've never done it with someone else, I don't know how...",
+              "greek": "Σου άρεσε; Δεν το έχω ξανακάνει με άλλον, δεν ξέρω πώς...",
+              "binding": "start_4d49d9a8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_fc7c50f4",
+      "file": "localization/el/semantic-findings-028.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_fc7c50f4",
+          "source_index": 1410,
+          "context": [
+            {
+              "id": "start_cd2fe863",
+              "speaker": "j",
+              "english": "Backdoor-thing? {w}Yes, it's unusual, I like it too.",
+              "greek": "Το πράγμα με την πίσω πόρτα; {w}Ναι, είναι ασυνήθιστο, αρέσει και σ' εμένα.",
+              "binding": "start_cd2fe863"
+            },
+            {
+              "id": "start_fc7c50f4",
+              "speaker": "",
+              "english": "Juno giggled and snuggled up against my side. I immediately hugged her, kissing her somewhere in the helmet. We lay in silence for a few minutes, and then I suddenly said:",
+              "greek": "Η Τζούνο γέλασε σιγανά και χώθηκε δίπλα μου. Την αγκάλιασα αμέσως, φιλώντας την κάπου στο κράνος. Μείναμε ξαπλωμένοι σιωπηλοί για λίγα λεπτά κι έπειτα είπα ξαφνικά:",
+              "binding": "start_fc7c50f4"
+            },
+            {
+              "id": "start_2174a5c3",
+              "speaker": "p",
+              "english": "Thank you for doing all this for me. I mean, the cure and stuff. You didn't have to. It's not even your planet. ",
+              "greek": "Ευχαριστώ που τα κάνεις όλα αυτά για μένα. Εννοώ τη θεραπεία και τα λοιπά. Δεν ήσουν υποχρεωμένη. Ούτε καν δικός σου πλανήτης είναι.",
+              "binding": "start_2174a5c3"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_fc7c50f4",
+          "source_index": 1617,
+          "context": [
+            {
+              "id": "start_416b156b",
+              "speaker": "j",
+              "english": "Anal sex? Yes, it's unusual, I like it too.",
+              "greek": "Πρωκτικό σεξ; Ναι, είναι ασυνήθιστο, αρέσει και σ' εμένα.",
+              "binding": "start_416b156b"
+            },
+            {
+              "id": "start_fc7c50f4",
+              "speaker": "",
+              "english": "Juno giggled and snuggled up against my side. I immediately hugged her, kissing her somewhere in the helmet. We lay in silence for a few minutes, and then I suddenly said:",
+              "greek": "Η Τζούνο γέλασε σιγανά και χώθηκε δίπλα μου. Την αγκάλιασα αμέσως, φιλώντας την κάπου στο κράνος. Μείναμε ξαπλωμένοι σιωπηλοί για λίγα λεπτά κι έπειτα είπα ξαφνικά:",
+              "binding": "start_fc7c50f4"
+            },
+            {
+              "id": "start_2174a5c3",
+              "speaker": "p",
+              "english": "Thank you for doing all this for me. I mean, the cure and stuff. You didn't have to. It's not even your planet. ",
+              "greek": "Ευχαριστώ που τα κάνεις όλα αυτά για μένα. Εννοώ τη θεραπεία και τα λοιπά. Δεν ήσουν υποχρεωμένη. Ούτε καν δικός σου πλανήτης είναι.",
+              "binding": "start_2174a5c3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_78b18a25",
+      "file": "localization/el/semantic-findings-028.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_78b18a25",
+          "source_index": 1500,
+          "context": [
+            {
+              "id": "start_bf58b614",
+              "speaker": "",
+              "english": "I tried not to think about it - I didn't want to let dark thoughts take control over me - but I couldn't completely banish these thoughts from my head. ",
+              "greek": "Προσπαθούσα να μην το σκέφτομαι — δεν ήθελα να αφήσω τις σκοτεινές σκέψεις να με κυριεύσουν — αλλά δεν μπορούσα να τις διώξω εντελώς από το κεφάλι μου.",
+              "binding": "start_bf58b614"
+            },
+            {
+              "id": "start_78b18a25",
+              "speaker": "",
+              "english": "After all, it was a possibility that we simply wouldn't be able to help anyone.",
+              "greek": "Άλλωστε υπήρχε η πιθανότητα να μην μπορούσαμε να βοηθήσουμε απολύτως κανέναν.",
+              "binding": "start_78b18a25"
+            },
+            {
+              "id": "start_b16a544e",
+              "speaker": "",
+              "english": "Of course, I believed that Juno would invent the cure, but I understood by that time I would have to face heavy losses. ",
+              "greek": "Φυσικά, πίστευα πως η Τζούνο θα επινοούσε τη θεραπεία, αλλά καταλάβαινα πως μέχρι τότε θα έπρεπε να αντιμετωπίσω μεγάλες απώλειες.",
+              "binding": "start_b16a544e"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_78b18a25",
+          "source_index": 1722,
+          "context": [
+            {
+              "id": "start_bf58b614",
+              "speaker": "",
+              "english": "I tried not to think about it - I didn't want to let dark thoughts take control over me - but I couldn't completely banish these thoughts from my head. ",
+              "greek": "Προσπαθούσα να μην το σκέφτομαι — δεν ήθελα να αφήσω τις σκοτεινές σκέψεις να με κυριεύσουν — αλλά δεν μπορούσα να τις διώξω εντελώς από το κεφάλι μου.",
+              "binding": "start_bf58b614"
+            },
+            {
+              "id": "start_78b18a25",
+              "speaker": "",
+              "english": "After all, it was a possibility that we simply wouldn't be able to help anyone.",
+              "greek": "Άλλωστε υπήρχε η πιθανότητα να μην μπορούσαμε να βοηθήσουμε απολύτως κανέναν.",
+              "binding": "start_78b18a25"
+            },
+            {
+              "id": "start_b16a544e",
+              "speaker": "",
+              "english": "Of course, I believed that Juno would invent the cure, but I understood by that time I would have to face heavy losses. ",
+              "greek": "Φυσικά, πίστευα πως η Τζούνο θα επινοούσε τη θεραπεία, αλλά καταλάβαινα πως μέχρι τότε θα έπρεπε να αντιμετωπίσω μεγάλες απώλειες.",
+              "binding": "start_b16a544e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_3e7f824e",
+      "file": "localization/el/semantic-findings-029.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_3e7f824e",
+          "source_index": 1587,
+          "context": [
+            {
+              "id": "start_f5f51c33",
+              "speaker": "m",
+              "english": "Good...",
+              "greek": "Ωραία...",
+              "binding": "start_f5f51c33"
+            },
+            {
+              "id": "start_3e7f824e",
+              "speaker": "",
+              "english": "She whispered the word in a barely audible, hoarse voice, and at that moment her chest, heaving with heavy slow breathing, stopped. ",
+              "greek": "Ψιθύρισε τη λέξη με μια μόλις ακουστή, βραχνή φωνή και εκείνη τη στιγμή το στήθος της, που ανεβοκατέβαινε με αργή, βαριά αναπνοή, σταμάτησε.",
+              "binding": "start_3e7f824e"
+            },
+            {
+              "id": "start_eed8225a",
+              "speaker": "",
+              "english": "I couldn't believe what I was seeing. The smile froze on her lips, she stopped breathing. I jumped up and grabbed her by her shoulders.",
+              "greek": "Δεν μπορούσα να πιστέψω αυτό που έβλεπα. Το χαμόγελο πάγωσε στα χείλη της, σταμάτησε να αναπνέει. Πετάχτηκα όρθιος και την άρπαξα από τους ώμους.",
+              "binding": "start_eed8225a"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_3e7f824e",
+          "source_index": 1809,
+          "context": [
+            {
+              "id": "start_f5f51c33",
+              "speaker": "m",
+              "english": "Good...",
+              "greek": "Ωραία...",
+              "binding": "start_f5f51c33"
+            },
+            {
+              "id": "start_3e7f824e",
+              "speaker": "",
+              "english": "She whispered the word in a barely audible, hoarse voice, and at that moment her chest, heaving with heavy slow breathing, stopped. ",
+              "greek": "Ψιθύρισε τη λέξη με μια μόλις ακουστή, βραχνή φωνή και εκείνη τη στιγμή το στήθος της, που ανεβοκατέβαινε με αργή, βαριά αναπνοή, σταμάτησε.",
+              "binding": "start_3e7f824e"
+            },
+            {
+              "id": "start_eed8225a",
+              "speaker": "",
+              "english": "I couldn't believe what I was seeing. The smile froze on her lips, she stopped breathing. I jumped up and grabbed her by her shoulders.",
+              "greek": "Δεν μπορούσα να πιστέψω αυτό που έβλεπα. Το χαμόγελο πάγωσε στα χείλη της, σταμάτησε να αναπνέει. Πετάχτηκα όρθιος και την άρπαξα από τους ώμους.",
+              "binding": "start_eed8225a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_a77cb623",
+      "file": "localization/el/semantic-findings-029.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_a77cb623",
+          "source_index": 1583,
+          "context": [
+            {
+              "id": "start_0d0f472b",
+              "speaker": "m",
+              "english": "We love you very much. Promise me you'll remember this forever. ",
+              "greek": "Σ' αγαπάμε πάρα πολύ. Υποσχέσου μου πως θα το θυμάσαι για πάντα.",
+              "binding": "start_0d0f472b"
+            },
+            {
+              "id": "start_a77cb623",
+              "speaker": "m",
+              "english": "No matter what happens, promise me you won't be mad at us anymore. We realized we were wrong, honey, we were really sorry...",
+              "greek": "Ό,τι κι αν συμβεί, υποσχέσου μου πως δεν θα είσαι πια θυμωμένος μαζί μας. Καταλάβαμε πως κάναμε λάθος, αγάπη μου, το μετανιώσαμε πραγματικά...",
+              "binding": "start_a77cb623"
+            },
+            {
+              "id": "start_f10874c7",
+              "speaker": "p",
+              "english": "Mom, what are you saying? Of course, I forgive you, I'm not mad at you, Mom!",
+              "greek": "Μαμά, τι λες; Φυσικά και σας συγχωρώ, δεν είμαι θυμωμένος μαζί σας, μαμά!",
+              "binding": "start_f10874c7"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_a77cb623",
+          "source_index": 1805,
+          "context": [
+            {
+              "id": "start_0d0f472b",
+              "speaker": "m",
+              "english": "We love you very much. Promise me you'll remember this forever. ",
+              "greek": "Σ' αγαπάμε πάρα πολύ. Υποσχέσου μου πως θα το θυμάσαι για πάντα.",
+              "binding": "start_0d0f472b"
+            },
+            {
+              "id": "start_a77cb623",
+              "speaker": "m",
+              "english": "No matter what happens, promise me you won't be mad at us anymore. We realized we were wrong, honey, we were really sorry...",
+              "greek": "Ό,τι κι αν συμβεί, υποσχέσου μου πως δεν θα είσαι πια θυμωμένος μαζί μας. Καταλάβαμε πως κάναμε λάθος, αγάπη μου, το μετανιώσαμε πραγματικά...",
+              "binding": "start_a77cb623"
+            },
+            {
+              "id": "start_f10874c7",
+              "speaker": "p",
+              "english": "Mom, what are you saying? Of course, I forgive you, I'm not mad at you, Mom!",
+              "greek": "Μαμά, τι λες; Φυσικά και σας συγχωρώ, δεν είμαι θυμωμένος μαζί σας, μαμά!",
+              "binding": "start_f10874c7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_d859a240",
+      "file": "localization/el/semantic-findings-030.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_d859a240",
+          "source_index": 1636,
+          "context": [
+            {
+              "id": "start_7854ba43",
+              "speaker": "p",
+              "english": "Juno, didn't you hear? My parents are dead! My whole village, all destroyed! Some were torn apart by wild animals, others got infected and died!",
+              "greek": "Τζούνο, δεν άκουσες; Οι γονείς μου πέθαναν! Όλο μου το χωριό, όλοι καταστράφηκαν! Μερικούς τους κατασπάραξαν άγρια ζώα, άλλοι μολύνθηκαν και πέθαναν!",
+              "binding": "start_7854ba43"
+            },
+            {
+              "id": "start_d859a240",
+              "speaker": "p",
+              "english": "There is no one left, nothing - emptiness! I don't care how dangerous it will be, I just want to avenge them. I'm ready for anything, do you hear? Just tell me where to go!",
+              "greek": "Δεν έμεινε κανείς, τίποτα — κενό! Δεν με νοιάζει πόσο επικίνδυνο θα είναι, θέλω μόνο να πάρω εκδίκηση για εκείνους. Είμαι έτοιμος για όλα, ακούς; Απλώς πες μου πού να πάω!",
+              "binding": "start_d859a240"
+            },
+            {
+              "id": "start_50c8765d",
+              "speaker": "",
+              "english": "Juno was silent for several minutes. She stared at me in silence, her helmet expressionless, as if she had just blacked out for a few moments. ",
+              "greek": "Η Τζούνο σώπασε για αρκετά λεπτά. Με κοιτούσε σιωπηλή, με ανέκφραστο κράνος, σαν να είχε μόλις χάσει τις αισθήσεις της για λίγες στιγμές.",
+              "binding": "start_50c8765d"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_d859a240",
+          "source_index": 1858,
+          "context": [
+            {
+              "id": "start_7854ba43",
+              "speaker": "p",
+              "english": "Juno, didn't you hear? My parents are dead! My whole village, all destroyed! Some were torn apart by wild animals, others got infected and died!",
+              "greek": "Τζούνο, δεν άκουσες; Οι γονείς μου πέθαναν! Όλο μου το χωριό, όλοι καταστράφηκαν! Μερικούς τους κατασπάραξαν άγρια ζώα, άλλοι μολύνθηκαν και πέθαναν!",
+              "binding": "start_7854ba43"
+            },
+            {
+              "id": "start_d859a240",
+              "speaker": "p",
+              "english": "There is no one left, nothing - emptiness! I don't care how dangerous it will be, I just want to avenge them. I'm ready for anything, do you hear? Just tell me where to go!",
+              "greek": "Δεν έμεινε κανείς, τίποτα — κενό! Δεν με νοιάζει πόσο επικίνδυνο θα είναι, θέλω μόνο να πάρω εκδίκηση για εκείνους. Είμαι έτοιμος για όλα, ακούς; Απλώς πες μου πού να πάω!",
+              "binding": "start_d859a240"
+            },
+            {
+              "id": "start_50c8765d",
+              "speaker": "",
+              "english": "Juno was silent for several minutes. She stared at me in silence, her helmet expressionless, as if she had just blacked out for a few moments. ",
+              "greek": "Η Τζούνο σώπασε για αρκετά λεπτά. Με κοιτούσε σιωπηλή, με ανέκφραστο κράνος, σαν να είχε μόλις χάσει τις αισθήσεις της για λίγες στιγμές.",
+              "binding": "start_50c8765d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_44123e8d",
+      "file": "localization/el/semantic-findings-030.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_44123e8d",
+          "source_index": 1657,
+          "context": [
+            {
+              "id": "start_e7efbc88",
+              "speaker": "",
+              "english": "I felt like a double traitor, because now I was going to drag Juno again through what happened to her when Toshi died.",
+              "greek": "Ένιωθα διπλός προδότης, γιατί τώρα θα ανάγκαζα την Τζούνο να περάσει ξανά αυτό που έζησε όταν πέθανε ο Τόσι.",
+              "binding": "start_e7efbc88"
+            },
+            {
+              "id": "start_44123e8d",
+              "speaker": "",
+              "english": "But I didn't have any choice. If I couldn't save my family, couldn't change the course of things, I wanted to be able to at least avenge them. ",
+              "greek": "Αλλά δεν είχα επιλογή. Αν δεν μπορούσα να σώσω την οικογένειά μου, αν δεν μπορούσα να αλλάξω την πορεία των πραγμάτων, ήθελα τουλάχιστον να μπορέσω να πάρω εκδίκηση για εκείνους.",
+              "binding": "start_44123e8d"
+            },
+            {
+              "id": "start_9b53ac87",
+              "speaker": "",
+              "english": "Even if I die, even if it was the last thing I do in this life. When Pixie brought me to the indicated place, before leaving, I asked:",
+              "greek": "Ακόμα κι αν πέθαινα, ακόμα κι αν ήταν το τελευταίο πράγμα που θα έκανα σ' αυτή τη ζωή. Όταν το Πίξι με έφερε στο σημείο που είχε υποδείξει, πριν φύγω ρώτησα:",
+              "binding": "start_9b53ac87"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_44123e8d",
+          "source_index": 1879,
+          "context": [
+            {
+              "id": "start_e7efbc88",
+              "speaker": "",
+              "english": "I felt like a double traitor, because now I was going to drag Juno again through what happened to her when Toshi died.",
+              "greek": "Ένιωθα διπλός προδότης, γιατί τώρα θα ανάγκαζα την Τζούνο να περάσει ξανά αυτό που έζησε όταν πέθανε ο Τόσι.",
+              "binding": "start_e7efbc88"
+            },
+            {
+              "id": "start_44123e8d",
+              "speaker": "",
+              "english": "But I didn't have any choice. If I couldn't save my family, couldn't change the course of things, I wanted to be able to at least avenge them. ",
+              "greek": "Αλλά δεν είχα επιλογή. Αν δεν μπορούσα να σώσω την οικογένειά μου, αν δεν μπορούσα να αλλάξω την πορεία των πραγμάτων, ήθελα τουλάχιστον να μπορέσω να πάρω εκδίκηση για εκείνους.",
+              "binding": "start_44123e8d"
+            },
+            {
+              "id": "start_9b53ac87",
+              "speaker": "",
+              "english": "Even if I die, even if it was the last thing I do in this life. When Pixie brought me to the indicated place, before leaving, I asked:",
+              "greek": "Ακόμα κι αν πέθαινα, ακόμα κι αν ήταν το τελευταίο πράγμα που θα έκανα σ' αυτή τη ζωή. Όταν το Πίξι με έφερε στο σημείο που είχε υποδείξει, πριν φύγω ρώτησα:",
+              "binding": "start_9b53ac87"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_d380668b",
+      "file": "localization/el/semantic-findings-030.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_d380668b",
+          "source_index": 1683,
+          "context": [
+            {
+              "id": "start_e10aa95a",
+              "speaker": "",
+              "english": "And what would the villagers say? Oh, they'd be furious. They had been telling me for so many years that I'd save them, and where was I now? ",
+              "greek": "Και τι θα έλεγαν οι χωρικοί; Αχ, θα ήταν έξαλλοι. Μου έλεγαν τόσα χρόνια πως θα τους έσωζα, και πού ήμουν τώρα;",
+              "binding": "start_e10aa95a"
+            },
+            {
+              "id": "start_d380668b",
+              "speaker": "",
+              "english": "I didn't save anyone. And I couldn't even avenge them. Probably, after all, it wasn't me who should have been the Chosen, but Damien. ",
+              "greek": "Δεν έσωσα κανέναν. Και δεν μπόρεσα ούτε να πάρω εκδίκηση για εκείνους. Μάλλον τελικά δεν έπρεπε να είμαι εγώ ο Εκλεκτός, αλλά ο Ντέιμιεν.",
+              "binding": "start_d380668b"
+            },
+            {
+              "id": "start_a48bcd5d",
+              "speaker": "",
+              "english": "He definitely wouldn't have left his people. Not like I did.",
+              "greek": "Εκείνος σίγουρα δεν θα εγκατέλειπε τον λαό του. Όχι όπως εγώ.",
+              "binding": "start_a48bcd5d"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_d380668b",
+          "source_index": 1905,
+          "context": [
+            {
+              "id": "start_e10aa95a",
+              "speaker": "",
+              "english": "And what would the villagers say? Oh, they'd be furious. They had been telling me for so many years that I'd save them, and where was I now? ",
+              "greek": "Και τι θα έλεγαν οι χωρικοί; Αχ, θα ήταν έξαλλοι. Μου έλεγαν τόσα χρόνια πως θα τους έσωζα, και πού ήμουν τώρα;",
+              "binding": "start_e10aa95a"
+            },
+            {
+              "id": "start_d380668b",
+              "speaker": "",
+              "english": "I didn't save anyone. And I couldn't even avenge them. Probably, after all, it wasn't me who should have been the Chosen, but Damien. ",
+              "greek": "Δεν έσωσα κανέναν. Και δεν μπόρεσα ούτε να πάρω εκδίκηση για εκείνους. Μάλλον τελικά δεν έπρεπε να είμαι εγώ ο Εκλεκτός, αλλά ο Ντέιμιεν.",
+              "binding": "start_d380668b"
+            },
+            {
+              "id": "start_a48bcd5d",
+              "speaker": "",
+              "english": "He definitely wouldn't have left his people. Not like I did.",
+              "greek": "Εκείνος σίγουρα δεν θα εγκατέλειπε τον λαό του. Όχι όπως εγώ.",
+              "binding": "start_a48bcd5d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_33aaae8c",
+      "file": "localization/el/semantic-findings-030.json",
+      "edition": "base",
+      "occurrences": [
+        {
+          "edition": "base",
+          "id": "start_33aaae8c",
+          "source_index": 1651,
+          "context": [
+            {
+              "id": "start_43636e98",
+              "speaker": "",
+              "english": "After all, I understood that the chance of returning was negligible.",
+              "greek": "Άλλωστε καταλάβαινα πως η πιθανότητα να επιστρέψω ήταν ελάχιστη.",
+              "binding": "start_43636e98"
+            },
+            {
+              "id": "start_33aaae8c",
+              "speaker": "",
+              "english": "But I wanted to take a chance - though I no longer understood what for. Everyone I cared about was dead. Except Juno. ",
+              "greek": "Όμως ήθελα να πάρω το ρίσκο — αν και δεν καταλάβαινα πια για ποιον λόγο. Όλοι για όσους νοιαζόμουν είχαν πεθάνει. Εκτός από την Τζούνο.",
+              "binding": "start_33aaae8c"
+            },
+            {
+              "id": "start_139c050c",
+              "speaker": "",
+              "english": "Only she stayed by my side, only she was with me, and I was going to leave her. I was going to leave. Is that what friends do? Is that what lovers do?",
+              "greek": "Μόνο εκείνη έμεινε στο πλευρό μου, μόνο εκείνη ήταν μαζί μου κι εγώ σκόπευα να την εγκαταλείψω. Σκόπευα να φύγω. Έτσι κάνουν οι φίλοι; Έτσι κάνουν οι ερωτευμένοι;",
+              "binding": "start_139c050c"
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "id": "start_33aaae8c",
+          "source_index": 1873,
+          "context": [
+            {
+              "id": "start_43636e98",
+              "speaker": "",
+              "english": "After all, I understood that the chance of returning was negligible.",
+              "greek": "Άλλωστε καταλάβαινα πως η πιθανότητα να επιστρέψω ήταν ελάχιστη.",
+              "binding": "start_43636e98"
+            },
+            {
+              "id": "start_33aaae8c",
+              "speaker": "",
+              "english": "But I wanted to take a chance - though I no longer understood what for. Everyone I cared about was dead. Except Juno. ",
+              "greek": "Όμως ήθελα να πάρω το ρίσκο — αν και δεν καταλάβαινα πια για ποιον λόγο. Όλοι για όσους νοιαζόμουν είχαν πεθάνει. Εκτός από την Τζούνο.",
+              "binding": "start_33aaae8c"
+            },
+            {
+              "id": "start_139c050c",
+              "speaker": "",
+              "english": "Only she stayed by my side, only she was with me, and I was going to leave her. I was going to leave. Is that what friends do? Is that what lovers do?",
+              "greek": "Μόνο εκείνη έμεινε στο πλευρό μου, μόνο εκείνη ήταν μαζί μου κι εγώ σκόπευα να την εγκαταλείψω. Σκόπευα να φύγω. Έτσι κάνουν οι φίλοι; Έτσι κάνουν οι ερωτευμένοι;",
+              "binding": "start_139c050c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_a51a89e6",
+      "file": "localization/el/semantic-findings-034.json",
+      "edition": "dlc",
+      "occurrences": [
+        {
+          "edition": "dlc",
+          "id": "start_a51a89e6",
+          "source_index": 1493,
+          "context": [
+            {
+              "id": "start_ed72e76f",
+              "speaker": "p",
+              "english": "Okay, I got it, sorry...",
+              "greek": "Εντάξει, κατάλαβα, συγγνώμη...",
+              "binding": "start_ed72e76f"
+            },
+            {
+              "id": "start_a51a89e6",
+              "speaker": "",
+              "english": "I took my dick at the base and began to slowly, carefully sink into her body, inch by inch, pushing my dick inside. ",
+              "greek": "Έπιασα το καβλί μου στη βάση και άρχισα αργά, προσεκτικά να βυθίζομαι στο σώμα της, εκατοστό προς εκατοστό, σπρώχνοντάς το μέσα της.",
+              "binding": "start_a51a89e6"
+            },
+            {
+              "id": "start_9c56b86f",
+              "speaker": "",
+              "english": "From the feeling of how hot it was in her, how wet and tight, dizzyingly pleasant, I groaned hoarsely through my teeth.",
+              "greek": "Από την αίσθηση της ζέστης μέσα της, της υγρασίας και του σφιξίματος, τόσο ιλιγγιωδώς ευχάριστη, βόγκηξα βραχνά μέσα από τα δόντια μου.",
+              "binding": "start_9c56b86f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start_ad0a74c0",
+      "file": "localization/el/semantic-findings-035.json",
+      "edition": "dlc",
+      "occurrences": [
+        {
+          "edition": "dlc",
+          "id": "start_ad0a74c0",
+          "source_index": 1608,
+          "context": [
+            {
+              "id": "start_1e21da3c",
+              "speaker": "",
+              "english": "My head was spinning, I felt myself approaching the edge, and my thrusts became faster, more erratic. Soon any rhythm disappeared ... Juno's body was covered with perspiration.",
+              "greek": "Το κεφάλι μου γύριζε, ένιωθα να πλησιάζω στην κορύφωση και οι ωθήσεις μου γίνονταν γρηγορότερες, πιο ακανόνιστες. Σύντομα κάθε ρυθμός χάθηκε... Το σώμα της Τζούνο ήταν καλυμμένο με ιδρώτα.",
+              "binding": "start_1e21da3c"
+            },
+            {
+              "id": "start_ad0a74c0",
+              "speaker": "",
+              "english": "Juno gasped, arched her back when I drove my cock into her burning body for the last time, stretching the hole, so that she clutched the sheet in her hands and screamed loudly. ",
+              "greek": "Η Τζούνο λαχάνιασε και κύρτωσε την πλάτη όταν βύθισα το πέος μου στο καυτό σώμα της για τελευταία φορά, τεντώνοντας το άνοιγμα, κι εκείνη άρπαξε το σεντόνι με τα χέρια και ούρλιαξε δυνατά.",
+              "binding": "start_ad0a74c0"
+            },
+            {
+              "id": "start_ab1723ec",
+              "speaker": "",
+              "english": "Finally, I squeezed her hips with my hands, pushed into her hole to the very base one more time and finished inside, splashing my sperm inside.",
+              "greek": "Τελικά έσφιξα τους γοφούς της με τα χέρια μου, έσπρωξα στο άνοιγμά της μέχρι τη βάση άλλη μία φορά και τελείωσα μέσα της, χύνοντας το σπέρμα μου εκεί.",
+              "binding": "start_ab1723ec"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review": "independent review pending"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "start_4f9e4364",
+    "before": "Nilianza kuubembeleza mwili wake kwa mikono na macho yangu, nikiacha mabusu mwilini mwake. Kifuani, tumboni, makalionini.",
+    "after": "Nilianza kuubembeleza mwili wake kwa mikono na macho yangu, nikiacha mabusu mwilini mwake. Kifuani, tumboni, makalioni.",
+    "reason": "Correct the misspelled locative."
+  },
+  {
+    "id": "start_af2a1ae4",
+    "before": "Maumbile ya ndani yalikuwa laini na yanabana, yakiubana uume wangu na kuufanyaudunde na kuzidi kuwa mgumu, yakinifanya nikaribie kilele kwa kasi zaidi.",
+    "after": "Maumbile ya ndani yalikuwa laini na yanabana, yakiubana uume wangu na kuufanya udude na kuzidi kuwa mgumu, yakinifanya nikaribie kilele kwa kasi zaidi.",
+    "reason": "Separate accidentally joined words and correct the verb form."
+  },
+  {
+    "id": "start_af2a1ae4",
+    "before": "Maumbile ya ndani yalikuwa laini na yanabana, yakiubana uume wangu na kuufanya udude na kuzidi kuwa mgumu, yakinifanya nikaribie kilele kwa kasi zaidi.",
+    "after": "Maumbile ya ndani yalikuwa laini na yanabana, yakiubana uume wangu na kuufanya udunde na kuzidi kuwa mgumu, yakinifanya nikaribie kilele kwa kasi zaidi.",
+    "reason": "Correct a typo introduced in this batch."
+  },
+  {
+    "id": "start_416b156b",
+    "before": "Ngono ya mkunduni? Ndiyo, si ya kawaida, nami pia naipenda.",
+    "after": "Ngono ya mkundu? Ndiyo, si ya kawaida, nami pia naipenda.",
+    "reason": "Use the natural possessive form for anal sex."
+  },
+  {
+    "id": "start_2af0850e",
+    "before": "Sikutaka kusikia kwamba alikuwa amekata tamaa. Ingawa, kwa kuzingatia miguno yake, alipenda kila kitu sana.",
+    "after": "Sikutaka kusikia kwamba alikuwa amevunjika moyo. Ingawa, kwa kuzingatia miguno yake, alipenda kila kitu sana.",
+    "reason": "Disappointed describes her reaction rather than giving up."
+  },
+  {
+    "id": "Gallery",
+    "before": "Ghala",
+    "after": "Matunzio",
+    "reason": "Use the gallery of images sense rather than warehouse."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "start_6da19bda",
+    "before": "等這次分析結束就知道了。如果一切順利……我們就有藥物了。我會立刻給你服用，然後……",
+    "after": "等這次分析結束就知道了。如果一切順利……我們就有藥物了。我會立刻把藥給你，然後……",
+    "reason": "Do not infer oral administration where the source only says give it."
+  },
+  {
+    "id": "start_78b18a25",
+    "before": "畢竟，我們很可能根本救不了任何人。",
+    "after": "畢竟，我們可能根本救不了任何人。",
+    "reason": "Preserve possibility without strengthening it to high likelihood."
+  },
+  {
+    "id": "start_b16a544e",
+    "before": "我當然相信朱諾能研發出藥物，但我明白，到那時我們可能已經承受慘重損失。",
+    "after": "我當然相信朱諾能研發出藥物，但我明白，到那時我必須面對慘重損失。",
+    "reason": "Restore the narrator’s expected losses without adding uncertainty or changing the subject."
+  },
+  {
+    "id": "start_82cf338a",
+    "before": "下一刻，我衝進房間，幾乎把那扇本就搖搖欲墜的門撞開。",
+    "after": "就在那一刻，我衝進房間，把那扇本就不牢固的門撞倒了。",
+    "reason": "Preserve the completed action of knocking out the flimsy door rather than almost doing so."
+  }
+]

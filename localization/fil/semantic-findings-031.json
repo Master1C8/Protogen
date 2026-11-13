@@ -1,0 +1,26 @@
+[
+  {
+    "id": "start_df56dcb1",
+    "before": "Ang taong naging malapit sa kaniya. Ang halos pumilit sa kaniya na maging malapit, nagmakaawa at nanatili sa tabi niya. At ngayon ay hinihiling kong palayain niya ako.",
+    "after": "Ako na naging malapit sa kaniya. Ako na halos pumilit sa kaniya na maging malapit, nagmakaawa at nanatili sa tabi niya. At ngayon ay hinihiling kong palayain niya ako.",
+    "reason": "Make the narrator the referent without identifying him as human."
+  },
+  {
+    "id": "start_c0def7a3",
+    "before": "Malamang ay labis na hindi malulugod sa akin ang Ina ng Langit. Binigyan niya nga naman ako ng tungkulin, at nabigo ako nang napakahiya.",
+    "after": "Malamang ay labis na hindi malulugod sa akin ang Ina ng Langit. Binigyan niya nga naman ako ng tungkulin, at nabigo ako sa isang nakahihiyang paraan.",
+    "reason": "Correct the malformed adverb describing his shameful failure."
+  },
+  {
+    "id": "start_a48bcd5d",
+    "before": "Tiyak na hindi niya iniwan ang mga tao niya. Hindi gaya ng ginawa ko.",
+    "after": "Tiyak na hindi niya iiwan ang mga tao niya. Hindi gaya ng ginawa ko.",
+    "reason": "Restore the hypothetical claim that Damien would not have abandoned his people."
+  },
+  {
+    "id": "start_4155cdcb",
+    "before": "May narinig akong pantay na tunog, na para bang mula sa ilalim ng tubig. Mahirap huminga, nangingiliti ang katawan ko, at hindi sumusunod ang mga daliri ko.",
+    "after": "May narinig akong paulit-ulit na matinis na tunog, na para bang mula sa ilalim ng tubig. Mahirap huminga, tinutusok-tusok ang katawan ko, at hindi sumusunod ang mga daliri ko.",
+    "reason": "Restore the squeak and the tingling sensation rather than describing the body as ticklish."
+  }
+]

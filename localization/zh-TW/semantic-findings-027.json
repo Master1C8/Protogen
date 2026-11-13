@@ -1,0 +1,20 @@
+[
+  {
+    "id": "start_05e85242",
+    "before": "至少只要它不會傷害人類就好。沒錯，牲畜和作物可能會死，但我們能應付；以前也曾有過歉收的年頭，當時大家一起撐了過來。",
+    "after": "至少只要它不會傷害人類就好。沒錯，牲畜和作物可能會死，但我們能應付；以前也曾有過艱困的年頭，當時大家一起撐了過來。",
+    "reason": "Keep bad years general instead of narrowing them to crop failure."
+  },
+  {
+    "id": "start_9c767946",
+    "before": "朱諾，我不會有事的。即使有事……那也代表你無法阻止。不管怎樣，我在家裡也不會比跟著你更安全。",
+    "after": "朱諾，我不會有事的。即使有事……那也代表你無法阻止。不管怎樣，我在家裡的處境也不會比跟著你好多少。",
+    "reason": "Preserve the source’s broader comparison of circumstances rather than limiting it to safety."
+  },
+  {
+    "id": "start_f7e09575",
+    "before": "然而……如你所見，並沒有發生那種事。",
+    "after": "然而……如你所見，它並沒有繞過這裡。",
+    "reason": "Clarify that the anomaly did not bypass the planet, as established by the preceding line."
+  }
+]

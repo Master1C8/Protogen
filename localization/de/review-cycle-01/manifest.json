@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "encoding": "UTF-8",
+  "newline": "LF",
+  "description": "First correction cycle; broad ship/shuttle/Pixie selector and registered special-scene IDs. Independent review and completeness reconciliation pending.",
+  "counts": {
+    "sfw": {
+      "changed": 5,
+      "closure": 213,
+      "total": 1785
+    },
+    "nsfw": {
+      "changed": 12,
+      "closure": 240,
+      "total": 2007
+    }
+  },
+  "inputs": {
+    "text-assets/inventory.json": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/inventory.json": "b0feab1e5d5dfa697bbeee0a98a8dc310edd30ce6acc908aee8e776b5f0aa2ea",
+    "text-assets/special-scenes.json": "5d3950c98e01d34a49bca5ef8862c5ab5dcec2558c42f709748c68e5134af923",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/special-scenes.json": "2412020e4c4024a82dad7535976a6e1ff8239fec1214c4ac7c211492a75c6f8b",
+    "/Users/antonkrutov/Desktop/SiteForMods/data/games/my-furry-protogen/glossary.json": "611e6dec103d1857ec8ed5ce8dc10470312c5ef6d981e1ef307474b44f85d926",
+    "localization/de/dialogue.tsv": "67610afda3149e3fa38ae8bf667b5e3d4c43163ede134df414ba26e3ef135858",
+    "localization/de/strings.json": "33404699223ebbf51ef00ba014baf58e7f41579a31ea5d50597bb733cbbfd52c",
+    "localization/de/nsfw/dialogue.tsv": "64a93524af888607df9536e819c48d26a18b5eb08b8e1da32872766a3ea99876",
+    "localization/de/nsfw/strings.json": "ece354df31fba7ffbd959a14457692b27d8d6acf7631b421766164e888ad8839",
+    "text-assets/cli-localization-text.5s1g3lq4/de/cycle-01/before/dialogue.tsv": "5de520894d5c18d29efab1bd6480afee2420b8677aab831a128315761e7e462e",
+    "text-assets/cli-localization-text.5s1g3lq4/de/cycle-01/before/strings.json": "33404699223ebbf51ef00ba014baf58e7f41579a31ea5d50597bb733cbbfd52c",
+    "text-assets/cli-localization-text.5s1g3lq4/de/cycle-01/before/nsfw/dialogue.tsv": "c2dc89091b885d137b3a07aca2d26547cd153670fff819834eadcab0ea5a921c",
+    "text-assets/cli-localization-text.5s1g3lq4/de/cycle-01/before/nsfw/strings.json": "ece354df31fba7ffbd959a14457692b27d8d6acf7631b421766164e888ad8839"
+  },
+  "files": {
+    "nsfw-changed.json": "107e0c8fded6d8afbd5f878e0d2db75a34204c86357764f575784a9f6fc142ba",
+    "nsfw-closure.json": "c353fd17971ca681cca36f1b5b2b6ad302fde0789ed86e919524cbcec29934fd",
+    "nsfw-components.json": "53fdbb3143f55f715785d5bef96499e7265af26a3d7c9fcdb22e486b52320d9c",
+    "nsfw-nonstory-context.json": "e891d55dabbdddfdc95071c1d438700c26742276853bc9da8eb3eb7481a9281c",
+    "nsfw-review.json": "ad321807534d110644a7a2f23eb7b84ce2a9088c2707cb63bb1eadb77f42d8a8",
+    "sfw-changed.json": "24d51bb94b4930429c8eef7d1140055c7adb77ec623fc4741bc7daa7567f7438",
+    "sfw-closure.json": "927240e2cf821f4d816ae1a06f742e9f7d3e9915d0e8e9a929767d3b61e94585",
+    "sfw-components.json": "a65b4d76c1c3dc5836aa599aec8057bb1d221bc6aeac941e4bb5ef13f4f3a15a",
+    "sfw-nonstory-context.json": "b4418b50012715ab61a7cb45b5d60ff45114afc8e45e9e6c2f5047e8a6cdca89",
+    "sfw-review.json": "6cef893edbeaba5c2708f5461886d6523d3e39e04086165d7e308c4b8d4c52d1"
+  }
+}

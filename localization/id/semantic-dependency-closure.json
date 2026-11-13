@@ -1,0 +1,289 @@
+{
+  "scope": "Recorded semantic corrections only, with immediate source-order context and DLC same-ID/alias dependencies; not an exhaustive audit of earlier draft creation or all possible semantic dependencies.",
+  "method": "For each semantic-findings change, locate its base English ID; inspect its previous and next base rows and current Indonesian; verify recorded after text; find identical-ID DLC rows and reverse alias references; compare mapped DLC English exactly to base English; include adjacent DLC IDs; search special-scenes-draft.tsv for the corrected ID. Review the unique alias context separately. Input hashes pin this computation.",
+  "inputs_sha256": {
+    "text-assets/renpy-dialogue.tab": "4ba57708ea623be3177c60680b318461469741b1109e7874d8e4c3131e007ad5",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/renpy-dialogue.tab": "74ff2174cd5eb7515bbb5bc2ae8ce82dc672f80bf16909f57af23432fe29ab93",
+    "localization/nsfw-story-aliases.json": "6b020423fc1c45e678c6c8ef6914161ed2978864f91c805d3c0d286c084b8f7c",
+    "localization/id/dialogue.tsv": "f4e37b277bd59b0df70e8273c68d888bf0a549666efe96e626ed4eecbb809a5c",
+    "localization/id/nsfw/dialogue.tsv": "9bb9d059cdaadd0cc60f043c9f57b4d90741cdac22a566fc2c8b4dfc209ae51f",
+    "localization/id/strings.json": "8c9525b7734d0c44189825c60fbbd0e7e9b18bf0751143d00e69fa98d286bb28",
+    "localization/id/nsfw/strings.json": "604efe9044576ecf48d366bdb790ab43e3bd1058420f05d19a79dc303b561c3e",
+    "localization/id/special-scenes-draft.tsv": "05bc4cfb9060a7e19075291618ee170bc606651245c203c863d989c37d2c7c65",
+    "localization/id/semantic-coverage.json": "4749af97e474de8d1bc6a0aabfe715a5cca99d3ab67a745f2c4249a24723aedd",
+    "localization/id/semantic-findings-019.json": "98ac68b7d8b2e3a2d7eef035415808af5ded0ea7665265baaf866649be37bf02",
+    "localization/id/semantic-findings-021.json": "42d0edc5da3ebe7b347ce10e2a562cfb6d6b0ea79657fa613f00d966ca8a5077",
+    "localization/id/semantic-findings-025.json": "9a59a19a13bad783913efa7801bace23aaf97dea2462956a6f91d2a84642a550",
+    "localization/id/semantic-findings-026.json": "6251ec7370df1e3cd3f81785c17583a8e4dc7e66c688da8db4c83d1a46fd4418",
+    "localization/id/semantic-findings-027.json": "8172dfcc466d40b49e2a289199aff6f22879b27b039ee2de62766a1840e62b95",
+    "localization/id/semantic-findings-028.json": "7ca442274c62258b259f484c1e4a0edb60b37d81621dc9b8722867d77dfd7fc6"
+  },
+  "corrections": [
+    {
+      "id": "start_3ad19a9c",
+      "finding": "localization/id/semantic-findings-019.json",
+      "base_neighbors": [
+        "start_a38ddd92",
+        "start_3ad19a9c",
+        "start_436ff1c4"
+      ],
+      "dlc_mappings": [
+        "start_3ad19a9c"
+      ],
+      "dlc_neighbors": {
+        "start_3ad19a9c": [
+          "start_a38ddd92",
+          "start_3ad19a9c",
+          "start_436ff1c4"
+        ]
+      },
+      "special_draft_entry": false,
+      "recorded_after_present": true,
+      "context_delta_review": "author reviewed English and Indonesian for base neighboring rows; mapped DLC English equals base corrected source; alias context reviewed when applicable"
+    },
+    {
+      "id": "start_243fd325",
+      "finding": "localization/id/semantic-findings-021.json",
+      "base_neighbors": [
+        "start_76cbc7cb",
+        "start_243fd325",
+        "start_6c5caa25"
+      ],
+      "dlc_mappings": [
+        "start_243fd325"
+      ],
+      "dlc_neighbors": {
+        "start_243fd325": [
+          "start_76cbc7cb",
+          "start_243fd325",
+          "start_6c5caa25"
+        ]
+      },
+      "special_draft_entry": false,
+      "recorded_after_present": true,
+      "context_delta_review": "author reviewed English and Indonesian for base neighboring rows; mapped DLC English equals base corrected source; alias context reviewed when applicable"
+    },
+    {
+      "id": "start_211f6dc6",
+      "finding": "localization/id/semantic-findings-021.json",
+      "base_neighbors": [
+        "start_c89cdfa5",
+        "start_211f6dc6",
+        "start_4361f06f"
+      ],
+      "dlc_mappings": [
+        "start_211f6dc6"
+      ],
+      "dlc_neighbors": {
+        "start_211f6dc6": [
+          "start_c89cdfa5",
+          "start_211f6dc6",
+          "start_4361f06f"
+        ]
+      },
+      "special_draft_entry": false,
+      "recorded_after_present": true,
+      "context_delta_review": "author reviewed English and Indonesian for base neighboring rows; mapped DLC English equals base corrected source; alias context reviewed when applicable"
+    },
+    {
+      "id": "start_7855290d",
+      "finding": "localization/id/semantic-findings-021.json",
+      "base_neighbors": [
+        "start_4361f06f",
+        "start_7855290d",
+        "start_3101934f"
+      ],
+      "dlc_mappings": [
+        "start_7855290d"
+      ],
+      "dlc_neighbors": {
+        "start_7855290d": [
+          "start_4361f06f",
+          "start_7855290d",
+          "start_3101934f"
+        ]
+      },
+      "special_draft_entry": false,
+      "recorded_after_present": true,
+      "context_delta_review": "author reviewed English and Indonesian for base neighboring rows; mapped DLC English equals base corrected source; alias context reviewed when applicable"
+    },
+    {
+      "id": "start_44bd485b",
+      "finding": "localization/id/semantic-findings-021.json",
+      "base_neighbors": [
+        "start_5809fa09",
+        "start_44bd485b",
+        "start_90458a18"
+      ],
+      "dlc_mappings": [
+        "start_44bd485b"
+      ],
+      "dlc_neighbors": {
+        "start_44bd485b": [
+          "start_5809fa09",
+          "start_44bd485b",
+          "start_90458a18"
+        ]
+      },
+      "special_draft_entry": false,
+      "recorded_after_present": true,
+      "context_delta_review": "author reviewed English and Indonesian for base neighboring rows; mapped DLC English equals base corrected source; alias context reviewed when applicable"
+    },
+    {
+      "id": "start_557ae46f",
+      "finding": "localization/id/semantic-findings-025.json",
+      "base_neighbors": [
+        "start_1c86037d",
+        "start_557ae46f",
+        "start_df743053"
+      ],
+      "dlc_mappings": [
+        "start_557ae46f"
+      ],
+      "dlc_neighbors": {
+        "start_557ae46f": [
+          "start_1c86037d",
+          "start_557ae46f",
+          "start_df743053"
+        ]
+      },
+      "special_draft_entry": false,
+      "recorded_after_present": true,
+      "context_delta_review": "author reviewed English and Indonesian for base neighboring rows; mapped DLC English equals base corrected source; alias context reviewed when applicable"
+    },
+    {
+      "id": "start_eeefa321",
+      "finding": "localization/id/semantic-findings-025.json",
+      "base_neighbors": [
+        "start_a5349097",
+        "start_eeefa321",
+        "start_9d7884bb"
+      ],
+      "dlc_mappings": [
+        "start_eeefa321"
+      ],
+      "dlc_neighbors": {
+        "start_eeefa321": [
+          "start_a5349097",
+          "start_eeefa321",
+          "start_9d7884bb"
+        ]
+      },
+      "special_draft_entry": false,
+      "recorded_after_present": true,
+      "context_delta_review": "author reviewed English and Indonesian for base neighboring rows; mapped DLC English equals base corrected source; alias context reviewed when applicable"
+    },
+    {
+      "id": "start_59d66fc8",
+      "finding": "localization/id/semantic-findings-026.json",
+      "base_neighbors": [
+        "start_ebd2fbd1",
+        "start_59d66fc8",
+        "start_1da27163"
+      ],
+      "dlc_mappings": [
+        "start_59d66fc8"
+      ],
+      "dlc_neighbors": {
+        "start_59d66fc8": [
+          "start_ebd2fbd1",
+          "start_59d66fc8",
+          "start_1da27163"
+        ]
+      },
+      "special_draft_entry": false,
+      "recorded_after_present": true,
+      "context_delta_review": "author reviewed English and Indonesian for base neighboring rows; mapped DLC English equals base corrected source; alias context reviewed when applicable"
+    },
+    {
+      "id": "start_31ab804a",
+      "finding": "localization/id/semantic-findings-027.json",
+      "base_neighbors": [
+        "start_becec016",
+        "start_31ab804a",
+        "start_49aca91e"
+      ],
+      "dlc_mappings": [
+        "start_31ab804a"
+      ],
+      "dlc_neighbors": {
+        "start_31ab804a": [
+          "start_becec016",
+          "start_31ab804a",
+          "start_49aca91e"
+        ]
+      },
+      "special_draft_entry": false,
+      "recorded_after_present": true,
+      "context_delta_review": "author reviewed English and Indonesian for base neighboring rows; mapped DLC English equals base corrected source; alias context reviewed when applicable"
+    },
+    {
+      "id": "start_171c5125",
+      "finding": "localization/id/semantic-findings-027.json",
+      "base_neighbors": [
+        "start_f66bb6fe",
+        "start_171c5125",
+        "start_3c185e8d"
+      ],
+      "dlc_mappings": [
+        "start_171c5125"
+      ],
+      "dlc_neighbors": {
+        "start_171c5125": [
+          "start_7b64e49d",
+          "start_171c5125",
+          "start_3c185e8d"
+        ]
+      },
+      "special_draft_entry": false,
+      "recorded_after_present": true,
+      "context_delta_review": "author reviewed English and Indonesian for base neighboring rows; mapped DLC English equals base corrected source; alias context reviewed when applicable"
+    },
+    {
+      "id": "start_c451b1f5",
+      "finding": "localization/id/semantic-findings-028.json",
+      "base_neighbors": [
+        "start_a6f989c3",
+        "start_c451b1f5",
+        "start_ebeb78ac"
+      ],
+      "dlc_mappings": [
+        "start_679fb123"
+      ],
+      "dlc_neighbors": {
+        "start_679fb123": [
+          "start_a6f989c3",
+          "start_679fb123",
+          "start_ebeb78ac"
+        ]
+      },
+      "special_draft_entry": false,
+      "recorded_after_present": true,
+      "context_delta_review": "author reviewed English and Indonesian for base neighboring rows; mapped DLC English equals base corrected source; alias context reviewed when applicable"
+    },
+    {
+      "id": "start_93d352bc",
+      "finding": "localization/id/semantic-findings-028.json",
+      "base_neighbors": [
+        "start_e7bdf2ca",
+        "start_93d352bc",
+        "start_653b3a6f"
+      ],
+      "dlc_mappings": [
+        "start_93d352bc"
+      ],
+      "dlc_neighbors": {
+        "start_93d352bc": [
+          "start_e7bdf2ca",
+          "start_93d352bc",
+          "start_653b3a6f"
+        ]
+      },
+      "special_draft_entry": false,
+      "recorded_after_present": true,
+      "context_delta_review": "author reviewed English and Indonesian for base neighboring rows; mapped DLC English equals base corrected source; alias context reviewed when applicable"
+    }
+  ],
+  "independent_review": "pending",
+  "runtime_visual": "unverified"
+}

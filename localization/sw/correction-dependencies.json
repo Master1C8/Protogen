@@ -1,0 +1,2711 @@
+{
+  "purpose": "Reproducible correction dependency inventory; inventory neighbors are candidates, not proof of independent review. Review full relevant scene, timed tags, choices, shared IDs and listed aliases before accepting corrections.",
+  "construction": "Union IDs in semantic-findings-017 through 032 and the earlier start_97e0486a correction; locate each ID in both pinned inventories (Gallery by text), include immediate same-path inventory neighbors and reverse DLC aliases. Earlier drafting correction start_16df6b84 is also tracked in STATUS and is included below.",
+  "inputs_sha256": {
+    "text-assets/inventory.json": "8b9c6008ad1b13c40f0abfcfb7f0cf94f8fda0777a3eb3e59aa6bbf6f8cf56ff",
+    "text-assets/edition-qa.0bfO9x/nsfw-export/inventory.json": "b0feab1e5d5dfa697bbeee0a98a8dc310edd30ce6acc908aee8e776b5f0aa2ea",
+    "localization/nsfw-story-aliases.json": "6b020423fc1c45e678c6c8ef6914161ed2978864f91c805d3c0d286c084b8f7c",
+    "localization/sw/dialogue.tsv": "fb9960d8edae74f1b5b5260cb85eaccdc77d0b4a7be3f37015c147ed4ca3af03",
+    "localization/sw/strings.json": "f97bb61b6488b8d75fa3cddbf9e7708ecebabdb45cbf3aa80f8cb7c2e5fa29a3",
+    "localization/sw/nsfw/dialogue.tsv": "dcf378986602b0acc29bf232b10827a4e60897e831312ad2b0fb7e2578251d2d",
+    "localization/sw/nsfw/strings.json": "a840824171247a0d90c26c4bbdafb7e8bb645daea5e85f001e055985e6537639",
+    "localization/sw/semantic-coverage.json": "f5358e2e188eb27f6330b4b4aa431160ac5d71e46f2089269adbdb65d4b64809",
+    "localization/sw/special-scenes.md": "7af914d0763e22d6a05679e13f3ad2e8c20c0eb0c58dda011ecf6a8f82e72fbf",
+    "localization/sw/semantic-findings-017.json": "ac2fb8eb3949a9bd05e355748c1821afb7a18c709aeec73b6b05559d7f16eaad",
+    "localization/sw/semantic-findings-018.json": "1a6eb14bc116a6ce8de122380a5a6610c1ec5689cde66e50f5de7d1836c3c13b",
+    "localization/sw/semantic-findings-019.json": "b57bcfeb48fd989a6c019bda137852fdecc15a9e5508c0725917df12f6e517c1",
+    "localization/sw/semantic-findings-020.json": "3090bdb84fe017b039206746fd9250fed53ea375de991b1f93bae509320f89f6",
+    "localization/sw/semantic-findings-021.json": "fb776adda40217b3df80633a993dba0187d3ab39c4ea449dc3e10dc66d4c071f",
+    "localization/sw/semantic-findings-022.json": "1ef4f46875298e32baa4dfbcd7db0a6d1f8fa39a38424926958b46e857665f08",
+    "localization/sw/semantic-findings-023.json": "c3b639ef1afa8caf993126e538d37ca081fdef0a4ab094fce54c5011e9a454c2",
+    "localization/sw/semantic-findings-024.json": "154383b780c098a281229a7dbf0abae4f9767c780920c74d85b5cb0f2b8373de",
+    "localization/sw/semantic-findings-025.json": "422455b3b658d49f76717221dedd94af3076d16f83fc38d580c9d5cad105342a",
+    "localization/sw/semantic-findings-026.json": "79e500f84da6909e73c4e834eb0dae8435c332fe98ccdf4fe37c7da6299497f8",
+    "localization/sw/semantic-findings-027.json": "0b5f2a448ed1869a654ef69903dbf4e25de12f8e6d502311bbe2e7deb5f6a634",
+    "localization/sw/semantic-findings-028.json": "ede2408239b9a7c3371e4cef88f87eaa91c5094f76c09c6a65e0032c18534229",
+    "localization/sw/semantic-findings-029.json": "abe3f9dcfab6a34273958effb21a28424b9d38d4407ce35c10c6fadf204d6297",
+    "localization/sw/semantic-findings-030.json": "7bc8fddf359da1f14405b0780bd5b50b3fb74fe6b8d7298ef4ceb508b137d4d6",
+    "localization/sw/semantic-findings-031.json": "196b4f311b3c53b6991c8b1c4712683443c3cfcd222603f984d0a791ac53ba79",
+    "localization/sw/semantic-findings-032.json": "930864bd29a98bfa870a5c5e4e12455beca0b99635f2401bedc8749c701a397a"
+  },
+  "corrections": [
+    {
+      "id": "Gallery",
+      "occurrences": [
+        {
+          "edition": "dlc",
+          "path": "game/screens.rpy",
+          "line": 417,
+          "role": "interface",
+          "inventory_neighbors": [
+            {
+              "id": "game/screens.rpy:415:53",
+              "role": "preserve-exactly",
+              "line": 415
+            },
+            {
+              "id": "game/screens.rpy:417:22",
+              "role": "interface",
+              "line": 417
+            },
+            {
+              "id": "game/screens.rpy:417:49",
+              "role": "preserve-exactly",
+              "line": 417
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_009c4f12",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 4688,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_f8ca89eb",
+              "role": "narration",
+              "line": 4685
+            },
+            {
+              "id": "start_009c4f12",
+              "role": "narration",
+              "line": 4688
+            },
+            {
+              "id": "start_f002456d",
+              "role": "dialogue",
+              "line": 4694
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_05e85242",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 3983,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_2fd609cc",
+              "role": "narration",
+              "line": 3980
+            },
+            {
+              "id": "start_05e85242",
+              "role": "narration",
+              "line": 3983
+            },
+            {
+              "id": "start_15648cf8",
+              "role": "narration",
+              "line": 3986
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 3997,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_2fd609cc",
+              "role": "narration",
+              "line": 3994
+            },
+            {
+              "id": "start_05e85242",
+              "role": "narration",
+              "line": 3997
+            },
+            {
+              "id": "start_15648cf8",
+              "role": "narration",
+              "line": 4000
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_0abd2ded",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 3324,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_f8c95559",
+              "role": "dialogue",
+              "line": 3321
+            },
+            {
+              "id": "start_0abd2ded",
+              "role": "dialogue",
+              "line": 3324
+            },
+            {
+              "id": "start_e00544de",
+              "role": "dialogue",
+              "line": 3327
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 3335,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_f8c95559",
+              "role": "dialogue",
+              "line": 3332
+            },
+            {
+              "id": "start_0abd2ded",
+              "role": "dialogue",
+              "line": 3335
+            },
+            {
+              "id": "start_e00544de",
+              "role": "dialogue",
+              "line": 3338
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_0acdc139",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 4025,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_df115c8a",
+              "role": "dialogue",
+              "line": 4022
+            },
+            {
+              "id": "start_0acdc139",
+              "role": "dialogue",
+              "line": 4025
+            },
+            {
+              "id": "start_d71ef47a",
+              "role": "dialogue",
+              "line": 4028
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 4039,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_df115c8a",
+              "role": "dialogue",
+              "line": 4036
+            },
+            {
+              "id": "start_0acdc139",
+              "role": "dialogue",
+              "line": 4039
+            },
+            {
+              "id": "start_d71ef47a",
+              "role": "dialogue",
+              "line": 4042
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_0bf2fe34",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 918,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_54deb06c",
+              "role": "narration",
+              "line": 915
+            },
+            {
+              "id": "start_0bf2fe34",
+              "role": "dialogue",
+              "line": 918
+            },
+            {
+              "id": "start_63edd260",
+              "role": "dialogue",
+              "line": 921
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 918,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_54deb06c",
+              "role": "narration",
+              "line": 915
+            },
+            {
+              "id": "start_0bf2fe34",
+              "role": "dialogue",
+              "line": 918
+            },
+            {
+              "id": "start_63edd260",
+              "role": "dialogue",
+              "line": 921
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_0d81f008",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 1495,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_7eb4de78",
+              "role": "dialogue",
+              "line": 1492
+            },
+            {
+              "id": "start_0d81f008",
+              "role": "dialogue",
+              "line": 1495
+            },
+            {
+              "id": "start_12edcaa8",
+              "role": "dialogue",
+              "line": 1498
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 1499,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_7eb4de78",
+              "role": "dialogue",
+              "line": 1496
+            },
+            {
+              "id": "start_0d81f008",
+              "role": "dialogue",
+              "line": 1499
+            },
+            {
+              "id": "start_12edcaa8",
+              "role": "dialogue",
+              "line": 1502
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_12453058",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 1276,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_85dc0176",
+              "role": "dialogue",
+              "line": 1273
+            },
+            {
+              "id": "start_12453058",
+              "role": "narration",
+              "line": 1276
+            },
+            {
+              "id": "start_51575dcb",
+              "role": "dialogue",
+              "line": 1279
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 1280,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_85dc0176",
+              "role": "dialogue",
+              "line": 1277
+            },
+            {
+              "id": "start_12453058",
+              "role": "narration",
+              "line": 1280
+            },
+            {
+              "id": "start_51575dcb",
+              "role": "dialogue",
+              "line": 1283
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_19e87026",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 4300,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_a9365517",
+              "role": "narration",
+              "line": 4297
+            },
+            {
+              "id": "start_19e87026",
+              "role": "narration",
+              "line": 4300
+            },
+            {
+              "id": "start_38bc1abc",
+              "role": "narration",
+              "line": 4303
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 4314,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_a9365517",
+              "role": "narration",
+              "line": 4311
+            },
+            {
+              "id": "start_19e87026",
+              "role": "narration",
+              "line": 4314
+            },
+            {
+              "id": "start_38bc1abc",
+              "role": "narration",
+              "line": 4317
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_29eade7d",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 266,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_e3c08d64",
+              "role": "narration",
+              "line": 263
+            },
+            {
+              "id": "start_29eade7d",
+              "role": "narration",
+              "line": 266
+            },
+            {
+              "id": "start_fdab409a",
+              "role": "narration",
+              "line": 269
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 263,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_e3c08d64",
+              "role": "narration",
+              "line": 260
+            },
+            {
+              "id": "start_29eade7d",
+              "role": "narration",
+              "line": 263
+            },
+            {
+              "id": "start_fdab409a",
+              "role": "narration",
+              "line": 266
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_2af0850e",
+      "occurrences": [
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 5237,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_f8ca89eb",
+              "role": "narration",
+              "line": 5234
+            },
+            {
+              "id": "start_2af0850e",
+              "role": "narration",
+              "line": 5237
+            },
+            {
+              "id": "start_f002456d",
+              "role": "dialogue",
+              "line": 5243
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_2cfb05c4",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 1252,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_37b36845",
+              "role": "dialogue",
+              "line": 1249
+            },
+            {
+              "id": "start_2cfb05c4",
+              "role": "narration",
+              "line": 1252
+            },
+            {
+              "id": "start_68f38606",
+              "role": "narration",
+              "line": 1255
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 1256,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_37b36845",
+              "role": "dialogue",
+              "line": 1253
+            },
+            {
+              "id": "start_2cfb05c4",
+              "role": "narration",
+              "line": 1256
+            },
+            {
+              "id": "start_68f38606",
+              "role": "narration",
+              "line": 1259
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_31ee85ce",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 1723,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_23f94a7e",
+              "role": "dialogue",
+              "line": 1712
+            },
+            {
+              "id": "start_31ee85ce",
+              "role": "narration",
+              "line": 1723
+            },
+            {
+              "id": "start_49918ad9",
+              "role": "narration",
+              "line": 1726
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 1725,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_23f94a7e",
+              "role": "dialogue",
+              "line": 1716
+            },
+            {
+              "id": "start_31ee85ce",
+              "role": "narration",
+              "line": 1725
+            },
+            {
+              "id": "start_49918ad9",
+              "role": "narration",
+              "line": 1728
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_364819a2",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 5351,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_e912529e",
+              "role": "dialogue",
+              "line": 5348
+            },
+            {
+              "id": "start_364819a2",
+              "role": "narration",
+              "line": 5351
+            },
+            {
+              "id": "start_8b78c5fe",
+              "role": "narration",
+              "line": 5354
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 6140,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_e912529e",
+              "role": "dialogue",
+              "line": 6137
+            },
+            {
+              "id": "start_364819a2",
+              "role": "narration",
+              "line": 6140
+            },
+            {
+              "id": "start_8b78c5fe",
+              "role": "narration",
+              "line": 6143
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_3ca5d99a",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 2373,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_5859acbd",
+              "role": "narration",
+              "line": 2370
+            },
+            {
+              "id": "start_3ca5d99a",
+              "role": "narration",
+              "line": 2373
+            },
+            {
+              "id": "start_2f6b140c",
+              "role": "narration",
+              "line": 2379
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 2378,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_5859acbd",
+              "role": "narration",
+              "line": 2375
+            },
+            {
+              "id": "start_3ca5d99a",
+              "role": "narration",
+              "line": 2378
+            },
+            {
+              "id": "start_2f6b140c",
+              "role": "narration",
+              "line": 2384
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_4155cdcb",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 5807,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "game/script.rpy:5803:28",
+              "role": "preserve-exactly",
+              "line": 5803
+            },
+            {
+              "id": "start_4155cdcb",
+              "role": "narration",
+              "line": 5807
+            },
+            {
+              "id": "start_57cd459e",
+              "role": "narration",
+              "line": 5813
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 6595,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "game/script.rpy:6591:28",
+              "role": "preserve-exactly",
+              "line": 6591
+            },
+            {
+              "id": "start_4155cdcb",
+              "role": "narration",
+              "line": 6595
+            },
+            {
+              "id": "start_57cd459e",
+              "role": "narration",
+              "line": 6602
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_416b156b",
+      "occurrences": [
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 5557,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_e11d55c7",
+              "role": "dialogue",
+              "line": 5551
+            },
+            {
+              "id": "start_416b156b",
+              "role": "dialogue",
+              "line": 5557
+            },
+            {
+              "id": "start_fc7c50f4",
+              "role": "narration",
+              "line": 5560
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_424e1edf",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 600,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_b7c8a4b1",
+              "role": "narration",
+              "line": 597
+            },
+            {
+              "id": "start_424e1edf",
+              "role": "narration",
+              "line": 600
+            },
+            {
+              "id": "start_ca166064",
+              "role": "narration",
+              "line": 603
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 599,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_b7c8a4b1",
+              "role": "narration",
+              "line": 596
+            },
+            {
+              "id": "start_424e1edf",
+              "role": "narration",
+              "line": 599
+            },
+            {
+              "id": "start_ca166064",
+              "role": "narration",
+              "line": 602
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_46dca9b7",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 428,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_3c2de58d",
+              "role": "narration",
+              "line": 425
+            },
+            {
+              "id": "start_46dca9b7",
+              "role": "narration",
+              "line": 428
+            },
+            {
+              "id": "start_9d2aa1bf",
+              "role": "dialogue",
+              "line": 431
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 425,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_3c2de58d",
+              "role": "narration",
+              "line": 422
+            },
+            {
+              "id": "start_46dca9b7",
+              "role": "narration",
+              "line": 425
+            },
+            {
+              "id": "start_9d2aa1bf",
+              "role": "dialogue",
+              "line": 429
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_476f17c7",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 4807,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_1e4994f7",
+              "role": "narration",
+              "line": 4805
+            },
+            {
+              "id": "start_476f17c7",
+              "role": "narration",
+              "line": 4807
+            },
+            {
+              "id": "start_78177064",
+              "role": "narration",
+              "line": 4809
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 5362,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_58e547f0",
+              "role": "narration",
+              "line": 5359
+            },
+            {
+              "id": "start_476f17c7",
+              "role": "narration",
+              "line": 5362
+            },
+            {
+              "id": "start_78177064",
+              "role": "narration",
+              "line": 5365
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_4ea2ff68",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 4259,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_a6ca0beb",
+              "role": "narration",
+              "line": 4256
+            },
+            {
+              "id": "start_4ea2ff68",
+              "role": "narration",
+              "line": 4259
+            },
+            {
+              "id": "start_0c7f4bee",
+              "role": "narration",
+              "line": 4262
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 4273,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_a6ca0beb",
+              "role": "narration",
+              "line": 4270
+            },
+            {
+              "id": "start_4ea2ff68",
+              "role": "narration",
+              "line": 4273
+            },
+            {
+              "id": "start_0c7f4bee",
+              "role": "narration",
+              "line": 4276
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_4f9e4364",
+      "occurrences": [
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 5006,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_0cf612a4",
+              "role": "narration",
+              "line": 5003
+            },
+            {
+              "id": "start_4f9e4364",
+              "role": "narration",
+              "line": 5006
+            },
+            {
+              "id": "start_e2045bbe",
+              "role": "narration",
+              "line": 5009
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_557ae46f",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 3534,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_1c86037d",
+              "role": "dialogue",
+              "line": 3531
+            },
+            {
+              "id": "start_557ae46f",
+              "role": "dialogue",
+              "line": 3534
+            },
+            {
+              "id": "start_df743053",
+              "role": "dialogue",
+              "line": 3537
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 3546,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_1c86037d",
+              "role": "dialogue",
+              "line": 3543
+            },
+            {
+              "id": "start_557ae46f",
+              "role": "dialogue",
+              "line": 3546
+            },
+            {
+              "id": "start_df743053",
+              "role": "dialogue",
+              "line": 3549
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_5588e9a5",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 272,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_fdab409a",
+              "role": "narration",
+              "line": 269
+            },
+            {
+              "id": "start_5588e9a5",
+              "role": "narration",
+              "line": 272
+            },
+            {
+              "id": "start_47535e5a",
+              "role": "narration",
+              "line": 275
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 269,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_fdab409a",
+              "role": "narration",
+              "line": 266
+            },
+            {
+              "id": "start_5588e9a5",
+              "role": "narration",
+              "line": 269
+            },
+            {
+              "id": "start_47535e5a",
+              "role": "narration",
+              "line": 272
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_5b98c499",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 5764,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_fb4086cd",
+              "role": "narration",
+              "line": 5761
+            },
+            {
+              "id": "start_5b98c499",
+              "role": "narration",
+              "line": 5764
+            },
+            {
+              "id": "start_ab7330cb",
+              "role": "narration",
+              "line": 5767
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 6552,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_fb4086cd",
+              "role": "narration",
+              "line": 6549
+            },
+            {
+              "id": "start_5b98c499",
+              "role": "narration",
+              "line": 6552
+            },
+            {
+              "id": "start_ab7330cb",
+              "role": "narration",
+              "line": 6555
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_5bfbfeac",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 1341,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_55d6eb8a",
+              "role": "narration",
+              "line": 1338
+            },
+            {
+              "id": "start_5bfbfeac",
+              "role": "dialogue",
+              "line": 1341
+            },
+            {
+              "id": "start_01ed7125",
+              "role": "dialogue",
+              "line": 1344
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 1345,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_55d6eb8a",
+              "role": "narration",
+              "line": 1342
+            },
+            {
+              "id": "start_5bfbfeac",
+              "role": "dialogue",
+              "line": 1345
+            },
+            {
+              "id": "start_01ed7125",
+              "role": "dialogue",
+              "line": 1348
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_5ef98200",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 5955,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_e6796d2c",
+              "role": "narration",
+              "line": 5952
+            },
+            {
+              "id": "start_5ef98200",
+              "role": "dialogue",
+              "line": 5955
+            },
+            {
+              "id": "start_9ee69d31",
+              "role": "narration",
+              "line": 5958
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 6746,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_e6796d2c",
+              "role": "narration",
+              "line": 6743
+            },
+            {
+              "id": "start_5ef98200",
+              "role": "dialogue",
+              "line": 6746
+            },
+            {
+              "id": "start_9ee69d31",
+              "role": "narration",
+              "line": 6749
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_618deca0",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 2924,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_062b579d",
+              "role": "narration",
+              "line": 2922
+            },
+            {
+              "id": "start_618deca0",
+              "role": "narration",
+              "line": 2924
+            },
+            {
+              "id": "start_6bdddf51",
+              "role": "narration",
+              "line": 2927
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 2932,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_062b579d",
+              "role": "narration",
+              "line": 2929
+            },
+            {
+              "id": "start_618deca0",
+              "role": "narration",
+              "line": 2932
+            },
+            {
+              "id": "start_6bdddf51",
+              "role": "narration",
+              "line": 2935
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_6274bbb5",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 5134,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_4e556fc2",
+              "role": "narration",
+              "line": 5131
+            },
+            {
+              "id": "start_6274bbb5",
+              "role": "dialogue",
+              "line": 5134
+            },
+            {
+              "id": "start_90de4a99",
+              "role": "dialogue",
+              "line": 5137
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 5922,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_4e556fc2",
+              "role": "narration",
+              "line": 5919
+            },
+            {
+              "id": "start_6274bbb5",
+              "role": "dialogue",
+              "line": 5922
+            },
+            {
+              "id": "start_90de4a99",
+              "role": "dialogue",
+              "line": 5925
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_64950fa2",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 4747,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_d1d6ff34",
+              "role": "narration",
+              "line": 4744
+            },
+            {
+              "id": "start_64950fa2",
+              "role": "narration",
+              "line": 4747
+            },
+            {
+              "id": "start_dceabfcb",
+              "role": "narration",
+              "line": 4750
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 5296,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_d1d6ff34",
+              "role": "narration",
+              "line": 5293
+            },
+            {
+              "id": "start_64950fa2",
+              "role": "narration",
+              "line": 5296
+            },
+            {
+              "id": "start_dceabfcb",
+              "role": "narration",
+              "line": 5299
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_68ed83cb",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 3453,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_5ad4e67c",
+              "role": "dialogue",
+              "line": 3450
+            },
+            {
+              "id": "start_68ed83cb",
+              "role": "dialogue",
+              "line": 3453
+            },
+            {
+              "id": "start_da63ea5f",
+              "role": "dialogue",
+              "line": 3456
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 3465,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_5ad4e67c",
+              "role": "dialogue",
+              "line": 3462
+            },
+            {
+              "id": "start_68ed83cb",
+              "role": "dialogue",
+              "line": 3465
+            },
+            {
+              "id": "start_da63ea5f",
+              "role": "dialogue",
+              "line": 3468
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_6b53eb1a",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 5278,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_c925e5d0",
+              "role": "narration",
+              "line": 5275
+            },
+            {
+              "id": "start_6b53eb1a",
+              "role": "narration",
+              "line": 5278
+            },
+            {
+              "id": "start_c9e3ae5b",
+              "role": "narration",
+              "line": 5281
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 6067,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_c925e5d0",
+              "role": "narration",
+              "line": 6064
+            },
+            {
+              "id": "start_6b53eb1a",
+              "role": "narration",
+              "line": 6067
+            },
+            {
+              "id": "start_c9e3ae5b",
+              "role": "narration",
+              "line": 6070
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_733ff464",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 2248,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_9e73d264",
+              "role": "narration",
+              "line": 2245
+            },
+            {
+              "id": "start_733ff464",
+              "role": "narration",
+              "line": 2248
+            },
+            {
+              "id": "start_3390f433",
+              "role": "narration",
+              "line": 2255
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 2253,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_9e73d264",
+              "role": "narration",
+              "line": 2250
+            },
+            {
+              "id": "start_733ff464",
+              "role": "narration",
+              "line": 2253
+            },
+            {
+              "id": "start_3390f433",
+              "role": "narration",
+              "line": 2260
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_82cf338a",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 5321,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_b4aaeae2",
+              "role": "narration",
+              "line": 5318
+            },
+            {
+              "id": "start_82cf338a",
+              "role": "narration",
+              "line": 5321
+            },
+            {
+              "id": "start_68c1a549",
+              "role": "dialogue",
+              "line": 5324
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 6110,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_b4aaeae2",
+              "role": "narration",
+              "line": 6107
+            },
+            {
+              "id": "start_82cf338a",
+              "role": "narration",
+              "line": 6110
+            },
+            {
+              "id": "start_68c1a549",
+              "role": "dialogue",
+              "line": 6113
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_8b50bfec",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 1856,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_a46cadc0",
+              "role": "dialogue",
+              "line": 1853
+            },
+            {
+              "id": "start_8b50bfec",
+              "role": "narration",
+              "line": 1856
+            },
+            {
+              "id": "start_976b6126",
+              "role": "dialogue",
+              "line": 1859
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 1858,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_a46cadc0",
+              "role": "dialogue",
+              "line": 1855
+            },
+            {
+              "id": "start_8b50bfec",
+              "role": "narration",
+              "line": 1858
+            },
+            {
+              "id": "start_976b6126",
+              "role": "dialogue",
+              "line": 1861
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_947c859b",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 5816,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_57cd459e",
+              "role": "narration",
+              "line": 5813
+            },
+            {
+              "id": "start_947c859b",
+              "role": "narration",
+              "line": 5816
+            },
+            {
+              "id": "start_493b277c",
+              "role": "narration",
+              "line": 5819
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 6605,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_57cd459e",
+              "role": "narration",
+              "line": 6602
+            },
+            {
+              "id": "start_947c859b",
+              "role": "narration",
+              "line": 6605
+            },
+            {
+              "id": "start_493b277c",
+              "role": "narration",
+              "line": 6608
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_9545c84c",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 958,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_26bb0ea2",
+              "role": "narration",
+              "line": 955
+            },
+            {
+              "id": "start_9545c84c",
+              "role": "narration",
+              "line": 958
+            },
+            {
+              "id": "start_c03c6da5",
+              "role": "narration",
+              "line": 961
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 961,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_26bb0ea2",
+              "role": "narration",
+              "line": 958
+            },
+            {
+              "id": "start_9545c84c",
+              "role": "narration",
+              "line": 961
+            },
+            {
+              "id": "start_c03c6da5",
+              "role": "narration",
+              "line": 964
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_966900e9",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 3249,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_0fed1a85",
+              "role": "narration",
+              "line": 3246
+            },
+            {
+              "id": "start_966900e9",
+              "role": "dialogue",
+              "line": 3249
+            },
+            {
+              "id": "start_47e5df6c",
+              "role": "dialogue",
+              "line": 3252
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 3260,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_0fed1a85",
+              "role": "narration",
+              "line": 3257
+            },
+            {
+              "id": "start_966900e9",
+              "role": "dialogue",
+              "line": 3260
+            },
+            {
+              "id": "start_47e5df6c",
+              "role": "dialogue",
+              "line": 3263
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_97e0486a",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 142,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_d576c896",
+              "role": "dialogue",
+              "line": 139
+            },
+            {
+              "id": "start_97e0486a",
+              "role": "dialogue",
+              "line": 142
+            },
+            {
+              "id": "start_48f0c7f9",
+              "role": "narration",
+              "line": 145
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 138,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_d576c896",
+              "role": "dialogue",
+              "line": 135
+            },
+            {
+              "id": "start_97e0486a",
+              "role": "dialogue",
+              "line": 138
+            },
+            {
+              "id": "start_48f0c7f9",
+              "role": "narration",
+              "line": 141
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_a5349097",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 3566,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_0167f1df",
+              "role": "dialogue",
+              "line": 3563
+            },
+            {
+              "id": "start_a5349097",
+              "role": "narration",
+              "line": 3566
+            },
+            {
+              "id": "start_eeefa321",
+              "role": "narration",
+              "line": 3572
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 3578,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_0167f1df",
+              "role": "dialogue",
+              "line": 3575
+            },
+            {
+              "id": "start_a5349097",
+              "role": "narration",
+              "line": 3578
+            },
+            {
+              "id": "start_eeefa321",
+              "role": "narration",
+              "line": 3584
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_a7cbfd66",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 3001,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_fa303823",
+              "role": "dialogue",
+              "line": 2998
+            },
+            {
+              "id": "start_a7cbfd66",
+              "role": "dialogue",
+              "line": 3001
+            },
+            {
+              "id": "start_f4e38a3c",
+              "role": "narration",
+              "line": 3008
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 3010,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_fa303823",
+              "role": "dialogue",
+              "line": 3007
+            },
+            {
+              "id": "start_a7cbfd66",
+              "role": "dialogue",
+              "line": 3010
+            },
+            {
+              "id": "start_f4e38a3c",
+              "role": "narration",
+              "line": 3018
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_a91c0bed",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 1071,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_4f407986",
+              "role": "dialogue",
+              "line": 1068
+            },
+            {
+              "id": "start_a91c0bed",
+              "role": "narration",
+              "line": 1071
+            },
+            {
+              "id": "start_673dd838",
+              "role": "dialogue",
+              "line": 1074
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 1074,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_4f407986",
+              "role": "dialogue",
+              "line": 1071
+            },
+            {
+              "id": "start_a91c0bed",
+              "role": "narration",
+              "line": 1074
+            },
+            {
+              "id": "start_673dd838",
+              "role": "dialogue",
+              "line": 1077
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_aad4bd8b",
+      "occurrences": [
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 4662,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_a84527f8",
+              "role": "narration",
+              "line": 4659
+            },
+            {
+              "id": "start_aad4bd8b",
+              "role": "narration",
+              "line": 4662
+            },
+            {
+              "id": "start_54436d33",
+              "role": "narration",
+              "line": 4665
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_aaf3cc89",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 1669,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_ad392d4c",
+              "role": "dialogue",
+              "line": 1666
+            },
+            {
+              "id": "start_aaf3cc89",
+              "role": "dialogue",
+              "line": 1669
+            },
+            {
+              "id": "start_ae965bd0",
+              "role": "dialogue",
+              "line": 1672
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 1673,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_ad392d4c",
+              "role": "dialogue",
+              "line": 1670
+            },
+            {
+              "id": "start_aaf3cc89",
+              "role": "dialogue",
+              "line": 1673
+            },
+            {
+              "id": "start_ae965bd0",
+              "role": "dialogue",
+              "line": 1676
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_ab2be3ce",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 2339,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_c2aa1ae7",
+              "role": "narration",
+              "line": 2336
+            },
+            {
+              "id": "start_ab2be3ce",
+              "role": "narration",
+              "line": 2339
+            },
+            {
+              "id": "start_da973ea8",
+              "role": "dialogue",
+              "line": 2342
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 2344,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_c2aa1ae7",
+              "role": "narration",
+              "line": 2341
+            },
+            {
+              "id": "start_ab2be3ce",
+              "role": "narration",
+              "line": 2344
+            },
+            {
+              "id": "start_da973ea8",
+              "role": "dialogue",
+              "line": 2347
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_af2a1ae4",
+      "occurrences": [
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 5179,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_66eeffcc",
+              "role": "narration",
+              "line": 5176
+            },
+            {
+              "id": "start_af2a1ae4",
+              "role": "narration",
+              "line": 5179
+            },
+            {
+              "id": "start_3103d745",
+              "role": "narration",
+              "line": 5182
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_affb033a",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 818,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_ceecf8fe",
+              "role": "narration",
+              "line": 815
+            },
+            {
+              "id": "start_affb033a",
+              "role": "narration",
+              "line": 818
+            },
+            {
+              "id": "start_7ba482a7",
+              "role": "narration",
+              "line": 821
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 818,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_ceecf8fe",
+              "role": "narration",
+              "line": 815
+            },
+            {
+              "id": "start_affb033a",
+              "role": "narration",
+              "line": 818
+            },
+            {
+              "id": "start_7ba482a7",
+              "role": "narration",
+              "line": 821
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_b23c96f9",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 2948,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_ad8e0194",
+              "role": "narration",
+              "line": 2945
+            },
+            {
+              "id": "start_b23c96f9",
+              "role": "narration",
+              "line": 2948
+            },
+            {
+              "id": "start_de9e7c2f",
+              "role": "dialogue",
+              "line": 2951
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 2956,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_ad8e0194",
+              "role": "narration",
+              "line": 2953
+            },
+            {
+              "id": "start_b23c96f9",
+              "role": "narration",
+              "line": 2956
+            },
+            {
+              "id": "start_de9e7c2f",
+              "role": "dialogue",
+              "line": 2959
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_cbc67ea4",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 5925,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_4e1dd646",
+              "role": "dialogue",
+              "line": 5922
+            },
+            {
+              "id": "start_cbc67ea4",
+              "role": "narration",
+              "line": 5925
+            },
+            {
+              "id": "start_c705db30",
+              "role": "dialogue",
+              "line": 5928
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 6716,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_4e1dd646",
+              "role": "dialogue",
+              "line": 6713
+            },
+            {
+              "id": "start_cbc67ea4",
+              "role": "narration",
+              "line": 6716
+            },
+            {
+              "id": "start_c705db30",
+              "role": "dialogue",
+              "line": 6719
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_d6fa675a",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 2801,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_3862dc6e",
+              "role": "narration",
+              "line": 2798
+            },
+            {
+              "id": "start_d6fa675a",
+              "role": "dialogue",
+              "line": 2801
+            },
+            {
+              "id": "start_23f97757",
+              "role": "narration",
+              "line": 2804
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 2808,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_3862dc6e",
+              "role": "narration",
+              "line": 2805
+            },
+            {
+              "id": "start_d6fa675a",
+              "role": "dialogue",
+              "line": 2808
+            },
+            {
+              "id": "start_23f97757",
+              "role": "narration",
+              "line": 2811
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_d9b33a04",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 1582,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_be24e941",
+              "role": "dialogue",
+              "line": 1579
+            },
+            {
+              "id": "start_d9b33a04",
+              "role": "dialogue",
+              "line": 1582
+            },
+            {
+              "id": "start_519ee0ed",
+              "role": "dialogue",
+              "line": 1585
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 1586,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_be24e941",
+              "role": "dialogue",
+              "line": 1583
+            },
+            {
+              "id": "start_d9b33a04",
+              "role": "dialogue",
+              "line": 1586
+            },
+            {
+              "id": "start_519ee0ed",
+              "role": "dialogue",
+              "line": 1589
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_df56dcb1",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 5639,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_1fc1186b",
+              "role": "narration",
+              "line": 5636
+            },
+            {
+              "id": "start_df56dcb1",
+              "role": "narration",
+              "line": 5639
+            },
+            {
+              "id": "start_a62fbe5e",
+              "role": "narration",
+              "line": 5642
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 6427,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_1fc1186b",
+              "role": "narration",
+              "line": 6424
+            },
+            {
+              "id": "start_df56dcb1",
+              "role": "narration",
+              "line": 6427
+            },
+            {
+              "id": "start_a62fbe5e",
+              "role": "narration",
+              "line": 6430
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_df9b08f4",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 3746,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_48f873a8",
+              "role": "dialogue",
+              "line": 3743
+            },
+            {
+              "id": "start_df9b08f4",
+              "role": "dialogue",
+              "line": 3746
+            },
+            {
+              "id": "start_55c2c595",
+              "role": "dialogue",
+              "line": 3749
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 3760,
+          "role": "dialogue",
+          "inventory_neighbors": [
+            {
+              "id": "start_48f873a8",
+              "role": "dialogue",
+              "line": 3757
+            },
+            {
+              "id": "start_df9b08f4",
+              "role": "dialogue",
+              "line": 3760
+            },
+            {
+              "id": "start_55c2c595",
+              "role": "dialogue",
+              "line": 3763
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_e65887fa",
+      "occurrences": [
+        {
+          "edition": "base",
+          "path": "game/script.rpy",
+          "line": 1891,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_46d92844",
+              "role": "narration",
+              "line": 1888
+            },
+            {
+              "id": "start_e65887fa",
+              "role": "narration",
+              "line": 1891
+            },
+            {
+              "id": "start_1b0f6d2b",
+              "role": "narration",
+              "line": 1894
+            }
+          ]
+        },
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 1894,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_46d92844",
+              "role": "narration",
+              "line": 1891
+            },
+            {
+              "id": "start_e65887fa",
+              "role": "narration",
+              "line": 1894
+            },
+            {
+              "id": "start_1b0f6d2b",
+              "role": "narration",
+              "line": 1897
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    },
+    {
+      "id": "start_ede2638b",
+      "occurrences": [
+        {
+          "edition": "dlc",
+          "path": "game/script.rpy",
+          "line": 4598,
+          "role": "narration",
+          "inventory_neighbors": [
+            {
+              "id": "start_29805728",
+              "role": "narration",
+              "line": 4595
+            },
+            {
+              "id": "start_ede2638b",
+              "role": "narration",
+              "line": 4598
+            },
+            {
+              "id": "start_11acfcdf",
+              "role": "dialogue",
+              "line": 4601
+            }
+          ]
+        }
+      ],
+      "dlc_aliases": []
+    }
+  ],
+  "additional_prior_draft_correction": "start_16df6b84; inspect source and surrounding scene in both inventories and any reverse aliases",
+  "review_status": "Independent dependency-aware review pending; runtime, rendering and reinsertion unverified."
+}
