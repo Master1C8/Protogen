@@ -1,5 +1,6 @@
 # The builder supplies the locale and its font settings in each package.
 init 20 python in vnrevival_fonts:
+    import re
     import renpy
     from renpy.text.font import FontGroup
 
@@ -9,6 +10,20 @@ init 20 python in vnrevival_fonts:
     symbols = (0x2714, 0x2718, 0x2b06, 0x2b07)
     original_rtl = renpy.config.rtl
     locales = {}
+    previous_text_filter = renpy.config.say_menu_text_filter
+    sentence_wait = re.compile(r"([.!?؟]) *({w(?:=[0-9.]+)?}) *(?=\S)")
+
+    def display_text(text):
+        if previous_text_filter is not None:
+            text = previous_text_filter(text)
+        locale = renpy.game.preferences.language
+        settings = locales.get(locale)
+        if settings and settings[2]:
+            # Ren'Py's bidi pass processes text on either side of a wait as
+            # independent runs. Keep complete sentences in distinct paragraphs
+            # so it cannot move the post-wait sentence ahead of its predecessor.
+            return sentence_wait.sub(r"\1\2\n", text)
+        return text
 
     def register(locale, face, script_range, rtl, shape, line_break):
         locales[locale] = (face, script_range, rtl, shape, line_break)
@@ -54,6 +69,7 @@ init 20 python in vnrevival_fonts:
             renpy.store.style.default.shaper = "harfbuzz"
 
     renpy.config.change_language_callbacks.append(apply)
+    renpy.config.say_menu_text_filter = display_text
 
 # Empty load slots are disabled, but their labels still need readable contrast.
 style slot_time_text:
