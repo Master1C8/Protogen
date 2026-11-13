@@ -98,16 +98,21 @@ sampled Devanagari face lacks. Reproduce with `hb-shape --output-format=json
 <font> <sample>` using the faces pinned below. Glyph runs and font hashes
 are recorded in `text-assets/renderer-followup/harfbuzz-static.json`.
 
-Arabic and Hindi remain blocked on the shipped engine. For the joint pass,
-test an isolated copy with the HarfBuzz shaper available in Ren’Py 8.2 or
-later. Preserve logical Unicode and check contextual forms and marks in
-dialogue, nameplates, navigation and input. Check mixed Latin and RTL text,
-wrapping, caret movement and deletion, the stored player name and its
-interpolation, and progression across timed waits. For Hindi test mixed
-Latin/Devanagari with a font fallback. Confirm both editions and switch back
-to English and a previously verified locale to catch changes to fonts,
-layout, timing and save/load. Pin the engine and fonts and use scratch saves.
-The standalone glyph check does not establish any of these engine behaviors.
+An isolated native macOS base-game run on Ren’Py 8.2.3 showed a viable path
+for Arabic and Hindi. The old game compatibility settings selected FreeType
+until the test locale explicitly set `shaper "harfbuzz"`. Arabic dialogue
+showed contextual forms, marks, Arabic-Indic digits and the intact Latin
+identifier `NV-0903`. Hindi dialogue showed the conjunct and pre-base vowel
+in `क्षितिज`. A DejaVu font run rendered the Latin identifier. Both runs
+submitted a test name through the input widget, verified the stored value and
+its interpolation, and advanced through an inline wait. The result and image
+hashes are in `text-assets/harfbuzz-isolated/result.json`
+(SHA-256 `cd8e950a0a22bb24e88a3d0e7259543bbff7f5f8a9d8919dc04af6e1045acc1e`).
+
+Arabic and Hindi text work can proceed against this demonstrated rendering path.
+The joint pass still needs the final packages for both editions, editable input
+and caret checks, layout and save/load regressions, language switching, and
+Windows through CrossOver. The production engine remains the shipped version.
 
 ## Evidence
 
