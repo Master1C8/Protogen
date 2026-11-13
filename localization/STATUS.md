@@ -259,3 +259,21 @@ frames. The report links the authenticated export, exact Media hashes and
 per-image observations in
 `text-assets/all-languages-background-selection/vnrevival-upload/hosted-review-result.json`
 (SHA-256 `9a8deec6d5f82e46d5bfc5f63e7754116614bd94bb01a20e3b1dbe016002c12f`).
+
+## Windows installer
+
+The local Windows x64 installer is built from the Sonic installer and uses the
+Protogen Preferences language picker. It installs one of two package layouts
+based on the exact Steam script hashes. Both layouts include 30 translations.
+The separate Windows Ren’Py 8.2.3 runtime is used by the installer's launch
+action. See [the installer guide](../installer/README.md) for build inputs.
+
+Local ZIP SHA-256: `ff8afdab0f1f775fec8dbea4227e8f22ddc251f56c34d6e0565bde814fdacb47`.
+All 1,447 runtime files and 104 edition payload files matched their packaged
+hashes. The installer window was inspected in Windows 11. The installation
+transaction passed both edition fixtures, repeat and interrupted installs,
+foreign-file refusal and payload corruption. An isolated test of the patched
+Ren’Py 8.2.3 engine on macOS registered all 30 languages in both editions,
+selected Arabic, Persian, Hindi and Thai with HarfBuzz active, and preserved
+the original scripts and bytecode. Windows launch and CrossOver runtime
+checks are tracked separately from these results.
