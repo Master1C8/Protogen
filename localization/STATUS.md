@@ -23,8 +23,8 @@ the feasibility baseline receipt.
 | resources | Verify full font coverage, shaping, wrapping and game text assets. Current logo is original title art and the two reviewed watch videos contain no captions. |
 | package | `tools/build_localization.py` is the strict build baseline. It builds complete `ru` and `pl` corpora. Add and validate explicit mappings before packaging further locales. |
 | runtime | Test each final build's in-game picker, real renderer and progression in CrossOver. Use `tools/qa_isolate_saves.rpy` for both save locations, and launch with `RENPY_DISABLE_SOUND=1`. |
-| screenshot-upload | Not run. Local delivery scope. |
-| screenshot-review | Native visual checks are part of the probe and runtime evidence. Post-upload review is not applicable to this local delivery. |
+| screenshot-upload | VN Revival production draft, 180 stored frames across 30 locale galleries. |
+| screenshot-review | Native capture and stored draft WebP have separate visual checks. See the six-scene collection checkpoint below. |
 | delivery | Commit only verified local deliverables on `main`. |
 
 ## Translation queue and deferred CrossOver checks
@@ -240,3 +240,22 @@ replacement frames.
 The per-frame results and original screenshot bindings are indexed in
 `text-assets/all-languages-background-selection/visual-review/review-summary-20261113T193815Z.json`
 (SHA-256 `e606d5167ef043f89a4b6b8f114f570cb93abda4a37673dd23e37c7e9b6d991b`).
+
+The VN Revival CLI added all 180 verified frames to the existing
+`my-furry-protogen` production draft. The upload used two batches because
+three pairs of European and Latin American Spanish PNGs share identical
+bytes. Authenticated read-back confirmed six stored WebP originals for
+every translated locale, with the source hash and delivery hash matched
+for every slot. Repeated dry-runs reported 180 skips. The card remains a
+private draft.
+
+The slot and Media bindings are in
+`text-assets/all-languages-background-selection/vnrevival-upload/verified-upload.json`
+(SHA-256 `a0b22229370385e46171c31f5ffe92fc8c4d59ac4ccaf3dff865b09c48350470`).
+
+All 180 stored draft WebP originals received individual post-upload visual
+reviews. Every frame passed, including the 18 Arabic, Persian and Hebrew
+frames. The report links the authenticated export, exact Media hashes and
+per-image observations in
+`text-assets/all-languages-background-selection/vnrevival-upload/hosted-review-result.json`
+(SHA-256 `9a8deec6d5f82e46d5bfc5f63e7754116614bd94bb01a20e3b1dbe016002c12f`).
