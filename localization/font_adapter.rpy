@@ -64,7 +64,11 @@ init 20 python in vnrevival_fonts:
         if line_break:
             renpy.store.style.default.language = line_break
         if rtl:
-            renpy.store.style.say_dialogue.text_align = 1.0
+            dialogue = renpy.store.style.say_dialogue
+            # Text aligns within its laid-out width. The screen's xsize caps
+            # wrapping, but short lines still need the full width for alignment.
+            dialogue.min_width = renpy.store.gui.dialogue_width
+            dialogue.text_align = 1.0
         if shape and harfbuzz:
             renpy.store.style.default.shaper = "harfbuzz"
 

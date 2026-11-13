@@ -200,9 +200,29 @@ language survived a restart in both editions. The full picker in the base
 game was visually inspected on both runtimes. The opening scene in Arabic,
 Persian and Hebrew verified the mixed-script player name, the localized Dad
 speaker label, and progression after the dialogue wait in both editions.
-The mixed-script dialogue frames matched across editions pixel for pixel.
-Those frames have runtime glyph-order checks and await whole-frame visual
-review. Both real save stores matched before and after the tests.
+The original mixed-script dialogue frames matched across editions pixel
+for pixel. Both real save stores matched before and after the tests.
 
 Runtime receipts, frame hashes and the two reviewed previews are indexed in
 `text-assets/crossover-picker-fix/verification.json`.
+
+## RTL dialogue alignment follow-up
+
+Short Arabic, Persian and Hebrew dialogue previously started near the
+left edge of the field because Ren’Py aligned against the natural width
+of the text. The locale font adapter now gives RTL say text the full
+dialogue field width before alignment. It retains the existing wrapping
+limit and the separate speaker nameplate position. The installer upgrades
+the previous verified font adapter and retires its matching bytecode.
+
+In both editions, the mixed-script greeting and the birthday dialogue
+after its wait reached the next authored statement. All twelve new
+CrossOver frames passed visual review. The Persian greeting’s two
+commas were confirmed using source-pixel WebP crops. The regression
+compares the right edge of the short greeting and every visible line
+after the wait against the dialogue field’s right edge. Both player
+save stores matched the original baseline.
+
+The ledgers, runtime provenance and usage receipts are indexed in
+`text-assets/crossover-picker-fix/rtl-alignment-verification.json`
+(SHA-256 `5c74eb930fa18c280d8ba96833be6dbbd4319fff172b45f423243d4c3db99aa7`).

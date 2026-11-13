@@ -14,7 +14,7 @@ from extract_text import TEXT_TAG, digest, literals, pin_install, read, read_tem
 from install_language_picker import (
     PREFERENCES_PATH, PROJECT, SAMPLE_PATH, SAMPLE_SOURCE, install_files, picker_override,
 )
-from localization_fonts import FONT_LOCALES, FONT_PATH, font_inputs, stage_fonts
+from localization_fonts import ADAPTER_PATH, FONT_LOCALES, FONT_PATH, font_inputs, stage_fonts
 from localization_languages import LOCALES
 
 
@@ -44,6 +44,7 @@ PREVIOUS_PICKER_HASHES = {
     "b44b3f3869a21f2409c58b03636dc43687dff10b02b9845013af6d4ab2109d93",
     "dc4fdbe707cafe838d06d0eef0bd89227ec01bcf0dc1ae13716602ed06e43316",
 }
+PREVIOUS_FONT_ADAPTER_HASH = "122a0ea57b3eed8ef0b1ed25e44003468f22805354b84da49fc243292aa49a4b"
 
 
 def story_rows(source):
@@ -226,7 +227,7 @@ def install(root, output):
     scripts = sorted(output.rglob("*.rpy"))
     files = {root / p.relative_to(output): p.read_bytes() for p in scripts + resources}
     upgrades = {}
-    for relative_path in (DISPLAY_PATH, PREFERENCES_PATH):
+    for relative_path in (DISPLAY_PATH, PREFERENCES_PATH, ADAPTER_PATH):
         path = root / relative_path
         if path not in files or not path.is_file():
             continue
@@ -234,6 +235,9 @@ def install(root, output):
         previous = path.read_bytes()
         if relative_path == PREFERENCES_PATH:
             if previous == current or sha256(previous).hexdigest() not in PREVIOUS_PICKER_HASHES:
+                continue
+        elif relative_path == ADAPTER_PATH:
+            if previous == current or sha256(previous).hexdigest() != PREVIOUS_FONT_ADAPTER_HASH:
                 continue
         else:
             fragment = (GALLERY_RETURN + ' text_color "#aaaaaa"').encode()
