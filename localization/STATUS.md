@@ -226,3 +226,17 @@ save stores matched the original baseline.
 The ledgers, runtime provenance and usage receipts are indexed in
 `text-assets/crossover-picker-fix/rtl-alignment-verification.json`
 (SHA-256 `5c74eb930fa18c280d8ba96833be6dbbd4319fff172b45f423243d4c3db99aa7`).
+
+## Six-scene screenshot collection
+
+The base-game CrossOver collection contains six distinct scenes for each
+of the 30 localizations. All 180 frames received individual full-frame
+WebP80 visual reviews. The final check passed 180 frames with no open
+findings. For 30 frames flagged solely for uncertain backdrop identity,
+pixel comparison against the pinned game assets confirmed the intended
+shipped backdrop and its original blur. The review required zero
+replacement frames.
+
+The per-frame results and original screenshot bindings are indexed in
+`text-assets/all-languages-background-selection/visual-review/review-summary-20261113T193815Z.json`
+(SHA-256 `e606d5167ef043f89a4b6b8f114f570cb93abda4a37673dd23e37c7e9b6d991b`).
