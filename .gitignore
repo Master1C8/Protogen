@@ -2,3 +2,4 @@
 /.text-assets-*/
 /.protogen-export-*/
 __pycache__/
+/dist/

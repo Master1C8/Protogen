@@ -1,0 +1,21 @@
+MY FURRY PROTOGEN | VN REVIVAL
+Windows x64 · Steam 11915262 · Installer 1.0.0
+
+Extract this ZIP and keep its files together. Close the game, open
+Protogen Localization Installer.exe, then click Install localization.
+If Steam discovery fails, choose My Furry Protogen under steamapps/common.
+
+Click Launch game. Choose among 30 translations in Preferences > Language.
+The installer detects the base game or the official 18+ DLC from the installed
+scripts. Run it again after adding or removing the DLC.
+
+Use Launch game in the installer for the localized Ren'Py 8.2.3 runtime.
+Steam's Play button starts the original Ren'Py 8.0.3 runtime, which lacks
+the shaping needed by Arabic, Persian, Hindi and Thai. The two launch paths
+use the game's existing save locations. Close the game before changing the
+installed package. Keep the extracted installer for future launches.
+
+This program contains free software under several licenses, including the
+GNU Lesser General Public License. See the bundled Ren'Py LICENSE.txt and
+the corresponding source downloads at https://www.renpy.org/release/8.2.3
+and https://www.renpy.org/doc/html/license.html.

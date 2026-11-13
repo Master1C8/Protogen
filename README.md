@@ -5,6 +5,12 @@ build 11915262, installed depot 2009011, and Ren’Py 8.0.3.22090809. The VN Rev
 project selected Standard localization. The generated game text and original
 scripts live in the ignored local `text-assets/` directory.
 
+## Windows localization installer
+
+See [the installer build and player guide](installer/README.md) for the offline
+Steam installer and its bundled Ren’Py runtime. It installs all 30 languages
+for the detected base game or DLC.
+
 ## Outputs
 
 | File | Contents |
