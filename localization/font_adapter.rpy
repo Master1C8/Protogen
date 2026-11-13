@@ -54,3 +54,14 @@ init 20 python in vnrevival_fonts:
             renpy.store.style.default.shaper = "harfbuzz"
 
     renpy.config.change_language_callbacks.append(apply)
+
+# Empty load slots are disabled, but their labels still need readable contrast.
+style slot_time_text:
+    size 24
+    insensitive_color "#d0c8de"
+    idle_color "#d0c8de"
+
+style slot_name_text:
+    size 24
+    insensitive_color "#d0c8de"
+    idle_color "#d0c8de"
