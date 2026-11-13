@@ -27,13 +27,33 @@ the feasibility baseline receipt.
 | screenshot-review | Native visual checks are part of the probe and runtime evidence. Post-upload review is not applicable to this local delivery. |
 | delivery | Commit only verified local deliverables on `main`. |
 
+## Translation queue and deferred CrossOver checks
+
+Owner decision, 2026-11-13. Start or resume Protogen text work while in-game
+rendering checks are deferred to one joint CrossOver pass. Reuse the shared
+English inventory and approved locale glossary. Mark untested rendering as
+unverified, prepare any missing synthetic cases, and continue through special-scene
+decisions, ordinary translation and text validation without waiting for the joint
+pass. An evidenced renderer failure remains a blocker for the affected mechanism.
+New locale workers apply this decision directly and keep CrossOver, installation
+and visual checks pending until the owner calls for the joint pass.
+
+Resume completed CLI turns with
+`python3 -B tools/continue_locale_text.py <run-dir> <prior-run-dir>` from the
+project root. Use a fresh run directory under `text-assets/`. The prior run must
+contain the launch manifest and per-locale completed turn receipts. The supervisor
+resumes the same verified Terra high sessions from their locale checkpoints and
+continues through full text coverage and the author semantic review. Git integration,
+independent review and the joint CrossOver pass are separate steps.
+
 ## Locale queue and feasibility matrix
 
-Polish is at `editorial` with **1,785/1,785 story entries** and **394/394 string
-keys** in the authored draft. The other 28 locales are at `probe` with zero
-authored entries. The exact 77-ID glossary layers and their two coverage receipts
-verified for all 29 locales. The Polish semantic pass is complete and its corrected export build is reproducible.
-Independent review, final resources, strict installed validation, runtime, visual and release acceptance remain pending.
+The first six CLI locales (`cs`, `de`, `es`, `fr`, `it`, `pt-BR`) completed
+text validation and the author semantic pass for both editions. The next six
+(`es-419`, `hu`, `id`, `nl`, `ro`, `tr`) completed static preparation and
+advance to text under the owner decision above. Consult the per-locale
+checkpoints for current coverage. Independent review and final technical
+acceptance for these CLI locales are pending.
 The production Polish runtime ID is
 `polish`. Identifiers prefixed with `vnprobe_` are disposable.
 
