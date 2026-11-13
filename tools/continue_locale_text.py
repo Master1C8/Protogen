@@ -74,7 +74,7 @@ if (manifest["model"], manifest["effort"]) != (model, effort):
 if pathlib.Path(manifest["project"]).resolve() != root:
     raise SystemExit("Prior run belongs to a different project")
 codes = tuple(manifest["locales"])
-if not codes or any(not re.fullmatch(r"[a-z]{2}(?:-[A-Za-z0-9]+)?", code) for code in codes):
+if not codes or any(not re.fullmatch(r"[a-z]{2,3}(?:-[A-Za-z0-9]+)?", code) for code in codes):
     raise SystemExit("Invalid locale list")
 originals = {code: json.loads((prior / code / "status.json").read_text()) for code in codes}
 for code, original in originals.items():
