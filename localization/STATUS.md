@@ -176,3 +176,12 @@ tests for the ten affected locales passed in both editions. Arabic, Persian,
 Hindi and Thai used the isolated Windows Ren’Py 8.2.3 SDK with HarfBuzz.
 The other six used the original 8.0.3 runtime. See
 `font-regression-summary.json` in the QA directory for package and frame hashes.
+
+All 300 original frames and 122 repair or regression frames were inspected.
+The original set showed missing glyphs for all ten affected locales in both
+editions and low-contrast load-slot captions in several base-game locales.
+The shared caption style was enlarged and brightened. The six replacement
+dialogue frames passed the RTL ordering check after the shared sentence-wait
+repair. Some frame-level checks remain open for small marks, source context
+and mixed-direction scenarios. The complete per-frame status and review
+usage are indexed in `final-visual-accounting.json` in the QA directory.
