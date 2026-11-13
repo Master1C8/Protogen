@@ -22,31 +22,9 @@ FONT_LOCALES = {
     "zh-TW": ("NotoSansTC-Regular.otf", None, False, False, "eastasian"),
 }
 
-# Runtime IDs for the 22 locales that previously used disposable QA IDs.
-ADDITIONAL_LOCALES = {
-    "ar": "arabic",
-    "bg": "bulgarian",
-    "el": "greek",
-    "es-419": "spanish_latam",
-    "fa": "persian",
-    "fil": "filipino",
-    "he": "hebrew",
-    "hi": "hindi",
-    "hu": "hungarian",
-    "id": "indonesian",
-    "ja": "japanese",
-    "ko": "korean",
-    "nl": "dutch",
-    "ro": "romanian",
-    "sr": "serbian",
-    "sw": "swahili",
-    "th": "thai",
-    "tr": "turkish",
-    "uk": "ukrainian",
-    "vi": "vietnamese",
-    "zh": "chinese_simplified",
-    "zh-TW": "chinese_traditional",
-}
+
+def game_face(face):
+    return face if face == DEJAVU else (FONT_PATH.relative_to("game") / face).as_posix()
 
 
 def font_inputs(project, locale, source):
@@ -79,8 +57,6 @@ def stage_fonts(project, output, locale, runtime_locale, locale_dir, files):
     (output / ADAPTER_PATH).write_bytes((project / "localization/font_adapter.rpy").read_bytes())
     if locale in FONT_LOCALES:
         face, script_range, rtl, shape, line_break = FONT_LOCALES[locale]
-        if face != DEJAVU:
-            face = (FONT_PATH.relative_to("game") / face).as_posix()
-        arguments = (runtime_locale, face, script_range, rtl, shape, line_break)
+        arguments = (runtime_locale, game_face(face), script_range, rtl, shape, line_break)
         registration = "init 21 python:\n    vnrevival_fonts.register{!r}\n".format(arguments)
         (locale_dir / "vnrevival_protogen_rendering.rpy").write_text(registration, encoding="utf-8")

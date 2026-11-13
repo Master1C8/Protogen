@@ -69,9 +69,9 @@ coverage and CrossOver results.
 
 ## Language picker
 
-The Russian and Polish localizations use Ren’Py’s built-in language selector.
-Close the game before installing. Use a fresh output directory for each locale
-and append `--nsfw-bundle <dlc-export>` when the DLC is installed.
+All 30 localizations use Ren’Py’s built-in language selector. Close the game
+before installing. Use a fresh output directory for each locale and append
+`--nsfw-bundle <dlc-export>` when the DLC is installed.
 
 ```zsh
 python3 -B tools/build_localization.py "$protogen_game" ru --output text-assets/ru-build --install
@@ -90,9 +90,11 @@ retires their matching bytecode so Ren’Py recompiles them on launch.
 - `game/tl/russian/vnrevival_protogen_text.rpy`
 - `game/tl/polish/vnrevival_protogen_text.rpy`
 
-Open **Preferences → Language** and choose **Русский**, **Polski** or
-**English**. To remove both localizations, select English, close the game and
-remove the generated files listed above and their matching `.rpyc` files.
+Open **Preferences → Language** to choose English or any installed
+localization by its native name. The builder’s installer upgrades recognized
+older versions of the shared Preferences script.
+To remove a localization, select English, close the game and remove that
+locale’s generated scripts and their matching `.rpyc` files.
 
 The editable Russian sources contain 1,785 story entries and 394 distinct
 string keys, including interface, character labels, credits and Ren’Py
@@ -144,5 +146,3 @@ for these shaping paths. Use the pinned Steam depot for extraction and
 packaging validation. The previously tested Windows SDK is version
 `8.2.3.24061702`, archive SHA-256
 `0043c0110654d9c526ddf6419c800fc99ddf35dea8993ebf2126c4b2f16c90c2`.
-For a locale absent from the Preferences picker, start the test copy with
-`RENPY_LANGUAGE` set to its explicit runtime ID from the builder.

@@ -14,20 +14,10 @@ from extract_text import TEXT_TAG, digest, literals, pin_install, read, read_tem
 from install_language_picker import (
     PREFERENCES_PATH, PROJECT, SAMPLE_PATH, SAMPLE_SOURCE, install_files, picker_override,
 )
-from localization_fonts import ADDITIONAL_LOCALES, FONT_LOCALES, FONT_PATH, font_inputs, stage_fonts
+from localization_fonts import FONT_LOCALES, FONT_PATH, font_inputs, stage_fonts
+from localization_languages import LOCALES
 
 
-LOCALES = {
-    "ru": "russian",
-    "pl": "polish",
-    "cs": "czech",
-    "de": "german",
-    "es": "spanish",
-    "fr": "french",
-    "it": "italian",
-    "pt-BR": "portuguese_brazil",
-    **ADDITIONAL_LOCALES,
-}
 VERIFIED_TEXT_HASHES = {
     "russian": {
         "63866540a4fed4bc3d0b5da4b03edf8689ee1a54d3264034bf33124e177712ef",
@@ -48,10 +38,12 @@ FALLBACK_CONDITION = 'renpy.get_filename_line() in (("game/script.rpy", 85), ("g
 PREVIOUS_FALLBACK_CONDITION = 'renpy.get_filename_line() == ("game/script.rpy", 85)'
 FALLBACK_COMMENT = "# Both supported scripts use the same fallback assignment at different lines."
 PREVIOUS_FALLBACK_COMMENT = "# The shipped start label assigns the fallback at game/script.rpy:85."
-POLISH_PICKER_OPTION = (
-    '        if "polish" in renpy.known_languages():\n'
-    '            textbutton "Polski" id "vnrevival_language_polish" action Language("polish")\n'
-)
+# Previous Russian-only, Russian/Polish, and eight-locale Preferences scripts.
+PREVIOUS_PICKER_HASHES = {
+    "a27d1ad9f843ee589dd96376fd511704695d187f7f289d86d05daa7e8bb39f63",
+    "b44b3f3869a21f2409c58b03636dc43687dff10b02b9845013af6d4ab2109d93",
+    "dc4fdbe707cafe838d06d0eef0bd89227ec01bcf0dc1ae13716602ed06e43316",
+}
 
 
 def story_rows(source):
@@ -234,26 +226,26 @@ def install(root, output):
     scripts = sorted(output.rglob("*.rpy"))
     files = {root / p.relative_to(output): p.read_bytes() for p in scripts + resources}
     upgrades = {}
-    for relative_path, current_fragment, previous_fragment in (
-        (DISPLAY_PATH, GALLERY_RETURN + ' text_color "#aaaaaa"', PREVIOUS_GALLERY_RETURN),
-        (PREFERENCES_PATH, POLISH_PICKER_OPTION, ""),
-    ):
+    for relative_path in (DISPLAY_PATH, PREFERENCES_PATH):
         path = root / relative_path
         if path not in files or not path.is_file():
             continue
         current = files[path]
-        fragment = current_fragment.encode()
-        if current.count(fragment) != 1:
-            continue
-        previous = current.replace(fragment, previous_fragment.encode(), 1)
-        candidates = {previous}
-        if relative_path == DISPLAY_PATH:
-            for data in (previous, current):
+        previous = path.read_bytes()
+        if relative_path == PREFERENCES_PATH:
+            if previous == current or sha256(previous).hexdigest() not in PREVIOUS_PICKER_HASHES:
+                continue
+        else:
+            fragment = (GALLERY_RETURN + ' text_color "#aaaaaa"').encode()
+            if current.count(fragment) != 1:
+                continue
+            legacy = current.replace(fragment, PREVIOUS_GALLERY_RETURN.encode(), 1)
+            candidates = {legacy}
+            for data in (legacy, current):
                 candidates.add(data.replace(FALLBACK_CONDITION.encode(), PREVIOUS_FALLBACK_CONDITION.encode())
                                .replace(FALLBACK_COMMENT.encode(), PREVIOUS_FALLBACK_COMMENT.encode()))
-        previous = path.read_bytes()
-        if previous not in candidates:
-            continue
+            if previous not in candidates:
+                continue
         compiled = path.with_suffix(".rpyc")
         if compiled.exists():
             binary = compiled.read_bytes()

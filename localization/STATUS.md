@@ -185,3 +185,24 @@ dialogue frames passed the RTL ordering check after the shared sentence-wait
 repair. Some frame-level checks remain open for small marks, source context
 and mixed-direction scenarios. The complete per-frame status and review
 usage are indexed in `final-visual-accounting.json` in the QA directory.
+
+## Preferences picker follow-up
+
+The generated Preferences screen uses the builder’s locale catalog and shows
+English plus every installed localization by its native name. Each button
+uses its script’s font independently of the active locale. The installer
+upgrades the three recognized earlier picker scripts and retires matching
+bytecode. It rejects edited scripts and mismatched bytecode.
+
+CrossOver selected all 30 localizations and English in both editions across
+the stock and isolated HarfBuzz runs. The test also confirmed that the selected
+language survived a restart in both editions. The full picker in the base
+game was visually inspected on both runtimes. The opening scene in Arabic,
+Persian and Hebrew verified the mixed-script player name, the localized Dad
+speaker label, and progression after the dialogue wait in both editions.
+The mixed-script dialogue frames matched across editions pixel for pixel.
+Those frames have runtime glyph-order checks and await whole-frame visual
+review. Both real save stores matched before and after the tests.
+
+Runtime receipts, frame hashes and the two reviewed previews are indexed in
+`text-assets/crossover-picker-fix/verification.json`.

@@ -1,0 +1,36 @@
+"""Locale codes, Ren'Py language IDs, and the names shown in Preferences."""
+
+LANGUAGES = {
+    "ru": ("russian", "Русский"),
+    "pl": ("polish", "Polski"),
+    "ar": ("arabic", "العربية"),
+    "bg": ("bulgarian", "Български"),
+    "cs": ("czech", "Čeština"),
+    "de": ("german", "Deutsch"),
+    "el": ("greek", "Ελληνικά"),
+    "es": ("spanish", "Español"),
+    "es-419": ("spanish_latam", "Español (Latinoamérica)"),
+    "fa": ("persian", "فارسی"),
+    "fil": ("filipino", "Filipino"),
+    "fr": ("french", "Français"),
+    "he": ("hebrew", "עברית"),
+    "hi": ("hindi", "हिन्दी"),
+    "hu": ("hungarian", "Magyar"),
+    "id": ("indonesian", "Bahasa Indonesia"),
+    "it": ("italian", "Italiano"),
+    "ja": ("japanese", "日本語"),
+    "ko": ("korean", "한국어"),
+    "nl": ("dutch", "Nederlands"),
+    "pt-BR": ("portuguese_brazil", "Português (Brasil)"),
+    "ro": ("romanian", "Română"),
+    "sr": ("serbian", "Српски"),
+    "sw": ("swahili", "Kiswahili"),
+    "th": ("thai", "ไทย"),
+    "tr": ("turkish", "Türkçe"),
+    "uk": ("ukrainian", "Українська"),
+    "vi": ("vietnamese", "Tiếng Việt"),
+    "zh": ("chinese_simplified", "简体中文"),
+    "zh-TW": ("chinese_traditional", "繁體中文"),
+}
+
+LOCALES = {code: runtime for code, (runtime, _) in LANGUAGES.items()}
