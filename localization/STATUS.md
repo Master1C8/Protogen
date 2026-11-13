@@ -77,6 +77,38 @@ playthroughs reached the credits and returned to the main menu.
 | `th` | Noto Sans Thai 2.002 covers the sample. | Static coverage only. Verify marks, word breaks and multiline behavior in-game. |
 | `ja`, `ko`, `zh`, `zh-TW` | The four regional Noto Sans CJK 2.004 faces cover their respective samples. | Static coverage only. Verify regional glyph forms, wrapping and punctuation with the applicable Ren’Py line-breaking options. |
 
+## Remaining complex-script checks
+
+On 2026-11-13 the preserved Arabic replacement-map settings frame showed visible
+glyphs on the navigation button that displayed missing-glyph boxes with the
+earlier style override. The original frame has SHA-256
+`7595fa82e711c33ab4acd755f5484576532b07c9067776dd1fd9cef262347798`.
+The reviewed 1280 × 719 WebP has SHA-256
+`432e5ff1dc351b79bcce624d3c48472d9664594fc9caeca3515359395c3604c3`.
+The font-map observation supports resuming Persian text. Persian joining,
+bidirectional layout and editable input still need an in-game check. Hebrew
+continues through its special-scene decisions and text validation.
+
+HarfBuzz 14.5.1 with the pinned fonts produced contextual glyphs for
+`مَرْحَبًا` in DejaVu Sans and Bold. It produced different glyph runs for
+Persian `می‌روم` and `میروم`, exercising the zero-width non-joiner. Noto
+Sans Devanagari formed the `क्ष` conjunct with a pre-base vowel in
+`क्षितिज`. DejaVu rendered both Latin letters in `NV-0903`, which the
+sampled Devanagari face lacks. Reproduce with `hb-shape --output-format=json
+<font> <sample>` using the faces pinned below. Glyph runs and font hashes
+are recorded in `text-assets/renderer-followup/harfbuzz-static.json`.
+
+Arabic and Hindi remain blocked on the shipped engine. For the joint pass,
+test an isolated copy with the HarfBuzz shaper available in Ren’Py 8.2 or
+later. Preserve logical Unicode and check contextual forms and marks in
+dialogue, nameplates, navigation and input. Check mixed Latin and RTL text,
+wrapping, caret movement and deletion, the stored player name and its
+interpolation, and progression across timed waits. For Hindi test mixed
+Latin/Devanagari with a font fallback. Confirm both editions and switch back
+to English and a previously verified locale to catch changes to fonts,
+layout, timing and save/load. Pin the engine and fonts and use scratch saves.
+The standalone glyph check does not establish any of these engine behaviors.
+
 ## Evidence
 
 - `text-assets/multilingual-probe.L4KEcD/feasibility-baseline.json`
