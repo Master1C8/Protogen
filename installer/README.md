@@ -12,6 +12,7 @@ Protogen Steam build and their hashes are pinned by the builder.
 - Both editions contain all 30 localizations. Each installs as a complete set.
   The game handles language selection and persistence in Preferences → Language.
 - The package adds a separate Windows Ren’Py 8.2.3 runtime for HarfBuzz.
+  Its init-code watchdog gets a fresh deadline after script compilation.
   **Launch game** uses that runtime against the registered Steam installation.
   Steam Play continues to use the original 8.0.3 engine. The installer verifies the original executable
   and game scripts against both edition receipts.

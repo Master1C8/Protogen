@@ -84,6 +84,15 @@ def runtime_payload(archive, payload):
             path.parent.mkdir(parents=True, exist_ok=True)
             with sdk.extractfile(member) as src, path.open("xb") as dst:
                 dst.write(src.read())
+    # Start the init-code watchdog after compiling the scripts. On a slow
+    # first launch, compilation of all locales can consume the engine's
+    # pre-init deadline before any game code has run.
+    main = target / "renpy/main.py"
+    source = main.read_bytes()
+    before = b'    log_clock("Loading script")'
+    require(source.count(before) == 1, "Unexpected Ren'Py script-load boundary")
+    main.write_bytes(source.replace(before, before + b"\n    renpy.execution.not_infinite_loop(60)"))
+
     required = ("lib/py3-windows-x86_64/pythonw.exe", "lib/python3.9/os.pyc",
                 "lib/python3.9/encodings/__init__.pyc")
     require(all((target / path).is_file() for path in required), "Incomplete Ren'Py Windows runtime")

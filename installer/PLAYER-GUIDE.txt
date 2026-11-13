@@ -5,7 +5,8 @@ Extract this ZIP and keep its files together. Close the game, open
 Protogen Localization Installer.exe, then click Install localization.
 If Steam discovery fails, choose My Furry Protogen under steamapps/common.
 
-Click Launch game. Choose among 30 translations in Preferences > Language.
+Click Launch game. The first launch compiles the translations and may take a
+few minutes. Choose among 30 translations in Preferences > Language.
 The installer detects the base game or the official 18+ DLC from the installed
 scripts. Run it again after adding or removing the DLC.
 
@@ -18,4 +19,6 @@ installed package. Keep the extracted installer for future launches.
 This program contains free software under several licenses, including the
 GNU Lesser General Public License. See the bundled Ren'Py LICENSE.txt and
 the corresponding source downloads at https://www.renpy.org/release/8.2.3
-and https://www.renpy.org/doc/html/license.html.
+and https://www.renpy.org/doc/html/license.html. This package refreshes the
+Ren'Py 8.2.3 init timeout in renpy/main.py after script compilation. The
+modified source is included alongside the runtime.
