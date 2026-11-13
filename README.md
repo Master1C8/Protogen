@@ -79,7 +79,7 @@ python3 -B tools/build_localization.py "$protogen_game" pl --output text-assets/
 ```
 
 The build validates the Steam scripts, extracted inventory, complete stable-ID
-coverage and placeholders. It produces three additive scripts. The installer
+coverage and placeholders. It produces additive scripts and locale-specific font resources. The installer
 retires the earlier Russian sample if its contents match the checked-in version.
 Rebuild and reinstall each locale when switching editions. The installer can
 replace the verified Russian and Polish packages from either edition and
@@ -125,3 +125,24 @@ and after the run, then remove the temporary script and its matching `.rpyc`.
   assets and visual review gap.
 - The built-in export is documented by
   [Ren’Py](https://www.renpy.org/doc/html/cli.html).
+
+## Localized fonts
+
+The builder accepts all 30 authored locale codes. For the pinned Noto faces,
+point `--font-source` at a directory containing the exact font and license
+files in [font-sources.json](localization/font-sources.json). The local default
+is `text-assets/font-candidates.vUrRKa`. The build checks both SHA-256
+fingerprints before writing the package. For fonts distributed in a release
+ZIP, extract the named face and license from the pinned upstream release and
+use the filenames from the receipt. The installer copies font resources and
+licenses alongside the generated Ren’Py scripts.
+
+The packages for Arabic, Persian, Hindi and Thai use HarfBuzz on Ren’Py
+8.2.3. Build these as additive packages and test them on a separate copy
+running that SDK. The original Steam Ren’Py 8.0.3 installation is unsupported
+for these shaping paths. Use the pinned Steam depot for extraction and
+packaging validation. The previously tested Windows SDK is version
+`8.2.3.24061702`, archive SHA-256
+`0043c0110654d9c526ddf6419c800fc99ddf35dea8993ebf2126c4b2f16c90c2`.
+For a locale absent from the Preferences picker, start the test copy with
+`RENPY_LANGUAGE` set to its explicit runtime ID from the builder.

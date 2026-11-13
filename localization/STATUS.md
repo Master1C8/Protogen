@@ -159,3 +159,20 @@ checkpoints are indexed in the local
 `text-assets/cli-editorial-review-20261113/closure.json`.
 Proposed corrections remain in the reports. Final editorial acceptance is
 incomplete. CrossOver remains deferred to a joint pass.
+
+## CrossOver font and text rendering
+
+The build 11915262 smoke tests exercised 30 languages in both editions using
+CrossOver 26.3 in the BLOODMONEY bottle. The original 300 frames, the per-frame
+visual review ledgers and the runtime receipts are under
+`text-assets/crossover-all-locales-20261113/`. Review is tracked independently
+of launch success.
+
+The font adapter supplies DejaVu for Arabic, Persian, Hebrew and Greek, regional
+Noto for Japanese, Korean and both Chinese variants, and Noto with DejaVu
+fallback for Hindi and Thai. The builder preserves Japanese U+3000 during
+Ren’Py script parsing. All 60 packages built successfully. Repeat opening
+tests for the ten affected locales passed in both editions. Arabic, Persian,
+Hindi and Thai used the isolated Windows Ren’Py 8.2.3 SDK with HarfBuzz.
+The other six used the original 8.0.3 runtime. See
+`font-regression-summary.json` in the QA directory for package and frame hashes.

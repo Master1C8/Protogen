@@ -14,9 +14,20 @@ from extract_text import TEXT_TAG, digest, literals, pin_install, read, read_tem
 from install_language_picker import (
     PREFERENCES_PATH, PROJECT, SAMPLE_PATH, SAMPLE_SOURCE, install_files, picker_override,
 )
+from localization_fonts import ADDITIONAL_LOCALES, FONT_LOCALES, FONT_PATH, font_inputs, stage_fonts
 
 
-LOCALES = {"ru": "russian", "pl": "polish"}
+LOCALES = {
+    "ru": "russian",
+    "pl": "polish",
+    "cs": "czech",
+    "de": "german",
+    "es": "spanish",
+    "fr": "french",
+    "it": "italian",
+    "pt-BR": "portuguese_brazil",
+    **ADDITIONAL_LOCALES,
+}
 VERIFIED_TEXT_HASHES = {
     "russian": {
         "63866540a4fed4bc3d0b5da4b03edf8689ee1a54d3264034bf33124e177712ef",
@@ -70,7 +81,8 @@ def unique_strings(pairs):
 
 
 def quote(value):
-    return json.dumps(value, ensure_ascii=False)
+    # Ren'Py collapses literal whitespace before decoding escapes.
+    return json.dumps(value, ensure_ascii=False).replace("\u3000", r"\u3000")
 
 
 def check_value(key, source, target):
@@ -164,8 +176,9 @@ def screen_overrides(source):
     return "\n\n".join(screens)
 
 
-def build(bundle, output, locale, dialogue, strings):
+def build(bundle, output, locale, dialogue, strings, font_source=None):
     runtime_locale = LOCALES[locale]
+    fonts = font_inputs(PROJECT, locale, font_source)
     template, _, _ = read_templates(bundle)
     lines = [f"translate {runtime_locale} strings:"]
     for key, value in sorted(strings.items()):
@@ -179,6 +192,8 @@ def build(bundle, output, locale, dialogue, strings):
     locale_dir = output / "game/tl" / runtime_locale
     locale_dir.mkdir(parents=True)
     (locale_dir / "vnrevival_protogen_text.rpy").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    stage_fonts(PROJECT, output, locale, runtime_locale, locale_dir, fonts)
 
     screens = read(bundle / "original/game/screens.rpy")
     (output / PREFERENCES_PATH).write_text(picker_override(screens), encoding="utf-8")
@@ -215,7 +230,9 @@ def install(root, output):
                 f"Refusing to remove different compiled sample: {compiled_sample}")
         retired[compiled_sample] = binary
 
-    files = {root / p.relative_to(output): p.read_bytes() for p in sorted(output.rglob("*.rpy"))}
+    resources = sorted((output / FONT_PATH).glob("*"))
+    scripts = sorted(output.rglob("*.rpy"))
+    files = {root / p.relative_to(output): p.read_bytes() for p in scripts + resources}
     upgrades = {}
     for relative_path, current_fragment, previous_fragment in (
         (DISPLAY_PATH, GALLERY_RETURN + ' text_color "#aaaaaa"', PREVIOUS_GALLERY_RETURN),
@@ -290,10 +307,15 @@ def main():
     parser.add_argument("--steam-manifest", type=Path, help="Steam appmanifest for a detached depot")
     parser.add_argument("--draft", action="store_true", help="Validate a partial authored corpus")
     parser.add_argument("--output", type=Path, help="Build complete scripts in a fresh output directory")
+    parser.add_argument("--font-source", type=Path, help="Directory containing the pinned font and license inputs")
     parser.add_argument("--install", action="store_true", help="Install the complete build into a closed game")
     args = parser.parse_args()
     require(not args.draft or args.output is None, "Draft validation does not produce installable files")
     require(not args.install or args.output is not None, "--install requires --output")
+    if args.install and args.locale in FONT_LOCALES:
+        require(not FONT_LOCALES[args.locale][3],
+                "This locale requires HarfBuzz. Build the package for Ren'Py 8.2.3; "
+                "--install targets the original Steam runtime.")
     root = args.steam_install.resolve()
     receipt = json.loads(read(PROJECT / "text-asset-receipt.json"))
     nsfw_receipt = json.loads(read(PROJECT / "text-asset-nsfw-receipt.json"))
@@ -317,7 +339,7 @@ def main():
         dialogue, strings = authored_text(source, path, args.draft)
     if args.output is not None:
         require(not args.output.exists(), f"Output already exists: {args.output}")
-        build(selected, args.output, args.locale, dialogue, strings)
+        build(selected, args.output, args.locale, dialogue, strings, args.font_source)
         if args.install:
             install(root, args.output)
 
