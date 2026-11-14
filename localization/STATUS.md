@@ -316,3 +316,15 @@ addition to the authenticated draft export. If a published relationship returns
 403 while the draft bytes are intact, inspect the derived upload access first.
 Verify the archive sync dry run reports `SKIP` before using its reconciliation
 path, then retry the pinned public export's failed URLs and the catalog image.
+
+### Published screenshot order
+
+On November 14 the first two localization screenshots moved to the end of
+all 30 public galleries. The six original positions are now 3, 4, 5, 6, 1, 2.
+The screenshot sync ran in two batches because the Spanish and Latin American
+Spanish sets share some identical source PNGs. The post-change export downloaded
+all 180 originals and matched each new position and WebP SHA-256 to the
+previously reviewed image. The rendered Russian and Latin American Spanish
+pages showed the same order. The private order receipt is
+`dist/.work/protogen-gallery-reorder-2_m193rk/verified-order.json`, SHA-256
+`eb7b19495b5d3a8332161c7600f9001c1ff0c0b4f0cbf4c2635ccea177170d75`.
