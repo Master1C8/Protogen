@@ -277,3 +277,12 @@ Ren’Py 8.2.3 engine on macOS registered all 30 languages in both editions,
 selected Arabic, Persian, Hindi and Thai with HarfBuzz active, and preserved
 the original scripts and bytecode. Windows launch and CrossOver runtime
 checks are tracked separately from these results.
+
+On 2026-11-14 the Windows ZIP was attached to the private VN Revival draft
+`my-furry-protogen` as ModFiles record `97`. Transfer checksum verification and
+an attachment read-back matched the archive above. The card remained a hidden
+draft. The private project link and 56 Model usage rows were verified through
+read-back. One interrupted visual review attempt had no recoverable usage
+receipt. The usage manifest and evidence index are in local `dist/.work/`.
+The content audit flagged missing public release integrity metadata. The
+capture command applies to published public archives.
