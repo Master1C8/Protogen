@@ -297,3 +297,22 @@ was still a draft, and its existing visibility setting was preserved.
 For a first release, verify the attached ZIP's version and set the release
 date before running `vnrevival game publish-release my-furry-protogen --locale ru --dry-run`.
 A successful attachment alone does not establish release metadata.
+
+### Public screenshot access after publication
+
+On November 14 the published catalog showed a broken first Russian capture.
+The public inventory resolved all 180 Media relationships, but 17 originals
+returned HTTP 403. An identical-checksum `game mod-file sync --apply` reconciled
+public upload access and invalidated the game cache while retaining ModFiles 97.
+After reconciliation, all 180 originals and 180 thumbnails returned WebP over
+public HTTPS. Every original SHA-256 matched the previously reviewed draft
+export. The exact main image and first thumbnail referenced by the Russian
+catalog also returned WebP. The private verification receipt is
+`dist/.work/published-screens-reconciled-curl.json`, SHA-256
+`4af9030aef01195ad8cca00bdbdd534dfe1c26362c0dc173a918475bc2597426`.
+
+After the first publication, verify public original and thumbnail responses in
+addition to the authenticated draft export. If a published relationship returns
+403 while the draft bytes are intact, inspect the derived upload access first.
+Verify the archive sync dry run reports `SKIP` before using its reconciliation
+path, then retry the pinned public export's failed URLs and the catalog image.
