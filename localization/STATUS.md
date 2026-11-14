@@ -286,3 +286,14 @@ read-back. One interrupted visual review attempt had no recoverable usage
 receipt. The usage manifest and evidence index are in local `dist/.work/`.
 The content audit flagged missing public release integrity metadata. The
 capture command applies to published public archives.
+
+Publication preflight on November 14 initially failed because the Windows
+attachment was present and the release metadata was empty. The admin displayed
+`Unknown error`. The game-card editor saved the ZIP's embedded version `1.0.0`
+and release date `2026-11-14`. The Russian release publication dry run then
+passed with `draft → published` as the only planned status change. The card
+was still a draft, and its existing visibility setting was preserved.
+
+For a first release, verify the attached ZIP's version and set the release
+date before running `vnrevival game publish-release my-furry-protogen --locale ru --dry-run`.
+A successful attachment alone does not establish release metadata.
